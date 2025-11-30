@@ -1,0 +1,818 @@
+[
+  {
+    "name": "first-peace-treaty",
+    "friendly_name": "First Known Peace Treaty Signed",
+    "year": -1259,
+    "category": "diplomatic-institutional",
+    "description": "Egypt and the Hittites signed the earliest known peace treaty after the Battle of Kadesh.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "athenian-democracy",
+    "friendly_name": "Athenian Democracy Established",
+    "year": -508,
+    "category": "diplomatic-institutional",
+    "description": "Cleisthenes introduced democratic reforms in ancient Athens.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "twelve-tables",
+    "friendly_name": "Twelve Tables of Roman Law",
+    "year": -450,
+    "category": "diplomatic-institutional",
+    "description": "Rome codified its first written laws, forming the foundation of Roman legal tradition.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "delian-league",
+    "friendly_name": "Delian League Founded",
+    "year": -478,
+    "category": "diplomatic-institutional",
+    "description": "Greek city-states formed an alliance led by Athens against the Persian Empire.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "roman-republic",
+    "friendly_name": "Roman Republic Established",
+    "year": -509,
+    "category": "diplomatic-institutional",
+    "description": "Rome overthrew its monarchy and established a republican government.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "maurya-empire",
+    "friendly_name": "Maurya Empire Founded",
+    "year": -322,
+    "category": "diplomatic-institutional",
+    "description": "Chandragupta Maurya established the first empire to unify most of India.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "qin-unification",
+    "friendly_name": "China Unified Under Qin Dynasty",
+    "year": -221,
+    "category": "diplomatic-institutional",
+    "description": "Qin Shi Huang unified China and became its first emperor.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "roman-empire-founded",
+    "friendly_name": "Roman Empire Established",
+    "year": -27,
+    "category": "diplomatic-institutional",
+    "description": "Augustus became the first Roman Emperor, ending the Republic.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "edict-milan",
+    "friendly_name": "Edict of Milan",
+    "year": 313,
+    "category": "diplomatic-institutional",
+    "description": "Emperor Constantine legalized Christianity throughout the Roman Empire.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "council-nicaea",
+    "friendly_name": "Council of Nicaea",
+    "year": 325,
+    "category": "diplomatic-institutional",
+    "description": "The first ecumenical council established key Christian doctrines.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "rome-falls",
+    "friendly_name": "Fall of the Western Roman Empire",
+    "year": 476,
+    "category": "diplomatic-institutional",
+    "description": "The last Western Roman Emperor was deposed, ending the empire.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "justinian-code",
+    "friendly_name": "Justinian Code Compiled",
+    "year": 534,
+    "category": "diplomatic-institutional",
+    "description": "Byzantine Emperor Justinian codified Roman law, influencing legal systems for centuries.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "constitution-medina",
+    "friendly_name": "Constitution of Medina",
+    "year": 622,
+    "category": "diplomatic-institutional",
+    "description": "The Prophet Muhammad established a political agreement unifying Medina's diverse groups.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "tang-dynasty",
+    "friendly_name": "Tang Dynasty Established",
+    "year": 618,
+    "category": "diplomatic-institutional",
+    "description": "The Tang Dynasty began China's golden age of culture and governance.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "charlemagne-crowned",
+    "friendly_name": "Charlemagne Crowned Emperor",
+    "year": 800,
+    "category": "diplomatic-institutional",
+    "description": "Pope Leo III crowned Charlemagne as Holy Roman Emperor.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "treaty-verdun",
+    "friendly_name": "Treaty of Verdun",
+    "year": 843,
+    "category": "diplomatic-institutional",
+    "description": "Charlemagne's empire was divided into three kingdoms, shaping medieval Europe.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "holy-roman-empire",
+    "friendly_name": "Holy Roman Empire Founded",
+    "year": 962,
+    "category": "diplomatic-institutional",
+    "description": "Otto I was crowned, establishing the Holy Roman Empire in central Europe.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "great-schism",
+    "friendly_name": "Great Schism",
+    "year": 1054,
+    "category": "diplomatic-institutional",
+    "description": "Christianity split into Roman Catholic and Eastern Orthodox churches.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "magna-carta",
+    "friendly_name": "Magna Carta Signed",
+    "year": 1215,
+    "category": "diplomatic-institutional",
+    "description": "English barons forced King John to sign a charter limiting royal power.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "english-parliament",
+    "friendly_name": "First English Parliament",
+    "year": 1265,
+    "category": "diplomatic-institutional",
+    "description": "Simon de Montfort summoned the first elected parliament in England.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "swiss-confederation",
+    "friendly_name": "Swiss Confederation Founded",
+    "year": 1291,
+    "category": "diplomatic-institutional",
+    "description": "Three Swiss cantons formed an alliance that became modern Switzerland.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "ottoman-empire-founded",
+    "friendly_name": "Ottoman Empire Founded",
+    "year": 1299,
+    "category": "diplomatic-institutional",
+    "description": "Osman I established the dynasty that would rule for over 600 years.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "ming-dynasty",
+    "friendly_name": "Ming Dynasty Established",
+    "year": 1368,
+    "category": "diplomatic-institutional",
+    "description": "The Ming Dynasty restored Chinese rule after Mongol domination.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "treaty-tordesillas",
+    "friendly_name": "Treaty of Tordesillas",
+    "year": 1494,
+    "category": "diplomatic-institutional",
+    "description": "Spain and Portugal divided the newly discovered lands outside Europe.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "reformation-begins",
+    "friendly_name": "Protestant Reformation Begins",
+    "year": 1517,
+    "category": "diplomatic-institutional",
+    "description": "Martin Luther's 95 Theses challenged the Catholic Church's authority.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "church-of-england",
+    "friendly_name": "Church of England Established",
+    "year": 1534,
+    "category": "diplomatic-institutional",
+    "description": "Henry VIII broke from Rome and established the Anglican Church.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "peace-augsburg",
+    "friendly_name": "Peace of Augsburg",
+    "year": 1555,
+    "category": "diplomatic-institutional",
+    "description": "The treaty allowed German princes to choose Catholicism or Lutheranism for their states.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "dutch-republic",
+    "friendly_name": "Dutch Republic Declared",
+    "year": 1581,
+    "category": "diplomatic-institutional",
+    "description": "The Netherlands declared independence from Spanish rule.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "edict-nantes",
+    "friendly_name": "Edict of Nantes",
+    "year": 1598,
+    "category": "diplomatic-institutional",
+    "description": "Henry IV granted religious tolerance to French Protestants.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "east-india-company",
+    "friendly_name": "British East India Company Founded",
+    "year": 1600,
+    "category": "diplomatic-institutional",
+    "description": "England chartered the company that would dominate trade with Asia.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "jamestown-founded",
+    "friendly_name": "Jamestown Founded",
+    "year": 1607,
+    "category": "diplomatic-institutional",
+    "description": "The first permanent English settlement in America was established.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "mayflower-compact",
+    "friendly_name": "Mayflower Compact Signed",
+    "year": 1620,
+    "category": "diplomatic-institutional",
+    "description": "Pilgrims created an early form of self-government in America.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "peace-westphalia",
+    "friendly_name": "Peace of Westphalia",
+    "year": 1648,
+    "category": "diplomatic-institutional",
+    "description": "The treaties ended the Thirty Years' War and established modern state sovereignty.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "habeas-corpus",
+    "friendly_name": "Habeas Corpus Act",
+    "year": 1679,
+    "category": "diplomatic-institutional",
+    "description": "England enshrined the right to challenge unlawful imprisonment.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "glorious-revolution",
+    "friendly_name": "Glorious Revolution",
+    "year": 1688,
+    "category": "diplomatic-institutional",
+    "description": "Parliament replaced King James II with William and Mary.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "bill-of-rights-england",
+    "friendly_name": "English Bill of Rights",
+    "year": 1689,
+    "category": "diplomatic-institutional",
+    "description": "Parliament established constitutional limits on the monarchy.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "bank-of-england",
+    "friendly_name": "Bank of England Founded",
+    "year": 1694,
+    "category": "diplomatic-institutional",
+    "description": "The world's second oldest central bank was established.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "act-of-union-britain",
+    "friendly_name": "Acts of Union Create Great Britain",
+    "year": 1707,
+    "category": "diplomatic-institutional",
+    "description": "England and Scotland united to form the Kingdom of Great Britain.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "treaty-paris-1763",
+    "friendly_name": "Treaty of Paris 1763",
+    "year": 1763,
+    "category": "diplomatic-institutional",
+    "description": "The treaty ended the Seven Years' War and reshaped colonial empires.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "declaration-independence",
+    "friendly_name": "Declaration of Independence",
+    "year": 1776,
+    "category": "diplomatic-institutional",
+    "description": "The thirteen American colonies declared independence from Britain.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "us-constitution",
+    "friendly_name": "US Constitution Ratified",
+    "year": 1788,
+    "category": "diplomatic-institutional",
+    "description": "The United States adopted its constitution establishing the federal government.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "french-declaration-rights",
+    "friendly_name": "Declaration of the Rights of Man",
+    "year": 1789,
+    "category": "diplomatic-institutional",
+    "description": "Revolutionary France proclaimed fundamental rights and freedoms.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "bill-of-rights-us",
+    "friendly_name": "US Bill of Rights Ratified",
+    "year": 1791,
+    "category": "diplomatic-institutional",
+    "description": "The first ten amendments to the US Constitution were adopted.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "louisiana-purchase",
+    "friendly_name": "Louisiana Purchase",
+    "year": 1803,
+    "category": "diplomatic-institutional",
+    "description": "The United States bought vast territories from France, doubling its size.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "congress-vienna",
+    "friendly_name": "Congress of Vienna",
+    "year": 1815,
+    "category": "diplomatic-institutional",
+    "description": "European powers redrew the map after Napoleon's defeat.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "monroe-doctrine",
+    "friendly_name": "Monroe Doctrine Declared",
+    "year": 1823,
+    "category": "diplomatic-institutional",
+    "description": "The US opposed European colonization in the Americas.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "abolition-slavery-uk",
+    "friendly_name": "Slavery Abolished in British Empire",
+    "year": 1833,
+    "category": "diplomatic-institutional",
+    "description": "Britain passed the Slavery Abolition Act, freeing slaves in most colonies.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "treaty-waitangi",
+    "friendly_name": "Treaty of Waitangi",
+    "year": 1840,
+    "category": "diplomatic-institutional",
+    "description": "Britain and Māori chiefs signed the founding document of New Zealand.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "geneva-convention-1864",
+    "friendly_name": "First Geneva Convention",
+    "year": 1864,
+    "category": "diplomatic-institutional",
+    "description": "Nations agreed to protect wounded soldiers and medical personnel in war.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "red-cross-founded",
+    "friendly_name": "Red Cross Founded",
+    "year": 1863,
+    "category": "diplomatic-institutional",
+    "description": "Henry Dunant established the humanitarian organization in Geneva.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "13th-amendment",
+    "friendly_name": "13th Amendment Ratified",
+    "year": 1865,
+    "category": "diplomatic-institutional",
+    "description": "The United States abolished slavery through constitutional amendment.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "dominion-canada",
+    "friendly_name": "Dominion of Canada Established",
+    "year": 1867,
+    "category": "diplomatic-institutional",
+    "description": "Canadian provinces united to form a self-governing dominion within the British Empire.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "meiji-restoration",
+    "friendly_name": "Meiji Restoration",
+    "year": 1868,
+    "category": "diplomatic-institutional",
+    "description": "Japan restored imperial rule and began rapid modernization.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "berlin-conference",
+    "friendly_name": "Berlin Conference",
+    "year": 1884,
+    "category": "diplomatic-institutional",
+    "description": "European powers divided Africa among themselves without African participation.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "first-zionist-congress",
+    "friendly_name": "First Zionist Congress",
+    "year": 1897,
+    "category": "diplomatic-institutional",
+    "description": "Theodor Herzl organized the movement for a Jewish homeland.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "hague-conventions",
+    "friendly_name": "Hague Conventions",
+    "year": 1899,
+    "category": "diplomatic-institutional",
+    "description": "International treaties established rules of warfare and peaceful dispute resolution.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "commonwealth-australia",
+    "friendly_name": "Commonwealth of Australia Founded",
+    "year": 1901,
+    "category": "diplomatic-institutional",
+    "description": "Australian colonies federated to form a single nation.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "entente-cordiale",
+    "friendly_name": "Entente Cordiale",
+    "year": 1904,
+    "category": "diplomatic-institutional",
+    "description": "Britain and France signed agreements ending centuries of rivalry.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "naacp-founded",
+    "friendly_name": "NAACP Founded",
+    "year": 1909,
+    "category": "diplomatic-institutional",
+    "description": "The civil rights organization was established to fight racial discrimination.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "chinese-republic",
+    "friendly_name": "Republic of China Established",
+    "year": 1912,
+    "category": "diplomatic-institutional",
+    "description": "The Qing Dynasty fell and China became a republic.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "treaty-versailles",
+    "friendly_name": "Treaty of Versailles",
+    "year": 1919,
+    "category": "diplomatic-institutional",
+    "description": "The peace treaty officially ended World War I and created the League of Nations.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "league-of-nations",
+    "friendly_name": "League of Nations Founded",
+    "year": 1920,
+    "category": "diplomatic-institutional",
+    "description": "The first international organization for world peace was established.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "womens-suffrage-us",
+    "friendly_name": "19th Amendment Ratified",
+    "year": 1920,
+    "category": "diplomatic-institutional",
+    "description": "American women gained the constitutional right to vote.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "irish-free-state",
+    "friendly_name": "Irish Free State Established",
+    "year": 1922,
+    "category": "diplomatic-institutional",
+    "description": "Ireland gained independence from Britain as a dominion.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "ussr-formed",
+    "friendly_name": "Soviet Union Formed",
+    "year": 1922,
+    "category": "diplomatic-institutional",
+    "description": "The Union of Soviet Socialist Republics was officially established.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "locarno-treaties",
+    "friendly_name": "Locarno Treaties",
+    "year": 1925,
+    "category": "diplomatic-institutional",
+    "description": "European nations agreed to mutual borders and peaceful relations.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "kellogg-briand-pact",
+    "friendly_name": "Kellogg-Briand Pact",
+    "year": 1928,
+    "category": "diplomatic-institutional",
+    "description": "Nations agreed to renounce war as an instrument of national policy.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "new-deal",
+    "friendly_name": "New Deal Begins",
+    "year": 1933,
+    "category": "diplomatic-institutional",
+    "description": "FDR launched sweeping programs to combat the Great Depression.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "social-security-act",
+    "friendly_name": "Social Security Act Signed",
+    "year": 1935,
+    "category": "diplomatic-institutional",
+    "description": "The US established its social insurance program for the elderly.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "united-nations-founded",
+    "friendly_name": "United Nations Founded",
+    "year": 1945,
+    "category": "diplomatic-institutional",
+    "description": "Fifty-one nations established the international organization for peace and cooperation.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "imf-world-bank",
+    "friendly_name": "IMF and World Bank Established",
+    "year": 1944,
+    "category": "diplomatic-institutional",
+    "description": "The Bretton Woods Conference created the international financial institutions.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "nuremberg-trials",
+    "friendly_name": "Nuremberg Trials Begin",
+    "year": 1945,
+    "category": "diplomatic-institutional",
+    "description": "Nazi war criminals were prosecuted in the first international war crimes tribunal.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "indian-independence",
+    "friendly_name": "Indian Independence",
+    "year": 1947,
+    "category": "diplomatic-institutional",
+    "description": "India gained independence from British rule and was partitioned with Pakistan.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "universal-declaration-rights",
+    "friendly_name": "Universal Declaration of Human Rights",
+    "year": 1948,
+    "category": "diplomatic-institutional",
+    "description": "The United Nations adopted the landmark document on human rights.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "israel-founded",
+    "friendly_name": "State of Israel Founded",
+    "year": 1948,
+    "category": "diplomatic-institutional",
+    "description": "Israel declared independence as a Jewish homeland.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "nato-founded",
+    "friendly_name": "NATO Founded",
+    "year": 1949,
+    "category": "diplomatic-institutional",
+    "description": "Western nations formed a military alliance for collective defense.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "geneva-conventions-1949",
+    "friendly_name": "Geneva Conventions Updated",
+    "year": 1949,
+    "category": "diplomatic-institutional",
+    "description": "Nations adopted comprehensive humanitarian law for armed conflicts.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "european-coal-steel",
+    "friendly_name": "European Coal and Steel Community",
+    "year": 1951,
+    "category": "diplomatic-institutional",
+    "description": "Six nations created the first European supranational organization.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "brown-v-board",
+    "friendly_name": "Brown v. Board of Education",
+    "year": 1954,
+    "category": "diplomatic-institutional",
+    "description": "The Supreme Court ruled school segregation unconstitutional.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "warsaw-pact",
+    "friendly_name": "Warsaw Pact Founded",
+    "year": 1955,
+    "category": "diplomatic-institutional",
+    "description": "The Soviet Union and Eastern Bloc formed a military alliance.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "treaty-rome",
+    "friendly_name": "Treaty of Rome",
+    "year": 1957,
+    "category": "diplomatic-institutional",
+    "description": "Six nations created the European Economic Community.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "civil-rights-act-1964",
+    "friendly_name": "Civil Rights Act of 1964",
+    "year": 1964,
+    "category": "diplomatic-institutional",
+    "description": "The US outlawed discrimination based on race, color, religion, sex, or national origin.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "voting-rights-act",
+    "friendly_name": "Voting Rights Act",
+    "year": 1965,
+    "category": "diplomatic-institutional",
+    "description": "The US prohibited racial discrimination in voting.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "nuclear-non-proliferation",
+    "friendly_name": "Nuclear Non-Proliferation Treaty",
+    "year": 1968,
+    "category": "diplomatic-institutional",
+    "description": "Nations agreed to prevent the spread of nuclear weapons.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "apollo-11-treaty",
+    "friendly_name": "Outer Space Treaty",
+    "year": 1967,
+    "category": "diplomatic-institutional",
+    "description": "Nations agreed that space should be free for exploration and cannot be claimed.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "nixon-china",
+    "friendly_name": "Nixon Visits China",
+    "year": 1972,
+    "category": "diplomatic-institutional",
+    "description": "President Nixon's visit opened diplomatic relations between the US and China.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "camp-david-accords",
+    "friendly_name": "Camp David Accords",
+    "year": 1978,
+    "category": "diplomatic-institutional",
+    "description": "Egypt and Israel signed a peace agreement brokered by the US.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "iran-revolution",
+    "friendly_name": "Islamic Republic of Iran Established",
+    "year": 1979,
+    "category": "diplomatic-institutional",
+    "description": "Iran became an Islamic theocracy after the revolution.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "european-union-precursor",
+    "friendly_name": "Single European Act",
+    "year": 1986,
+    "category": "diplomatic-institutional",
+    "description": "European nations agreed to create a single market.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "berlin-wall-falls",
+    "friendly_name": "Berlin Wall Falls",
+    "year": 1989,
+    "category": "diplomatic-institutional",
+    "description": "East Germany opened its borders, symbolizing the end of the Cold War.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "german-reunification",
+    "friendly_name": "German Reunification",
+    "year": 1990,
+    "category": "diplomatic-institutional",
+    "description": "East and West Germany reunited as a single nation.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "soviet-union-dissolves",
+    "friendly_name": "Soviet Union Dissolves",
+    "year": 1991,
+    "category": "diplomatic-institutional",
+    "description": "The USSR officially dissolved into fifteen independent republics.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "maastricht-treaty",
+    "friendly_name": "Maastricht Treaty",
+    "year": 1992,
+    "category": "diplomatic-institutional",
+    "description": "The treaty created the European Union and planned a common currency.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "oslo-accords",
+    "friendly_name": "Oslo Accords",
+    "year": 1993,
+    "category": "diplomatic-institutional",
+    "description": "Israel and the PLO signed agreements toward Palestinian self-governance.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "apartheid-ends",
+    "friendly_name": "Apartheid Ends in South Africa",
+    "year": 1994,
+    "category": "diplomatic-institutional",
+    "description": "South Africa held its first democratic elections, ending racial segregation.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "wto-founded",
+    "friendly_name": "World Trade Organization Founded",
+    "year": 1995,
+    "category": "diplomatic-institutional",
+    "description": "The international organization for trade rules and negotiations was established.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "good-friday-agreement",
+    "friendly_name": "Good Friday Agreement",
+    "year": 1998,
+    "category": "diplomatic-institutional",
+    "description": "A peace agreement largely ended decades of conflict in Northern Ireland.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "euro-introduced",
+    "friendly_name": "Euro Currency Introduced",
+    "year": 1999,
+    "category": "diplomatic-institutional",
+    "description": "Eleven European nations adopted a common currency.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "icc-established",
+    "friendly_name": "International Criminal Court Established",
+    "year": 2002,
+    "category": "diplomatic-institutional",
+    "description": "The first permanent international court for war crimes was established.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "african-union",
+    "friendly_name": "African Union Founded",
+    "year": 2002,
+    "category": "diplomatic-institutional",
+    "description": "African nations formed a continental union for political and economic integration.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "paris-climate-agreement",
+    "friendly_name": "Paris Climate Agreement",
+    "year": 2015,
+    "category": "diplomatic-institutional",
+    "description": "Nearly 200 nations agreed to limit global warming to well below 2°C.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "brexit",
+    "friendly_name": "Brexit Completed",
+    "year": 2020,
+    "category": "diplomatic-institutional",
+    "description": "The United Kingdom officially left the European Union.",
+    "difficulty": "easy"
+  }
+]

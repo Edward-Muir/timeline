@@ -3,7 +3,6 @@ import { GameConfig } from '../types';
 import { useGameState } from '../hooks/useGameState';
 import GameSetup from './GameSetup';
 import GameBoard from './GameBoard';
-import GameOver from './GameOver';
 
 const App: React.FC = () => {
   const {
@@ -15,6 +14,7 @@ const App: React.FC = () => {
     placeCard,
     reorderHand,
     resetGame,
+    restartGame,
     isDragging,
     setIsDragging,
     draggedCard,
@@ -27,7 +27,11 @@ const App: React.FC = () => {
     startGame(config);
   };
 
-  const handlePlayAgain = () => {
+  const handleRestart = () => {
+    restartGame();
+  };
+
+  const handleNewGame = () => {
     resetGame();
   };
 
@@ -68,23 +72,14 @@ const App: React.FC = () => {
     return <GameSetup onStartGame={handleStartGame} eventCount={allEvents.length} />;
   }
 
-  // Show game over screen
-  if (gameState.phase === 'gameOver') {
-    return (
-      <GameOver
-        winners={gameState.winners}
-        turnNumber={gameState.turnNumber}
-        onPlayAgain={handlePlayAgain}
-      />
-    );
-  }
-
-  // Show game board
+  // Show game board (handles both playing and game over states)
   return (
     <GameBoard
       gameState={gameState}
       onPlaceCard={placeCard}
       onReorderHand={reorderHand}
+      onRestart={handleRestart}
+      onNewGame={handleNewGame}
       isDragging={isDragging}
       setIsDragging={setIsDragging}
       draggedCard={draggedCard}

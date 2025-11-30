@@ -22,6 +22,7 @@ interface UseGameStateReturn {
   placeCard: (event: HistoricalEvent, position: DropPosition) => PlacementResult;
   reorderHand: (oldIndex: number, newIndex: number) => void;
   resetGame: () => void;
+  restartGame: () => void;
   isDragging: boolean;
   setIsDragging: (dragging: boolean) => void;
   draggedCard: HistoricalEvent | null;
@@ -38,6 +39,7 @@ export function useGameState(): UseGameStateReturn {
   const [isDragging, setIsDragging] = useState(false);
   const [draggedCard, setDraggedCard] = useState<HistoricalEvent | null>(null);
   const [revealingCard, setRevealingCard] = useState<HistoricalEvent | null>(null);
+  const [lastConfig, setLastConfig] = useState<GameConfig | null>(null);
 
   // Load events on mount
   useEffect(() => {
@@ -66,9 +68,20 @@ export function useGameState(): UseGameStateReturn {
       console.error('Cannot start game: no events loaded');
       return;
     }
+    setLastConfig(config);
     const newGameState = initializeGame(config, allEvents);
     setGameState(newGameState);
   }, [allEvents]);
+
+  const restartGame = useCallback(() => {
+    if (lastConfig && allEvents.length > 0) {
+      setIsDragging(false);
+      setDraggedCard(null);
+      setRevealingCard(null);
+      const newGameState = initializeGame(lastConfig, allEvents);
+      setGameState(newGameState);
+    }
+  }, [lastConfig, allEvents]);
 
   const resetGame = useCallback(() => {
     setGameState(null);
@@ -187,6 +200,7 @@ export function useGameState(): UseGameStateReturn {
     placeCard,
     reorderHand,
     resetGame,
+    restartGame,
     isDragging,
     setIsDragging,
     draggedCard,

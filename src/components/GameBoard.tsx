@@ -22,6 +22,8 @@ interface GameBoardProps {
   gameState: GameState;
   onPlaceCard: (event: HistoricalEvent, position: DropPosition) => void;
   onReorderHand: (oldIndex: number, newIndex: number) => void;
+  onRestart: () => void;
+  onNewGame: () => void;
   isDragging: boolean;
   setIsDragging: (dragging: boolean) => void;
   draggedCard: HistoricalEvent | null;
@@ -34,6 +36,8 @@ const GameBoard: React.FC<GameBoardProps> = ({
   gameState,
   onPlaceCard,
   onReorderHand,
+  onRestart,
+  onNewGame,
   isDragging,
   setIsDragging,
   draggedCard,
@@ -42,6 +46,8 @@ const GameBoard: React.FC<GameBoardProps> = ({
   clearReveal,
 }) => {
   const currentPlayer = gameState.players[gameState.currentPlayerIndex];
+  const isGameOver = gameState.phase === 'gameOver';
+  const sortedWinners = [...gameState.winners].sort((a, b) => (a.winTurn || 0) - (b.winTurn || 0));
 
   // Track the insertion index during drag (using state for re-renders)
   const [insertionIndex, setInsertionIndex] = useState<number | null>(null);
@@ -248,19 +254,86 @@ const GameBoard: React.FC<GameBoardProps> = ({
         {/* Spacer */}
         <div className="flex-1" />
 
-        {/* Current player's hand */}
-        <div className="flex-shrink-0 bg-gradient-to-t from-amber-100/50 to-transparent pt-8">
-          <Hand
-            player={currentPlayer}
-            revealingCard={revealingCard}
-            isCurrentPlayer={true}
-          />
-        </div>
+        {/* Current player's hand OR Winner display */}
+        {isGameOver ? (
+          <div className="flex-shrink-0 bg-gradient-to-t from-amber-100/50 to-transparent pt-8 pb-8">
+            <div className="text-center">
+              {/* Winner display */}
+              <div className="flex items-center justify-center gap-3 mb-4">
+                <span className="text-4xl">🏆</span>
+                <h2 className="font-hand text-3xl text-sketch">
+                  {sortedWinners.length === 1 ? 'Winner!' : 'Winners!'}
+                </h2>
+                <span className="text-4xl">🏆</span>
+              </div>
 
-        {/* Deck info */}
-        <div className="text-center pb-4 font-hand text-sketch/60">
-          Cards remaining in deck: {gameState.deck.length}
-        </div>
+              <div className="flex justify-center gap-4 mb-6">
+                {sortedWinners.map((winner, index) => (
+                  <div
+                    key={winner.id}
+                    className={`
+                      py-2 px-6 rounded-xl font-hand text-xl
+                      ${index === 0
+                        ? 'bg-yellow-400 text-sketch'
+                        : 'bg-gray-200 text-sketch/80'
+                      }
+                    `}
+                  >
+                    <span className="mr-2">
+                      {index === 0 ? '🥇' : index === 1 ? '🥈' : '🥉'}
+                    </span>
+                    <span className="font-bold">{winner.name}</span>
+                  </div>
+                ))}
+              </div>
+
+              {/* Restart and New Game buttons */}
+              <div className="flex justify-center gap-4">
+                <button
+                  onClick={onRestart}
+                  className="
+                    px-8 py-3 rounded-xl
+                    bg-gradient-to-r from-green-400 to-teal-400
+                    font-hand text-2xl text-white
+                    shadow-sketch hover:shadow-sketch-lg
+                    transition-all duration-200
+                    hover:scale-105 active:scale-95
+                  "
+                >
+                  Restart
+                </button>
+                <button
+                  onClick={onNewGame}
+                  className="
+                    px-8 py-3 rounded-xl
+                    bg-gray-300
+                    font-hand text-2xl text-sketch
+                    shadow-sketch hover:shadow-sketch-lg
+                    transition-all duration-200
+                    hover:scale-105 active:scale-95
+                  "
+                >
+                  New Game
+                </button>
+              </div>
+            </div>
+          </div>
+        ) : (
+          <>
+            <div className="flex-shrink-0 bg-gradient-to-t from-amber-100/50 to-transparent pt-8">
+              <Hand
+                player={currentPlayer}
+                revealingCard={revealingCard}
+                isCurrentPlayer={true}
+              />
+            </div>
+
+            {/* Deck info */}
+            <div className="text-center pb-4 font-hand text-sketch/60">
+              Cards remaining in deck: {gameState.deck.length}
+            </div>
+          </>
+        )}
       </div>
 
       {/* Drag overlay - renders outside normal document flow */}
