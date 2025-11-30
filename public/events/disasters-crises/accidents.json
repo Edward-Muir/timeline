@@ -1,0 +1,26 @@
+[
+  {
+    "name": "titanic",
+    "friendly_name": "Titanic Sinks",
+    "year": 1912,
+    "category": "disasters-crises",
+    "description": "The 'unsinkable' ship struck an iceberg and sank on its maiden voyage.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "chernobyl",
+    "friendly_name": "Chernobyl Disaster",
+    "year": 1986,
+    "category": "disasters-crises",
+    "description": "A nuclear reactor explosion caused the worst nuclear disaster in history.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "stock-crash",
+    "friendly_name": "Stock Market Crash",
+    "year": 1929,
+    "category": "disasters-crises",
+    "description": "The Wall Street crash triggered the Great Depression.",
+    "difficulty": "medium"
+  }
+]

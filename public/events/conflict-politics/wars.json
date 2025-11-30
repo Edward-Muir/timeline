@@ -1,0 +1,154 @@
+[
+  {
+    "name": "wwi-start",
+    "friendly_name": "World War I Begins",
+    "year": 1914,
+    "category": "conflict-politics",
+    "description": "The assassination of Archduke Franz Ferdinand sparked the Great War.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "wwi-end",
+    "friendly_name": "World War I Ends",
+    "year": 1918,
+    "category": "conflict-politics",
+    "description": "The armistice was signed ending the Great War after four years of conflict.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "wwii-start",
+    "friendly_name": "World War II Begins",
+    "year": 1939,
+    "category": "conflict-politics",
+    "description": "Germany invaded Poland, triggering the Second World War.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "wwii-end",
+    "friendly_name": "World War II Ends",
+    "year": 1945,
+    "category": "conflict-politics",
+    "description": "Japan surrendered following the atomic bombings, ending WWII.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "pearl-harbor",
+    "friendly_name": "Pearl Harbor Attack",
+    "year": 1941,
+    "category": "conflict-politics",
+    "description": "Japan's surprise attack on Pearl Harbor brought the US into WWII.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "d-day",
+    "friendly_name": "D-Day Invasion",
+    "year": 1944,
+    "category": "conflict-politics",
+    "description": "Allied forces invaded Normandy in the largest amphibious assault in history.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "hiroshima",
+    "friendly_name": "Atomic Bomb Dropped on Hiroshima",
+    "year": 1945,
+    "category": "conflict-politics",
+    "description": "The first nuclear weapon used in warfare devastated Hiroshima.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "waterloo",
+    "friendly_name": "Battle of Waterloo",
+    "year": 1815,
+    "category": "conflict-politics",
+    "description": "Napoleon's final defeat ended French dominance in Europe.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "civil-war-start",
+    "friendly_name": "US Civil War Begins",
+    "year": 1861,
+    "category": "conflict-politics",
+    "description": "The Confederate attack on Fort Sumter started the American Civil War.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "vietnam-end",
+    "friendly_name": "Vietnam War Ends",
+    "year": 1975,
+    "category": "conflict-politics",
+    "description": "The Fall of Saigon marked the end of the Vietnam War.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "first-crusade",
+    "friendly_name": "First Crusade Begins",
+    "year": 1096,
+    "category": "conflict-politics",
+    "description": "Pope Urban II called for the first military expedition to the Holy Land.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "norman-conquest",
+    "friendly_name": "Norman Conquest of England",
+    "year": 1066,
+    "category": "conflict-politics",
+    "description": "William the Conqueror defeated King Harold at the Battle of Hastings.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "alexander-empire",
+    "friendly_name": "Alexander Conquers Persia",
+    "year": -331,
+    "category": "conflict-politics",
+    "description": "Alexander the Great defeated the Persian Empire at Gaugamela.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "rome-falls",
+    "friendly_name": "Fall of Western Roman Empire",
+    "year": 476,
+    "category": "conflict-politics",
+    "description": "The last Roman emperor was deposed, ending ancient Rome.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "constantinople-falls",
+    "friendly_name": "Fall of Constantinople",
+    "year": 1453,
+    "category": "conflict-politics",
+    "description": "The Ottoman conquest ended the Byzantine Empire after 1000 years.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "genghis-khan",
+    "friendly_name": "Genghis Khan Unites Mongols",
+    "year": 1206,
+    "category": "conflict-politics",
+    "description": "Genghis Khan united the Mongol tribes and began building an empire.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "september-11",
+    "friendly_name": "September 11 Attacks",
+    "year": 2001,
+    "category": "conflict-politics",
+    "description": "Terrorist attacks on the World Trade Center and Pentagon killed nearly 3,000.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "cuban-missile",
+    "friendly_name": "Cuban Missile Crisis",
+    "year": 1962,
+    "category": "conflict-politics",
+    "description": "A 13-day confrontation brought the US and USSR to the brink of nuclear war.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "gunpowder-europe",
+    "friendly_name": "Gunpowder Warfare in Europe",
+    "year": 1350,
+    "category": "conflict-politics",
+    "description": "The introduction of gunpowder weapons revolutionized European warfare.",
+    "difficulty": "hard"
+  }
+]

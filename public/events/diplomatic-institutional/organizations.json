@@ -1,0 +1,10 @@
+[
+  {
+    "name": "united-nations",
+    "friendly_name": "United Nations Founded",
+    "year": 1945,
+    "category": "diplomatic-institutional",
+    "description": "The UN was established to maintain international peace and security.",
+    "difficulty": "medium"
+  }
+]

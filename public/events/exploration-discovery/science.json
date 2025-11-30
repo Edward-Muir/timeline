@@ -1,0 +1,178 @@
+[
+  {
+    "name": "earth-formation",
+    "friendly_name": "Formation of Earth",
+    "year": -4500000000,
+    "category": "exploration-discovery",
+    "description": "Our planet formed from cosmic dust and gas around the young Sun.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "first-life",
+    "friendly_name": "First Life on Earth",
+    "year": -3800000000,
+    "category": "exploration-discovery",
+    "description": "Single-celled organisms appeared in Earth's primordial oceans.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "first-humans",
+    "friendly_name": "First Homo Sapiens",
+    "year": -300000,
+    "category": "exploration-discovery",
+    "description": "Modern humans emerged in Africa.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "fire-use",
+    "friendly_name": "Controlled Use of Fire",
+    "year": -125000,
+    "category": "exploration-discovery",
+    "description": "Humans mastered the control and use of fire.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "agriculture",
+    "friendly_name": "Agricultural Revolution",
+    "year": -10000,
+    "category": "exploration-discovery",
+    "description": "Humans began farming, transforming civilization.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "writing-invention",
+    "friendly_name": "Invention of Writing",
+    "year": -3200,
+    "category": "exploration-discovery",
+    "description": "Sumerians developed cuneiform, the first writing system.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "copernicus",
+    "friendly_name": "Copernicus Publishes Heliocentric Theory",
+    "year": 1543,
+    "category": "exploration-discovery",
+    "description": "Copernicus proposed that Earth orbits the Sun.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "galileo-telescope",
+    "friendly_name": "Galileo Uses Telescope",
+    "year": 1609,
+    "category": "exploration-discovery",
+    "description": "Galileo made groundbreaking astronomical observations with his telescope.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "newton-principia",
+    "friendly_name": "Newton Publishes Principia",
+    "year": 1687,
+    "category": "exploration-discovery",
+    "description": "Newton published his laws of motion and universal gravitation.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "darwin-beagle",
+    "friendly_name": "Darwin Begins Beagle Voyage",
+    "year": 1831,
+    "category": "exploration-discovery",
+    "description": "Darwin's voyage led to his theory of evolution.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "darwin-origin",
+    "friendly_name": "Darwin Publishes Origin of Species",
+    "year": 1859,
+    "category": "exploration-discovery",
+    "description": "Darwin's book revolutionized our understanding of life.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "x-ray",
+    "friendly_name": "X-Ray Discovered",
+    "year": 1895,
+    "category": "exploration-discovery",
+    "description": "Wilhelm Roentgen discovered X-rays, transforming medicine.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "relativity",
+    "friendly_name": "Einstein's Special Relativity",
+    "year": 1905,
+    "category": "exploration-discovery",
+    "description": "Einstein published his theory of special relativity.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "penicillin",
+    "friendly_name": "Penicillin Discovered",
+    "year": 1928,
+    "category": "exploration-discovery",
+    "description": "Alexander Fleming discovered the first antibiotic.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "dna-structure",
+    "friendly_name": "DNA Structure Discovered",
+    "year": 1953,
+    "category": "exploration-discovery",
+    "description": "Watson and Crick revealed the double helix structure of DNA.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "higgs-boson",
+    "friendly_name": "Higgs Boson Discovered",
+    "year": 2012,
+    "category": "exploration-discovery",
+    "description": "CERN confirmed the existence of the Higgs boson particle.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "gravitational-waves",
+    "friendly_name": "Gravitational Waves Detected",
+    "year": 2016,
+    "category": "exploration-discovery",
+    "description": "LIGO detected gravitational waves, confirming Einstein's prediction.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "insulin",
+    "friendly_name": "Insulin Discovered",
+    "year": 1921,
+    "category": "exploration-discovery",
+    "description": "Banting and Best discovered insulin, saving millions of diabetics.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "vaccination",
+    "friendly_name": "First Vaccine Developed",
+    "year": 1796,
+    "category": "exploration-discovery",
+    "description": "Edward Jenner developed the smallpox vaccine.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "polio-vaccine",
+    "friendly_name": "Polio Vaccine Developed",
+    "year": 1955,
+    "category": "exploration-discovery",
+    "description": "Jonas Salk's vaccine helped eradicate polio.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "dolly-sheep",
+    "friendly_name": "Dolly the Sheep Cloned",
+    "year": 1996,
+    "category": "exploration-discovery",
+    "description": "The first mammal was cloned from an adult cell.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "first-ivf",
+    "friendly_name": "First IVF Baby Born",
+    "year": 1978,
+    "category": "exploration-discovery",
+    "description": "Louise Brown became the first baby conceived through IVF.",
+    "difficulty": "hard"
+  }
+]

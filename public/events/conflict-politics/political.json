@@ -1,0 +1,130 @@
+[
+  {
+    "name": "julius-caesar",
+    "friendly_name": "Julius Caesar Assassinated",
+    "year": -44,
+    "category": "conflict-politics",
+    "description": "Roman senators assassinated Caesar on the Ides of March.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "hitler-power",
+    "friendly_name": "Hitler Becomes Chancellor",
+    "year": 1933,
+    "category": "conflict-politics",
+    "description": "Adolf Hitler was appointed Chancellor of Germany.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "jfk-assassination",
+    "friendly_name": "JFK Assassination",
+    "year": 1963,
+    "category": "conflict-politics",
+    "description": "President John F. Kennedy was assassinated in Dallas, Texas.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "watergate",
+    "friendly_name": "Watergate Scandal",
+    "year": 1972,
+    "category": "conflict-politics",
+    "description": "The break-in and cover-up that led to Nixon's resignation.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "obama-elected",
+    "friendly_name": "Obama Elected President",
+    "year": 2008,
+    "category": "conflict-politics",
+    "description": "Barack Obama became the first Black president of the United States.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "democracy-athens",
+    "friendly_name": "Athenian Democracy Founded",
+    "year": -508,
+    "category": "conflict-politics",
+    "description": "Cleisthenes introduced democratic reforms in Athens.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "declaration-independence",
+    "friendly_name": "US Declaration of Independence",
+    "year": 1776,
+    "category": "conflict-politics",
+    "description": "The American colonies declared independence from Britain.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "slavery-abolished",
+    "friendly_name": "Slavery Abolished in USA",
+    "year": 1865,
+    "category": "conflict-politics",
+    "description": "The 13th Amendment abolished slavery in the United States.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "gettysburg",
+    "friendly_name": "Gettysburg Address",
+    "year": 1863,
+    "category": "conflict-politics",
+    "description": "Lincoln delivered his famous speech during the Civil War.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "india-independence",
+    "friendly_name": "Indian Independence",
+    "year": 1947,
+    "category": "conflict-politics",
+    "description": "India gained independence from British colonial rule.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "berlin-wall",
+    "friendly_name": "Berlin Wall Falls",
+    "year": 1989,
+    "category": "conflict-politics",
+    "description": "The fall of the Berlin Wall symbolized the end of the Cold War.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "soviet-collapse",
+    "friendly_name": "Soviet Union Collapses",
+    "year": 1991,
+    "category": "conflict-politics",
+    "description": "The dissolution of the USSR ended the Cold War era.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "apartheid-end",
+    "friendly_name": "Apartheid Ends",
+    "year": 1994,
+    "category": "conflict-politics",
+    "description": "Nelson Mandela became South Africa's first Black president.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "hammurabi",
+    "friendly_name": "Code of Hammurabi",
+    "year": -1754,
+    "category": "conflict-politics",
+    "description": "One of the earliest written legal codes was established in Babylon.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "magna-carta",
+    "friendly_name": "Magna Carta Signed",
+    "year": 1215,
+    "category": "conflict-politics",
+    "description": "King John signed the charter limiting royal power.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "charlemagne",
+    "friendly_name": "Charlemagne Crowned Emperor",
+    "year": 800,
+    "category": "conflict-politics",
+    "description": "Charlemagne was crowned Holy Roman Emperor by the Pope.",
+    "difficulty": "hard"
+  }
+]

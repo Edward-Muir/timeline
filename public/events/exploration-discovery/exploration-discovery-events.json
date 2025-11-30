@@ -1,0 +1,842 @@
+[
+  {
+    "name": "fire-mastery",
+    "friendly_name": "Humans Master Fire",
+    "year": -400000,
+    "category": "exploration-discovery",
+    "description": "Early humans learned to control and use fire for warmth, cooking, and protection.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "agriculture-begins",
+    "friendly_name": "Agriculture Begins",
+    "year": -10000,
+    "category": "exploration-discovery",
+    "description": "Humans began cultivating crops in the Fertile Crescent, starting the Neolithic Revolution.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "wheel-invented",
+    "friendly_name": "Wheel Invented",
+    "year": -3500,
+    "category": "exploration-discovery",
+    "description": "The wheel was invented in Mesopotamia, revolutionizing transportation and machinery.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "bronze-discovered",
+    "friendly_name": "Bronze Metallurgy Developed",
+    "year": -3300,
+    "category": "exploration-discovery",
+    "description": "Humans discovered how to alloy copper and tin to create bronze tools and weapons.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "iron-smelting",
+    "friendly_name": "Iron Smelting Developed",
+    "year": -1200,
+    "category": "exploration-discovery",
+    "description": "The ability to smelt iron ore transformed warfare and agriculture.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "polynesian-expansion",
+    "friendly_name": "Polynesian Expansion Begins",
+    "year": -1000,
+    "category": "exploration-discovery",
+    "description": "Polynesian navigators began exploring and settling islands across the Pacific Ocean.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "phoenician-circumnavigation",
+    "friendly_name": "Phoenicians Circumnavigate Africa",
+    "year": -600,
+    "category": "exploration-discovery",
+    "description": "Phoenician sailors reportedly sailed around the entire African continent.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "pythagoras-theorem",
+    "friendly_name": "Pythagorean Theorem Proven",
+    "year": -530,
+    "category": "exploration-discovery",
+    "description": "Pythagoras proved the mathematical relationship between sides of a right triangle.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "herodotus-histories",
+    "friendly_name": "Herodotus Writes Histories",
+    "year": -440,
+    "category": "exploration-discovery",
+    "description": "The Greek historian documented cultures and lands across the known world.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "alexander-india",
+    "friendly_name": "Alexander Reaches India",
+    "year": -326,
+    "category": "exploration-discovery",
+    "description": "Alexander the Great's conquests brought Greek knowledge to the Indian subcontinent.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "archimedes-principle",
+    "friendly_name": "Archimedes Discovers Buoyancy",
+    "year": -250,
+    "category": "exploration-discovery",
+    "description": "Archimedes discovered the principle of buoyancy while taking a bath.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "eratosthenes-earth",
+    "friendly_name": "Earth's Circumference Calculated",
+    "year": -240,
+    "category": "exploration-discovery",
+    "description": "Eratosthenes accurately calculated the circumference of the Earth using shadows.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "silk-road-opens",
+    "friendly_name": "Silk Road Established",
+    "year": -130,
+    "category": "exploration-discovery",
+    "description": "Trade routes connecting China to the Mediterranean were established.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "paper-invented",
+    "friendly_name": "Paper Invented in China",
+    "year": 105,
+    "category": "exploration-discovery",
+    "description": "Cai Lun standardized papermaking techniques in Han Dynasty China.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "compass-invented",
+    "friendly_name": "Magnetic Compass Invented",
+    "year": 206,
+    "category": "exploration-discovery",
+    "description": "Chinese inventors created the first magnetic compass for navigation.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "gunpowder-invented",
+    "friendly_name": "Gunpowder Invented",
+    "year": 850,
+    "category": "exploration-discovery",
+    "description": "Chinese alchemists accidentally discovered gunpowder while seeking immortality.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "vikings-iceland",
+    "friendly_name": "Vikings Settle Iceland",
+    "year": 874,
+    "category": "exploration-discovery",
+    "description": "Norse explorers established permanent settlements on Iceland.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "vikings-greenland",
+    "friendly_name": "Vikings Reach Greenland",
+    "year": 982,
+    "category": "exploration-discovery",
+    "description": "Erik the Red explored and colonized Greenland.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "vikings-north-america",
+    "friendly_name": "Vikings Reach North America",
+    "year": 1000,
+    "category": "exploration-discovery",
+    "description": "Leif Erikson became the first known European to reach North America.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "marco-polo-journey",
+    "friendly_name": "Marco Polo Reaches China",
+    "year": 1275,
+    "category": "exploration-discovery",
+    "description": "The Venetian explorer arrived at the court of Kublai Khan.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "ibn-battuta-travels",
+    "friendly_name": "Ibn Battuta Begins Travels",
+    "year": 1325,
+    "category": "exploration-discovery",
+    "description": "The Moroccan explorer began a journey covering 75,000 miles across the Islamic world.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "zheng-he-voyages",
+    "friendly_name": "Zheng He's First Voyage",
+    "year": 1405,
+    "category": "exploration-discovery",
+    "description": "The Chinese admiral began massive naval expeditions across the Indian Ocean.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "gutenberg-printing",
+    "friendly_name": "Gutenberg Printing Press",
+    "year": 1440,
+    "category": "exploration-discovery",
+    "description": "Johannes Gutenberg invented movable type printing, revolutionizing knowledge sharing.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "portuguese-cape-verde",
+    "friendly_name": "Portuguese Discover Cape Verde",
+    "year": 1456,
+    "category": "exploration-discovery",
+    "description": "Portuguese explorers discovered the uninhabited Cape Verde islands.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "dias-cape-good-hope",
+    "friendly_name": "Dias Rounds Cape of Good Hope",
+    "year": 1488,
+    "category": "exploration-discovery",
+    "description": "Bartolomeu Dias became the first European to sail around Africa's southern tip.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "columbus-americas",
+    "friendly_name": "Columbus Reaches the Americas",
+    "year": 1492,
+    "category": "exploration-discovery",
+    "description": "Christopher Columbus landed in the Caribbean, beginning European exploration of the Americas.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "vasco-da-gama-india",
+    "friendly_name": "Vasco da Gama Reaches India",
+    "year": 1498,
+    "category": "exploration-discovery",
+    "description": "The Portuguese explorer found a sea route from Europe to India.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "cabot-north-america",
+    "friendly_name": "Cabot Reaches North America",
+    "year": 1497,
+    "category": "exploration-discovery",
+    "description": "John Cabot explored the coast of North America for England.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "cabral-brazil",
+    "friendly_name": "Cabral Discovers Brazil",
+    "year": 1500,
+    "category": "exploration-discovery",
+    "description": "Pedro Álvares Cabral claimed Brazil for Portugal.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "balboa-pacific",
+    "friendly_name": "Balboa Sees the Pacific",
+    "year": 1513,
+    "category": "exploration-discovery",
+    "description": "Vasco Núñez de Balboa became the first European to see the Pacific Ocean from the Americas.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "copernicus-heliocentric",
+    "friendly_name": "Copernicus Proposes Heliocentrism",
+    "year": 1543,
+    "category": "exploration-discovery",
+    "description": "Nicolaus Copernicus published his theory that Earth orbits the Sun.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "magellan-circumnavigation",
+    "friendly_name": "First Circumnavigation of Earth",
+    "year": 1522,
+    "category": "exploration-discovery",
+    "description": "Magellan's expedition completed the first voyage around the world.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "cartier-st-lawrence",
+    "friendly_name": "Cartier Explores St. Lawrence",
+    "year": 1534,
+    "category": "exploration-discovery",
+    "description": "Jacques Cartier explored the St. Lawrence River and claimed Canada for France.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "microscope-invented",
+    "friendly_name": "Microscope Invented",
+    "year": 1590,
+    "category": "exploration-discovery",
+    "description": "Dutch spectacle makers invented the first compound microscope.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "telescope-invented",
+    "friendly_name": "Telescope Invented",
+    "year": 1608,
+    "category": "exploration-discovery",
+    "description": "Hans Lippershey invented the first practical telescope in the Netherlands.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "galileo-jupiter-moons",
+    "friendly_name": "Galileo Discovers Jupiter's Moons",
+    "year": 1610,
+    "category": "exploration-discovery",
+    "description": "Galileo observed four moons orbiting Jupiter, supporting heliocentrism.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "hudson-river",
+    "friendly_name": "Hudson Explores Hudson River",
+    "year": 1609,
+    "category": "exploration-discovery",
+    "description": "Henry Hudson explored the river later named after him while seeking a northwest passage.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "harvey-circulation",
+    "friendly_name": "Harvey Describes Blood Circulation",
+    "year": 1628,
+    "category": "exploration-discovery",
+    "description": "William Harvey published his discovery of how blood circulates through the body.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "tasman-australia",
+    "friendly_name": "Tasman Reaches Tasmania",
+    "year": 1642,
+    "category": "exploration-discovery",
+    "description": "Abel Tasman became the first European to reach Tasmania and New Zealand.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "newton-gravity",
+    "friendly_name": "Newton Discovers Gravity",
+    "year": 1666,
+    "category": "exploration-discovery",
+    "description": "Isaac Newton developed his theory of universal gravitation.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "leeuwenhoek-bacteria",
+    "friendly_name": "Bacteria Discovered",
+    "year": 1676,
+    "category": "exploration-discovery",
+    "description": "Antonie van Leeuwenhoek observed bacteria through his microscope.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "bering-strait",
+    "friendly_name": "Bering Discovers Bering Strait",
+    "year": 1728,
+    "category": "exploration-discovery",
+    "description": "Vitus Bering proved that Asia and North America were separate continents.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "linnaeus-taxonomy",
+    "friendly_name": "Linnaeus Creates Taxonomy",
+    "year": 1735,
+    "category": "exploration-discovery",
+    "description": "Carl Linnaeus published his system for classifying living organisms.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "cook-australia",
+    "friendly_name": "Cook Charts Australia",
+    "year": 1770,
+    "category": "exploration-discovery",
+    "description": "Captain James Cook mapped the east coast of Australia and claimed it for Britain.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "oxygen-discovered",
+    "friendly_name": "Oxygen Discovered",
+    "year": 1774,
+    "category": "exploration-discovery",
+    "description": "Joseph Priestley and Carl Wilhelm Scheele independently discovered oxygen.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "uranus-discovered",
+    "friendly_name": "Uranus Discovered",
+    "year": 1781,
+    "category": "exploration-discovery",
+    "description": "William Herschel discovered the seventh planet in our solar system.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "vaccination-invented",
+    "friendly_name": "Smallpox Vaccine Developed",
+    "year": 1796,
+    "category": "exploration-discovery",
+    "description": "Edward Jenner developed the first successful vaccine using cowpox.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "rosetta-stone",
+    "friendly_name": "Rosetta Stone Discovered",
+    "year": 1799,
+    "category": "exploration-discovery",
+    "description": "French soldiers found the key to deciphering Egyptian hieroglyphics.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "lewis-clark-expedition",
+    "friendly_name": "Lewis and Clark Expedition",
+    "year": 1804,
+    "category": "exploration-discovery",
+    "description": "The expedition explored the American West from the Mississippi to the Pacific.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "electromagnetism-discovered",
+    "friendly_name": "Electromagnetism Discovered",
+    "year": 1820,
+    "category": "exploration-discovery",
+    "description": "Hans Christian Ørsted discovered the relationship between electricity and magnetism.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "hieroglyphics-decoded",
+    "friendly_name": "Hieroglyphics Decoded",
+    "year": 1822,
+    "category": "exploration-discovery",
+    "description": "Jean-François Champollion deciphered Egyptian hieroglyphics using the Rosetta Stone.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "dinosaur-fossils",
+    "friendly_name": "First Dinosaur Fossils Identified",
+    "year": 1824,
+    "category": "exploration-discovery",
+    "description": "William Buckland described Megalosaurus, the first dinosaur to be scientifically named.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "antarctica-sighted",
+    "friendly_name": "Antarctica Sighted",
+    "year": 1820,
+    "category": "exploration-discovery",
+    "description": "Russian, British, and American expeditions first sighted the Antarctic continent.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "neptune-discovered",
+    "friendly_name": "Neptune Discovered",
+    "year": 1846,
+    "category": "exploration-discovery",
+    "description": "Johann Galle observed Neptune based on mathematical predictions.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "gorillas-discovered",
+    "friendly_name": "Gorillas Discovered by Science",
+    "year": 1847,
+    "category": "exploration-discovery",
+    "description": "Western scientists first described gorillas from specimens found in Africa.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "source-of-nile",
+    "friendly_name": "Source of the Nile Found",
+    "year": 1858,
+    "category": "exploration-discovery",
+    "description": "John Hanning Speke identified Lake Victoria as the source of the Nile.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "darwin-evolution",
+    "friendly_name": "Darwin Publishes Origin of Species",
+    "year": 1859,
+    "category": "exploration-discovery",
+    "description": "Charles Darwin published his theory of evolution by natural selection.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "pasteurization",
+    "friendly_name": "Pasteurization Developed",
+    "year": 1864,
+    "category": "exploration-discovery",
+    "description": "Louis Pasteur developed the process to kill harmful microorganisms in food and drink.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "mendel-genetics",
+    "friendly_name": "Mendel Discovers Genetics",
+    "year": 1866,
+    "category": "exploration-discovery",
+    "description": "Gregor Mendel published his laws of inheritance from pea plant experiments.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "periodic-table",
+    "friendly_name": "Periodic Table Created",
+    "year": 1869,
+    "category": "exploration-discovery",
+    "description": "Dmitri Mendeleev organized elements into the periodic table.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "troy-discovered",
+    "friendly_name": "Troy Discovered",
+    "year": 1871,
+    "category": "exploration-discovery",
+    "description": "Heinrich Schliemann excavated the legendary city of Troy in Turkey.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "telephone-invented",
+    "friendly_name": "Telephone Invented",
+    "year": 1876,
+    "category": "exploration-discovery",
+    "description": "Alexander Graham Bell patented the first practical telephone.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "lightbulb-invented",
+    "friendly_name": "Practical Light Bulb Invented",
+    "year": 1879,
+    "category": "exploration-discovery",
+    "description": "Thomas Edison developed a practical incandescent light bulb.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "germ-theory",
+    "friendly_name": "Germ Theory Established",
+    "year": 1880,
+    "category": "exploration-discovery",
+    "description": "Louis Pasteur and Robert Koch established that microorganisms cause disease.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "x-rays-discovered",
+    "friendly_name": "X-Rays Discovered",
+    "year": 1895,
+    "category": "exploration-discovery",
+    "description": "Wilhelm Röntgen discovered X-rays, revolutionizing medical imaging.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "radioactivity-discovered",
+    "friendly_name": "Radioactivity Discovered",
+    "year": 1896,
+    "category": "exploration-discovery",
+    "description": "Henri Becquerel discovered radioactivity in uranium.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "electron-discovered",
+    "friendly_name": "Electron Discovered",
+    "year": 1897,
+    "category": "exploration-discovery",
+    "description": "J.J. Thomson discovered the electron, the first subatomic particle.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "radium-discovered",
+    "friendly_name": "Radium Discovered",
+    "year": 1898,
+    "category": "exploration-discovery",
+    "description": "Marie and Pierre Curie discovered the radioactive element radium.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "powered-flight",
+    "friendly_name": "First Powered Flight",
+    "year": 1903,
+    "category": "exploration-discovery",
+    "description": "The Wright brothers achieved the first controlled, powered airplane flight.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "special-relativity",
+    "friendly_name": "Special Relativity Published",
+    "year": 1905,
+    "category": "exploration-discovery",
+    "description": "Albert Einstein published his theory of special relativity.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "north-pole-reached",
+    "friendly_name": "North Pole Reached",
+    "year": 1909,
+    "category": "exploration-discovery",
+    "description": "Robert Peary claimed to be the first person to reach the North Pole.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "machu-picchu-discovered",
+    "friendly_name": "Machu Picchu Rediscovered",
+    "year": 1911,
+    "category": "exploration-discovery",
+    "description": "Hiram Bingham brought the ancient Inca citadel to worldwide attention.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "south-pole-reached",
+    "friendly_name": "South Pole Reached",
+    "year": 1911,
+    "category": "exploration-discovery",
+    "description": "Roald Amundsen led the first expedition to reach the South Pole.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "continental-drift",
+    "friendly_name": "Continental Drift Proposed",
+    "year": 1912,
+    "category": "exploration-discovery",
+    "description": "Alfred Wegener proposed that continents move over geological time.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "atomic-nucleus",
+    "friendly_name": "Atomic Nucleus Discovered",
+    "year": 1911,
+    "category": "exploration-discovery",
+    "description": "Ernest Rutherford discovered that atoms have a dense central nucleus.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "general-relativity",
+    "friendly_name": "General Relativity Published",
+    "year": 1915,
+    "category": "exploration-discovery",
+    "description": "Albert Einstein published his theory of general relativity and gravity.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "tutankhamun-tomb",
+    "friendly_name": "Tutankhamun's Tomb Discovered",
+    "year": 1922,
+    "category": "exploration-discovery",
+    "description": "Howard Carter discovered the nearly intact tomb of the Egyptian pharaoh.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "insulin-discovered",
+    "friendly_name": "Insulin Discovered",
+    "year": 1921,
+    "category": "exploration-discovery",
+    "description": "Frederick Banting and Charles Best discovered insulin, saving millions of diabetics.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "hubble-galaxies",
+    "friendly_name": "Hubble Discovers Galaxies",
+    "year": 1924,
+    "category": "exploration-discovery",
+    "description": "Edwin Hubble proved that other galaxies exist beyond the Milky Way.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "penicillin-discovered",
+    "friendly_name": "Penicillin Discovered",
+    "year": 1928,
+    "category": "exploration-discovery",
+    "description": "Alexander Fleming discovered the first antibiotic by accident.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "expanding-universe",
+    "friendly_name": "Expanding Universe Discovered",
+    "year": 1929,
+    "category": "exploration-discovery",
+    "description": "Edwin Hubble discovered that the universe is expanding.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "pluto-discovered",
+    "friendly_name": "Pluto Discovered",
+    "year": 1930,
+    "category": "exploration-discovery",
+    "description": "Clyde Tombaugh discovered Pluto at Lowell Observatory.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "neutron-discovered",
+    "friendly_name": "Neutron Discovered",
+    "year": 1932,
+    "category": "exploration-discovery",
+    "description": "James Chadwick discovered the neutron in the atomic nucleus.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "nuclear-fission",
+    "friendly_name": "Nuclear Fission Discovered",
+    "year": 1938,
+    "category": "exploration-discovery",
+    "description": "Otto Hahn and Fritz Strassmann discovered nuclear fission.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "dead-sea-scrolls",
+    "friendly_name": "Dead Sea Scrolls Discovered",
+    "year": 1947,
+    "category": "exploration-discovery",
+    "description": "Ancient Jewish manuscripts were found in caves near the Dead Sea.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "dna-structure",
+    "friendly_name": "DNA Structure Discovered",
+    "year": 1953,
+    "category": "exploration-discovery",
+    "description": "Watson and Crick discovered the double helix structure of DNA.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "everest-summited",
+    "friendly_name": "Mount Everest Summited",
+    "year": 1953,
+    "category": "exploration-discovery",
+    "description": "Edmund Hillary and Tenzing Norgay became the first to reach the summit.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "polio-vaccine",
+    "friendly_name": "Polio Vaccine Developed",
+    "year": 1955,
+    "category": "exploration-discovery",
+    "description": "Jonas Salk's vaccine was declared safe and effective against polio.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "sputnik-launched",
+    "friendly_name": "Sputnik Launched",
+    "year": 1957,
+    "category": "exploration-discovery",
+    "description": "The Soviet Union launched the first artificial satellite into orbit.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "mariana-trench",
+    "friendly_name": "Mariana Trench Explored",
+    "year": 1960,
+    "category": "exploration-discovery",
+    "description": "Jacques Piccard and Don Walsh descended to the deepest point on Earth.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "first-human-space",
+    "friendly_name": "First Human in Space",
+    "year": 1961,
+    "category": "exploration-discovery",
+    "description": "Yuri Gagarin became the first human to travel to outer space.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "moon-landing",
+    "friendly_name": "First Moon Landing",
+    "year": 1969,
+    "category": "exploration-discovery",
+    "description": "Neil Armstrong became the first human to walk on the Moon.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "lucy-discovered",
+    "friendly_name": "Lucy Fossil Discovered",
+    "year": 1974,
+    "category": "exploration-discovery",
+    "description": "Donald Johanson discovered the famous Australopithecus afarensis skeleton in Ethiopia.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "smallpox-eradicated",
+    "friendly_name": "Smallpox Eradicated",
+    "year": 1980,
+    "category": "exploration-discovery",
+    "description": "The World Health Organization declared smallpox the first disease eradicated by humans.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "hiv-identified",
+    "friendly_name": "HIV Identified",
+    "year": 1983,
+    "category": "exploration-discovery",
+    "description": "Scientists identified HIV as the virus causing AIDS.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "titanic-wreck-found",
+    "friendly_name": "Titanic Wreck Discovered",
+    "year": 1985,
+    "category": "exploration-discovery",
+    "description": "Robert Ballard discovered the wreck of the Titanic on the ocean floor.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "world-wide-web",
+    "friendly_name": "World Wide Web Invented",
+    "year": 1989,
+    "category": "exploration-discovery",
+    "description": "Tim Berners-Lee invented the World Wide Web at CERN.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "hubble-telescope-launched",
+    "friendly_name": "Hubble Space Telescope Launched",
+    "year": 1990,
+    "category": "exploration-discovery",
+    "description": "NASA launched the space telescope that revolutionized astronomy.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "first-exoplanet",
+    "friendly_name": "First Exoplanet Discovered",
+    "year": 1992,
+    "category": "exploration-discovery",
+    "description": "Astronomers discovered the first planets orbiting a star outside our solar system.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "dolly-sheep-cloned",
+    "friendly_name": "Dolly the Sheep Cloned",
+    "year": 1996,
+    "category": "exploration-discovery",
+    "description": "Scientists created the first mammal cloned from an adult cell.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "human-genome-completed",
+    "friendly_name": "Human Genome Sequenced",
+    "year": 2003,
+    "category": "exploration-discovery",
+    "description": "Scientists completed mapping the entire human genetic code.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "higgs-boson",
+    "friendly_name": "Higgs Boson Discovered",
+    "year": 2012,
+    "category": "exploration-discovery",
+    "description": "Scientists at CERN confirmed the existence of the Higgs boson particle.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "gravitational-waves",
+    "friendly_name": "Gravitational Waves Detected",
+    "year": 2015,
+    "category": "exploration-discovery",
+    "description": "LIGO detected gravitational waves, confirming Einstein's prediction.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "black-hole-image",
+    "friendly_name": "First Black Hole Image",
+    "year": 2019,
+    "category": "exploration-discovery",
+    "description": "The Event Horizon Telescope captured the first image of a black hole.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "james-webb-launched",
+    "friendly_name": "James Webb Telescope Launched",
+    "year": 2021,
+    "category": "exploration-discovery",
+    "description": "NASA launched the most powerful space telescope ever built.",
+    "difficulty": "easy"
+  }
+]

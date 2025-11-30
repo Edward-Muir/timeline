@@ -1,0 +1,802 @@
+[
+  {
+    "name": "lascaux-cave-paintings",
+    "friendly_name": "Lascaux Cave Paintings Created",
+    "year": -15000,
+    "category": "cultural-social",
+    "description": "Prehistoric humans painted elaborate animal scenes in caves in modern-day France.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "first-writing",
+    "friendly_name": "Writing Invented in Mesopotamia",
+    "year": -3400,
+    "category": "cultural-social",
+    "description": "Sumerians developed cuneiform, one of the earliest known writing systems.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "pyramids-giza",
+    "friendly_name": "Great Pyramid of Giza Completed",
+    "year": -2560,
+    "category": "cultural-social",
+    "description": "The largest Egyptian pyramid was built as a tomb for Pharaoh Khufu.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "code-hammurabi",
+    "friendly_name": "Code of Hammurabi Created",
+    "year": -1754,
+    "category": "cultural-social",
+    "description": "The Babylonian king established one of the oldest written legal codes.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "first-olympics",
+    "friendly_name": "First Olympic Games",
+    "year": -776,
+    "category": "cultural-social",
+    "description": "Ancient Greeks held the first recorded Olympic Games at Olympia.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "homer-iliad",
+    "friendly_name": "Homer Composes the Iliad",
+    "year": -750,
+    "category": "cultural-social",
+    "description": "The Greek poet composed the epic tale of the Trojan War.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "buddha-enlightenment",
+    "friendly_name": "Buddha Attains Enlightenment",
+    "year": -528,
+    "category": "cultural-social",
+    "description": "Siddhartha Gautama achieved enlightenment, founding Buddhism.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "confucius-teachings",
+    "friendly_name": "Confucius Begins Teaching",
+    "year": -500,
+    "category": "cultural-social",
+    "description": "The Chinese philosopher began spreading his influential ethical teachings.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "parthenon-completed",
+    "friendly_name": "Parthenon Completed",
+    "year": -432,
+    "category": "cultural-social",
+    "description": "Athens finished constructing the iconic temple to the goddess Athena.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "socrates-death",
+    "friendly_name": "Death of Socrates",
+    "year": -399,
+    "category": "cultural-social",
+    "description": "The Athenian philosopher was executed by drinking hemlock.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "library-alexandria",
+    "friendly_name": "Library of Alexandria Founded",
+    "year": -283,
+    "category": "cultural-social",
+    "description": "The ancient world's greatest library was established in Egypt.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "dead-sea-scrolls-written",
+    "friendly_name": "Dead Sea Scrolls Written",
+    "year": -150,
+    "category": "cultural-social",
+    "description": "Jewish scribes created ancient religious manuscripts found near the Dead Sea.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "jesus-crucifixion",
+    "friendly_name": "Crucifixion of Jesus",
+    "year": 33,
+    "category": "cultural-social",
+    "description": "Jesus of Nazareth was crucified in Jerusalem, founding Christianity.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "colosseum-completed",
+    "friendly_name": "Colosseum Completed",
+    "year": 80,
+    "category": "cultural-social",
+    "description": "Rome finished building its massive amphitheater for gladiatorial games.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "christianity-legalized",
+    "friendly_name": "Christianity Legalized in Rome",
+    "year": 313,
+    "category": "cultural-social",
+    "description": "Emperor Constantine issued the Edict of Milan, ending Christian persecution.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "bible-latin-vulgate",
+    "friendly_name": "Latin Vulgate Bible Completed",
+    "year": 405,
+    "category": "cultural-social",
+    "description": "Saint Jerome completed his Latin translation of the Bible.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "muhammad-revelation",
+    "friendly_name": "Muhammad Receives First Revelation",
+    "year": 610,
+    "category": "cultural-social",
+    "description": "The Prophet Muhammad received the first verses of the Quran, founding Islam.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "book-of-kells",
+    "friendly_name": "Book of Kells Created",
+    "year": 800,
+    "category": "cultural-social",
+    "description": "Irish monks created an illuminated manuscript of the four Gospels.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "tale-of-genji",
+    "friendly_name": "Tale of Genji Written",
+    "year": 1010,
+    "category": "cultural-social",
+    "description": "Murasaki Shikibu wrote what is often called the world's first novel.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "notre-dame-construction",
+    "friendly_name": "Notre-Dame Cathedral Construction Begins",
+    "year": 1163,
+    "category": "cultural-social",
+    "description": "Work began on the iconic Gothic cathedral in Paris.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "oxford-founded",
+    "friendly_name": "Oxford University Founded",
+    "year": 1167,
+    "category": "cultural-social",
+    "description": "The oldest English-speaking university began formal instruction.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "marco-polo-china",
+    "friendly_name": "Marco Polo Reaches China",
+    "year": 1275,
+    "category": "cultural-social",
+    "description": "The Venetian explorer arrived at the court of Kublai Khan.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "divine-comedy",
+    "friendly_name": "Dante Writes Divine Comedy",
+    "year": 1320,
+    "category": "cultural-social",
+    "description": "Dante Alighieri completed his epic poem exploring the afterlife.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "printing-press",
+    "friendly_name": "Gutenberg Printing Press",
+    "year": 1440,
+    "category": "cultural-social",
+    "description": "Johannes Gutenberg invented movable type printing in Europe.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "sistine-chapel-ceiling",
+    "friendly_name": "Sistine Chapel Ceiling Completed",
+    "year": 1512,
+    "category": "cultural-social",
+    "description": "Michelangelo finished painting his masterpiece on the chapel ceiling.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "protestant-reformation",
+    "friendly_name": "Protestant Reformation Begins",
+    "year": 1517,
+    "category": "cultural-social",
+    "description": "Martin Luther posted his 95 Theses, challenging Catholic Church practices.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "shakespeare-hamlet",
+    "friendly_name": "Shakespeare Writes Hamlet",
+    "year": 1601,
+    "category": "cultural-social",
+    "description": "William Shakespeare completed his famous tragedy about the Danish prince.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "king-james-bible",
+    "friendly_name": "King James Bible Published",
+    "year": 1611,
+    "category": "cultural-social",
+    "description": "The influential English translation of the Bible was completed.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "taj-mahal-completed",
+    "friendly_name": "Taj Mahal Completed",
+    "year": 1653,
+    "category": "cultural-social",
+    "description": "The Mughal emperor finished building the famous mausoleum for his wife.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "paradise-lost",
+    "friendly_name": "Paradise Lost Published",
+    "year": 1667,
+    "category": "cultural-social",
+    "description": "John Milton published his epic poem about the fall of man.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "newton-principia",
+    "friendly_name": "Newton Publishes Principia",
+    "year": 1687,
+    "category": "cultural-social",
+    "description": "Isaac Newton published his laws of motion and universal gravitation.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "bach-well-tempered",
+    "friendly_name": "Bach Completes Well-Tempered Clavier",
+    "year": 1722,
+    "category": "cultural-social",
+    "description": "Johann Sebastian Bach finished his influential collection of keyboard music.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "encyclopedia-published",
+    "friendly_name": "Encyclopédie Published",
+    "year": 1751,
+    "category": "cultural-social",
+    "description": "Diderot and d'Alembert began publishing their Enlightenment encyclopedia.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "wealth-of-nations",
+    "friendly_name": "Wealth of Nations Published",
+    "year": 1776,
+    "category": "cultural-social",
+    "description": "Adam Smith published his foundational work on modern economics.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "mozart-don-giovanni",
+    "friendly_name": "Mozart Premieres Don Giovanni",
+    "year": 1787,
+    "category": "cultural-social",
+    "description": "Mozart's opera about the legendary seducer premiered in Prague.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "beethoven-ninth",
+    "friendly_name": "Beethoven's Ninth Symphony Premiered",
+    "year": 1824,
+    "category": "cultural-social",
+    "description": "Beethoven premiered his final symphony, including the Ode to Joy.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "first-photograph",
+    "friendly_name": "First Photograph Taken",
+    "year": 1826,
+    "category": "cultural-social",
+    "description": "Joseph Nicéphore Niépce captured the world's first permanent photograph.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "slavery-abolished-uk",
+    "friendly_name": "Slavery Abolished in British Empire",
+    "year": 1833,
+    "category": "cultural-social",
+    "description": "Britain passed the Slavery Abolition Act, freeing slaves in most colonies.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "communist-manifesto",
+    "friendly_name": "Communist Manifesto Published",
+    "year": 1848,
+    "category": "cultural-social",
+    "description": "Karl Marx and Friedrich Engels published their influential political pamphlet.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "origin-of-species",
+    "friendly_name": "Origin of Species Published",
+    "year": 1859,
+    "category": "cultural-social",
+    "description": "Charles Darwin published his theory of evolution by natural selection.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "slavery-abolished-us",
+    "friendly_name": "Slavery Abolished in United States",
+    "year": 1865,
+    "category": "cultural-social",
+    "description": "The 13th Amendment ended slavery throughout the United States.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "first-impressionist-exhibition",
+    "friendly_name": "First Impressionist Exhibition",
+    "year": 1874,
+    "category": "cultural-social",
+    "description": "Monet, Renoir, and others held their first independent art exhibition in Paris.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "phonograph-invented",
+    "friendly_name": "Phonograph Invented",
+    "year": 1877,
+    "category": "cultural-social",
+    "description": "Thomas Edison invented a device to record and play back sound.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "first-motion-picture",
+    "friendly_name": "First Motion Picture Screened",
+    "year": 1895,
+    "category": "cultural-social",
+    "description": "The Lumière brothers held the first public film screening in Paris.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "first-modern-olympics",
+    "friendly_name": "First Modern Olympic Games",
+    "year": 1896,
+    "category": "cultural-social",
+    "description": "Athens hosted the revival of the ancient Olympic Games.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "freud-interpretation-dreams",
+    "friendly_name": "Interpretation of Dreams Published",
+    "year": 1899,
+    "category": "cultural-social",
+    "description": "Sigmund Freud published his groundbreaking work on psychoanalysis.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "first-powered-flight",
+    "friendly_name": "First Powered Flight",
+    "year": 1903,
+    "category": "cultural-social",
+    "description": "The Wright brothers achieved the first powered airplane flight.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "picasso-demoiselles",
+    "friendly_name": "Les Demoiselles d'Avignon Painted",
+    "year": 1907,
+    "category": "cultural-social",
+    "description": "Picasso completed his revolutionary proto-Cubist painting.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "titanic-sinks",
+    "friendly_name": "Titanic Sinks",
+    "year": 1912,
+    "category": "cultural-social",
+    "description": "The unsinkable ocean liner struck an iceberg and sank on its maiden voyage.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "women-suffrage-uk",
+    "friendly_name": "Women Gain Vote in UK",
+    "year": 1918,
+    "category": "cultural-social",
+    "description": "British women over 30 gained the right to vote for the first time.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "women-suffrage-us",
+    "friendly_name": "Women Gain Vote in US",
+    "year": 1920,
+    "category": "cultural-social",
+    "description": "The 19th Amendment granted American women the right to vote.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "jazz-age-begins",
+    "friendly_name": "Jazz Age Begins",
+    "year": 1920,
+    "category": "cultural-social",
+    "description": "Jazz music exploded in popularity, defining the Roaring Twenties.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "first-talking-film",
+    "friendly_name": "First Talking Film Released",
+    "year": 1927,
+    "category": "cultural-social",
+    "description": "The Jazz Singer became the first feature-length film with synchronized dialogue.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "penicillin-discovered",
+    "friendly_name": "Penicillin Discovered",
+    "year": 1928,
+    "category": "cultural-social",
+    "description": "Alexander Fleming discovered the first antibiotic, revolutionizing medicine.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "first-television-broadcast",
+    "friendly_name": "First Public Television Broadcast",
+    "year": 1936,
+    "category": "cultural-social",
+    "description": "The BBC began the world's first regular high-definition television service.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "wizard-of-oz",
+    "friendly_name": "Wizard of Oz Released",
+    "year": 1939,
+    "category": "cultural-social",
+    "description": "The classic Technicolor musical fantasy premiered in Hollywood.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "citizen-kane",
+    "friendly_name": "Citizen Kane Released",
+    "year": 1941,
+    "category": "cultural-social",
+    "description": "Orson Welles directed what many consider the greatest film ever made.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "un-human-rights",
+    "friendly_name": "Universal Declaration of Human Rights",
+    "year": 1948,
+    "category": "cultural-social",
+    "description": "The United Nations adopted a landmark document on human rights.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "nineteen-eighty-four",
+    "friendly_name": "1984 Published",
+    "year": 1949,
+    "category": "cultural-social",
+    "description": "George Orwell published his dystopian novel about totalitarian surveillance.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "dna-structure",
+    "friendly_name": "DNA Structure Discovered",
+    "year": 1953,
+    "category": "cultural-social",
+    "description": "Watson and Crick discovered the double helix structure of DNA.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "polio-vaccine",
+    "friendly_name": "Polio Vaccine Developed",
+    "year": 1955,
+    "category": "cultural-social",
+    "description": "Jonas Salk's vaccine was declared safe and effective against polio.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "disneyland-opens",
+    "friendly_name": "Disneyland Opens",
+    "year": 1955,
+    "category": "cultural-social",
+    "description": "Walt Disney opened his first theme park in Anaheim, California.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "elvis-ed-sullivan",
+    "friendly_name": "Elvis on Ed Sullivan",
+    "year": 1956,
+    "category": "cultural-social",
+    "description": "Elvis Presley's television appearance launched rock and roll into the mainstream.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "birth-control-pill",
+    "friendly_name": "Birth Control Pill Approved",
+    "year": 1960,
+    "category": "cultural-social",
+    "description": "The FDA approved the first oral contraceptive pill for women.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "beatles-ed-sullivan",
+    "friendly_name": "Beatles on Ed Sullivan",
+    "year": 1964,
+    "category": "cultural-social",
+    "description": "The Beatles' American TV debut launched the British Invasion.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "civil-rights-act",
+    "friendly_name": "Civil Rights Act Passed",
+    "year": 1964,
+    "category": "cultural-social",
+    "description": "Landmark US legislation outlawed discrimination based on race, color, religion, sex, or national origin.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "woodstock",
+    "friendly_name": "Woodstock Festival",
+    "year": 1969,
+    "category": "cultural-social",
+    "description": "Nearly half a million people gathered for the iconic music festival.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "moon-landing",
+    "friendly_name": "First Moon Landing",
+    "year": 1969,
+    "category": "cultural-social",
+    "description": "Neil Armstrong became the first human to walk on the Moon.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "stonewall-riots",
+    "friendly_name": "Stonewall Riots",
+    "year": 1969,
+    "category": "cultural-social",
+    "description": "LGBTQ patrons resisted a police raid, sparking the gay rights movement.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "first-email",
+    "friendly_name": "First Email Sent",
+    "year": 1971,
+    "category": "cultural-social",
+    "description": "Ray Tomlinson sent the first network email using the @ symbol.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "star-wars-release",
+    "friendly_name": "Star Wars Released",
+    "year": 1977,
+    "category": "cultural-social",
+    "description": "George Lucas's space opera became a cultural phenomenon.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "first-test-tube-baby",
+    "friendly_name": "First Test Tube Baby Born",
+    "year": 1978,
+    "category": "cultural-social",
+    "description": "Louise Brown became the first baby conceived through IVF.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "walkman-released",
+    "friendly_name": "Sony Walkman Released",
+    "year": 1979,
+    "category": "cultural-social",
+    "description": "Sony introduced the portable cassette player that changed how people listened to music.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "mtv-launches",
+    "friendly_name": "MTV Launches",
+    "year": 1981,
+    "category": "cultural-social",
+    "description": "The first 24-hour music television channel began broadcasting.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "aids-identified",
+    "friendly_name": "AIDS Identified",
+    "year": 1981,
+    "category": "cultural-social",
+    "description": "Scientists first recognized and named the AIDS epidemic.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "michael-jackson-thriller",
+    "friendly_name": "Thriller Album Released",
+    "year": 1982,
+    "category": "cultural-social",
+    "description": "Michael Jackson released the best-selling album of all time.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "live-aid",
+    "friendly_name": "Live Aid Concert",
+    "year": 1985,
+    "category": "cultural-social",
+    "description": "A dual-venue rock concert raised millions for Ethiopian famine relief.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "chernobyl-disaster",
+    "friendly_name": "Chernobyl Disaster",
+    "year": 1986,
+    "category": "cultural-social",
+    "description": "The world's worst nuclear accident occurred at a Soviet power plant.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "world-wide-web",
+    "friendly_name": "World Wide Web Invented",
+    "year": 1989,
+    "category": "cultural-social",
+    "description": "Tim Berners-Lee invented the World Wide Web at CERN.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "hubble-launched",
+    "friendly_name": "Hubble Space Telescope Launched",
+    "year": 1990,
+    "category": "cultural-social",
+    "description": "NASA launched the space telescope that revolutionized astronomy.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "human-genome-project",
+    "friendly_name": "Human Genome Project Begins",
+    "year": 1990,
+    "category": "cultural-social",
+    "description": "Scientists began the massive effort to map all human genes.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "nelson-mandela-freed",
+    "friendly_name": "Nelson Mandela Released",
+    "year": 1990,
+    "category": "cultural-social",
+    "description": "The anti-apartheid leader was freed after 27 years in prison.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "dolly-sheep-cloned",
+    "friendly_name": "Dolly the Sheep Cloned",
+    "year": 1996,
+    "category": "cultural-social",
+    "description": "Scientists created the first mammal cloned from an adult cell.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "harry-potter-published",
+    "friendly_name": "Harry Potter Published",
+    "year": 1997,
+    "category": "cultural-social",
+    "description": "J.K. Rowling published the first Harry Potter book, launching a global phenomenon.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "google-founded",
+    "friendly_name": "Google Founded",
+    "year": 1998,
+    "category": "cultural-social",
+    "description": "Larry Page and Sergey Brin founded the search engine company.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "y2k",
+    "friendly_name": "Y2K Millennium Bug",
+    "year": 2000,
+    "category": "cultural-social",
+    "description": "The world braced for computer failures as the calendar rolled to 2000.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "ipod-released",
+    "friendly_name": "iPod Released",
+    "year": 2001,
+    "category": "cultural-social",
+    "description": "Apple launched the portable music player that transformed the music industry.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "human-genome-completed",
+    "friendly_name": "Human Genome Sequenced",
+    "year": 2003,
+    "category": "cultural-social",
+    "description": "Scientists completed mapping the entire human genetic code.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "facebook-launched",
+    "friendly_name": "Facebook Launched",
+    "year": 2004,
+    "category": "cultural-social",
+    "description": "Mark Zuckerberg launched the social network from his Harvard dorm room.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "youtube-founded",
+    "friendly_name": "YouTube Founded",
+    "year": 2005,
+    "category": "cultural-social",
+    "description": "The video-sharing platform that changed online media was created.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "twitter-launched",
+    "friendly_name": "Twitter Launched",
+    "year": 2006,
+    "category": "cultural-social",
+    "description": "The microblogging platform began with its 140-character posts.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "iphone-released",
+    "friendly_name": "iPhone Released",
+    "year": 2007,
+    "category": "cultural-social",
+    "description": "Apple's smartphone revolutionized mobile technology and communication.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "obama-elected",
+    "friendly_name": "Barack Obama Elected President",
+    "year": 2008,
+    "category": "cultural-social",
+    "description": "The United States elected its first African American president.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "bitcoin-created",
+    "friendly_name": "Bitcoin Created",
+    "year": 2009,
+    "category": "cultural-social",
+    "description": "The mysterious Satoshi Nakamoto launched the first cryptocurrency.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "instagram-launched",
+    "friendly_name": "Instagram Launched",
+    "year": 2010,
+    "category": "cultural-social",
+    "description": "The photo-sharing app that transformed social media was released.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "higgs-boson",
+    "friendly_name": "Higgs Boson Discovered",
+    "year": 2012,
+    "category": "cultural-social",
+    "description": "Scientists at CERN confirmed the existence of the God particle.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "marriage-equality-us",
+    "friendly_name": "Same-Sex Marriage Legalized in US",
+    "year": 2015,
+    "category": "cultural-social",
+    "description": "The Supreme Court ruled same-sex marriage legal nationwide.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "metoo-movement",
+    "friendly_name": "#MeToo Movement Goes Viral",
+    "year": 2017,
+    "category": "cultural-social",
+    "description": "A social movement against sexual harassment spread globally on social media.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "covid-pandemic",
+    "friendly_name": "COVID-19 Pandemic Declared",
+    "year": 2020,
+    "category": "cultural-social",
+    "description": "The World Health Organization declared a global pandemic.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "chatgpt-released",
+    "friendly_name": "ChatGPT Released",
+    "year": 2022,
+    "category": "cultural-social",
+    "description": "OpenAI launched the AI chatbot that sparked a technological revolution.",
+    "difficulty": "easy"
+  }
+]

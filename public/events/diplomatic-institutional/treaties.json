@@ -1,0 +1,10 @@
+[
+  {
+    "name": "paris-agreement",
+    "friendly_name": "Paris Climate Agreement",
+    "year": 2015,
+    "category": "diplomatic-institutional",
+    "description": "Nations agreed to limit global warming to 1.5 degrees Celsius.",
+    "difficulty": "medium"
+  }
+]

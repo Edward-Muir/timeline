@@ -1,0 +1,34 @@
+[
+  {
+    "name": "sputnik",
+    "friendly_name": "Sputnik Launched",
+    "year": 1957,
+    "category": "exploration-discovery",
+    "description": "The Soviet Union launched the first artificial satellite into orbit.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "moon-landing",
+    "friendly_name": "First Moon Landing",
+    "year": 1969,
+    "category": "exploration-discovery",
+    "description": "Neil Armstrong became the first human to walk on the Moon.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "hubble-launch",
+    "friendly_name": "Hubble Telescope Launched",
+    "year": 1990,
+    "category": "exploration-discovery",
+    "description": "NASA launched the Hubble Space Telescope into orbit.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "james-webb",
+    "friendly_name": "James Webb Telescope Launched",
+    "year": 2021,
+    "category": "exploration-discovery",
+    "description": "NASA launched the most powerful space telescope ever built.",
+    "difficulty": "easy"
+  }
+]

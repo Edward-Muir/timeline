@@ -1,0 +1,66 @@
+[
+  {
+    "name": "columbus-america",
+    "friendly_name": "Columbus Reaches America",
+    "year": 1492,
+    "category": "exploration-discovery",
+    "description": "Christopher Columbus landed in the Americas, beginning European exploration.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "magellan-circumnavigation",
+    "friendly_name": "First Circumnavigation Complete",
+    "year": 1522,
+    "category": "exploration-discovery",
+    "description": "Magellan's expedition completed the first voyage around the world.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "viking-america",
+    "friendly_name": "Vikings Reach North America",
+    "year": 1000,
+    "category": "exploration-discovery",
+    "description": "Leif Erikson led the first known European expedition to North America.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "jamestown",
+    "friendly_name": "Jamestown Colony Founded",
+    "year": 1607,
+    "category": "exploration-discovery",
+    "description": "The first permanent English settlement in America was established.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "mayflower",
+    "friendly_name": "Mayflower Lands at Plymouth",
+    "year": 1620,
+    "category": "exploration-discovery",
+    "description": "The Pilgrims arrived in Massachusetts aboard the Mayflower.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "everest",
+    "friendly_name": "First Everest Summit",
+    "year": 1953,
+    "category": "exploration-discovery",
+    "description": "Edmund Hillary and Tenzing Norgay became the first to summit Mount Everest.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "tutankhamun",
+    "friendly_name": "Tutankhamun's Tomb Discovered",
+    "year": 1922,
+    "category": "exploration-discovery",
+    "description": "Howard Carter discovered the nearly intact tomb of the Egyptian pharaoh.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "tenochtitlan",
+    "friendly_name": "Tenochtitlan Founded",
+    "year": 1325,
+    "category": "exploration-discovery",
+    "description": "The Aztec capital was founded on an island in Lake Texcoco.",
+    "difficulty": "hard"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "buddha-enlightenment",
+    "friendly_name": "Buddha Attains Enlightenment",
+    "year": -528,
+    "category": "cultural-social",
+    "description": "Siddhartha Gautama achieved enlightenment, founding Buddhism.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "confucius-teachings",
+    "friendly_name": "Confucius Begins Teaching",
+    "year": -500,
+    "category": "cultural-social",
+    "description": "Confucius began teaching his philosophy in China.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "jesus-birth",
+    "friendly_name": "Birth of Jesus Christ",
+    "year": -4,
+    "category": "cultural-social",
+    "description": "The birth of Jesus, founder of Christianity.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "islam-founded",
+    "friendly_name": "Islam Founded",
+    "year": 622,
+    "category": "cultural-social",
+    "description": "Muhammad's Hijra to Medina marks the start of the Islamic calendar.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "luther-theses",
+    "friendly_name": "Luther's 95 Theses",
+    "year": 1517,
+    "category": "cultural-social",
+    "description": "Martin Luther posted his theses, sparking the Protestant Reformation.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "communist-manifesto",
+    "friendly_name": "Communist Manifesto Published",
+    "year": 1848,
+    "category": "cultural-social",
+    "description": "Marx and Engels published the influential political pamphlet.",
+    "difficulty": "medium"
+  }
+]

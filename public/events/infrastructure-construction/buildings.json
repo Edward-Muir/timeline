@@ -1,0 +1,66 @@
+[
+  {
+    "name": "pyramids",
+    "friendly_name": "Great Pyramid of Giza Built",
+    "year": -2560,
+    "category": "infrastructure-construction",
+    "description": "The ancient Egyptians built the last surviving wonder of the ancient world.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "stonehenge",
+    "friendly_name": "Stonehenge Completed",
+    "year": -2500,
+    "category": "infrastructure-construction",
+    "description": "The mysterious stone circle in England was completed.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "parthenon",
+    "friendly_name": "Parthenon Completed",
+    "year": -432,
+    "category": "infrastructure-construction",
+    "description": "The temple to Athena was completed on the Athenian Acropolis.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "colosseum",
+    "friendly_name": "Colosseum Completed",
+    "year": 80,
+    "category": "infrastructure-construction",
+    "description": "Rome's iconic amphitheater was completed.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "great-wall-start",
+    "friendly_name": "Great Wall Construction Begins",
+    "year": -221,
+    "category": "infrastructure-construction",
+    "description": "Construction began on China's massive defensive wall.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "taj-mahal",
+    "friendly_name": "Taj Mahal Completed",
+    "year": 1653,
+    "category": "infrastructure-construction",
+    "description": "The magnificent mausoleum was completed in India.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "eiffel-tower",
+    "friendly_name": "Eiffel Tower Completed",
+    "year": 1889,
+    "category": "infrastructure-construction",
+    "description": "Gustave Eiffel's iron tower became the symbol of Paris.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "empire-state",
+    "friendly_name": "Empire State Building Completed",
+    "year": 1931,
+    "category": "infrastructure-construction",
+    "description": "The iconic New York skyscraper was completed.",
+    "difficulty": "medium"
+  }
+]

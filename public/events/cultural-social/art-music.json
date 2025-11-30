@@ -1,0 +1,74 @@
+[
+  {
+    "name": "cave-paintings",
+    "friendly_name": "First Cave Paintings",
+    "year": -40000,
+    "category": "cultural-social",
+    "description": "Early humans created paintings in Lascaux and other caves.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "sistine-chapel",
+    "friendly_name": "Sistine Chapel Ceiling Painted",
+    "year": 1512,
+    "category": "cultural-social",
+    "description": "Michelangelo completed his masterpiece ceiling fresco.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "shakespeare-hamlet",
+    "friendly_name": "Shakespeare Writes Hamlet",
+    "year": 1600,
+    "category": "cultural-social",
+    "description": "Shakespeare wrote one of the greatest plays in the English language.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "bach-well-tempered",
+    "friendly_name": "Bach Completes Well-Tempered Clavier",
+    "year": 1722,
+    "category": "cultural-social",
+    "description": "Bach completed his influential collection of keyboard music.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "mozart-dies",
+    "friendly_name": "Mozart Dies",
+    "year": 1791,
+    "category": "cultural-social",
+    "description": "The musical prodigy died at age 35 in Vienna.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "beatles-usa",
+    "friendly_name": "Beatles Arrive in USA",
+    "year": 1964,
+    "category": "cultural-social",
+    "description": "The British Invasion began with the Beatles' American tour.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "woodstock",
+    "friendly_name": "Woodstock Festival",
+    "year": 1969,
+    "category": "cultural-social",
+    "description": "The iconic music festival defined a generation.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "star-wars",
+    "friendly_name": "Star Wars Released",
+    "year": 1977,
+    "category": "cultural-social",
+    "description": "George Lucas's space opera became a cultural phenomenon.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "gutenberg",
+    "friendly_name": "Gutenberg Printing Press",
+    "year": 1440,
+    "category": "cultural-social",
+    "description": "Gutenberg's movable type revolutionized the spread of knowledge.",
+    "difficulty": "medium"
+  }
+]

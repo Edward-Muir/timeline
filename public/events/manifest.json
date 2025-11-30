@@ -1,0 +1,28 @@
+{
+  "categories": [
+    {
+      "name": "conflict-politics",
+      "files": ["wars.json", "revolutions.json", "political.json"]
+    },
+    {
+      "name": "disasters-crises",
+      "files": ["natural.json", "pandemics.json", "accidents.json"]
+    },
+    {
+      "name": "exploration-discovery",
+      "files": ["exploration.json", "science.json", "space.json"]
+    },
+    {
+      "name": "cultural-social",
+      "files": ["art-music.json", "movements.json", "milestones.json"]
+    },
+    {
+      "name": "infrastructure-construction",
+      "files": ["buildings.json", "engineering.json", "technology.json"]
+    },
+    {
+      "name": "diplomatic-institutional",
+      "files": ["treaties.json", "organizations.json", "founding.json"]
+    }
+  ]
+}

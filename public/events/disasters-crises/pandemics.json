@@ -1,0 +1,18 @@
+[
+  {
+    "name": "black-death",
+    "friendly_name": "Black Death Reaches Europe",
+    "year": 1347,
+    "category": "disasters-crises",
+    "description": "The bubonic plague killed up to 200 million people across Europe.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "covid-pandemic",
+    "friendly_name": "COVID-19 Pandemic Begins",
+    "year": 2020,
+    "category": "disasters-crises",
+    "description": "The coronavirus pandemic caused a global health crisis.",
+    "difficulty": "easy"
+  }
+]

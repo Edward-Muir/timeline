@@ -1,0 +1,42 @@
+[
+  {
+    "name": "wheel-invention",
+    "friendly_name": "Invention of the Wheel",
+    "year": -3500,
+    "category": "infrastructure-construction",
+    "description": "The wheel was invented in Mesopotamia, transforming transportation.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "steam-engine",
+    "friendly_name": "Watt Improves Steam Engine",
+    "year": 1769,
+    "category": "infrastructure-construction",
+    "description": "James Watt's improvements accelerated the Industrial Revolution.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "photography",
+    "friendly_name": "First Photograph",
+    "year": 1826,
+    "category": "infrastructure-construction",
+    "description": "Nicephore Niepce captured the first permanent photograph.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "automobile",
+    "friendly_name": "First Automobile",
+    "year": 1886,
+    "category": "infrastructure-construction",
+    "description": "Karl Benz patented the first practical automobile.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "flight",
+    "friendly_name": "First Powered Flight",
+    "year": 1903,
+    "category": "infrastructure-construction",
+    "description": "The Wright Brothers achieved the first powered flight.",
+    "difficulty": "easy"
+  }
+]

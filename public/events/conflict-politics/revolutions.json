@@ -1,0 +1,26 @@
+[
+  {
+    "name": "french-revolution",
+    "friendly_name": "French Revolution Begins",
+    "year": 1789,
+    "category": "conflict-politics",
+    "description": "The storming of the Bastille sparked the French Revolution.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "russian-revolution",
+    "friendly_name": "Russian Revolution",
+    "year": 1917,
+    "category": "conflict-politics",
+    "description": "The Bolsheviks seized power, leading to the creation of the Soviet Union.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "napoleon-emperor",
+    "friendly_name": "Napoleon Becomes Emperor",
+    "year": 1804,
+    "category": "conflict-politics",
+    "description": "Napoleon crowned himself Emperor of the French at Notre-Dame.",
+    "difficulty": "medium"
+  }
+]

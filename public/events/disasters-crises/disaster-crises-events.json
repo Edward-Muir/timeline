@@ -1,0 +1,842 @@
+[
+  {
+    "name": "thera-eruption",
+    "friendly_name": "Thera Volcanic Eruption",
+    "year": -1600,
+    "category": "disaster-crises",
+    "description": "A massive volcanic eruption devastated the Minoan civilization in the Aegean.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "bronze-age-collapse",
+    "friendly_name": "Bronze Age Collapse",
+    "year": -1200,
+    "category": "disaster-crises",
+    "description": "Multiple civilizations in the Mediterranean suddenly collapsed within decades.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "plague-of-athens",
+    "friendly_name": "Plague of Athens",
+    "year": -430,
+    "category": "disaster-crises",
+    "description": "A devastating epidemic killed up to a quarter of the Athenian population.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "vesuvius-eruption",
+    "friendly_name": "Mount Vesuvius Erupts",
+    "year": 79,
+    "category": "disaster-crises",
+    "description": "The volcano buried the Roman cities of Pompeii and Herculaneum in ash.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "antonine-plague",
+    "friendly_name": "Antonine Plague",
+    "year": 165,
+    "category": "disaster-crises",
+    "description": "A pandemic killed millions across the Roman Empire over fifteen years.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "plague-of-cyprian",
+    "friendly_name": "Plague of Cyprian",
+    "year": 249,
+    "category": "disaster-crises",
+    "description": "A deadly pandemic swept through the Roman Empire for nearly twenty years.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "plague-of-justinian",
+    "friendly_name": "Plague of Justinian",
+    "year": 541,
+    "category": "disaster-crises",
+    "description": "Bubonic plague killed tens of millions across the Byzantine Empire.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "volcanic-winter-536",
+    "friendly_name": "Volcanic Winter of 536",
+    "year": 536,
+    "category": "disaster-crises",
+    "description": "A mysterious fog plunged Europe into darkness and cold for eighteen months.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "damghan-earthquake",
+    "friendly_name": "Damghan Earthquake",
+    "year": 856,
+    "category": "disaster-crises",
+    "description": "A massive earthquake in Iran killed an estimated 200,000 people.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "aleppo-earthquake",
+    "friendly_name": "Aleppo Earthquake",
+    "year": 1138,
+    "category": "disaster-crises",
+    "description": "A devastating earthquake struck Syria, killing over 200,000 people.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "black-death-arrives",
+    "friendly_name": "Black Death Reaches Europe",
+    "year": 1347,
+    "category": "disaster-crises",
+    "description": "The bubonic plague arrived in Europe, eventually killing one-third of the population.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "black-death-peak",
+    "friendly_name": "Black Death Peaks",
+    "year": 1349,
+    "category": "disaster-crises",
+    "description": "The plague reached its deadliest year, devastating cities across Europe.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "shaanxi-earthquake",
+    "friendly_name": "Shaanxi Earthquake",
+    "year": 1556,
+    "category": "disaster-crises",
+    "description": "The deadliest earthquake in history killed approximately 830,000 people in China.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "great-plague-london",
+    "friendly_name": "Great Plague of London",
+    "year": 1665,
+    "category": "disaster-crises",
+    "description": "Bubonic plague killed nearly 100,000 Londoners in eighteen months.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "great-fire-london",
+    "friendly_name": "Great Fire of London",
+    "year": 1666,
+    "category": "disaster-crises",
+    "description": "A massive fire destroyed most of the medieval City of London.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "lisbon-earthquake",
+    "friendly_name": "Lisbon Earthquake",
+    "year": 1755,
+    "category": "disaster-crises",
+    "description": "A massive earthquake and tsunami destroyed much of Portugal's capital.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "bengal-famine-1770",
+    "friendly_name": "Great Bengal Famine",
+    "year": 1770,
+    "category": "disaster-crises",
+    "description": "A devastating famine killed approximately 10 million people in India.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "laki-eruption",
+    "friendly_name": "Laki Volcanic Eruption",
+    "year": 1783,
+    "category": "disaster-crises",
+    "description": "An Icelandic eruption caused widespread famine and climate effects across Europe.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "yellow-fever-philadelphia",
+    "friendly_name": "Philadelphia Yellow Fever Epidemic",
+    "year": 1793,
+    "category": "disaster-crises",
+    "description": "Yellow fever killed about 5,000 people in the American capital.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "tambora-eruption",
+    "friendly_name": "Mount Tambora Erupts",
+    "year": 1815,
+    "category": "disaster-crises",
+    "description": "The largest volcanic eruption in recorded history caused global climate disruption.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "year-without-summer",
+    "friendly_name": "Year Without a Summer",
+    "year": 1816,
+    "category": "disaster-crises",
+    "description": "Volcanic ash from Tambora caused crop failures and famine worldwide.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "irish-potato-famine",
+    "friendly_name": "Irish Potato Famine Begins",
+    "year": 1845,
+    "category": "disaster-crises",
+    "description": "A potato blight caused mass starvation and emigration from Ireland.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "cholera-london",
+    "friendly_name": "London Cholera Outbreak",
+    "year": 1854,
+    "category": "disaster-crises",
+    "description": "John Snow traced a deadly cholera outbreak to a contaminated water pump.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "indian-rebellion-famine",
+    "friendly_name": "Orissa Famine",
+    "year": 1866,
+    "category": "disaster-crises",
+    "description": "A severe famine in India killed over one million people.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "peshtigo-fire",
+    "friendly_name": "Peshtigo Fire",
+    "year": 1871,
+    "category": "disaster-crises",
+    "description": "The deadliest wildfire in American history killed over 1,500 people in Wisconsin.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "great-chicago-fire",
+    "friendly_name": "Great Chicago Fire",
+    "year": 1871,
+    "category": "disaster-crises",
+    "description": "A devastating fire destroyed much of Chicago, leaving 100,000 homeless.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "krakatoa-eruption",
+    "friendly_name": "Krakatoa Erupts",
+    "year": 1883,
+    "category": "disaster-crises",
+    "description": "A catastrophic volcanic eruption in Indonesia killed over 36,000 people.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "johnstown-flood",
+    "friendly_name": "Johnstown Flood",
+    "year": 1889,
+    "category": "disaster-crises",
+    "description": "A dam failure caused a devastating flood that killed over 2,200 people in Pennsylvania.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "russian-famine-1891",
+    "friendly_name": "Russian Famine of 1891",
+    "year": 1891,
+    "category": "disaster-crises",
+    "description": "Crop failures led to widespread famine affecting millions in Russia.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "galveston-hurricane",
+    "friendly_name": "Galveston Hurricane",
+    "year": 1900,
+    "category": "disaster-crises",
+    "description": "The deadliest natural disaster in US history killed up to 12,000 people in Texas.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "san-francisco-earthquake",
+    "friendly_name": "San Francisco Earthquake",
+    "year": 1906,
+    "category": "disaster-crises",
+    "description": "A massive earthquake and subsequent fires devastated the California city.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "messina-earthquake",
+    "friendly_name": "Messina Earthquake",
+    "year": 1908,
+    "category": "disaster-crises",
+    "description": "An earthquake and tsunami killed over 80,000 people in Sicily and Calabria.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "triangle-shirtwaist-fire",
+    "friendly_name": "Triangle Shirtwaist Factory Fire",
+    "year": 1911,
+    "category": "disaster-crises",
+    "description": "A factory fire killed 146 garment workers in New York City.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "titanic-disaster",
+    "friendly_name": "Titanic Sinks",
+    "year": 1912,
+    "category": "disaster-crises",
+    "description": "The unsinkable ocean liner struck an iceberg, killing over 1,500 passengers.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "spanish-flu-begins",
+    "friendly_name": "Spanish Flu Pandemic Begins",
+    "year": 1918,
+    "category": "disaster-crises",
+    "description": "The deadliest pandemic in modern history began infecting millions worldwide.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "spanish-flu-peak",
+    "friendly_name": "Spanish Flu Second Wave",
+    "year": 1918,
+    "category": "disaster-crises",
+    "description": "The deadly second wave of Spanish flu killed millions in autumn 1918.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "great-kanto-earthquake",
+    "friendly_name": "Great Kanto Earthquake",
+    "year": 1923,
+    "category": "disaster-crises",
+    "description": "A massive earthquake devastated Tokyo and Yokohama, killing over 100,000.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "wall-street-crash",
+    "friendly_name": "Wall Street Crash",
+    "year": 1929,
+    "category": "disaster-crises",
+    "description": "The stock market crashed, triggering the Great Depression.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "great-depression-begins",
+    "friendly_name": "Great Depression Begins",
+    "year": 1929,
+    "category": "disaster-crises",
+    "description": "The worst economic downturn in modern history began after the market crash.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "china-floods-1931",
+    "friendly_name": "China Floods of 1931",
+    "year": 1931,
+    "category": "disaster-crises",
+    "description": "Massive flooding killed up to four million people in central China.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "dust-bowl",
+    "friendly_name": "Dust Bowl Begins",
+    "year": 1934,
+    "category": "disaster-crises",
+    "description": "Severe drought and dust storms devastated the American Great Plains.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "hindenburg-disaster",
+    "friendly_name": "Hindenburg Disaster",
+    "year": 1937,
+    "category": "disaster-crises",
+    "description": "The German airship exploded while landing in New Jersey, ending the airship era.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "bengal-famine-1943",
+    "friendly_name": "Bengal Famine of 1943",
+    "year": 1943,
+    "category": "disaster-crises",
+    "description": "A devastating famine killed up to three million people in British India.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "hiroshima-bombing",
+    "friendly_name": "Atomic Bombing of Hiroshima",
+    "year": 1945,
+    "category": "disaster-crises",
+    "description": "The first atomic bomb used in warfare killed over 100,000 people instantly.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "nagasaki-bombing",
+    "friendly_name": "Atomic Bombing of Nagasaki",
+    "year": 1945,
+    "category": "disaster-crises",
+    "description": "A second atomic bomb was dropped on Japan three days after Hiroshima.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "texas-city-disaster",
+    "friendly_name": "Texas City Disaster",
+    "year": 1947,
+    "category": "disaster-crises",
+    "description": "A ship explosion caused one of the deadliest industrial accidents in US history.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "great-smog-london",
+    "friendly_name": "Great Smog of London",
+    "year": 1952,
+    "category": "disaster-crises",
+    "description": "Severe air pollution killed thousands in London over five days.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "north-sea-flood",
+    "friendly_name": "North Sea Flood",
+    "year": 1953,
+    "category": "disaster-crises",
+    "description": "A devastating storm surge killed over 2,500 people in the Netherlands and UK.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "great-leap-forward-famine",
+    "friendly_name": "Great Chinese Famine Begins",
+    "year": 1959,
+    "category": "disaster-crises",
+    "description": "Mao's Great Leap Forward policies caused a famine killing tens of millions.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "thalidomide-scandal",
+    "friendly_name": "Thalidomide Scandal",
+    "year": 1961,
+    "category": "disaster-crises",
+    "description": "A drug prescribed to pregnant women caused thousands of birth defects worldwide.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "alaska-earthquake",
+    "friendly_name": "Great Alaska Earthquake",
+    "year": 1964,
+    "category": "disaster-crises",
+    "description": "The most powerful earthquake in North American history struck Alaska.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "aberfan-disaster",
+    "friendly_name": "Aberfan Disaster",
+    "year": 1966,
+    "category": "disaster-crises",
+    "description": "A coal waste tip collapsed onto a Welsh village school, killing 144 people.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "biafra-famine",
+    "friendly_name": "Biafra Famine",
+    "year": 1967,
+    "category": "disaster-crises",
+    "description": "A blockade during the Nigerian Civil War caused mass starvation in Biafra.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "bhola-cyclone",
+    "friendly_name": "Bhola Cyclone",
+    "year": 1970,
+    "category": "disaster-crises",
+    "description": "The deadliest tropical cyclone in history killed up to 500,000 in Bangladesh.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "munich-massacre",
+    "friendly_name": "Munich Olympics Massacre",
+    "year": 1972,
+    "category": "disaster-crises",
+    "description": "Palestinian terrorists killed eleven Israeli athletes at the Olympic Games.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "ethiopian-famine-1973",
+    "friendly_name": "Ethiopian Famine of 1973",
+    "year": 1973,
+    "category": "disaster-crises",
+    "description": "A devastating famine killed over 200,000 people in northern Ethiopia.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "tangshan-earthquake",
+    "friendly_name": "Tangshan Earthquake",
+    "year": 1976,
+    "category": "disaster-crises",
+    "description": "A massive earthquake killed over 240,000 people in northeastern China.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "jonestown-massacre",
+    "friendly_name": "Jonestown Massacre",
+    "year": 1978,
+    "category": "disaster-crises",
+    "description": "Over 900 members of a cult died in a mass murder-suicide in Guyana.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "three-mile-island",
+    "friendly_name": "Three Mile Island Accident",
+    "year": 1979,
+    "category": "disaster-crises",
+    "description": "A partial nuclear meltdown occurred at a Pennsylvania power plant.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "mount-st-helens",
+    "friendly_name": "Mount St. Helens Erupts",
+    "year": 1980,
+    "category": "disaster-crises",
+    "description": "A catastrophic volcanic eruption killed 57 people in Washington State.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "aids-epidemic-recognized",
+    "friendly_name": "AIDS Epidemic Recognized",
+    "year": 1981,
+    "category": "disaster-crises",
+    "description": "The CDC first reported cases of what would become the AIDS pandemic.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "ethiopian-famine-1983",
+    "friendly_name": "Ethiopian Famine of 1983",
+    "year": 1983,
+    "category": "disaster-crises",
+    "description": "A severe famine killed approximately one million people in Ethiopia.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "bhopal-disaster",
+    "friendly_name": "Bhopal Disaster",
+    "year": 1984,
+    "category": "disaster-crises",
+    "description": "A gas leak at a pesticide plant killed thousands in India.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "mexico-city-earthquake",
+    "friendly_name": "Mexico City Earthquake",
+    "year": 1985,
+    "category": "disaster-crises",
+    "description": "A powerful earthquake killed over 10,000 people in the Mexican capital.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "challenger-disaster",
+    "friendly_name": "Challenger Disaster",
+    "year": 1986,
+    "category": "disaster-crises",
+    "description": "The Space Shuttle Challenger exploded shortly after launch, killing seven astronauts.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "chernobyl-disaster",
+    "friendly_name": "Chernobyl Nuclear Disaster",
+    "year": 1986,
+    "category": "disaster-crises",
+    "description": "The world's worst nuclear accident occurred at a Soviet power plant in Ukraine.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "lockerbie-bombing",
+    "friendly_name": "Lockerbie Bombing",
+    "year": 1988,
+    "category": "disaster-crises",
+    "description": "A terrorist bomb destroyed Pan Am Flight 103 over Scotland, killing 270.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "armenian-earthquake",
+    "friendly_name": "Armenian Earthquake",
+    "year": 1988,
+    "category": "disaster-crises",
+    "description": "A devastating earthquake killed over 25,000 people in Soviet Armenia.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "exxon-valdez",
+    "friendly_name": "Exxon Valdez Oil Spill",
+    "year": 1989,
+    "category": "disaster-crises",
+    "description": "An oil tanker spilled millions of gallons into Alaska's Prince William Sound.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "hillsborough-disaster",
+    "friendly_name": "Hillsborough Disaster",
+    "year": 1989,
+    "category": "disaster-crises",
+    "description": "A crowd crush at a football stadium killed 97 people in Sheffield, England.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "bangladesh-cyclone-1991",
+    "friendly_name": "Bangladesh Cyclone",
+    "year": 1991,
+    "category": "disaster-crises",
+    "description": "A devastating cyclone killed approximately 138,000 people in Bangladesh.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "somali-famine",
+    "friendly_name": "Somali Famine",
+    "year": 1992,
+    "category": "disaster-crises",
+    "description": "Civil war and drought caused a famine killing over 200,000 in Somalia.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "waco-siege",
+    "friendly_name": "Waco Siege",
+    "year": 1993,
+    "category": "disaster-crises",
+    "description": "A federal siege of a religious compound ended in a fire killing 76 people.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "northridge-earthquake",
+    "friendly_name": "Northridge Earthquake",
+    "year": 1994,
+    "category": "disaster-crises",
+    "description": "A powerful earthquake caused widespread damage in Los Angeles.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "kobe-earthquake",
+    "friendly_name": "Great Hanshin Earthquake",
+    "year": 1995,
+    "category": "disaster-crises",
+    "description": "A devastating earthquake killed over 6,000 people in Kobe, Japan.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "oklahoma-city-bombing",
+    "friendly_name": "Oklahoma City Bombing",
+    "year": 1995,
+    "category": "disaster-crises",
+    "description": "A domestic terrorist attack killed 168 people at a federal building.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "north-korea-famine",
+    "friendly_name": "North Korean Famine",
+    "year": 1995,
+    "category": "disaster-crises",
+    "description": "Economic collapse and floods caused a famine killing hundreds of thousands.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "princess-diana-death",
+    "friendly_name": "Princess Diana Dies",
+    "year": 1997,
+    "category": "disaster-crises",
+    "description": "Princess Diana was killed in a car crash in Paris, shocking the world.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "asian-financial-crisis",
+    "friendly_name": "Asian Financial Crisis",
+    "year": 1997,
+    "category": "disaster-crises",
+    "description": "A currency crisis devastated economies across East and Southeast Asia.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "hurricane-mitch",
+    "friendly_name": "Hurricane Mitch",
+    "year": 1998,
+    "category": "disaster-crises",
+    "description": "The deadliest Atlantic hurricane in over 200 years killed over 11,000 in Central America.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "columbine-shooting",
+    "friendly_name": "Columbine School Shooting",
+    "year": 1999,
+    "category": "disaster-crises",
+    "description": "Two students killed 13 people at a Colorado high school in a mass shooting.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "concorde-crash",
+    "friendly_name": "Concorde Crash",
+    "year": 2000,
+    "category": "disaster-crises",
+    "description": "A supersonic airliner crashed after takeoff from Paris, killing 113 people.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "september-11-attacks",
+    "friendly_name": "September 11 Attacks",
+    "year": 2001,
+    "category": "disaster-crises",
+    "description": "Terrorists crashed hijacked planes into the World Trade Center and Pentagon.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "sars-outbreak",
+    "friendly_name": "SARS Outbreak",
+    "year": 2003,
+    "category": "disaster-crises",
+    "description": "A deadly respiratory disease spread from China to countries worldwide.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "indian-ocean-tsunami",
+    "friendly_name": "Indian Ocean Tsunami",
+    "year": 2004,
+    "category": "disaster-crises",
+    "description": "A massive earthquake triggered tsunamis killing over 230,000 people.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "hurricane-katrina",
+    "friendly_name": "Hurricane Katrina",
+    "year": 2005,
+    "category": "disaster-crises",
+    "description": "A devastating hurricane flooded New Orleans and killed over 1,800 people.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "kashmir-earthquake",
+    "friendly_name": "Kashmir Earthquake",
+    "year": 2005,
+    "category": "disaster-crises",
+    "description": "A powerful earthquake killed over 80,000 people in Pakistan and India.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "cyclone-nargis",
+    "friendly_name": "Cyclone Nargis",
+    "year": 2008,
+    "category": "disaster-crises",
+    "description": "A devastating cyclone killed over 138,000 people in Myanmar.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "sichuan-earthquake",
+    "friendly_name": "Sichuan Earthquake",
+    "year": 2008,
+    "category": "disaster-crises",
+    "description": "A massive earthquake killed over 69,000 people in central China.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "global-financial-crisis",
+    "friendly_name": "Global Financial Crisis",
+    "year": 2008,
+    "category": "disaster-crises",
+    "description": "The collapse of Lehman Brothers triggered the worst financial crisis since the Great Depression.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "haiti-earthquake",
+    "friendly_name": "Haiti Earthquake",
+    "year": 2010,
+    "category": "disaster-crises",
+    "description": "A catastrophic earthquake killed over 200,000 people and devastated Port-au-Prince.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "deepwater-horizon",
+    "friendly_name": "Deepwater Horizon Oil Spill",
+    "year": 2010,
+    "category": "disaster-crises",
+    "description": "An oil rig explosion caused the largest marine oil spill in history.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "fukushima-disaster",
+    "friendly_name": "Fukushima Nuclear Disaster",
+    "year": 2011,
+    "category": "disaster-crises",
+    "description": "An earthquake and tsunami caused meltdowns at a Japanese nuclear plant.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "tohoku-earthquake",
+    "friendly_name": "Tōhoku Earthquake and Tsunami",
+    "year": 2011,
+    "category": "disaster-crises",
+    "description": "A massive earthquake and tsunami killed over 18,000 people in Japan.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "costa-concordia",
+    "friendly_name": "Costa Concordia Disaster",
+    "year": 2012,
+    "category": "disaster-crises",
+    "description": "A cruise ship capsized off the Italian coast, killing 32 people.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "typhoon-haiyan",
+    "friendly_name": "Typhoon Haiyan",
+    "year": 2013,
+    "category": "disaster-crises",
+    "description": "One of the strongest tropical cyclones ever recorded killed over 6,000 in the Philippines.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "ebola-outbreak",
+    "friendly_name": "West African Ebola Outbreak",
+    "year": 2014,
+    "category": "disaster-crises",
+    "description": "The deadliest Ebola outbreak killed over 11,000 people in West Africa.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "mh370-disappearance",
+    "friendly_name": "Malaysia Airlines Flight 370 Disappears",
+    "year": 2014,
+    "category": "disaster-crises",
+    "description": "A passenger plane vanished over the Indian Ocean and was never found.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "nepal-earthquake",
+    "friendly_name": "Nepal Earthquake",
+    "year": 2015,
+    "category": "disaster-crises",
+    "description": "A powerful earthquake killed nearly 9,000 people and damaged historic sites.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "paris-attacks",
+    "friendly_name": "Paris Terror Attacks",
+    "year": 2015,
+    "category": "disaster-crises",
+    "description": "Coordinated terrorist attacks killed 130 people across Paris.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "grenfell-tower-fire",
+    "friendly_name": "Grenfell Tower Fire",
+    "year": 2017,
+    "category": "disaster-crises",
+    "description": "A fire engulfed a London apartment tower, killing 72 residents.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "covid-19-pandemic",
+    "friendly_name": "COVID-19 Pandemic Begins",
+    "year": 2020,
+    "category": "disaster-crises",
+    "description": "A novel coronavirus spread globally, causing millions of deaths worldwide.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "beirut-explosion",
+    "friendly_name": "Beirut Port Explosion",
+    "year": 2020,
+    "category": "disaster-crises",
+    "description": "A massive ammonium nitrate explosion devastated the Lebanese capital.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "texas-winter-storm",
+    "friendly_name": "Texas Winter Storm",
+    "year": 2021,
+    "category": "disaster-crises",
+    "description": "A severe winter storm caused power grid failures and over 200 deaths in Texas.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "turkey-syria-earthquake",
+    "friendly_name": "Turkey-Syria Earthquake",
+    "year": 2023,
+    "category": "disaster-crises",
+    "description": "A devastating earthquake killed over 50,000 people in Turkey and Syria.",
+    "difficulty": "easy"
+  }
+]

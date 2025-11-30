@@ -1,0 +1,34 @@
+[
+  {
+    "name": "millennium",
+    "friendly_name": "Y2K New Millennium",
+    "year": 2000,
+    "category": "cultural-social",
+    "description": "The world celebrated the turn of the millennium.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "facebook-founded",
+    "friendly_name": "Facebook Founded",
+    "year": 2004,
+    "category": "cultural-social",
+    "description": "Mark Zuckerberg launched Facebook from his Harvard dorm room.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "youtube-founded",
+    "friendly_name": "YouTube Launched",
+    "year": 2005,
+    "category": "cultural-social",
+    "description": "The video-sharing platform launched, changing media forever.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "chatgpt",
+    "friendly_name": "ChatGPT Released",
+    "year": 2022,
+    "category": "cultural-social",
+    "description": "OpenAI released ChatGPT, bringing AI to the mainstream.",
+    "difficulty": "easy"
+  }
+]

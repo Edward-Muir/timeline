@@ -1,0 +1,818 @@
+[
+  {
+    "name": "wwi-start",
+    "friendly_name": "World War I Begins",
+    "year": 1914,
+    "category": "conflict-politics",
+    "description": "The assassination of Archduke Franz Ferdinand sparked the Great War.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "wwi-end",
+    "friendly_name": "World War I Ends",
+    "year": 1918,
+    "category": "conflict-politics",
+    "description": "The armistice was signed ending the Great War after four years of conflict.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "wwii-start",
+    "friendly_name": "World War II Begins",
+    "year": 1939,
+    "category": "conflict-politics",
+    "description": "Germany invaded Poland, triggering declarations of war from Britain and France.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "wwii-end-europe",
+    "friendly_name": "V-E Day",
+    "year": 1945,
+    "category": "conflict-politics",
+    "description": "Nazi Germany surrendered unconditionally, ending World War II in Europe.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "wwii-end-pacific",
+    "friendly_name": "V-J Day",
+    "year": 1945,
+    "category": "conflict-politics",
+    "description": "Japan surrendered after atomic bombs were dropped on Hiroshima and Nagasaki.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "american-revolution-start",
+    "friendly_name": "American Revolutionary War Begins",
+    "year": 1775,
+    "category": "conflict-politics",
+    "description": "The Battles of Lexington and Concord marked the start of American independence.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "american-independence",
+    "friendly_name": "Declaration of Independence Signed",
+    "year": 1776,
+    "category": "conflict-politics",
+    "description": "The thirteen American colonies declared independence from British rule.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "french-revolution-start",
+    "friendly_name": "French Revolution Begins",
+    "year": 1789,
+    "category": "conflict-politics",
+    "description": "The storming of the Bastille ignited revolutionary fervor across France.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "napoleon-waterloo",
+    "friendly_name": "Battle of Waterloo",
+    "year": 1815,
+    "category": "conflict-politics",
+    "description": "Napoleon Bonaparte was decisively defeated, ending his rule over France.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "us-civil-war-start",
+    "friendly_name": "American Civil War Begins",
+    "year": 1861,
+    "category": "conflict-politics",
+    "description": "Confederate forces attacked Fort Sumter, starting the bloodiest American conflict.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "us-civil-war-end",
+    "friendly_name": "American Civil War Ends",
+    "year": 1865,
+    "category": "conflict-politics",
+    "description": "General Lee surrendered at Appomattox Courthouse, ending the Civil War.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "lincoln-assassination",
+    "friendly_name": "Abraham Lincoln Assassinated",
+    "year": 1865,
+    "category": "conflict-politics",
+    "description": "President Lincoln was shot by John Wilkes Booth at Ford's Theatre.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "russian-revolution",
+    "friendly_name": "Russian Revolution",
+    "year": 1917,
+    "category": "conflict-politics",
+    "description": "The Bolsheviks seized power, establishing the world's first communist state.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "pearl-harbor",
+    "friendly_name": "Attack on Pearl Harbor",
+    "year": 1941,
+    "category": "conflict-politics",
+    "description": "Japan's surprise attack brought the United States into World War II.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "d-day",
+    "friendly_name": "D-Day Invasion",
+    "year": 1944,
+    "category": "conflict-politics",
+    "description": "Allied forces landed on Normandy beaches in the largest amphibious invasion in history.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "korean-war-start",
+    "friendly_name": "Korean War Begins",
+    "year": 1950,
+    "category": "conflict-politics",
+    "description": "North Korea invaded South Korea, beginning a major Cold War conflict.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "korean-war-armistice",
+    "friendly_name": "Korean War Armistice",
+    "year": 1953,
+    "category": "conflict-politics",
+    "description": "An armistice halted fighting on the Korean Peninsula, though no peace treaty was signed.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "vietnam-war-start",
+    "friendly_name": "Vietnam War Escalates",
+    "year": 1965,
+    "category": "conflict-politics",
+    "description": "The United States deployed ground troops to South Vietnam.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "vietnam-war-end",
+    "friendly_name": "Fall of Saigon",
+    "year": 1975,
+    "category": "conflict-politics",
+    "description": "North Vietnamese forces captured Saigon, ending the Vietnam War.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "berlin-wall-fall",
+    "friendly_name": "Fall of the Berlin Wall",
+    "year": 1989,
+    "category": "conflict-politics",
+    "description": "East Germany opened its borders, symbolizing the end of the Cold War.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "soviet-union-collapse",
+    "friendly_name": "Soviet Union Dissolves",
+    "year": 1991,
+    "category": "conflict-politics",
+    "description": "The USSR officially dissolved into fifteen independent republics.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "gulf-war",
+    "friendly_name": "Gulf War Begins",
+    "year": 1991,
+    "category": "conflict-politics",
+    "description": "A US-led coalition launched Operation Desert Storm to liberate Kuwait.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "september-11",
+    "friendly_name": "September 11 Attacks",
+    "year": 2001,
+    "category": "conflict-politics",
+    "description": "Terrorists hijacked planes and attacked the World Trade Center and Pentagon.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "iraq-war-start",
+    "friendly_name": "Iraq War Begins",
+    "year": 2003,
+    "category": "conflict-politics",
+    "description": "The United States invaded Iraq to overthrow Saddam Hussein's regime.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "magna-carta",
+    "friendly_name": "Magna Carta Signed",
+    "year": 1215,
+    "category": "conflict-politics",
+    "description": "English barons forced King John to sign a charter limiting royal power.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "hundred-years-war-start",
+    "friendly_name": "Hundred Years' War Begins",
+    "year": 1337,
+    "category": "conflict-politics",
+    "description": "England and France began a prolonged conflict over succession and territory.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "hundred-years-war-end",
+    "friendly_name": "Hundred Years' War Ends",
+    "year": 1453,
+    "category": "conflict-politics",
+    "description": "France expelled the English, ending over a century of intermittent warfare.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "constantinople-fall",
+    "friendly_name": "Fall of Constantinople",
+    "year": 1453,
+    "category": "conflict-politics",
+    "description": "Ottoman forces conquered the Byzantine capital, ending the Eastern Roman Empire.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "spanish-armada",
+    "friendly_name": "Spanish Armada Defeated",
+    "year": 1588,
+    "category": "conflict-politics",
+    "description": "England repelled Spain's massive invasion fleet, securing Protestant rule.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "english-civil-war-start",
+    "friendly_name": "English Civil War Begins",
+    "year": 1642,
+    "category": "conflict-politics",
+    "description": "Conflict erupted between Parliamentarians and Royalists over governance of England.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "charles-i-execution",
+    "friendly_name": "King Charles I Executed",
+    "year": 1649,
+    "category": "conflict-politics",
+    "description": "The English king was beheaded after being convicted of treason.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "glorious-revolution",
+    "friendly_name": "Glorious Revolution",
+    "year": 1688,
+    "category": "conflict-politics",
+    "description": "William of Orange overthrew King James II in a largely bloodless coup.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "seven-years-war-start",
+    "friendly_name": "Seven Years' War Begins",
+    "year": 1756,
+    "category": "conflict-politics",
+    "description": "A global conflict erupted involving most European great powers.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "bastille-day",
+    "friendly_name": "Storming of the Bastille",
+    "year": 1789,
+    "category": "conflict-politics",
+    "description": "Parisian revolutionaries stormed the royal fortress, symbolizing the revolution.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "louis-xvi-execution",
+    "friendly_name": "King Louis XVI Executed",
+    "year": 1793,
+    "category": "conflict-politics",
+    "description": "The French king was guillotined during the Reign of Terror.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "haitian-revolution",
+    "friendly_name": "Haitian Revolution Succeeds",
+    "year": 1804,
+    "category": "conflict-politics",
+    "description": "Haiti became the first nation founded by a successful slave revolt.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "napoleon-emperor",
+    "friendly_name": "Napoleon Crowned Emperor",
+    "year": 1804,
+    "category": "conflict-politics",
+    "description": "Napoleon Bonaparte crowned himself Emperor of the French.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "war-1812",
+    "friendly_name": "War of 1812 Begins",
+    "year": 1812,
+    "category": "conflict-politics",
+    "description": "The United States declared war on Britain over trade restrictions and impressment.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "napoleon-russia",
+    "friendly_name": "Napoleon Invades Russia",
+    "year": 1812,
+    "category": "conflict-politics",
+    "description": "Napoleon's Grande Armée invaded Russia in a disastrous campaign.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "greek-independence",
+    "friendly_name": "Greek War of Independence Begins",
+    "year": 1821,
+    "category": "conflict-politics",
+    "description": "Greeks revolted against Ottoman rule, seeking national independence.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "mexican-american-war",
+    "friendly_name": "Mexican-American War Begins",
+    "year": 1846,
+    "category": "conflict-politics",
+    "description": "Conflict erupted between the US and Mexico over Texas annexation.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "revolutions-1848",
+    "friendly_name": "Revolutions of 1848",
+    "year": 1848,
+    "category": "conflict-politics",
+    "description": "A wave of revolutionary uprisings swept across Europe demanding reform.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "crimean-war",
+    "friendly_name": "Crimean War Begins",
+    "year": 1853,
+    "category": "conflict-politics",
+    "description": "Britain, France, and the Ottoman Empire fought against Russian expansion.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "indian-rebellion",
+    "friendly_name": "Indian Rebellion of 1857",
+    "year": 1857,
+    "category": "conflict-politics",
+    "description": "Indian soldiers revolted against the British East India Company.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "italian-unification",
+    "friendly_name": "Italian Unification Completed",
+    "year": 1871,
+    "category": "conflict-politics",
+    "description": "The Kingdom of Italy unified the Italian peninsula under one government.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "german-unification",
+    "friendly_name": "German Unification",
+    "year": 1871,
+    "category": "conflict-politics",
+    "description": "Prussia united German states into the German Empire after defeating France.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "franco-prussian-war",
+    "friendly_name": "Franco-Prussian War Begins",
+    "year": 1870,
+    "category": "conflict-politics",
+    "description": "Prussia and German allies went to war with France over succession disputes.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "paris-commune",
+    "friendly_name": "Paris Commune",
+    "year": 1871,
+    "category": "conflict-politics",
+    "description": "Radical socialists briefly governed Paris before being violently suppressed.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "spanish-american-war",
+    "friendly_name": "Spanish-American War",
+    "year": 1898,
+    "category": "conflict-politics",
+    "description": "The US defeated Spain, gaining control of Cuba, Puerto Rico, and the Philippines.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "boer-war",
+    "friendly_name": "Second Boer War Begins",
+    "year": 1899,
+    "category": "conflict-politics",
+    "description": "Britain fought Dutch settlers in South Africa in a brutal colonial conflict.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "russo-japanese-war",
+    "friendly_name": "Russo-Japanese War",
+    "year": 1904,
+    "category": "conflict-politics",
+    "description": "Japan defeated Russia, becoming the first Asian power to beat a European nation.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "russian-revolution-1905",
+    "friendly_name": "Russian Revolution of 1905",
+    "year": 1905,
+    "category": "conflict-politics",
+    "description": "Mass unrest forced Tsar Nicholas II to create a parliament.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "chinese-revolution",
+    "friendly_name": "Chinese Revolution",
+    "year": 1911,
+    "category": "conflict-politics",
+    "description": "Revolutionaries overthrew the Qing Dynasty, establishing the Republic of China.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "lusitania-sinking",
+    "friendly_name": "Lusitania Sunk",
+    "year": 1915,
+    "category": "conflict-politics",
+    "description": "A German U-boat sank the British liner, killing 1,198 including 128 Americans.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "battle-somme",
+    "friendly_name": "Battle of the Somme",
+    "year": 1916,
+    "category": "conflict-politics",
+    "description": "One of the bloodiest battles in history killed over one million soldiers.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "treaty-versailles",
+    "friendly_name": "Treaty of Versailles Signed",
+    "year": 1919,
+    "category": "conflict-politics",
+    "description": "The peace treaty officially ended World War I and imposed harsh terms on Germany.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "irish-independence",
+    "friendly_name": "Irish War of Independence Begins",
+    "year": 1919,
+    "category": "conflict-politics",
+    "description": "Irish republicans launched a guerrilla war against British rule.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "mussolini-power",
+    "friendly_name": "Mussolini Takes Power",
+    "year": 1922,
+    "category": "conflict-politics",
+    "description": "The March on Rome brought Benito Mussolini to power as Italy's fascist leader.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "hitler-chancellor",
+    "friendly_name": "Hitler Becomes Chancellor",
+    "year": 1933,
+    "category": "conflict-politics",
+    "description": "Adolf Hitler was appointed Chancellor of Germany, beginning Nazi rule.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "spanish-civil-war",
+    "friendly_name": "Spanish Civil War Begins",
+    "year": 1936,
+    "category": "conflict-politics",
+    "description": "Nationalist forces led by Franco rebelled against Spain's Republican government.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "kristallnacht",
+    "friendly_name": "Kristallnacht",
+    "year": 1938,
+    "category": "conflict-politics",
+    "description": "Nazi mobs attacked Jewish businesses and synagogues across Germany.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "munich-agreement",
+    "friendly_name": "Munich Agreement",
+    "year": 1938,
+    "category": "conflict-politics",
+    "description": "European powers allowed Hitler to annex part of Czechoslovakia.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "battle-britain",
+    "friendly_name": "Battle of Britain",
+    "year": 1940,
+    "category": "conflict-politics",
+    "description": "The Royal Air Force defended Britain against sustained German bombing.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "stalingrad",
+    "friendly_name": "Battle of Stalingrad Ends",
+    "year": 1943,
+    "category": "conflict-politics",
+    "description": "Soviet forces defeated Germany in a turning point of World War II.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "nuremberg-trials",
+    "friendly_name": "Nuremberg Trials Begin",
+    "year": 1945,
+    "category": "conflict-politics",
+    "description": "Nazi war criminals were prosecuted for crimes against humanity.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "indian-independence",
+    "friendly_name": "Indian Independence",
+    "year": 1947,
+    "category": "conflict-politics",
+    "description": "India gained independence from British rule and was partitioned with Pakistan.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "israel-founded",
+    "friendly_name": "State of Israel Founded",
+    "year": 1948,
+    "category": "conflict-politics",
+    "description": "Israel declared independence, immediately sparking conflict with Arab neighbors.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "nato-founded",
+    "friendly_name": "NATO Founded",
+    "year": 1949,
+    "category": "conflict-politics",
+    "description": "Western nations formed a military alliance against Soviet expansion.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "chinese-communist-victory",
+    "friendly_name": "Communist Revolution in China",
+    "year": 1949,
+    "category": "conflict-politics",
+    "description": "Mao Zedong's communists defeated the Nationalists and founded the People's Republic.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "cuban-revolution",
+    "friendly_name": "Cuban Revolution Succeeds",
+    "year": 1959,
+    "category": "conflict-politics",
+    "description": "Fidel Castro's forces overthrew the Batista dictatorship in Cuba.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "bay-of-pigs",
+    "friendly_name": "Bay of Pigs Invasion",
+    "year": 1961,
+    "category": "conflict-politics",
+    "description": "A CIA-backed invasion of Cuba by exiles failed disastrously.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "cuban-missile-crisis",
+    "friendly_name": "Cuban Missile Crisis",
+    "year": 1962,
+    "category": "conflict-politics",
+    "description": "The US and USSR came to the brink of nuclear war over missiles in Cuba.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "jfk-assassination",
+    "friendly_name": "JFK Assassinated",
+    "year": 1963,
+    "category": "conflict-politics",
+    "description": "President John F. Kennedy was shot and killed in Dallas, Texas.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "six-day-war",
+    "friendly_name": "Six-Day War",
+    "year": 1967,
+    "category": "conflict-politics",
+    "description": "Israel defeated Arab nations and captured the Sinai, Gaza, West Bank, and Golan Heights.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "mlk-assassination",
+    "friendly_name": "Martin Luther King Jr. Assassinated",
+    "year": 1968,
+    "category": "conflict-politics",
+    "description": "The civil rights leader was shot in Memphis, sparking nationwide unrest.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "prague-spring",
+    "friendly_name": "Prague Spring Crushed",
+    "year": 1968,
+    "category": "conflict-politics",
+    "description": "Soviet forces invaded Czechoslovakia to end political liberalization.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "yom-kippur-war",
+    "friendly_name": "Yom Kippur War",
+    "year": 1973,
+    "category": "conflict-politics",
+    "description": "Egypt and Syria launched a surprise attack on Israel during the Jewish holiday.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "watergate",
+    "friendly_name": "Nixon Resigns Over Watergate",
+    "year": 1974,
+    "category": "conflict-politics",
+    "description": "President Nixon resigned facing impeachment for the Watergate scandal.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "cambodian-genocide",
+    "friendly_name": "Khmer Rouge Takes Power",
+    "year": 1975,
+    "category": "conflict-politics",
+    "description": "The Khmer Rouge seized Cambodia and began a genocide killing nearly two million.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "iranian-revolution",
+    "friendly_name": "Iranian Revolution",
+    "year": 1979,
+    "category": "conflict-politics",
+    "description": "Islamic revolutionaries overthrew the Shah and established a theocratic republic.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "soviet-afghanistan",
+    "friendly_name": "Soviet-Afghan War Begins",
+    "year": 1979,
+    "category": "conflict-politics",
+    "description": "The Soviet Union invaded Afghanistan to support its communist government.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "falklands-war",
+    "friendly_name": "Falklands War",
+    "year": 1982,
+    "category": "conflict-politics",
+    "description": "Britain and Argentina fought over the Falkland Islands in the South Atlantic.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "tiananmen-square",
+    "friendly_name": "Tiananmen Square Massacre",
+    "year": 1989,
+    "category": "conflict-politics",
+    "description": "Chinese troops killed pro-democracy protesters in Beijing.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "german-reunification",
+    "friendly_name": "German Reunification",
+    "year": 1990,
+    "category": "conflict-politics",
+    "description": "East and West Germany reunited as a single nation after 45 years.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "yugoslavia-wars-start",
+    "friendly_name": "Yugoslav Wars Begin",
+    "year": 1991,
+    "category": "conflict-politics",
+    "description": "Yugoslavia began to dissolve amid ethnic conflicts and declarations of independence.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "apartheid-ends",
+    "friendly_name": "Apartheid Ends in South Africa",
+    "year": 1994,
+    "category": "conflict-politics",
+    "description": "South Africa held its first democratic elections, ending racial segregation.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "rwandan-genocide",
+    "friendly_name": "Rwandan Genocide",
+    "year": 1994,
+    "category": "conflict-politics",
+    "description": "Hutu extremists killed approximately 800,000 Tutsis and moderate Hutus.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "oklahoma-city-bombing",
+    "friendly_name": "Oklahoma City Bombing",
+    "year": 1995,
+    "category": "conflict-politics",
+    "description": "A domestic terrorist attack killed 168 people at a federal building.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "srebrenica-massacre",
+    "friendly_name": "Srebrenica Massacre",
+    "year": 1995,
+    "category": "conflict-politics",
+    "description": "Bosnian Serb forces killed over 8,000 Bosniak Muslims in Europe's worst post-WWII atrocity.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "good-friday-agreement",
+    "friendly_name": "Good Friday Agreement",
+    "year": 1998,
+    "category": "conflict-politics",
+    "description": "A peace agreement largely ended decades of conflict in Northern Ireland.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "kosovo-war",
+    "friendly_name": "Kosovo War Ends",
+    "year": 1999,
+    "category": "conflict-politics",
+    "description": "NATO bombing forced Serbian withdrawal from Kosovo.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "afghanistan-war-start",
+    "friendly_name": "War in Afghanistan Begins",
+    "year": 2001,
+    "category": "conflict-politics",
+    "description": "The US invaded Afghanistan following the September 11 attacks.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "saddam-hussein-captured",
+    "friendly_name": "Saddam Hussein Captured",
+    "year": 2003,
+    "category": "conflict-politics",
+    "description": "US forces captured the Iraqi dictator hiding in a spider hole.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "madrid-bombings",
+    "friendly_name": "Madrid Train Bombings",
+    "year": 2004,
+    "category": "conflict-politics",
+    "description": "Terrorist attacks on commuter trains killed 193 people in Spain.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "london-bombings",
+    "friendly_name": "London Bombings",
+    "year": 2005,
+    "category": "conflict-politics",
+    "description": "Suicide bombers attacked London's transport system, killing 52 people.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "bin-laden-killed",
+    "friendly_name": "Osama bin Laden Killed",
+    "year": 2011,
+    "category": "conflict-politics",
+    "description": "US Navy SEALs killed the al-Qaeda leader in Pakistan.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "arab-spring",
+    "friendly_name": "Arab Spring Begins",
+    "year": 2011,
+    "category": "conflict-politics",
+    "description": "Pro-democracy protests swept across the Middle East and North Africa.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "syrian-civil-war",
+    "friendly_name": "Syrian Civil War Begins",
+    "year": 2011,
+    "category": "conflict-politics",
+    "description": "Anti-government protests in Syria escalated into a devastating civil war.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "crimea-annexation",
+    "friendly_name": "Russia Annexes Crimea",
+    "year": 2014,
+    "category": "conflict-politics",
+    "description": "Russia seized and annexed the Crimean Peninsula from Ukraine.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "isis-caliphate",
+    "friendly_name": "ISIS Declares Caliphate",
+    "year": 2014,
+    "category": "conflict-politics",
+    "description": "The Islamic State declared a caliphate across parts of Iraq and Syria.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "brexit-vote",
+    "friendly_name": "Brexit Referendum",
+    "year": 2016,
+    "category": "conflict-politics",
+    "description": "The United Kingdom voted to leave the European Union.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "russia-ukraine-invasion",
+    "friendly_name": "Russia Invades Ukraine",
+    "year": 2022,
+    "category": "conflict-politics",
+    "description": "Russia launched a full-scale invasion of Ukraine, starting a major European war.",
+    "difficulty": "easy"
+  }
+]
