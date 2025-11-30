@@ -1,4 +1,5 @@
 import { useState, useCallback, useEffect } from 'react';
+import { arrayMove } from '@dnd-kit/sortable';
 import { GameState, GameConfig, HistoricalEvent, DropPosition, PlacementResult } from '../types';
 import {
   initializeGame,
@@ -19,6 +20,7 @@ interface UseGameStateReturn {
   loadError: string | null;
   startGame: (config: GameConfig) => void;
   placeCard: (event: HistoricalEvent, position: DropPosition) => PlacementResult;
+  reorderHand: (oldIndex: number, newIndex: number) => void;
   resetGame: () => void;
   isDragging: boolean;
   setIsDragging: (dragging: boolean) => void;
@@ -78,6 +80,19 @@ export function useGameState(): UseGameStateReturn {
   const clearReveal = useCallback(() => {
     setRevealingCard(null);
   }, []);
+
+  const reorderHand = useCallback((oldIndex: number, newIndex: number) => {
+    if (!gameState) return;
+
+    setGameState(prev => {
+      if (!prev) return prev;
+      const newPlayers = [...prev.players];
+      const currentPlayer = { ...newPlayers[prev.currentPlayerIndex] };
+      currentPlayer.hand = arrayMove(currentPlayer.hand, oldIndex, newIndex);
+      newPlayers[prev.currentPlayerIndex] = currentPlayer;
+      return { ...prev, players: newPlayers };
+    });
+  }, [gameState]);
 
   const placeCard = useCallback((event: HistoricalEvent, position: DropPosition): PlacementResult => {
     if (!gameState) {
@@ -170,6 +185,7 @@ export function useGameState(): UseGameStateReturn {
     loadError,
     startGame,
     placeCard,
+    reorderHand,
     resetGame,
     isDragging,
     setIsDragging,

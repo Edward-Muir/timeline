@@ -1,4 +1,5 @@
 import React from 'react';
+import { SortableContext, horizontalListSortingStrategy } from '@dnd-kit/sortable';
 import { HistoricalEvent, Player } from '../../types';
 import HandCard from './HandCard';
 
@@ -43,17 +44,22 @@ const Hand: React.FC<HandProps> = ({
       </div>
 
       {/* Cards in hand */}
-      <div className="flex items-end justify-center gap-[-20px] min-h-[200px]">
-        {player.hand.map((event, index) => (
-          <HandCard
-            key={event.name}
-            event={event}
-            index={index}
-            isRevealing={revealingCard?.name === event.name}
-            showYear={revealingCard?.name === event.name}
-          />
-        ))}
-      </div>
+      <SortableContext
+        items={player.hand.map(e => e.name)}
+        strategy={horizontalListSortingStrategy}
+      >
+        <div className="flex items-end justify-center gap-[-20px] min-h-[200px]">
+          {player.hand.map((event, index) => (
+            <HandCard
+              key={event.name}
+              event={event}
+              index={index}
+              isRevealing={revealingCard?.name === event.name}
+              showYear={revealingCard?.name === event.name}
+            />
+          ))}
+        </div>
+      </SortableContext>
 
       {/* Instructions */}
       {isCurrentPlayer && (

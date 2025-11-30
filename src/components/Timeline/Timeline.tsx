@@ -1,18 +1,81 @@
 import React, { useRef, useEffect } from 'react';
 import { SortableContext, horizontalListSortingStrategy } from '@dnd-kit/sortable';
+import { useDroppable } from '@dnd-kit/core';
 import { HistoricalEvent } from '../../types';
-import { getDropPositions } from '../../utils/gameLogic';
 import TimelineCard from './TimelineCard';
-import DropZone from './DropZone';
 
 interface TimelineProps {
   events: HistoricalEvent[];
   isDragging: boolean;
+  insertionIndex?: number | null;
 }
 
-const Timeline: React.FC<TimelineProps> = ({ events, isDragging }) => {
+// Insertion indicator component - glowing line showing where card will be placed
+const InsertionIndicator: React.FC = () => (
+  <div className="w-2 h-44 bg-blue-500 rounded-full animate-pulse mx-1 shadow-lg shadow-blue-500/50 flex-shrink-0" />
+);
+
+// Empty timeline drop zone component
+const EmptyTimelineDropZone: React.FC<{ isActive: boolean }> = ({ isActive }) => {
+  const { isOver, setNodeRef } = useDroppable({
+    id: 'empty-timeline',
+  });
+
+  if (!isActive) {
+    return (
+      <div className="flex items-center justify-center h-48 text-sketch/40 font-hand text-xl">
+        Timeline will appear here
+      </div>
+    );
+  }
+
+  return (
+    <div
+      ref={setNodeRef}
+      className={`
+        flex items-center justify-center h-48 min-w-[200px]
+        rounded-lg border-4 border-dashed
+        transition-all duration-200
+        ${isOver
+          ? 'border-blue-500 bg-blue-100/50 scale-105'
+          : 'border-gray-400/50 bg-gray-100/30'
+        }
+      `}
+    >
+      <span className={`
+        font-hand text-xl
+        ${isOver ? 'text-blue-500' : 'text-gray-400'}
+      `}>
+        Drop here to start the timeline
+      </span>
+    </div>
+  );
+};
+
+// Edge drop zone for inserting at timeline ends
+const EdgeDropZone: React.FC<{ id: string; isActive: boolean }> = ({ id, isActive }) => {
+  const { isOver, setNodeRef } = useDroppable({ id });
+
+  if (!isActive) return null;
+
+  return (
+    <div
+      ref={setNodeRef}
+      className={`
+        w-16 h-44 flex-shrink-0
+        rounded-lg border-2 border-dashed
+        transition-all duration-200
+        ${isOver
+          ? 'border-blue-500 bg-blue-100/50'
+          : 'border-gray-300/50 bg-gray-100/20'
+        }
+      `}
+    />
+  );
+};
+
+const Timeline: React.FC<TimelineProps> = ({ events, isDragging, insertionIndex }) => {
   const scrollRef = useRef<HTMLDivElement>(null);
-  const dropPositions = getDropPositions(events);
 
   // Auto-scroll to center when timeline changes
   useEffect(() => {
@@ -39,34 +102,43 @@ const Timeline: React.FC<TimelineProps> = ({ events, isDragging }) => {
         ref={scrollRef}
         className="overflow-x-auto timeline-scroll px-8 py-4"
       >
-        <SortableContext
-          items={events.map(e => e.name)}
-          strategy={horizontalListSortingStrategy}
-        >
-          <div className="flex items-center justify-start min-w-max gap-2">
-            {/* Timeline line */}
-            <div className="absolute left-0 right-0 h-1 bg-sketch/20 -z-10" />
+        {events.length === 0 ? (
+          <EmptyTimelineDropZone isActive={isDragging} />
+        ) : (
+          <SortableContext
+            items={events.map(e => e.name)}
+            strategy={horizontalListSortingStrategy}
+          >
+            <div className="flex items-center justify-center min-w-max gap-4">
+              {/* Timeline line */}
+              <div className="absolute left-0 right-0 h-1 bg-sketch/20 -z-10" />
 
-            {/* Render cards and drop zones interleaved */}
-            {dropPositions.map((position, index) => (
-              <React.Fragment key={`drop-${index}`}>
-                {/* Drop zone before this position */}
-                <DropZone
-                  position={position}
-                  isActive={isDragging}
-                />
+              {/* Left edge drop zone for inserting before first card */}
+              <EdgeDropZone id="timeline-edge-start" isActive={isDragging} />
 
-                {/* Card at this position (if exists) */}
-                {index < events.length && (
+              {/* Render timeline cards with insertion indicators */}
+              {events.map((event, index) => (
+                <React.Fragment key={event.name}>
+                  {/* Show indicator BEFORE this card if insertionIndex matches */}
+                  {isDragging && insertionIndex === index && (
+                    <InsertionIndicator />
+                  )}
                   <TimelineCard
-                    event={events[index]}
+                    event={event}
                     index={index}
                   />
-                )}
-              </React.Fragment>
-            ))}
-          </div>
-        </SortableContext>
+                </React.Fragment>
+              ))}
+              {/* Show indicator at END if inserting after last card */}
+              {isDragging && insertionIndex === events.length && (
+                <InsertionIndicator />
+              )}
+
+              {/* Right edge drop zone for inserting after last card */}
+              <EdgeDropZone id="timeline-edge-end" isActive={isDragging} />
+            </div>
+          </SortableContext>
+        )}
       </div>
 
       {/* Direction indicators */}

@@ -109,7 +109,7 @@ const GameSetup: React.FC<GameSetupProps> = ({ onStartGame, eventCount }) => {
           <input
             type="range"
             min={1}
-            max={5}
+            max={10}
             value={startingEvents}
             onChange={(e) => setStartingEvents(Number(e.target.value))}
             className="w-full accent-yellow-400"

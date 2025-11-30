@@ -1,0 +1,770 @@
+[
+  {
+    "name": "gobekli-tepe",
+    "friendly_name": "Göbekli Tepe Constructed",
+    "year": -9500,
+    "category": "infrastructure-construction",
+    "description": "The world's oldest known temple complex was built in modern-day Turkey.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "jericho-walls",
+    "friendly_name": "Walls of Jericho Built",
+    "year": -8000,
+    "category": "infrastructure-construction",
+    "description": "One of the earliest known permanent settlements constructed defensive walls.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "catalhoyuk-settlement",
+    "friendly_name": "Çatalhöyük Settlement Flourishes",
+    "year": -7000,
+    "category": "infrastructure-construction",
+    "description": "One of the world's first urban settlements thrived in Anatolia.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "stonehenge-begins",
+    "friendly_name": "Stonehenge Construction Begins",
+    "year": -3000,
+    "category": "infrastructure-construction",
+    "description": "Construction began on the iconic prehistoric monument in England.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "great-pyramid-giza",
+    "friendly_name": "Great Pyramid of Giza Completed",
+    "year": -2560,
+    "category": "infrastructure-construction",
+    "description": "The largest Egyptian pyramid was built as a tomb for Pharaoh Khufu.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "sphinx-built",
+    "friendly_name": "Great Sphinx of Giza Built",
+    "year": -2500,
+    "category": "infrastructure-construction",
+    "description": "The massive limestone statue with a lion's body and human head was carved.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "ziggurat-ur",
+    "friendly_name": "Ziggurat of Ur Built",
+    "year": -2100,
+    "category": "infrastructure-construction",
+    "description": "The Sumerians constructed a massive stepped temple in ancient Mesopotamia.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "palace-knossos",
+    "friendly_name": "Palace of Knossos Built",
+    "year": -1700,
+    "category": "infrastructure-construction",
+    "description": "The Minoans built the legendary palace complex on the island of Crete.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "lion-gate-mycenae",
+    "friendly_name": "Lion Gate of Mycenae Built",
+    "year": -1250,
+    "category": "infrastructure-construction",
+    "description": "The iconic entrance to the citadel of Mycenae was constructed in Greece.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "solomons-temple",
+    "friendly_name": "Solomon's Temple Completed",
+    "year": -957,
+    "category": "infrastructure-construction",
+    "description": "The First Temple was built in Jerusalem as the center of Jewish worship.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "rome-founded",
+    "friendly_name": "Rome Founded",
+    "year": -753,
+    "category": "infrastructure-construction",
+    "description": "According to legend, Romulus founded the city of Rome.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "cloaca-maxima",
+    "friendly_name": "Cloaca Maxima Built",
+    "year": -600,
+    "category": "infrastructure-construction",
+    "description": "Rome constructed one of the world's earliest sewage systems.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "persepolis-founded",
+    "friendly_name": "Persepolis Founded",
+    "year": -518,
+    "category": "infrastructure-construction",
+    "description": "Darius the Great began building the ceremonial capital of the Persian Empire.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "parthenon-completed",
+    "friendly_name": "Parthenon Completed",
+    "year": -432,
+    "category": "infrastructure-construction",
+    "description": "Athens finished the iconic temple dedicated to the goddess Athena.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "great-wall-begins",
+    "friendly_name": "Great Wall Construction Begins",
+    "year": -221,
+    "category": "infrastructure-construction",
+    "description": "Emperor Qin Shi Huang began connecting and extending defensive walls across China.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "appian-way",
+    "friendly_name": "Appian Way Constructed",
+    "year": -312,
+    "category": "infrastructure-construction",
+    "description": "Rome built its first major highway connecting the city to southern Italy.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "library-alexandria-built",
+    "friendly_name": "Library of Alexandria Built",
+    "year": -283,
+    "category": "infrastructure-construction",
+    "description": "The ancient world's greatest library was constructed in Egypt.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "colossus-rhodes",
+    "friendly_name": "Colossus of Rhodes Completed",
+    "year": -280,
+    "category": "infrastructure-construction",
+    "description": "A giant bronze statue of the sun god Helios was erected at the harbor.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "lighthouse-alexandria",
+    "friendly_name": "Lighthouse of Alexandria Completed",
+    "year": -280,
+    "category": "infrastructure-construction",
+    "description": "One of the Seven Wonders was built to guide ships into the harbor.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "terracotta-army",
+    "friendly_name": "Terracotta Army Created",
+    "year": -210,
+    "category": "infrastructure-construction",
+    "description": "Thousands of clay soldiers were buried with China's first emperor.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "pont-du-gard",
+    "friendly_name": "Pont du Gard Built",
+    "year": 19,
+    "category": "infrastructure-construction",
+    "description": "Romans built the impressive aqueduct bridge in southern France.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "colosseum-completed",
+    "friendly_name": "Colosseum Completed",
+    "year": 80,
+    "category": "infrastructure-construction",
+    "description": "Rome finished building its massive amphitheater for gladiatorial games.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "pantheon-rebuilt",
+    "friendly_name": "Pantheon Rebuilt",
+    "year": 125,
+    "category": "infrastructure-construction",
+    "description": "Emperor Hadrian rebuilt the Roman temple with its famous domed roof.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "hadrians-wall",
+    "friendly_name": "Hadrian's Wall Completed",
+    "year": 128,
+    "category": "infrastructure-construction",
+    "description": "The Romans finished their defensive wall across northern Britain.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "baths-caracalla",
+    "friendly_name": "Baths of Caracalla Completed",
+    "year": 216,
+    "category": "infrastructure-construction",
+    "description": "Rome opened one of the largest and most impressive public bath complexes.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "constantinople-founded",
+    "friendly_name": "Constantinople Founded",
+    "year": 330,
+    "category": "infrastructure-construction",
+    "description": "Emperor Constantine established the new capital of the Roman Empire.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "hagia-sophia-completed",
+    "friendly_name": "Hagia Sophia Completed",
+    "year": 537,
+    "category": "infrastructure-construction",
+    "description": "The Byzantine cathedral with its massive dome was finished in Constantinople.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "grand-canal-china",
+    "friendly_name": "Grand Canal of China Extended",
+    "year": 609,
+    "category": "infrastructure-construction",
+    "description": "The Sui Dynasty completed major extensions to the world's longest canal.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "dome-rock-completed",
+    "friendly_name": "Dome of the Rock Completed",
+    "year": 691,
+    "category": "infrastructure-construction",
+    "description": "The Islamic shrine was built on the Temple Mount in Jerusalem.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "nara-todaiji",
+    "friendly_name": "Tōdai-ji Temple Completed",
+    "year": 752,
+    "category": "infrastructure-construction",
+    "description": "Japan completed one of the world's largest wooden buildings housing a giant Buddha.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "great-mosque-cordoba",
+    "friendly_name": "Great Mosque of Córdoba Expanded",
+    "year": 987,
+    "category": "infrastructure-construction",
+    "description": "The iconic mosque with its forest of columns reached its final form.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "tower-london",
+    "friendly_name": "Tower of London Built",
+    "year": 1078,
+    "category": "infrastructure-construction",
+    "description": "William the Conqueror began construction of the iconic fortress.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "angkor-wat-completed",
+    "friendly_name": "Angkor Wat Completed",
+    "year": 1150,
+    "category": "infrastructure-construction",
+    "description": "The massive Hindu temple complex was finished in Cambodia.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "notre-dame-paris-begins",
+    "friendly_name": "Notre-Dame de Paris Construction Begins",
+    "year": 1163,
+    "category": "infrastructure-construction",
+    "description": "Work began on the iconic Gothic cathedral in Paris.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "leaning-tower-pisa",
+    "friendly_name": "Leaning Tower of Pisa Construction Begins",
+    "year": 1173,
+    "category": "infrastructure-construction",
+    "description": "Construction began on the bell tower that would famously begin to tilt.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "chartres-cathedral",
+    "friendly_name": "Chartres Cathedral Completed",
+    "year": 1220,
+    "category": "infrastructure-construction",
+    "description": "The French Gothic masterpiece with its famous stained glass was finished.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "alhambra-expanded",
+    "friendly_name": "Alhambra Palace Expanded",
+    "year": 1333,
+    "category": "infrastructure-construction",
+    "description": "The Nasrid dynasty expanded the stunning palace complex in Granada.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "florence-dome",
+    "friendly_name": "Florence Cathedral Dome Completed",
+    "year": 1436,
+    "category": "infrastructure-construction",
+    "description": "Brunelleschi finished the largest masonry dome ever built.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "forbidden-city-completed",
+    "friendly_name": "Forbidden City Completed",
+    "year": 1420,
+    "category": "infrastructure-construction",
+    "description": "The massive imperial palace complex was finished in Beijing.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "machu-picchu-built",
+    "friendly_name": "Machu Picchu Built",
+    "year": 1450,
+    "category": "infrastructure-construction",
+    "description": "The Inca constructed their famous citadel high in the Andes Mountains.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "sistine-chapel-completed",
+    "friendly_name": "Sistine Chapel Completed",
+    "year": 1481,
+    "category": "infrastructure-construction",
+    "description": "The papal chapel was finished in Vatican City.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "st-peters-basilica-begins",
+    "friendly_name": "St. Peter's Basilica Construction Begins",
+    "year": 1506,
+    "category": "infrastructure-construction",
+    "description": "Work began on the world's largest church in Vatican City.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "chateau-chambord",
+    "friendly_name": "Château de Chambord Built",
+    "year": 1547,
+    "category": "infrastructure-construction",
+    "description": "The French Renaissance castle with its distinctive roofline was completed.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "st-basils-cathedral",
+    "friendly_name": "St. Basil's Cathedral Completed",
+    "year": 1561,
+    "category": "infrastructure-construction",
+    "description": "The colorful onion-domed cathedral was finished in Moscow's Red Square.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "rialto-bridge",
+    "friendly_name": "Rialto Bridge Completed",
+    "year": 1591,
+    "category": "infrastructure-construction",
+    "description": "Venice completed the oldest stone bridge across the Grand Canal.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "taj-mahal-completed",
+    "friendly_name": "Taj Mahal Completed",
+    "year": 1653,
+    "category": "infrastructure-construction",
+    "description": "The Mughal emperor finished the famous white marble mausoleum.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "versailles-expanded",
+    "friendly_name": "Palace of Versailles Expanded",
+    "year": 1682,
+    "category": "infrastructure-construction",
+    "description": "Louis XIV moved his court to the massively expanded palace.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "st-pauls-completed",
+    "friendly_name": "St. Paul's Cathedral Completed",
+    "year": 1708,
+    "category": "infrastructure-construction",
+    "description": "Christopher Wren finished rebuilding London's cathedral after the Great Fire.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "buckingham-palace",
+    "friendly_name": "Buckingham Palace Built",
+    "year": 1703,
+    "category": "infrastructure-construction",
+    "description": "The townhouse that would become the British monarch's residence was built.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "winter-palace-completed",
+    "friendly_name": "Winter Palace Completed",
+    "year": 1762,
+    "category": "infrastructure-construction",
+    "description": "The Russian imperial residence in St. Petersburg was finished.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "iron-bridge",
+    "friendly_name": "Iron Bridge Completed",
+    "year": 1781,
+    "category": "infrastructure-construction",
+    "description": "The world's first major cast iron bridge opened in England.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "white-house-completed",
+    "friendly_name": "White House Completed",
+    "year": 1800,
+    "category": "infrastructure-construction",
+    "description": "The official residence of the US President was finished in Washington DC.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "erie-canal",
+    "friendly_name": "Erie Canal Completed",
+    "year": 1825,
+    "category": "infrastructure-construction",
+    "description": "The canal connecting the Great Lakes to the Atlantic Ocean opened.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "first-railway",
+    "friendly_name": "First Public Railway Opens",
+    "year": 1825,
+    "category": "infrastructure-construction",
+    "description": "The Stockton and Darlington Railway became the world's first public railway.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "brooklyn-bridge-begins",
+    "friendly_name": "Brooklyn Bridge Construction Begins",
+    "year": 1869,
+    "category": "infrastructure-construction",
+    "description": "Work began on the first steel-wire suspension bridge.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "suez-canal",
+    "friendly_name": "Suez Canal Opens",
+    "year": 1869,
+    "category": "infrastructure-construction",
+    "description": "The canal connecting the Mediterranean and Red Seas opened to shipping.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "transcontinental-railroad",
+    "friendly_name": "Transcontinental Railroad Completed",
+    "year": 1869,
+    "category": "infrastructure-construction",
+    "description": "The first railroad spanning North America was completed at Promontory Summit.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "brooklyn-bridge-completed",
+    "friendly_name": "Brooklyn Bridge Completed",
+    "year": 1883,
+    "category": "infrastructure-construction",
+    "description": "The iconic suspension bridge connecting Manhattan and Brooklyn opened.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "statue-liberty",
+    "friendly_name": "Statue of Liberty Dedicated",
+    "year": 1886,
+    "category": "infrastructure-construction",
+    "description": "France's gift to America was unveiled in New York Harbor.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "eiffel-tower",
+    "friendly_name": "Eiffel Tower Completed",
+    "year": 1889,
+    "category": "infrastructure-construction",
+    "description": "The iron lattice tower was built for the Paris World's Fair.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "tower-bridge-london",
+    "friendly_name": "Tower Bridge Completed",
+    "year": 1894,
+    "category": "infrastructure-construction",
+    "description": "London's iconic bascule bridge over the Thames opened.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "trans-siberian-railway",
+    "friendly_name": "Trans-Siberian Railway Completed",
+    "year": 1904,
+    "category": "infrastructure-construction",
+    "description": "The world's longest railway connecting Moscow to Vladivostok was finished.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "flatiron-building",
+    "friendly_name": "Flatiron Building Completed",
+    "year": 1902,
+    "category": "infrastructure-construction",
+    "description": "The distinctive triangular skyscraper opened in New York City.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "panama-canal",
+    "friendly_name": "Panama Canal Opens",
+    "year": 1914,
+    "category": "infrastructure-construction",
+    "description": "The canal connecting the Atlantic and Pacific Oceans opened to shipping.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "lincoln-memorial",
+    "friendly_name": "Lincoln Memorial Completed",
+    "year": 1922,
+    "category": "infrastructure-construction",
+    "description": "The memorial honoring Abraham Lincoln opened in Washington DC.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "chrysler-building",
+    "friendly_name": "Chrysler Building Completed",
+    "year": 1930,
+    "category": "infrastructure-construction",
+    "description": "The Art Deco skyscraper briefly became the world's tallest building.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "empire-state-building",
+    "friendly_name": "Empire State Building Completed",
+    "year": 1931,
+    "category": "infrastructure-construction",
+    "description": "The iconic skyscraper became the world's tallest building for 40 years.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "golden-gate-bridge",
+    "friendly_name": "Golden Gate Bridge Completed",
+    "year": 1937,
+    "category": "infrastructure-construction",
+    "description": "The iconic orange suspension bridge opened in San Francisco.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "hoover-dam",
+    "friendly_name": "Hoover Dam Completed",
+    "year": 1936,
+    "category": "infrastructure-construction",
+    "description": "The massive concrete dam on the Colorado River was finished.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "pentagon-completed",
+    "friendly_name": "Pentagon Completed",
+    "year": 1943,
+    "category": "infrastructure-construction",
+    "description": "The world's largest office building was finished in just 16 months.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "autobahn-expanded",
+    "friendly_name": "German Autobahn Network Expanded",
+    "year": 1942,
+    "category": "infrastructure-construction",
+    "description": "Germany's high-speed highway network reached over 2,000 miles.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "united-nations-hq",
+    "friendly_name": "United Nations Headquarters Completed",
+    "year": 1952,
+    "category": "infrastructure-construction",
+    "description": "The UN complex opened on the East River in New York City.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "interstate-highway-begins",
+    "friendly_name": "Interstate Highway System Begins",
+    "year": 1956,
+    "category": "infrastructure-construction",
+    "description": "Construction began on America's national highway network.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "sydney-opera-house-begins",
+    "friendly_name": "Sydney Opera House Construction Begins",
+    "year": 1959,
+    "category": "infrastructure-construction",
+    "description": "Work began on the iconic Australian performing arts center.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "berlin-wall-built",
+    "friendly_name": "Berlin Wall Built",
+    "year": 1961,
+    "category": "infrastructure-construction",
+    "description": "East Germany erected a wall dividing Berlin.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "gateway-arch",
+    "friendly_name": "Gateway Arch Completed",
+    "year": 1965,
+    "category": "infrastructure-construction",
+    "description": "The stainless steel monument was completed in St. Louis.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "world-trade-center-begins",
+    "friendly_name": "World Trade Center Construction Begins",
+    "year": 1968,
+    "category": "infrastructure-construction",
+    "description": "Work began on the Twin Towers in Lower Manhattan.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "aswan-high-dam",
+    "friendly_name": "Aswan High Dam Completed",
+    "year": 1970,
+    "category": "infrastructure-construction",
+    "description": "Egypt completed the massive dam across the Nile River.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "world-trade-center-completed",
+    "friendly_name": "World Trade Center Completed",
+    "year": 1973,
+    "category": "infrastructure-construction",
+    "description": "The Twin Towers opened as the world's tallest buildings.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "sydney-opera-house-completed",
+    "friendly_name": "Sydney Opera House Completed",
+    "year": 1973,
+    "category": "infrastructure-construction",
+    "description": "The iconic performing arts venue opened after 14 years of construction.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "sears-tower",
+    "friendly_name": "Sears Tower Completed",
+    "year": 1973,
+    "category": "infrastructure-construction",
+    "description": "The Chicago skyscraper became the world's tallest building.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "cn-tower",
+    "friendly_name": "CN Tower Completed",
+    "year": 1976,
+    "category": "infrastructure-construction",
+    "description": "The communications tower became Toronto's most recognizable landmark.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "channel-tunnel-begins",
+    "friendly_name": "Channel Tunnel Construction Begins",
+    "year": 1988,
+    "category": "infrastructure-construction",
+    "description": "Work began on the undersea tunnel connecting England and France.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "chunnel-completed",
+    "friendly_name": "Channel Tunnel Completed",
+    "year": 1994,
+    "category": "infrastructure-construction",
+    "description": "The undersea rail tunnel connecting Britain and France opened.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "petronas-towers",
+    "friendly_name": "Petronas Towers Completed",
+    "year": 1998,
+    "category": "infrastructure-construction",
+    "description": "The twin skyscrapers became the world's tallest buildings in Kuala Lumpur.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "hong-kong-airport",
+    "friendly_name": "Hong Kong International Airport Opens",
+    "year": 1998,
+    "category": "infrastructure-construction",
+    "description": "One of the world's largest and busiest airports opened on Lantau Island.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "millennium-dome",
+    "friendly_name": "Millennium Dome Completed",
+    "year": 1999,
+    "category": "infrastructure-construction",
+    "description": "The large dome structure opened in London for the millennium celebration.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "tate-modern",
+    "friendly_name": "Tate Modern Opens",
+    "year": 2000,
+    "category": "infrastructure-construction",
+    "description": "A former power station was converted into London's modern art museum.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "millau-viaduct",
+    "friendly_name": "Millau Viaduct Completed",
+    "year": 2004,
+    "category": "infrastructure-construction",
+    "description": "The world's tallest bridge opened in southern France.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "taipei-101",
+    "friendly_name": "Taipei 101 Completed",
+    "year": 2004,
+    "category": "infrastructure-construction",
+    "description": "The supertall skyscraper became the world's tallest building in Taiwan.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "three-gorges-dam",
+    "friendly_name": "Three Gorges Dam Completed",
+    "year": 2006,
+    "category": "infrastructure-construction",
+    "description": "The world's largest hydroelectric dam was finished on China's Yangtze River.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "burj-khalifa",
+    "friendly_name": "Burj Khalifa Completed",
+    "year": 2010,
+    "category": "infrastructure-construction",
+    "description": "The world's tallest building opened in Dubai at 2,717 feet.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "one-world-trade",
+    "friendly_name": "One World Trade Center Completed",
+    "year": 2014,
+    "category": "infrastructure-construction",
+    "description": "The tallest building in the Western Hemisphere opened on the WTC site.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "gotthard-base-tunnel",
+    "friendly_name": "Gotthard Base Tunnel Opens",
+    "year": 2016,
+    "category": "infrastructure-construction",
+    "description": "The world's longest railway tunnel opened through the Swiss Alps.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "beijing-daxing-airport",
+    "friendly_name": "Beijing Daxing Airport Opens",
+    "year": 2019,
+    "category": "infrastructure-construction",
+    "description": "The massive starfish-shaped airport opened as the world's largest single terminal.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "crossrail-elizabeth-line",
+    "friendly_name": "Elizabeth Line Opens",
+    "year": 2022,
+    "category": "infrastructure-construction",
+    "description": "London's new cross-city railway opened after years of construction.",
+    "difficulty": "hard"
+  }
+]

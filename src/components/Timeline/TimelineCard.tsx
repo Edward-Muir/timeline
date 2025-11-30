@@ -19,14 +19,18 @@ const TimelineCard: React.FC<TimelineCardProps> = ({ event, index }) => {
     setNodeRef,
     transform,
     transition,
+    isDragging,
   } = useSortable({
     id: event.name,
-    disabled: true, // Timeline cards are not draggable, just for visual shifts
+    // Not disabled - allows visual transforms when other items drag over
   });
 
-  const style = {
+  // Combine sortable transform with base styles
+  const style: React.CSSProperties = {
     transform: CSS.Transform.toString(transform),
     transition,
+    opacity: isDragging ? 0.5 : 1,
+    zIndex: isDragging ? 100 : undefined,
   };
 
   return (
@@ -35,7 +39,7 @@ const TimelineCard: React.FC<TimelineCardProps> = ({ event, index }) => {
       style={style}
       {...attributes}
       {...listeners}
-      className="flex-shrink-0 transition-transform duration-200 hover:scale-110 hover:z-10"
+      className="flex-shrink-0 transition-all duration-200 hover:scale-110 hover:z-10"
     >
       <Card
         event={event}

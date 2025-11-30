@@ -13,6 +13,7 @@ const App: React.FC = () => {
     loadError,
     startGame,
     placeCard,
+    reorderHand,
     resetGame,
     isDragging,
     setIsDragging,
@@ -83,6 +84,7 @@ const App: React.FC = () => {
     <GameBoard
       gameState={gameState}
       onPlaceCard={placeCard}
+      onReorderHand={reorderHand}
       isDragging={isDragging}
       setIsDragging={setIsDragging}
       draggedCard={draggedCard}

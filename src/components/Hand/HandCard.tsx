@@ -1,5 +1,6 @@
 import React from 'react';
-import { useDraggable } from '@dnd-kit/core';
+import { useSortable } from '@dnd-kit/sortable';
+import { CSS } from '@dnd-kit/utilities';
 import { HistoricalEvent } from '../../types';
 import Card from '../Card';
 
@@ -20,10 +21,12 @@ const HandCard: React.FC<HandCardProps> = ({
     attributes,
     listeners,
     setNodeRef,
+    transform,
+    transition,
     isDragging,
-  } = useDraggable({
+  } = useSortable({
     id: event.name,
-    data: { event },
+    data: { event, source: 'hand' },
     disabled: isRevealing,
   });
 
@@ -31,20 +34,27 @@ const HandCard: React.FC<HandCardProps> = ({
   const rotation = (index - 2) * 5;
   const translateY = Math.abs(index - 2) * 5;
 
+  // Combine sortable transform with base fan-out styling
+  const style: React.CSSProperties = {
+    transform: isDragging
+      ? CSS.Transform.toString(transform)
+      : `rotate(${rotation}deg) translateY(${translateY}px)`,
+    transition,
+    zIndex: isDragging ? 100 : undefined,
+  };
+
   return (
     <div
       ref={setNodeRef}
-      {...listeners}
+      style={style}
       {...attributes}
+      {...listeners}
       className={`
         transition-all duration-200 cursor-grab
         hover:-translate-y-4 hover:scale-105 hover:z-20
         ${isDragging ? 'opacity-50 scale-95 cursor-grabbing' : ''}
         ${isRevealing ? 'cursor-default' : ''}
       `}
-      style={{
-        transform: `rotate(${rotation}deg) translateY(${translateY}px)`,
-      }}
     >
       <Card
         event={event}
