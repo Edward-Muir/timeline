@@ -14,7 +14,8 @@
     "year": -3800000000,
     "category": "exploration-discovery",
     "description": "Single-celled organisms appeared in Earth's primordial oceans.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Origin_of_life_stages.svg/330px-Origin_of_life_stages.svg.png"
   },
   {
     "name": "first-humans",
@@ -31,7 +32,8 @@
     "year": -125000,
     "category": "exploration-discovery",
     "description": "Humans mastered the control and use of fire.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Large_bonfire.jpg/330px-Large_bonfire.jpg"
   },
   {
     "name": "agriculture",
@@ -39,7 +41,8 @@
     "year": -10000,
     "category": "exploration-discovery",
     "description": "Humans began farming, transforming civilization.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Fertile_crescent_Neolithic_B_circa_7500_BC.jpg/330px-Fertile_crescent_Neolithic_B_circa_7500_BC.jpg"
   },
   {
     "name": "writing-invention",
@@ -56,7 +59,8 @@
     "year": 1543,
     "category": "exploration-discovery",
     "description": "Copernicus proposed that Earth orbits the Sun.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Nikolaus_Kopernikus_MOT.jpg/330px-Nikolaus_Kopernikus_MOT.jpg"
   },
   {
     "name": "galileo-telescope",
@@ -64,7 +68,8 @@
     "year": 1609,
     "category": "exploration-discovery",
     "description": "Galileo made groundbreaking astronomical observations with his telescope.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Galileo_Galilei_%281564-1642%29_RMG_BHC2700.tiff/lossy-page1-320px-Galileo_Galilei_%281564-1642%29_RMG_BHC2700.tiff.jpg"
   },
   {
     "name": "newton-principia",
@@ -72,7 +77,8 @@
     "year": 1687,
     "category": "exploration-discovery",
     "description": "Newton published his laws of motion and universal gravitation.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Newton%27s_Principia_title_page.png/330px-Newton%27s_Principia_title_page.png"
   },
   {
     "name": "darwin-beagle",
@@ -80,7 +86,8 @@
     "year": 1831,
     "category": "exploration-discovery",
     "description": "Darwin's voyage led to his theory of evolution.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Charles_Darwin_seated_crop.jpg/330px-Charles_Darwin_seated_crop.jpg"
   },
   {
     "name": "darwin-origin",
@@ -88,7 +95,8 @@
     "year": 1859,
     "category": "exploration-discovery",
     "description": "Darwin's book revolutionized our understanding of life.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Charles_Darwin_seated_crop.jpg/330px-Charles_Darwin_seated_crop.jpg"
   },
   {
     "name": "x-ray",
@@ -105,7 +113,8 @@
     "year": 1905,
     "category": "exploration-discovery",
     "description": "Einstein published his theory of special relativity.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Albert_Einstein_Head_cleaned.jpg/330px-Albert_Einstein_Head_cleaned.jpg"
   },
   {
     "name": "penicillin",
@@ -158,7 +167,8 @@
     "year": 1796,
     "category": "exploration-discovery",
     "description": "Edward Jenner developed the smallpox vaccine.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Edward_Jenner.jpg/330px-Edward_Jenner.jpg"
   },
   {
     "name": "polio-vaccine",
@@ -175,7 +185,8 @@
     "year": 1996,
     "category": "exploration-discovery",
     "description": "The first mammal was cloned from an adult cell.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/b/b4/Dolly_the_Sheep_with_her_First_Born_Bonnie.jpg"
   },
   {
     "name": "first-ivf",

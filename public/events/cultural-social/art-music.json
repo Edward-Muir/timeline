@@ -5,7 +5,8 @@
     "year": -40000,
     "category": "cultural-social",
     "description": "Early humans created paintings in Lascaux and other caves.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/SantaCruz-CuevaManos-P2210651b.jpg/330px-SantaCruz-CuevaManos-P2210651b.jpg"
   },
   {
     "name": "sistine-chapel",
@@ -31,7 +32,8 @@
     "year": 1722,
     "category": "cultural-social",
     "description": "Bach completed his influential collection of keyboard music.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Bach-wtc1-title-ms.jpg/330px-Bach-wtc1-title-ms.jpg"
   },
   {
     "name": "mozart-dies",
@@ -48,7 +50,8 @@
     "year": 1964,
     "category": "cultural-social",
     "description": "The British Invasion began with the Beatles' American tour.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_4-3_crop.jpg/330px-The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_4-3_crop.jpg"
   },
   {
     "name": "woodstock",

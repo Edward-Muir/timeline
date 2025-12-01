@@ -66,19 +66,10 @@ const Card: React.FC<CardProps> = ({
         </div>
       )}
 
-      {/* Paper texture overlay */}
-      <div className="absolute inset-0 paper-texture pointer-events-none" />
-
-      {/* Decorative corner flourishes */}
-      <div className="absolute top-1 left-1 w-2 h-2 sm:w-3 sm:h-3 border-t-2 border-l-2 border-white/40 rounded-tl z-10" />
-      <div className="absolute top-1 right-1 w-2 h-2 sm:w-3 sm:h-3 border-t-2 border-r-2 border-white/40 rounded-tr z-10" />
-      <div className="absolute bottom-1 left-1 w-2 h-2 sm:w-3 sm:h-3 border-b-2 border-l-2 border-white/40 rounded-bl z-10" />
-      <div className="absolute bottom-1 right-1 w-2 h-2 sm:w-3 sm:h-3 border-b-2 border-r-2 border-white/40 rounded-br z-10" />
-
       {/* Card content */}
       <div className="relative z-10 flex-1 flex items-center justify-center p-2 sm:p-3">
         <h3
-          className="text-white text-center font-hand text-base sm:text-lg md:text-xl leading-tight"
+          className="text-white text-center  text-base sm:text-lg md:text-xl leading-tight"
           style={{ textShadow: '0 2px 4px rgba(0,0,0,0.8), 0 1px 2px rgba(0,0,0,0.9)' }}
         >
           {event.friendly_name}
@@ -93,11 +84,11 @@ const Card: React.FC<CardProps> = ({
         transition-all duration-300
       `}>
         {showYear ? (
-          <span className="font-hand text-lg sm:text-xl md:text-2xl text-sketch font-bold">
+          <span className=" text-lg sm:text-xl md:text-2xl text-sketch font-bold">
             {formatYear(event.year)}
           </span>
         ) : (
-          <span className="font-hand text-white/60 text-xs sm:text-sm">
+          <span className=" text-white/60 text-xs sm:text-sm">
             ?
           </span>
         )}

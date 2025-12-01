@@ -14,7 +14,8 @@
     "year": 1769,
     "category": "infrastructure-construction",
     "description": "James Watt's improvements accelerated the Industrial Revolution.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Watt_James_von_Breda.jpg/330px-Watt_James_von_Breda.jpg"
   },
   {
     "name": "photography",
@@ -40,6 +41,7 @@
     "year": 1903,
     "category": "infrastructure-construction",
     "description": "The Wright Brothers achieved the first powered flight.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Orville_Wright_1905-crop.jpg/330px-Orville_Wright_1905-crop.jpg"
   }
 ]

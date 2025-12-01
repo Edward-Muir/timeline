@@ -19,7 +19,7 @@ interface TimelineProps {
 
 // Insertion indicator component - glowing line showing where card will be placed
 const InsertionIndicator: React.FC = () => (
-  <div className="w-2 h-44 bg-blue-500 rounded-full animate-pulse mx-1 shadow-lg shadow-blue-500/50 flex-shrink-0" />
+  <div className="w-2 h-40 bg-blue-500 rounded-full animate-pulse mx-1 shadow-lg shadow-blue-500/50 flex-shrink-0" />
 );
 
 // Empty timeline drop zone component
@@ -40,7 +40,7 @@ const EmptyTimelineDropZone: React.FC<{
         onClick={() => onPlacementTap(0)}
         className="
           flex items-center justify-center
-          h-[133px] sm:h-[160px] md:h-48 min-w-[150px] sm:min-w-[200px]
+          h-[167px] sm:h-[200px] md:h-[240px] min-w-[150px] sm:min-w-[200px]
           rounded-lg border-4 border-dashed
           border-blue-400 bg-blue-100/50
           hover:bg-blue-200/60 active:scale-95
@@ -48,7 +48,7 @@ const EmptyTimelineDropZone: React.FC<{
           touch-manipulation
         "
       >
-        <span className="font-hand text-lg sm:text-xl text-blue-500">
+        <span className=" text-lg sm:text-xl text-blue-500">
           Tap to place here
         </span>
       </button>
@@ -57,7 +57,7 @@ const EmptyTimelineDropZone: React.FC<{
 
   if (!isActive) {
     return (
-      <div className="flex items-center justify-center h-[133px] sm:h-[160px] md:h-48 text-sketch/40 font-hand text-base sm:text-xl">
+      <div className="flex items-center justify-center h-[167px] sm:h-[200px] md:h-[240px] text-sketch/40  text-base sm:text-xl">
         Timeline will appear here
       </div>
     );
@@ -77,7 +77,7 @@ const EmptyTimelineDropZone: React.FC<{
       `}
     >
       <span className={`
-        font-hand text-base sm:text-xl
+         text-base sm:text-xl
         ${isOver ? 'text-blue-500' : 'text-gray-400'}
       `}>
         Drop here to start the timeline
@@ -96,7 +96,7 @@ const EdgeDropZone: React.FC<{ id: string; isActive: boolean }> = ({ id, isActiv
     <div
       ref={setNodeRef}
       className={`
-        w-16 h-44 flex-shrink-0
+        w-16 h-40 flex-shrink-0
         rounded-lg border-2 border-dashed
         transition-all duration-200
         ${isOver
@@ -134,19 +134,11 @@ const Timeline: React.FC<TimelineProps> = ({
   const showTapInsertionPoints = useTapMode && isCardSelected && onPlacementTap;
 
   return (
-    <div className="w-full py-4 sm:py-8">
-      {/* Timeline title */}
-      <div className="text-center mb-2 sm:mb-4">
-        <h2 className="font-hand text-2xl sm:text-3xl text-sketch">
-          The Timeline
-        </h2>
-        <div className="w-24 sm:w-32 h-1 bg-sketch mx-auto mt-2 rounded" />
-      </div>
-
+    <div className="w-full py-2 sm:py-4">
       {/* Scrollable timeline container */}
       <div
         ref={scrollRef}
-        className="overflow-x-auto timeline-scroll px-4 sm:px-8 py-4"
+        className="overflow-x-auto overflow-y-visible timeline-scroll px-4 sm:px-8 py-4 sm:py-6"
       >
         {events.length === 0 ? (
           <EmptyTimelineDropZone
@@ -205,7 +197,7 @@ const Timeline: React.FC<TimelineProps> = ({
       </div>
 
       {/* Direction indicators */}
-      <div className="flex justify-between px-6 sm:px-12 mt-2 sm:mt-4 text-sketch/60 font-hand text-sm sm:text-lg">
+      <div className="flex justify-between px-6 sm:px-12 mt-1 sm:mt-2 text-sketch/60  text-sm sm:text-lg">
         <span>← Earlier</span>
         <span>Later →</span>
       </div>

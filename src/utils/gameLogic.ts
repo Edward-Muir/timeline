@@ -150,7 +150,7 @@ export function formatYear(year: number): string {
     }
     return `${absYear} BCE`;
   }
-  return `${year} CE`;
+  return `${year}`;
 }
 
 // Get next player index

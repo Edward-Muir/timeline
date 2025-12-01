@@ -5,7 +5,8 @@
     "year": -528,
     "category": "cultural-social",
     "description": "Siddhartha Gautama achieved enlightenment, founding Buddhism.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Buddha_in_Sarnath_Museum_%28Dhammajak_Mutra%29.jpg/330px-Buddha_in_Sarnath_Museum_%28Dhammajak_Mutra%29.jpg"
   },
   {
     "name": "confucius-teachings",
@@ -13,7 +14,8 @@
     "year": -500,
     "category": "cultural-social",
     "description": "Confucius began teaching his philosophy in China.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Confucius_Tang_Dynasty.jpg/330px-Confucius_Tang_Dynasty.jpg"
   },
   {
     "name": "jesus-birth",

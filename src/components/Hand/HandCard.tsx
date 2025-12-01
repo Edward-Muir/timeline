@@ -24,7 +24,6 @@ const HandCard: React.FC<HandCardProps> = ({
     listeners,
     setNodeRef,
     transform,
-    transition,
     isDragging,
   } = useSortable({
     id: event.name,
@@ -41,7 +40,7 @@ const HandCard: React.FC<HandCardProps> = ({
     transform: isDragging
       ? CSS.Transform.toString(transform)
       : `rotate(${rotation}deg) translateY(${translateY}px)`,
-    transition,
+    transition: 'transform 75ms',
     zIndex: isDragging ? 100 : undefined,
   };
 
@@ -52,9 +51,8 @@ const HandCard: React.FC<HandCardProps> = ({
       {...attributes}
       {...listeners}
       className={`
-        transition-all duration-200 cursor-grab
-        hover:-translate-y-4 hover:scale-105 hover:z-20
-        ${isDragging ? 'opacity-50 scale-95 cursor-grabbing' : ''}
+        cursor-grab hover:-translate-y-4 hover:scale-105 hover:z-20
+        ${isDragging ? 'scale-95 cursor-grabbing' : ''}
         ${isRevealing ? 'cursor-default' : ''}
       `}
     >

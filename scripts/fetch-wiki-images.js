@@ -15,6 +15,7 @@ const RATE_LIMIT_MS = 100; // Delay between API calls to avoid rate limiting
 
 // Wikipedia search terms that may help find better images
 const SEARCH_OVERRIDES = {
+  // Wars and conflicts
   'wwi-start': 'World War I',
   'wwi-end': 'Armistice of 11 November 1918',
   'wwii-start': 'Invasion of Poland',
@@ -33,6 +34,189 @@ const SEARCH_OVERRIDES = {
   'norman-conquest': 'Battle of Hastings',
   'first-crusade': 'First Crusade',
   'waterloo': 'Battle of Waterloo',
+  'afghanistan-war-start': 'War in Afghanistan (2001–2021)',
+  'london-bombings': '7 July 2005 London bombings',
+  'crimea-annexation': 'Annexation of Crimea by the Russian Federation',
+  'isis-caliphate': 'Islamic State',
+  'russia-ukraine-invasion': 'Russian invasion of Ukraine',
+
+  // Political events and people
+  'american-independence': 'United States Declaration of Independence',
+  'charles-i-execution': 'Charles I of England',
+  'napoleon-emperor': 'Napoleon',
+  'napoleon-russia': 'French invasion of Russia',
+  'chinese-revolution': 'Xinhai Revolution',
+  'lusitania-sinking': 'RMS Lusitania',
+  'indian-independence': 'Indian independence movement',
+  'india-independence': 'Indian independence movement',
+  'watergate': 'Watergate scandal',
+  'apartheid-ends': 'Apartheid',
+  'obama-elected': 'Barack Obama',
+  'slavery-abolished': 'Thirteenth Amendment to the United States Constitution',
+  'charlemagne': 'Charlemagne',
+  'charlemagne-crowned': 'Charlemagne',
+  'nixon-china': '1972 Nixon visit to China',
+
+  // Cultural and arts
+  'cave-paintings': 'Cave painting',
+  'bach-well-tempered': 'The Well-Tempered Clavier',
+  'beatles-usa': 'The Beatles',
+  'first-writing': 'History of writing',
+  'homer-iliad': 'Iliad',
+  'buddha-enlightenment': 'Gautama Buddha',
+  'confucius-teachings': 'Confucius',
+  'socrates-death': 'Socrates',
+  'christianity-legalized': 'Edict of Milan',
+  'muhammad-revelation': 'Muhammad',
+  'tale-of-genji': 'The Tale of Genji',
+  'divine-comedy': 'Divine Comedy',
+  'protestant-reformation': 'Reformation',
+  'reformation-begins': 'Reformation',
+  'newton-principia': 'Philosophiæ Naturalis Principia Mathematica',
+  'mozart-don-giovanni': 'Don Giovanni',
+  'slavery-abolished-uk': 'Slavery Abolition Act 1833',
+  'slavery-abolished-us': 'Thirteenth Amendment to the United States Constitution',
+  'abolition-slavery-uk': 'Slavery Abolition Act 1833',
+  'first-motion-picture': 'Lumière brothers',
+  'first-powered-flight': 'Wright brothers',
+  'powered-flight': 'Wright brothers',
+  'flight': 'Wright brothers',
+  'picasso-demoiselles': "Les Demoiselles d'Avignon",
+  'titanic-sinks': 'Sinking of the Titanic',
+  'titanic-disaster': 'Sinking of the Titanic',
+  'women-suffrage-uk': "Women's suffrage in the United Kingdom",
+  'women-suffrage-us': "Women's suffrage in the United States",
+  'womens-suffrage-us': "Women's suffrage in the United States",
+  'first-talking-film': 'The Jazz Singer',
+  'first-television-broadcast': 'History of television',
+  'wizard-of-oz': 'The Wizard of Oz (1939 film)',
+  'elvis-ed-sullivan': 'Elvis Presley',
+  'beatles-ed-sullivan': 'The Beatles',
+  'first-email': 'Email',
+  'mtv-launches': 'MTV',
+  'aids-identified': 'HIV/AIDS',
+  'dolly-sheep-cloned': 'Dolly (sheep)',
+  'dolly-sheep': 'Dolly (sheep)',
+  'y2k': 'Year 2000 problem',
+  'millennium': 'Millennium',
+  'marriage-equality-us': 'Same-sex marriage in the United States',
+  'metoo-movement': 'Me Too movement',
+
+  // Institutional and diplomatic
+  'first-peace-treaty': 'Egyptian–Hittite peace treaty',
+  'qin-unification': 'Qin dynasty',
+  'council-nicaea': 'First Council of Nicaea',
+  'constitution-medina': 'Constitution of Medina',
+  'great-schism': 'East–West Schism',
+  'jamestown-founded': 'Jamestown, Virginia',
+  'habeas-corpus': 'Habeas Corpus Act 1679',
+  'act-of-union-britain': 'Acts of Union 1707',
+  'bill-of-rights-us': 'United States Bill of Rights',
+  'hague-conventions': 'Hague Conventions of 1899 and 1907',
+  'imf-world-bank': 'Bretton Woods Conference',
+  'brown-v-board': 'Brown v. Board of Education',
+
+  // Disasters
+  'aleppo-earthquake': '1138 Aleppo earthquake',
+  'bengal-famine-1770': 'Great Bengal famine of 1770',
+  'laki-eruption': 'Laki',
+  'yellow-fever-philadelphia': '1793 Philadelphia yellow fever epidemic',
+  'cholera-london': '1854 Broad Street cholera outbreak',
+  'indian-rebellion-famine': 'Indian Rebellion of 1857',
+  'krakatoa-eruption': '1883 eruption of Krakatoa',
+  'russian-famine-1891': 'Russian famine of 1891–1892',
+  'china-floods-1931': '1931 China floods',
+  'great-leap-forward-famine': 'Great Chinese Famine',
+  'mount-st-helens': '1980 eruption of Mount St. Helens',
+  'armenian-earthquake': '1988 Armenian earthquake',
+  'bangladesh-cyclone-1991': '1991 Bangladesh cyclone',
+  'somali-famine': 'Somali Civil War',
+  'north-korea-famine': 'North Korean famine',
+  'kashmir-earthquake': '2005 Kashmir earthquake',
+  'sichuan-earthquake': '2008 Sichuan earthquake',
+  'haiti-earthquake': '2010 Haiti earthquake',
+  'nepal-earthquake': 'April 2015 Nepal earthquake',
+  'paris-attacks': 'November 2015 Paris attacks',
+  'texas-winter-storm': '2021 Texas power crisis',
+
+  // Exploration and discovery
+  'fire-mastery': 'Control of fire by early humans',
+  'fire-use': 'Control of fire by early humans',
+  'bronze-discovered': 'Bronze Age',
+  'phoenician-circumnavigation': 'Phoenicia',
+  'herodotus-histories': 'Herodotus',
+  'alexander-india': 'Indian campaign of Alexander the Great',
+  'archimedes-principle': 'Archimedes',
+  'paper-invented': 'History of paper',
+  'vikings-iceland': 'Settlement of Iceland',
+  'vikings-greenland': 'Greenland',
+  'vikings-north-america': "L'Anse aux Meadows",
+  'viking-america': "L'Anse aux Meadows",
+  'zheng-he-voyages': 'Zheng He',
+  'portuguese-cape-verde': 'Cape Verde',
+  'dias-cape-good-hope': 'Bartolomeu Dias',
+  'columbus-americas': 'Christopher Columbus',
+  'vasco-da-gama-india': 'Vasco da Gama',
+  'cabot-north-america': 'John Cabot',
+  'cabral-brazil': 'Pedro Álvares Cabral',
+  'balboa-pacific': 'Vasco Núñez de Balboa',
+  'copernicus-heliocentric': 'Nicolaus Copernicus',
+  'copernicus': 'Nicolaus Copernicus',
+  'cartier-st-lawrence': 'Jacques Cartier',
+  'galileo-jupiter-moons': 'Galileo Galilei',
+  'galileo-telescope': 'Galileo Galilei',
+  'hudson-river': 'Henry Hudson',
+  'harvey-circulation': 'William Harvey',
+  'tasman-australia': 'Abel Tasman',
+  'newton-gravity': 'Isaac Newton',
+  'bering-strait': 'Vitus Bering',
+  'linnaeus-taxonomy': 'Carl Linnaeus',
+  'cook-australia': 'James Cook',
+  'hieroglyphics-decoded': 'Jean-François Champollion',
+  'dinosaur-fossils': 'History of paleontology',
+  'antarctica-sighted': 'History of Antarctica',
+  'gorillas-discovered': 'Gorilla',
+  'source-of-nile': 'Nile',
+  'darwin-evolution': 'Charles Darwin',
+  'darwin-origin': 'Charles Darwin',
+  'darwin-beagle': 'Charles Darwin',
+  'pasteurization': 'Louis Pasteur',
+  'mendel-genetics': 'Gregor Mendel',
+  'lightbulb-invented': 'Incandescent light bulb',
+  'continental-drift': 'Alfred Wegener',
+  'hubble-galaxies': 'Edwin Hubble',
+  'lucy-discovered': 'Lucy (Australopithecus)',
+  'smallpox-eradicated': 'Eradication of smallpox',
+  'hiv-identified': 'HIV/AIDS',
+  'first-exoplanet': 'Exoplanet',
+  'black-hole-image': 'Event Horizon Telescope',
+  'mayflower': 'Mayflower',
+  'everest': 'Mount Everest',
+
+  // Science and technology
+  'first-life': 'Abiogenesis',
+  'agriculture': 'Neolithic Revolution',
+  'relativity': 'Albert Einstein',
+  'vaccination': 'Edward Jenner',
+  'first-ivf': 'Louise Brown',
+  'steam-engine': 'James Watt',
+
+  // Infrastructure
+  'jericho-walls': 'Jericho',
+  'catalhoyuk-settlement': 'Çatalhöyük',
+  'stonehenge-begins': 'Stonehenge',
+  'pantheon-rebuilt': 'Pantheon, Rome',
+  'grand-canal-china': 'Grand Canal (China)',
+  'notre-dame-paris-begins': 'Notre-Dame de Paris',
+  'st-peters-basilica-begins': "St. Peter's Basilica",
+  'versailles-expanded': 'Palace of Versailles',
+  'iron-bridge': 'The Iron Bridge',
+  'first-railway': 'Liverpool and Manchester Railway',
+  'chrysler-building': 'Chrysler Building',
+  'world-trade-center-completed': 'World Trade Center (1973–2001)',
+  'cn-tower': 'CN Tower',
+
+  // Existing overrides
   'moon-landing': 'Apollo 11',
   'titanic': 'Sinking of the Titanic',
   'chernobyl': 'Chernobyl disaster',
@@ -61,9 +245,8 @@ const SEARCH_OVERRIDES = {
   'penicillin': 'Penicillin',
   'columbus-america': 'Voyages of Christopher Columbus',
   'magellan-circumnavigation': 'Magellan expedition',
-  'south-pole': 'Amundsen-Scott South Pole Station',
+  'south-pole': 'Amundsen–Scott South Pole Station',
   'north-pole': 'Robert Peary',
-  'moon-landing': 'Apollo 11',
   'mars-rover': 'Curiosity (rover)',
   'hubble-telescope': 'Hubble Space Telescope',
   'iss-assembly': 'International Space Station',
@@ -109,6 +292,12 @@ async function sleep(ms) {
 function generateSearchVariations(friendlyName) {
   const variations = [friendlyName];
 
+  const addVariation = (v) => {
+    if (v && !variations.includes(v)) {
+      variations.push(v);
+    }
+  };
+
   // Remove common suffixes like "Begins", "Ends", "Discovered", "Invented", etc.
   const suffixPatterns = [
     / Begins$/i,
@@ -145,14 +334,24 @@ function generateSearchVariations(friendlyName) {
     / Crowned$/i,
     / Takes Power$/i,
     / Becomes .+$/i,
+    / Ratified$/i,
+    / Crushed$/i,
+    / Sunk$/i,
+    / Erupts$/i,
+    / Identified$/i,
+    / Cloned$/i,
+    / Legalized$/i,
+    / Goes Viral$/i,
+    / Flourishes$/i,
+    / Expanded$/i,
+    / Rebuilt$/i,
+    / Extended$/i,
   ];
 
   for (const pattern of suffixPatterns) {
     if (pattern.test(friendlyName)) {
       const simplified = friendlyName.replace(pattern, '').trim();
-      if (simplified && !variations.includes(simplified)) {
-        variations.push(simplified);
-      }
+      addVariation(simplified);
     }
   }
 
@@ -173,15 +372,60 @@ function generateSearchVariations(friendlyName) {
     /^Siege of /i,
     /^Treaty of /i,
     /^Attack on /i,
+    /^Death of /i,
+    /^Sinking of /i,
+    /^Eruption of /i,
   ];
 
   for (const pattern of prefixPatterns) {
     if (pattern.test(friendlyName)) {
       const simplified = friendlyName.replace(pattern, '').trim();
-      if (simplified && !variations.includes(simplified)) {
-        variations.push(simplified);
-      }
+      addVariation(simplified);
     }
+  }
+
+  // Handle "X Sinks" -> "Sinking of X" pattern
+  if (/ Sinks$/i.test(friendlyName)) {
+    const subject = friendlyName.replace(/ Sinks$/i, '').trim();
+    addVariation(`Sinking of the ${subject}`);
+    addVariation(subject);
+  }
+
+  // Handle "X Erupts" -> "Eruption of X" or "YEAR eruption of X"
+  if (/ Erupts$/i.test(friendlyName)) {
+    const subject = friendlyName.replace(/ Erupts$/i, '').trim();
+    addVariation(`Eruption of ${subject}`);
+    addVariation(subject);
+  }
+
+  // Handle "X in Y" patterns - try both X and Y separately
+  const inMatch = friendlyName.match(/^(.+) in (.+)$/i);
+  if (inMatch) {
+    addVariation(inMatch[1].trim()); // Try just X
+    addVariation(inMatch[2].trim()); // Try just Y
+  }
+
+  // Handle "X of Y" patterns (but not "Battle of", "Fall of", etc.)
+  const ofMatch = friendlyName.match(/^(.+) of (.+)$/i);
+  if (ofMatch && !/^(Battle|Fall|Rise|Siege|Treaty|Attack|Sinking|Eruption|Death|End|Start|Discovery|Invention)$/i.test(ofMatch[1].trim())) {
+    addVariation(ofMatch[2].trim()); // Try just Y (often the main subject)
+  }
+
+  // Handle person titles: "King X Executed" -> try "X" without title
+  const personTitleMatch = friendlyName.match(/^(King|Queen|Emperor|President|Pope|Dr\.?|Sir|Prince|Princess|Duke|Duchess|Lord|Lady) (.+)$/i);
+  if (personTitleMatch) {
+    const restOfName = personTitleMatch[2];
+    // Remove any action suffix
+    const nameOnly = restOfName.replace(/ (Executed|Assassinated|Crowned|Elected|Dies|Born|Killed).*$/i, '').trim();
+    addVariation(nameOnly);
+    // Also try with title for Wikipedia article format
+    addVariation(`${personTitleMatch[1]} ${nameOnly}`);
+  }
+
+  // Handle "[Person] [Action]" patterns - extract just the person name
+  const personActionMatch = friendlyName.match(/^([A-Z][a-z]+ (?:[A-Z][a-z]+\.? ?)+)(Executed|Assassinated|Crowned|Elected|Dies|Born|Visits|Resigns|Attains|Becomes)/i);
+  if (personActionMatch) {
+    addVariation(personActionMatch[1].trim());
   }
 
   // Try extracting key nouns (remove articles, prepositions, etc.)
@@ -190,14 +434,18 @@ function generateSearchVariations(friendlyName) {
   if (words.length >= 2) {
     // Try first two words (often the main subject)
     const firstTwo = words.slice(0, 2).join(' ');
-    if (!variations.includes(firstTwo)) {
-      variations.push(firstTwo);
-    }
+    addVariation(firstTwo);
 
     // Try with lowercase second word (Wikipedia article style)
     const firstTwoLower = words[0] + ' ' + words.slice(1, 2).join(' ').toLowerCase();
-    if (!variations.includes(firstTwoLower) && firstTwoLower !== firstTwo) {
-      variations.push(firstTwoLower);
+    if (firstTwoLower !== firstTwo) {
+      addVariation(firstTwoLower);
+    }
+
+    // Try first three words for longer names
+    if (words.length >= 3) {
+      const firstThree = words.slice(0, 3).join(' ');
+      addVariation(firstThree);
     }
   }
 
@@ -206,8 +454,11 @@ function generateSearchVariations(friendlyName) {
   const lowercaseVariation = friendlyName.split(' ').map((word, i) =>
     i === 0 ? word : word.toLowerCase()
   ).join(' ');
-  if (!variations.includes(lowercaseVariation)) {
-    variations.push(lowercaseVariation);
+  addVariation(lowercaseVariation);
+
+  // Try adding "The" prefix for works/titles
+  if (!friendlyName.startsWith('The ')) {
+    addVariation(`The ${friendlyName}`);
   }
 
   return variations;

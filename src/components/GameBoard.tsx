@@ -13,6 +13,7 @@ import {
   MeasuringStrategy,
 } from '@dnd-kit/core';
 import { GameState, HistoricalEvent, DropPosition } from '../types';
+import { formatYear } from '../utils/gameLogic';
 import Timeline from './Timeline/Timeline';
 import Hand from './Hand/Hand';
 import PlayerInfo from './PlayerInfo';
@@ -63,14 +64,18 @@ const GameBoard: React.FC<GameBoardProps> = ({
   const [insertionIndex, setInsertionIndex] = useState<number | null>(null);
 
   // Modal state for showing event descriptions
-  const [modalEvent, setModalEvent] = useState<HistoricalEvent | null>(null);
+  const [modalState, setModalState] = useState<{ event: HistoricalEvent; showYear: boolean } | null>(null);
 
-  const handleCardClick = useCallback((event: HistoricalEvent) => {
-    setModalEvent(event);
+  const handleTimelineCardClick = useCallback((event: HistoricalEvent) => {
+    setModalState({ event, showYear: true });
+  }, []);
+
+  const handleHandCardClick = useCallback((event: HistoricalEvent) => {
+    setModalState({ event, showYear: false });
   }, []);
 
   const handleCloseModal = useCallback(() => {
-    setModalEvent(null);
+    setModalState(null);
   }, []);
 
   // Configure sensors for drag detection
@@ -254,7 +259,7 @@ const GameBoard: React.FC<GameBoardProps> = ({
         },
       }}
     >
-      <div className="min-h-screen flex flex-col">
+      <div className="h-screen flex flex-col overflow-x-hidden">
         {/* Header with player info */}
         <PlayerInfo
           players={gameState.players}
@@ -267,20 +272,20 @@ const GameBoard: React.FC<GameBoardProps> = ({
         {/* Feedback message */}
         {lastResult && (
           <div className={`
-            text-center py-1 sm:py-2 px-4 font-hand text-base sm:text-xl
+            text-center py-1 sm:py-2 px-4  text-base sm:text-xl
             transition-all duration-300
             ${lastResult.success ? 'text-green-600' : 'text-red-600'}
           `}>
             {lastResult.success ? (
               <span>Correct! "{lastResult.event.friendly_name}" placed!</span>
             ) : (
-              <span>Wrong! "{lastResult.event.friendly_name}" discarded.</span>
+              <span>Wrong! "{lastResult.event.friendly_name}" was {formatYear(lastResult.event.year)}.</span>
             )}
           </div>
         )}
 
         {/* Timeline */}
-        <div className="flex-shrink-0">
+        <div className="flex-shrink-0 overflow-visible">
           <Timeline
             events={gameState.timeline}
             isDragging={isDragging}
@@ -288,7 +293,7 @@ const GameBoard: React.FC<GameBoardProps> = ({
             useTapMode={useTapMode}
             isCardSelected={!!selectedCard}
             onPlacementTap={handlePlacementTap}
-            onCardClick={handleCardClick}
+            onCardClick={handleTimelineCardClick}
           />
         </div>
 
@@ -302,7 +307,7 @@ const GameBoard: React.FC<GameBoardProps> = ({
               {/* Winner display */}
               <div className="flex items-center justify-center gap-2 sm:gap-3 mb-2 sm:mb-4">
                 <span className="text-2xl sm:text-4xl">🏆</span>
-                <h2 className="font-hand text-2xl sm:text-3xl text-sketch">
+                <h2 className=" text-2xl sm:text-3xl text-sketch">
                   {sortedWinners.length === 1 ? 'Winner!' : 'Winners!'}
                 </h2>
                 <span className="text-2xl sm:text-4xl">🏆</span>
@@ -313,7 +318,7 @@ const GameBoard: React.FC<GameBoardProps> = ({
                   <div
                     key={winner.id}
                     className={`
-                      py-1 sm:py-2 px-4 sm:px-6 rounded-xl font-hand text-base sm:text-xl
+                      py-1 sm:py-2 px-4 sm:px-6 rounded-xl  text-base sm:text-xl
                       ${index === 0
                         ? 'bg-yellow-400 text-sketch'
                         : 'bg-gray-200 text-sketch/80'
@@ -335,7 +340,7 @@ const GameBoard: React.FC<GameBoardProps> = ({
                   className="
                     px-4 sm:px-8 py-2 sm:py-3 rounded-xl
                     bg-gradient-to-r from-green-400 to-teal-400
-                    font-hand text-lg sm:text-2xl text-white
+                     text-lg sm:text-2xl text-white
                     shadow-sketch hover:shadow-sketch-lg
                     transition-all duration-200
                     hover:scale-105 active:scale-95
@@ -348,7 +353,7 @@ const GameBoard: React.FC<GameBoardProps> = ({
                   className="
                     px-4 sm:px-8 py-2 sm:py-3 rounded-xl
                     bg-gray-300
-                    font-hand text-lg sm:text-2xl text-sketch
+                     text-lg sm:text-2xl text-sketch
                     shadow-sketch hover:shadow-sketch-lg
                     transition-all duration-200
                     hover:scale-105 active:scale-95
@@ -360,24 +365,17 @@ const GameBoard: React.FC<GameBoardProps> = ({
             </div>
           </div>
         ) : (
-          <>
-            <div className="flex-shrink-0 bg-gradient-to-t from-amber-100/50 to-transparent pt-4 sm:pt-8">
-              <Hand
-                player={currentPlayer}
-                revealingCard={revealingCard}
-                isCurrentPlayer={true}
-                useTapMode={useTapMode}
-                selectedCard={selectedCard}
-                onSelectCard={onSelectCard}
-                onCardClick={handleCardClick}
-              />
-            </div>
-
-            {/* Deck info */}
-            <div className="text-center pb-2 sm:pb-4 font-hand text-sm sm:text-base text-sketch/60">
-              Cards remaining in deck: {gameState.deck.length}
-            </div>
-          </>
+          <div className="flex-shrink-0 bg-gradient-to-t from-amber-100/50 to-transparent">
+            <Hand
+              player={currentPlayer}
+              revealingCard={revealingCard}
+              isCurrentPlayer={true}
+              useTapMode={useTapMode}
+              selectedCard={selectedCard}
+              onSelectCard={onSelectCard}
+              onCardClick={handleHandCardClick}
+            />
+          </div>
         )}
       </div>
 
@@ -389,8 +387,12 @@ const GameBoard: React.FC<GameBoardProps> = ({
       </DragOverlay>
 
       {/* Event description modal */}
-      {modalEvent && (
-        <EventDescriptionModal event={modalEvent} onClose={handleCloseModal} />
+      {modalState && (
+        <EventDescriptionModal
+          event={modalState.event}
+          showYear={modalState.showYear}
+          onClose={handleCloseModal}
+        />
       )}
     </DndContext>
   );

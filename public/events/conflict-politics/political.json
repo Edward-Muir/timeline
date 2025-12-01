@@ -41,7 +41,8 @@
     "year": 2008,
     "category": "conflict-politics",
     "description": "Barack Obama became the first Black president of the United States.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/President_Barack_Obama.jpg/330px-President_Barack_Obama.jpg"
   },
   {
     "name": "democracy-athens",
@@ -67,7 +68,8 @@
     "year": 1865,
     "category": "conflict-politics",
     "description": "The 13th Amendment abolished slavery in the United States.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Greater_coat_of_arms_of_the_United_States.svg/330px-Greater_coat_of_arms_of_the_United_States.svg.png"
   },
   {
     "name": "gettysburg",
@@ -84,7 +86,8 @@
     "year": 1947,
     "category": "conflict-politics",
     "description": "India gained independence from British colonial rule.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/India%2C_by_British_Information_Services%2C_1944_restored_version.jpg/330px-India%2C_by_British_Information_Services%2C_1944_restored_version.jpg"
   },
   {
     "name": "berlin-wall",
@@ -137,6 +140,7 @@
     "year": 800,
     "category": "conflict-politics",
     "description": "Charlemagne was crowned Holy Roman Emperor by the Pope.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Charlemagne_denier_Mayence_812_814.jpg/330px-Charlemagne_denier_Mayence_812_814.jpg"
   }
 ]

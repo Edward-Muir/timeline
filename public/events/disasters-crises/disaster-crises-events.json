@@ -148,7 +148,8 @@
     "year": 1770,
     "category": "disaster-crises",
     "description": "A devastating famine killed approximately 10 million people in India.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/d/dd/IGI1908India1765a.jpg/330px-IGI1908India1765a.jpg"
   },
   {
     "name": "laki-eruption",
@@ -156,7 +157,8 @@
     "year": 1783,
     "category": "disaster-crises",
     "description": "An Icelandic eruption caused widespread famine and climate effects across Europe.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Laki_fissure_%283%29.jpg/330px-Laki_fissure_%283%29.jpg"
   },
   {
     "name": "yellow-fever-philadelphia",
@@ -164,7 +166,8 @@
     "year": 1793,
     "category": "disaster-crises",
     "description": "Yellow fever killed about 5,000 people in the American capital.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Arch_Street_Ferry.jpg/330px-Arch_Street_Ferry.jpg"
   },
   {
     "name": "tambora-eruption",
@@ -199,7 +202,8 @@
     "year": 1854,
     "category": "disaster-crises",
     "description": "John Snow traced a deadly cholera outbreak to a contaminated water pump.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Pump_Handle_-_John_Snow_.jpg/330px-Pump_Handle_-_John_Snow_.jpg"
   },
   {
     "name": "indian-rebellion-famine",
@@ -207,7 +211,8 @@
     "year": 1866,
     "category": "disaster-crises",
     "description": "A severe famine in India killed over one million people.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Indian_Rebellion_of_1857.jpg/330px-Indian_Rebellion_of_1857.jpg"
   },
   {
     "name": "peshtigo-fire",
@@ -233,7 +238,8 @@
     "year": 1883,
     "category": "disaster-crises",
     "description": "A catastrophic volcanic eruption in Indonesia killed over 36,000 people.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/De_uitbarsting_van_de_Krakatau%2C_KITLV_5888.tiff/lossy-page1-320px-De_uitbarsting_van_de_Krakatau%2C_KITLV_5888.tiff.jpg"
   },
   {
     "name": "johnstown-flood",
@@ -250,7 +256,8 @@
     "year": 1891,
     "category": "disaster-crises",
     "description": "Crop failures led to widespread famine affecting millions in Russia.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/CossackPatrolNearKazanPreventingPeasantsFromLeavingTheirVillage3a43144r.jpg/330px-CossackPatrolNearKazanPreventingPeasantsFromLeavingTheirVillage3a43144r.jpg"
   },
   {
     "name": "galveston-hurricane",
@@ -294,7 +301,8 @@
     "year": 1912,
     "category": "disaster-crises",
     "description": "The unsinkable ocean liner struck an iceberg, killing over 1,500 passengers.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/St%C3%B6wer_Titanic.jpg/330px-St%C3%B6wer_Titanic.jpg"
   },
   {
     "name": "spanish-flu-begins",
@@ -347,7 +355,8 @@
     "year": 1931,
     "category": "disaster-crises",
     "description": "Massive flooding killed up to four million people in central China.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Hankow_city_hall.jpg/330px-Hankow_city_hall.jpg"
   },
   {
     "name": "dust-bowl",
@@ -369,7 +378,7 @@
   },
   {
     "name": "bengal-famine-1943",
-    "friendly_name": "Bengal Famine of 1943",
+    "friendly_name": "Bengal Famine",
     "year": 1943,
     "category": "disaster-crises",
     "description": "A devastating famine killed up to three million people in British India.",
@@ -525,7 +534,8 @@
     "year": 1980,
     "category": "disaster-crises",
     "description": "A catastrophic volcanic eruption killed 57 people in Washington State.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/MSH80_eruption_mount_st_helens_05-18-80-dramatic-edit.jpg/330px-MSH80_eruption_mount_st_helens_05-18-80-dramatic-edit.jpg"
   },
   {
     "name": "aids-epidemic-recognized",
@@ -535,15 +545,6 @@
     "description": "The CDC first reported cases of what would become the AIDS pandemic.",
     "difficulty": "medium",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map_of_HIV_prevalence%2C_2023.png/330px-World_map_of_HIV_prevalence%2C_2023.png"
-  },
-  {
-    "name": "ethiopian-famine-1983",
-    "friendly_name": "Ethiopian Famine of 1983",
-    "year": 1983,
-    "category": "disaster-crises",
-    "description": "A severe famine killed approximately one million people in Ethiopia.",
-    "difficulty": "medium",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Map_of_Abyssinia_and_Nubia_-_DPLA_-_83edec2a46dd4cc5c780681e653753e5.jpg/330px-Map_of_Abyssinia_and_Nubia_-_DPLA_-_83edec2a46dd4cc5c780681e653753e5.jpg"
   },
   {
     "name": "bhopal-disaster",
@@ -622,7 +623,8 @@
     "year": 1991,
     "category": "disaster-crises",
     "description": "A devastating cyclone killed approximately 138,000 people in Bangladesh.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/BOB_01_Apr_29_1991_0744Z.png/330px-BOB_01_Apr_29_1991_0744Z.png"
   },
   {
     "name": "somali-famine",
@@ -630,7 +632,8 @@
     "year": 1992,
     "category": "disaster-crises",
     "description": "Civil war and drought caused a famine killing over 200,000 in Somalia.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Somali_Civil_War_%28Google_Live_Map%29.svg/330px-Somali_Civil_War_%28Google_Live_Map%29.svg.png"
   },
   {
     "name": "waco-siege",
@@ -763,7 +766,8 @@
     "year": 2005,
     "category": "disaster-crises",
     "description": "A powerful earthquake killed over 80,000 people in Pakistan and India.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/US_Navy_051021-F-9085B-053_Pakistani_soldiers_unload_disaster_relief_supplies_from_a_U.S._Navy_MH-53_Sea_Dragon_helicopter_at_Balakot%2C_Pakistan.jpg/330px-US_Navy_051021-F-9085B-053_Pakistani_soldiers_unload_disaster_relief_supplies_from_a_U.S._Navy_MH-53_Sea_Dragon_helicopter_at_Balakot%2C_Pakistan.jpg"
   },
   {
     "name": "cyclone-nargis",
@@ -780,7 +784,8 @@
     "year": 2008,
     "category": "disaster-crises",
     "description": "A massive earthquake killed over 69,000 people in central China.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/2008%EB%85%84_%EC%A4%91%EC%95%99119%EA%B5%AC%EC%A1%B0%EB%8B%A8_%EC%A4%91%EA%B5%AD_%EC%93%B0%EC%B4%A8%EC%84%B1_%EB%8C%80%EC%A7%80%EC%A7%84_%EA%B5%AD%EC%A0%9C_%EC%B6%9C%EB%8F%99%28%E5%9B%9B%E5%B7%9D%E7%9C%81_%E5%A4%A7%E5%9C%B0%E9%9C%87%2C_%EC%82%AC%EC%B2%9C%EC%84%B1_%EB%8C%80%EC%A7%80%EC%A7%84%29_SSL27231.JPG/330px-2008%EB%85%84_%EC%A4%91%EC%95%99119%EA%B5%AC%EC%A1%B0%EB%8B%A8_%EC%A4%91%EA%B5%AD_%EC%93%B0%EC%B4%A8%EC%84%B1_%EB%8C%80%EC%A7%80%EC%A7%84_%EA%B5%AD%EC%A0%9C_%EC%B6%9C%EB%8F%99%28%E5%9B%9B%E5%B7%9D%E7%9C%81_%E5%A4%A7%E5%9C%B0%E9%9C%87%2C_%EC%82%AC%EC%B2%9C%EC%84%B1_%EB%8C%80%EC%A7%80%EC%A7%84%29_SSL27231.JPG"
   },
   {
     "name": "global-financial-crisis",
@@ -797,7 +802,8 @@
     "year": 2010,
     "category": "disaster-crises",
     "description": "A catastrophic earthquake killed over 200,000 people and devastated Port-au-Prince.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Ruins_of_Haiti_National_Palace_-_Port_au_Prince_2012.jpg/330px-Ruins_of_Haiti_National_Palace_-_Port_au_Prince_2012.jpg"
   },
   {
     "name": "deepwater-horizon",
@@ -868,7 +874,8 @@
     "year": 2015,
     "category": "disaster-crises",
     "description": "A powerful earthquake killed nearly 9,000 people and damaged historic sites.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/2015_Nepal_depremi_%287%29.jpg/330px-2015_Nepal_depremi_%287%29.jpg"
   },
   {
     "name": "paris-attacks",
@@ -876,7 +883,8 @@
     "year": 2015,
     "category": "disaster-crises",
     "description": "Coordinated terrorist attacks killed 130 people across Paris.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/13_November_2015_Paris_attacks_-_montage.jpg/330px-13_November_2015_Paris_attacks_-_montage.jpg"
   },
   {
     "name": "grenfell-tower-fire",
@@ -911,7 +919,8 @@
     "year": 2021,
     "category": "disaster-crises",
     "description": "A severe winter storm caused power grid failures and over 200 deaths in Texas.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Houston_bmhd_2021038_lrg_Feb_7_2021.jpg/330px-Houston_bmhd_2021038_lrg_Feb_7_2021.jpg"
   },
   {
     "name": "turkey-syria-earthquake",

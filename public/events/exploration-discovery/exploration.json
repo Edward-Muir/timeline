@@ -23,7 +23,8 @@
     "year": 1000,
     "category": "exploration-discovery",
     "description": "Leif Erikson led the first known European expedition to North America.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Authentic_Viking_recreation.jpg/330px-Authentic_Viking_recreation.jpg"
   },
   {
     "name": "jamestown",
@@ -40,7 +41,8 @@
     "year": 1620,
     "category": "exploration-discovery",
     "description": "The Pilgrims arrived in Massachusetts aboard the Mayflower.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Copyrighted_and_Published_by_A_S_Burbank%2C_The_Mayflower_at_Sea_%28NBY_21340%29.jpg/330px-Copyrighted_and_Published_by_A_S_Burbank%2C_The_Mayflower_at_Sea_%28NBY_21340%29.jpg"
   },
   {
     "name": "everest",
@@ -48,7 +50,8 @@
     "year": 1953,
     "category": "exploration-discovery",
     "description": "Edmund Hillary and Tenzing Norgay became the first to summit Mount Everest.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Mount_Everest_as_seen_from_Drukair2_PLW_edit_Cropped.jpg/330px-Mount_Everest_as_seen_from_Drukair2_PLW_edit_Cropped.jpg"
   },
   {
     "name": "tutankhamun",

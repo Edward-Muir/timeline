@@ -46,8 +46,8 @@ const App: React.FC = () => {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
-          <div className="font-hand text-4xl text-sketch mb-4">Loading events...</div>
-          <div className="animate-pulse font-hand text-xl text-sketch/60">
+          <div className=" text-4xl text-sketch mb-4">Loading events...</div>
+          <div className="animate-pulse  text-xl text-sketch/60">
             Gathering history from across time
           </div>
         </div>
@@ -60,11 +60,11 @@ const App: React.FC = () => {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center bg-white/90 p-8 rounded-xl shadow-sketch">
-          <div className="font-hand text-3xl text-red-600 mb-4">Error Loading Events</div>
-          <div className="font-hand text-lg text-sketch/70 mb-6">{loadError}</div>
+          <div className=" text-3xl text-red-600 mb-4">Error Loading Events</div>
+          <div className=" text-lg text-sketch/70 mb-6">{loadError}</div>
           <button
             onClick={() => window.location.reload()}
-            className="px-6 py-3 bg-yellow-400 rounded-lg font-hand text-xl text-sketch hover:scale-105 transition-transform"
+            className="px-6 py-3 bg-yellow-400 rounded-lg  text-xl text-sketch hover:scale-105 transition-transform"
           >
             Try Again
           </button>

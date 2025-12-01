@@ -14,7 +14,8 @@
     "year": -8000,
     "category": "infrastructure-construction",
     "description": "One of the earliest known permanent settlements constructed defensive walls.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Palestine_with_the_Hauran_and_the_adjacent_districts%2C_William_Hughes_1843.jpg/330px-Palestine_with_the_Hauran_and_the_adjacent_districts%2C_William_Hughes_1843.jpg"
   },
   {
     "name": "catalhoyuk-settlement",
@@ -22,7 +23,8 @@
     "year": -7000,
     "category": "infrastructure-construction",
     "description": "One of the world's first urban settlements thrived in Anatolia.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/%C3%87atalh%C3%B6y%C3%BCk%2C_7400_BC%2C_Konya%2C_Turkey_-_UNESCO_World_Heritage_Site%2C_08.jpg/330px-%C3%87atalh%C3%B6y%C3%BCk%2C_7400_BC%2C_Konya%2C_Turkey_-_UNESCO_World_Heritage_Site%2C_08.jpg"
   },
   {
     "name": "stonehenge-begins",
@@ -30,7 +32,8 @@
     "year": -3000,
     "category": "infrastructure-construction",
     "description": "Construction began on the iconic prehistoric monument in England.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Stonehenge2007_07_30.jpg/330px-Stonehenge2007_07_30.jpg"
   },
   {
     "name": "great-pyramid-giza",
@@ -200,7 +203,8 @@
     "year": 125,
     "category": "infrastructure-construction",
     "description": "Emperor Hadrian rebuilt the Roman temple with its famous domed roof.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Pantheon_Rom_1_cropped.jpg/330px-Pantheon_Rom_1_cropped.jpg"
   },
   {
     "name": "hadrians-wall",
@@ -244,7 +248,8 @@
     "year": 609,
     "category": "infrastructure-construction",
     "description": "The Sui Dynasty completed major extensions to the world's longest canal.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Wanning_Bridge_1.jpg/330px-Wanning_Bridge_1.jpg"
   },
   {
     "name": "dome-rock-completed",
@@ -297,7 +302,8 @@
     "year": 1163,
     "category": "infrastructure-construction",
     "description": "Work began on the iconic Gothic cathedral in Paris.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Notre-Dame_de_Paris%2C_4_October_2017.jpg/330px-Notre-Dame_de_Paris%2C_4_October_2017.jpg"
   },
   {
     "name": "leaning-tower-pisa",
@@ -368,7 +374,8 @@
     "year": 1506,
     "category": "infrastructure-construction",
     "description": "Work began on the world's largest church in Vatican City.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Basilica_di_San_Pietro_in_Vaticano_September_2015-1a.jpg/330px-Basilica_di_San_Pietro_in_Vaticano_September_2015-1a.jpg"
   },
   {
     "name": "chateau-chambord",
@@ -412,7 +419,8 @@
     "year": 1682,
     "category": "infrastructure-construction",
     "description": "Louis XIV moved his court to the massively expanded palace.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Versailles-Chateau-Jardins02.jpg/330px-Versailles-Chateau-Jardins02.jpg"
   },
   {
     "name": "st-pauls-completed",
@@ -447,7 +455,8 @@
     "year": 1781,
     "category": "infrastructure-construction",
     "description": "The world's first major cast iron bridge opened in England.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Iron_Bridge_east_side_in_February_2019_%28cropped%29.jpg/330px-Iron_Bridge_east_side_in_February_2019_%28cropped%29.jpg"
   },
   {
     "name": "white-house-completed",
@@ -473,7 +482,8 @@
     "year": 1825,
     "category": "infrastructure-construction",
     "description": "The Stockton and Darlington Railway became the world's first public railway.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Opening_Liverpool_and_Manchester_Railway.jpg/330px-Opening_Liverpool_and_Manchester_Railway.jpg"
   },
   {
     "name": "brooklyn-bridge-begins",
@@ -696,7 +706,8 @@
     "year": 1973,
     "category": "infrastructure-construction",
     "description": "The Twin Towers opened as the world's tallest buildings.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/World_Trade_Center%2C_New_York_City_-_aerial_view_%28March_2001%29_%28modified_version_with_desaturated_towers%29.jpg/330px-World_Trade_Center%2C_New_York_City_-_aerial_view_%28March_2001%29_%28modified_version_with_desaturated_towers%29.jpg"
   },
   {
     "name": "sydney-opera-house-completed",

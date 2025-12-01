@@ -31,7 +31,8 @@
     "year": -3300,
     "category": "exploration-discovery",
     "description": "Humans discovered how to alloy copper and tin to create bronze tools and weapons.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/AlacaStandarte.jpg/330px-AlacaStandarte.jpg"
   },
   {
     "name": "iron-smelting",
@@ -57,7 +58,8 @@
     "year": -600,
     "category": "exploration-discovery",
     "description": "Phoenician sailors reportedly sailed around the entire African continent.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Phoenician_maritime_expansions_across_the_Mediterranean.jpg/330px-Phoenician_maritime_expansions_across_the_Mediterranean.jpg"
   },
   {
     "name": "pythagoras-theorem",
@@ -74,7 +76,8 @@
     "year": -440,
     "category": "exploration-discovery",
     "description": "The Greek historian documented cultures and lands across the known world.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Marble_bust_of_Herodotos_MET_DT11742_%28cropped%29.jpg/330px-Marble_bust_of_Herodotos_MET_DT11742_%28cropped%29.jpg"
   },
   {
     "name": "alexander-india",
@@ -82,7 +85,8 @@
     "year": -326,
     "category": "exploration-discovery",
     "description": "Alexander the Great's conquests brought Greek knowledge to the Indian subcontinent.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/AlexanderConquestsInIndia.jpg/330px-AlexanderConquestsInIndia.jpg"
   },
   {
     "name": "archimedes-principle",
@@ -90,7 +94,8 @@
     "year": -250,
     "category": "exploration-discovery",
     "description": "Archimedes discovered the principle of buoyancy while taking a bath.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Domenico-Fetti_Archimedes_1620.jpg/330px-Domenico-Fetti_Archimedes_1620.jpg"
   },
   {
     "name": "eratosthenes-earth",
@@ -116,7 +121,8 @@
     "year": 105,
     "category": "exploration-discovery",
     "description": "Cai Lun standardized papermaking techniques in Han Dynasty China.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Making_Paper.gif/330px-Making_Paper.gif"
   },
   {
     "name": "compass-invented",
@@ -142,7 +148,8 @@
     "year": 874,
     "category": "exploration-discovery",
     "description": "Norse explorers established permanent settlements on Iceland.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/The_Norwegians_land_in_Iceland_year_872.jpg/330px-The_Norwegians_land_in_Iceland_year_872.jpg"
   },
   {
     "name": "vikings-greenland",
@@ -150,7 +157,8 @@
     "year": 982,
     "category": "exploration-discovery",
     "description": "Erik the Red explored and colonized Greenland.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_Greenland.svg/330px-Flag_of_Greenland.svg.png"
   },
   {
     "name": "vikings-north-america",
@@ -158,7 +166,8 @@
     "year": 1000,
     "category": "exploration-discovery",
     "description": "Leif Erikson became the first known European to reach North America.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Authentic_Viking_recreation.jpg/330px-Authentic_Viking_recreation.jpg"
   },
   {
     "name": "marco-polo-journey",
@@ -184,7 +193,8 @@
     "year": 1405,
     "category": "exploration-discovery",
     "description": "The Chinese admiral began massive naval expeditions across the Indian Ocean.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/2016_Malakka%2C_Stadhuys_%2809%29.jpg/330px-2016_Malakka%2C_Stadhuys_%2809%29.jpg"
   },
   {
     "name": "gutenberg-printing",
@@ -201,7 +211,8 @@
     "year": 1456,
     "category": "exploration-discovery",
     "description": "Portuguese explorers discovered the uninhabited Cape Verde islands.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Cape_Verde.svg/330px-Flag_of_Cape_Verde.svg.png"
   },
   {
     "name": "dias-cape-good-hope",
@@ -209,7 +220,8 @@
     "year": 1488,
     "category": "exploration-discovery",
     "description": "Bartolomeu Dias became the first European to sail around Africa's southern tip.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Bartolomeu_Dias%2C_South_Africa_House_%28cut%29.JPG/330px-Bartolomeu_Dias%2C_South_Africa_House_%28cut%29.JPG"
   },
   {
     "name": "columbus-americas",
@@ -217,7 +229,8 @@
     "year": 1492,
     "category": "exploration-discovery",
     "description": "Christopher Columbus landed in the Caribbean, beginning European exploration of the Americas.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Portrait_of_a_Man%2C_Said_to_be_Christopher_Columbus.jpg/330px-Portrait_of_a_Man%2C_Said_to_be_Christopher_Columbus.jpg"
   },
   {
     "name": "vasco-da-gama-india",
@@ -225,7 +238,8 @@
     "year": 1498,
     "category": "exploration-discovery",
     "description": "The Portuguese explorer found a sea route from Europe to India.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Ignoto_portoghese%2C_ritratto_di_un_cavaliere_dell%27ordine_di_cristo%2C_1525-50_ca._02.jpg/330px-Ignoto_portoghese%2C_ritratto_di_un_cavaliere_dell%27ordine_di_cristo%2C_1525-50_ca._02.jpg"
   },
   {
     "name": "cabot-north-america",
@@ -233,7 +247,8 @@
     "year": 1497,
     "category": "exploration-discovery",
     "description": "John Cabot explored the coast of North America for England.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/JohnCabotPainting.jpg/330px-JohnCabotPainting.jpg"
   },
   {
     "name": "cabral-brazil",
@@ -241,7 +256,8 @@
     "year": 1500,
     "category": "exploration-discovery",
     "description": "Pedro Álvares Cabral claimed Brazil for Portugal.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Pedro_%C3%81lvares_Cabral.jpg/330px-Pedro_%C3%81lvares_Cabral.jpg"
   },
   {
     "name": "balboa-pacific",
@@ -249,7 +265,8 @@
     "year": 1513,
     "category": "exploration-discovery",
     "description": "Vasco Núñez de Balboa became the first European to see the Pacific Ocean from the Americas.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Retrato_de_Vasco_Nu%C3%B1ez_de_Balboa_%281475-1517%29_-_An%C3%B3nimo.jpg/330px-Retrato_de_Vasco_Nu%C3%B1ez_de_Balboa_%281475-1517%29_-_An%C3%B3nimo.jpg"
   },
   {
     "name": "copernicus-heliocentric",
@@ -257,7 +274,8 @@
     "year": 1543,
     "category": "exploration-discovery",
     "description": "Nicolaus Copernicus published his theory that Earth orbits the Sun.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Nikolaus_Kopernikus_MOT.jpg/330px-Nikolaus_Kopernikus_MOT.jpg"
   },
   {
     "name": "magellan-circumnavigation",
@@ -274,7 +292,8 @@
     "year": 1534,
     "category": "exploration-discovery",
     "description": "Jacques Cartier explored the St. Lawrence River and claimed Canada for France.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Jacques_Cartier_1851-1852.jpg/330px-Jacques_Cartier_1851-1852.jpg"
   },
   {
     "name": "microscope-invented",
@@ -300,7 +319,8 @@
     "year": 1610,
     "category": "exploration-discovery",
     "description": "Galileo observed four moons orbiting Jupiter, supporting heliocentrism.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Galileo_Galilei_%281564-1642%29_RMG_BHC2700.tiff/lossy-page1-320px-Galileo_Galilei_%281564-1642%29_RMG_BHC2700.tiff.jpg"
   },
   {
     "name": "hudson-river",
@@ -308,7 +328,8 @@
     "year": 1609,
     "category": "exploration-discovery",
     "description": "Henry Hudson explored the river later named after him while seeking a northwest passage.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/HenryHudson.jpg/330px-HenryHudson.jpg"
   },
   {
     "name": "harvey-circulation",
@@ -316,7 +337,8 @@
     "year": 1628,
     "category": "exploration-discovery",
     "description": "William Harvey published his discovery of how blood circulates through the body.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/William_Harvey_2.jpg/330px-William_Harvey_2.jpg"
   },
   {
     "name": "tasman-australia",
@@ -324,7 +346,8 @@
     "year": 1642,
     "category": "exploration-discovery",
     "description": "Abel Tasman became the first European to reach Tasmania and New Zealand.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Abel_Tasman_Navigateur_en_Australie_%28cropped%29.jpg/330px-Abel_Tasman_Navigateur_en_Australie_%28cropped%29.jpg"
   },
   {
     "name": "newton-gravity",
@@ -332,7 +355,8 @@
     "year": 1666,
     "category": "exploration-discovery",
     "description": "Isaac Newton developed his theory of universal gravitation.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Portrait_of_Sir_Isaac_Newton%2C_1689_%28brightened%29.jpg/330px-Portrait_of_Sir_Isaac_Newton%2C_1689_%28brightened%29.jpg"
   },
   {
     "name": "leeuwenhoek-bacteria",
@@ -349,7 +373,8 @@
     "year": 1728,
     "category": "exploration-discovery",
     "description": "Vitus Bering proved that Asia and North America were separate continents.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Vitus_Bering_reconstruction.jpg/330px-Vitus_Bering_reconstruction.jpg"
   },
   {
     "name": "linnaeus-taxonomy",
@@ -357,7 +382,8 @@
     "year": 1735,
     "category": "exploration-discovery",
     "description": "Carl Linnaeus published his system for classifying living organisms.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Carl_von_Linn%C3%A9%2C_1707-1778%2C_botanist%2C_professor_%28Alexander_Roslin%29_-_Nationalmuseum_-_15723_%28cropped%29.tif/lossy-page1-320px-Carl_von_Linn%C3%A9%2C_1707-1778%2C_botanist%2C_professor_%28Alexander_Roslin%29_-_Nationalmuseum_-_15723_%28cropped%29.tif.jpg"
   },
   {
     "name": "cook-australia",
@@ -365,7 +391,8 @@
     "year": 1770,
     "category": "exploration-discovery",
     "description": "Captain James Cook mapped the east coast of Australia and claimed it for Britain.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Captainjamescookportrait.jpg/330px-Captainjamescookportrait.jpg"
   },
   {
     "name": "oxygen-discovered",
@@ -427,7 +454,8 @@
     "year": 1822,
     "category": "exploration-discovery",
     "description": "Jean-François Champollion deciphered Egyptian hieroglyphics using the Rosetta Stone.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Jean-Fran%C3%A7ois_Champollion%2C_by_L%C3%A9on_Cogniet.jpg/330px-Jean-Fran%C3%A7ois_Champollion%2C_by_L%C3%A9on_Cogniet.jpg"
   },
   {
     "name": "dinosaur-fossils",
@@ -435,7 +463,8 @@
     "year": 1824,
     "category": "exploration-discovery",
     "description": "William Buckland described Megalosaurus, the first dinosaur to be scientifically named.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Duria_Antiquior.jpg/330px-Duria_Antiquior.jpg"
   },
   {
     "name": "antarctica-sighted",
@@ -443,7 +472,8 @@
     "year": 1820,
     "category": "exploration-discovery",
     "description": "Russian, British, and American expeditions first sighted the Antarctic continent.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/James_Weddell_Expedition.jpg/330px-James_Weddell_Expedition.jpg"
   },
   {
     "name": "neptune-discovered",
@@ -460,7 +490,8 @@
     "year": 1847,
     "category": "exploration-discovery",
     "description": "Western scientists first described gorillas from specimens found in Africa.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Gorille_des_plaines_de_l%27ouest_%C3%A0_l%27Espace_Zoologique.jpg/330px-Gorille_des_plaines_de_l%27ouest_%C3%A0_l%27Espace_Zoologique.jpg"
   },
   {
     "name": "source-of-nile",
@@ -468,7 +499,8 @@
     "year": 1858,
     "category": "exploration-discovery",
     "description": "John Hanning Speke identified Lake Victoria as the source of the Nile.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Cairo_skyline%2C_Panoramic_view%2C_Egypt.jpg/330px-Cairo_skyline%2C_Panoramic_view%2C_Egypt.jpg"
   },
   {
     "name": "darwin-evolution",
@@ -476,7 +508,8 @@
     "year": 1859,
     "category": "exploration-discovery",
     "description": "Charles Darwin published his theory of evolution by natural selection.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Charles_Darwin_seated_crop.jpg/330px-Charles_Darwin_seated_crop.jpg"
   },
   {
     "name": "pasteurization",
@@ -484,7 +517,8 @@
     "year": 1864,
     "category": "exploration-discovery",
     "description": "Louis Pasteur developed the process to kill harmful microorganisms in food and drink.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Louis_Pasteur%2C_foto_av_Paul_Nadar%2C_Crisco_edit.jpg/330px-Louis_Pasteur%2C_foto_av_Paul_Nadar%2C_Crisco_edit.jpg"
   },
   {
     "name": "mendel-genetics",
@@ -492,7 +526,8 @@
     "year": 1866,
     "category": "exploration-discovery",
     "description": "Gregor Mendel published his laws of inheritance from pea plant experiments.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Gregor_Mendel_2.jpg/330px-Gregor_Mendel_2.jpg"
   },
   {
     "name": "periodic-table",
@@ -527,7 +562,8 @@
     "year": 1879,
     "category": "exploration-discovery",
     "description": "Thomas Edison developed a practical incandescent light bulb.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Gluehlampe_01_KMJ.png/330px-Gluehlampe_01_KMJ.png"
   },
   {
     "name": "germ-theory",
@@ -580,7 +616,8 @@
     "year": 1903,
     "category": "exploration-discovery",
     "description": "The Wright brothers achieved the first controlled, powered airplane flight.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Orville_Wright_1905-crop.jpg/330px-Orville_Wright_1905-crop.jpg"
   },
   {
     "name": "special-relativity",
@@ -624,7 +661,8 @@
     "year": 1912,
     "category": "exploration-discovery",
     "description": "Alfred Wegener proposed that continents move over geological time.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Alfred_Wegener_ca.1924-30.jpg/330px-Alfred_Wegener_ca.1924-30.jpg"
   },
   {
     "name": "atomic-nucleus",
@@ -668,7 +706,8 @@
     "year": 1924,
     "category": "exploration-discovery",
     "description": "Edwin Hubble proved that other galaxies exist beyond the Milky Way.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Studio_portrait_photograph_of_Edwin_Powell_Hubble_%28cropped%29.JPG/330px-Studio_portrait_photograph_of_Edwin_Powell_Hubble_%28cropped%29.JPG"
   },
   {
     "name": "penicillin-discovered",
@@ -793,7 +832,8 @@
     "year": 1974,
     "category": "exploration-discovery",
     "description": "Donald Johanson discovered the famous Australopithecus afarensis skeleton in Ethiopia.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Reconstruction_of_the_fossil_skeleton_of_%22Lucy%22_the_Australopithecus_afarensis.jpg/330px-Reconstruction_of_the_fossil_skeleton_of_%22Lucy%22_the_Australopithecus_afarensis.jpg"
   },
   {
     "name": "smallpox-eradicated",
@@ -801,7 +841,8 @@
     "year": 1980,
     "category": "exploration-discovery",
     "description": "The World Health Organization declared smallpox the first disease eradicated by humans.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Child_with_Smallpox_Bangladesh.jpg/330px-Child_with_Smallpox_Bangladesh.jpg"
   },
   {
     "name": "hiv-identified",
@@ -809,7 +850,8 @@
     "year": 1983,
     "category": "exploration-discovery",
     "description": "Scientists identified HIV as the virus causing AIDS.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Red_Ribbon.svg/330px-Red_Ribbon.svg.png"
   },
   {
     "name": "titanic-wreck-found",
@@ -844,7 +886,8 @@
     "year": 1992,
     "category": "exploration-discovery",
     "description": "Astronomers discovered the first planets orbiting a star outside our solar system.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Hr8799_orbit_hd.gif/330px-Hr8799_orbit_hd.gif"
   },
   {
     "name": "dolly-sheep-cloned",
@@ -852,7 +895,8 @@
     "year": 1996,
     "category": "exploration-discovery",
     "description": "Scientists created the first mammal cloned from an adult cell.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/b/b4/Dolly_the_Sheep_with_her_First_Born_Bonnie.jpg"
   },
   {
     "name": "human-genome-completed",
