@@ -5,7 +5,8 @@
     "year": 1957,
     "category": "exploration-discovery",
     "description": "The Soviet Union launched the first artificial satellite into orbit.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/%D0%9F%D0%B5%D1%80%D0%B2%D1%8B%D0%B9_%D0%B2_%D0%BC%D0%B8%D1%80%D0%B5_%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D1%81%D0%BF%D1%83%D1%82%D0%BD%D0%B8%D0%BA_%D0%97%D0%B5%D0%BC%D0%BB%D0%B8.jpg/330px-%D0%9F%D0%B5%D1%80%D0%B2%D1%8B%D0%B9_%D0%B2_%D0%BC%D0%B8%D1%80%D0%B5_%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D1%81%D0%BF%D1%83%D1%82%D0%BD%D0%B8%D0%BA_%D0%97%D0%B5%D0%BC%D0%BB%D0%B8.jpg"
   },
   {
     "name": "moon-landing",
@@ -22,7 +23,8 @@
     "year": 1990,
     "category": "exploration-discovery",
     "description": "NASA launched the Hubble Space Telescope into orbit.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/HST-SM4.jpeg/330px-HST-SM4.jpeg"
   },
   {
     "name": "james-webb",
@@ -30,6 +32,7 @@
     "year": 2021,
     "category": "exploration-discovery",
     "description": "NASA launched the most powerful space telescope ever built.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/JWST_spacecraft_model_3.png/330px-JWST_spacecraft_model_3.png"
   }
 ]

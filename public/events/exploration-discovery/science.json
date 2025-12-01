@@ -22,7 +22,8 @@
     "year": -300000,
     "category": "exploration-discovery",
     "description": "Modern humans emerged in Africa.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Akha_cropped_hires.JPG/330px-Akha_cropped_hires.JPG"
   },
   {
     "name": "fire-use",
@@ -46,7 +47,8 @@
     "year": -3200,
     "category": "exploration-discovery",
     "description": "Sumerians developed cuneiform, the first writing system.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Rosetta_Stone.JPG/330px-Rosetta_Stone.JPG"
   },
   {
     "name": "copernicus",
@@ -94,7 +96,8 @@
     "year": 1895,
     "category": "exploration-discovery",
     "description": "Wilhelm Roentgen discovered X-rays, transforming medicine.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Color_X-ray_photogram.jpg/330px-Color_X-ray_photogram.jpg"
   },
   {
     "name": "relativity",
@@ -128,7 +131,8 @@
     "year": 2012,
     "category": "exploration-discovery",
     "description": "CERN confirmed the existence of the Higgs boson particle.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Candidate_Higgs_Events_in_ATLAS_and_CMS.png/330px-Candidate_Higgs_Events_in_ATLAS_and_CMS.png"
   },
   {
     "name": "gravitational-waves",
@@ -136,7 +140,8 @@
     "year": 2016,
     "category": "exploration-discovery",
     "description": "LIGO detected gravitational waves, confirming Einstein's prediction.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Warped_Space_and_Time_Around_Colliding_Black_Holes_%28Courtesy_Caltech-MIT-LIGO_Laboratory%2C_produced_by_SXS_project%29.webm/320px--Warped_Space_and_Time_Around_Colliding_Black_Holes_%28Courtesy_Caltech-MIT-LIGO_Laboratory%2C_produced_by_SXS_project%29.webm.jpg"
   },
   {
     "name": "insulin",
@@ -144,7 +149,8 @@
     "year": 1921,
     "category": "exploration-discovery",
     "description": "Banting and Best discovered insulin, saving millions of diabetics.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Insulin_struct.png/330px-Insulin_struct.png"
   },
   {
     "name": "vaccination",
@@ -160,7 +166,8 @@
     "year": 1955,
     "category": "exploration-discovery",
     "description": "Jonas Salk's vaccine helped eradicate polio.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Poliodrops.jpg"
   },
   {
     "name": "dolly-sheep",

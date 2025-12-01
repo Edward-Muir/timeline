@@ -7,9 +7,10 @@ import Card from '../Card';
 interface TimelineCardProps {
   event: HistoricalEvent;
   index: number;
+  onCardClick?: (event: HistoricalEvent) => void;
 }
 
-const TimelineCard: React.FC<TimelineCardProps> = ({ event, index }) => {
+const TimelineCard: React.FC<TimelineCardProps> = ({ event, index, onCardClick }) => {
   // Create slight random rotation for sketchbook feel
   const rotation = ((index % 5) - 2) * 1.5;
 
@@ -46,7 +47,7 @@ const TimelineCard: React.FC<TimelineCardProps> = ({ event, index }) => {
         event={event}
         showYear={true}
         rotation={rotation}
-        className="cursor-default"
+        onClick={onCardClick ? () => onCardClick(event) : undefined}
       />
     </div>
   );

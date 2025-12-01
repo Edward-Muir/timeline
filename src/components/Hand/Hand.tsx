@@ -12,6 +12,7 @@ interface HandProps {
   useTapMode?: boolean;
   selectedCard?: HistoricalEvent | null;
   onSelectCard?: (card: HistoricalEvent | null) => void;
+  onCardClick?: (event: HistoricalEvent) => void;
 }
 
 const Hand: React.FC<HandProps> = ({
@@ -21,6 +22,7 @@ const Hand: React.FC<HandProps> = ({
   useTapMode = false,
   selectedCard = null,
   onSelectCard,
+  onCardClick,
 }) => {
   if (player.hand.length === 0) {
     return (
@@ -79,6 +81,7 @@ const Hand: React.FC<HandProps> = ({
                 index={index}
                 isRevealing={revealingCard?.name === event.name}
                 showYear={revealingCard?.name === event.name}
+                onCardClick={onCardClick}
               />
             ))}
           </div>

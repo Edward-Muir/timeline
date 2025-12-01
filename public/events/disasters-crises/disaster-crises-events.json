@@ -5,7 +5,8 @@
     "year": -1600,
     "category": "disaster-crises",
     "description": "A massive volcanic eruption devastated the Minoan civilization in the Aegean.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Santorini_ASTER.jpg/330px-Santorini_ASTER.jpg"
   },
   {
     "name": "bronze-age-collapse",
@@ -31,7 +32,8 @@
     "year": 79,
     "category": "disaster-crises",
     "description": "The volcano buried the Roman cities of Pompeii and Herculaneum in ash.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Il_cratere_del_Vulcano_-_panoramio.jpg/330px-Il_cratere_del_Vulcano_-_panoramio.jpg"
   },
   {
     "name": "antonine-plague",
@@ -66,7 +68,8 @@
     "year": 536,
     "category": "disaster-crises",
     "description": "A mysterious fog plunged Europe into darkness and cold for eighteen months.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Volcanic_injection.svg/330px-Volcanic_injection.svg.png"
   },
   {
     "name": "damghan-earthquake",
@@ -74,7 +77,8 @@
     "year": 856,
     "category": "disaster-crises",
     "description": "A massive earthquake in Iran killed an estimated 200,000 people.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/856_Damghan_setting.png/330px-856_Damghan_setting.png"
   },
   {
     "name": "aleppo-earthquake",
@@ -90,7 +94,8 @@
     "year": 1347,
     "category": "disaster-crises",
     "description": "The bubonic plague arrived in Europe, eventually killing one-third of the population.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/1346-1353_spread_of_the_Black_Death_in_Europe_map.svg/330px-1346-1353_spread_of_the_Black_Death_in_Europe_map.svg.png"
   },
   {
     "name": "black-death-peak",
@@ -98,7 +103,8 @@
     "year": 1349,
     "category": "disaster-crises",
     "description": "The plague reached its deadliest year, devastating cities across Europe.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/1346-1353_spread_of_the_Black_Death_in_Europe_map.svg/330px-1346-1353_spread_of_the_Black_Death_in_Europe_map.svg.png"
   },
   {
     "name": "shaanxi-earthquake",
@@ -166,7 +172,8 @@
     "year": 1815,
     "category": "disaster-crises",
     "description": "The largest volcanic eruption in recorded history caused global climate disruption.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Mount_Tambora_Volcano%2C_Sumbawa_Island%2C_Indonesia.jpg/330px-Mount_Tambora_Volcano%2C_Sumbawa_Island%2C_Indonesia.jpg"
   },
   {
     "name": "year-without-summer",
@@ -183,7 +190,8 @@
     "year": 1845,
     "category": "disaster-crises",
     "description": "A potato blight caused mass starvation and emigration from Ireland.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Skibbereen_by_James_Mahony%2C_1847.JPG/330px-Skibbereen_by_James_Mahony%2C_1847.JPG"
   },
   {
     "name": "cholera-london",
@@ -294,7 +302,8 @@
     "year": 1918,
     "category": "disaster-crises",
     "description": "The deadliest pandemic in modern history began infecting millions worldwide.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Emergency_hospital_during_Influenza_epidemic%2C_Camp_Funston%2C_Kansas_-_NCP_1603.jpg/330px-Emergency_hospital_during_Influenza_epidemic%2C_Camp_Funston%2C_Kansas_-_NCP_1603.jpg"
   },
   {
     "name": "spanish-flu-peak",
@@ -302,7 +311,8 @@
     "year": 1918,
     "category": "disaster-crises",
     "description": "The deadly second wave of Spanish flu killed millions in autumn 1918.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Emergency_hospital_during_Influenza_epidemic%2C_Camp_Funston%2C_Kansas_-_NCP_1603.jpg/330px-Emergency_hospital_during_Influenza_epidemic%2C_Camp_Funston%2C_Kansas_-_NCP_1603.jpg"
   },
   {
     "name": "great-kanto-earthquake",
@@ -328,7 +338,8 @@
     "year": 1929,
     "category": "disaster-crises",
     "description": "The worst economic downturn in modern history began after the market crash.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Unemployed_men_queued_outside_a_depression_soup_kitchen_opened_in_Chicago_by_Al_Capone%2C_02-1931_-_NARA_-_541927.jpg/330px-Unemployed_men_queued_outside_a_depression_soup_kitchen_opened_in_Chicago_by_Al_Capone%2C_02-1931_-_NARA_-_541927.jpg"
   },
   {
     "name": "china-floods-1931",
@@ -344,7 +355,8 @@
     "year": 1934,
     "category": "disaster-crises",
     "description": "Severe drought and dust storms devastated the American Great Plains.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Farmer_walking_in_dust_storm_Cimarron_County_Oklahoma2.jpg/330px-Farmer_walking_in_dust_storm_Cimarron_County_Oklahoma2.jpg"
   },
   {
     "name": "hindenburg-disaster",
@@ -406,7 +418,8 @@
     "year": 1953,
     "category": "disaster-crises",
     "description": "A devastating storm surge killed over 2,500 people in the Netherlands and UK.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/NASA_NorthSea1_2.jpg/330px-NASA_NorthSea1_2.jpg"
   },
   {
     "name": "great-leap-forward-famine",
@@ -422,7 +435,8 @@
     "year": 1961,
     "category": "disaster-crises",
     "description": "A drug prescribed to pregnant women caused thousands of birth defects worldwide.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Thalidomide_effects.jpg/330px-Thalidomide_effects.jpg"
   },
   {
     "name": "alaska-earthquake",
@@ -448,7 +462,8 @@
     "year": 1967,
     "category": "disaster-crises",
     "description": "A blockade during the Nigerian Civil War caused mass starvation in Biafra.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Starving-woman-africa-biafra-nigeria-conflict-famine.jpg/330px-Starving-woman-africa-biafra-nigeria-conflict-famine.jpg"
   },
   {
     "name": "bhola-cyclone",
@@ -465,7 +480,8 @@
     "year": 1972,
     "category": "disaster-crises",
     "description": "Palestinian terrorists killed eleven Israeli athletes at the Olympic Games.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/1972_Summer_Olympics_logo.svg/330px-1972_Summer_Olympics_logo.svg.png"
   },
   {
     "name": "ethiopian-famine-1973",
@@ -473,7 +489,8 @@
     "year": 1973,
     "category": "disaster-crises",
     "description": "A devastating famine killed over 200,000 people in northern Ethiopia.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Map_of_Abyssinia_and_Nubia_-_DPLA_-_83edec2a46dd4cc5c780681e653753e5.jpg/330px-Map_of_Abyssinia_and_Nubia_-_DPLA_-_83edec2a46dd4cc5c780681e653753e5.jpg"
   },
   {
     "name": "tangshan-earthquake",
@@ -516,7 +533,8 @@
     "year": 1981,
     "category": "disaster-crises",
     "description": "The CDC first reported cases of what would become the AIDS pandemic.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map_of_HIV_prevalence%2C_2023.png/330px-World_map_of_HIV_prevalence%2C_2023.png"
   },
   {
     "name": "ethiopian-famine-1983",
@@ -524,7 +542,8 @@
     "year": 1983,
     "category": "disaster-crises",
     "description": "A severe famine killed approximately one million people in Ethiopia.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Map_of_Abyssinia_and_Nubia_-_DPLA_-_83edec2a46dd4cc5c780681e653753e5.jpg/330px-Map_of_Abyssinia_and_Nubia_-_DPLA_-_83edec2a46dd4cc5c780681e653753e5.jpg"
   },
   {
     "name": "bhopal-disaster",
@@ -541,7 +560,8 @@
     "year": 1985,
     "category": "disaster-crises",
     "description": "A powerful earthquake killed over 10,000 people in the Mexican capital.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Sobrevuelos_CDMX_HJ2A4913_%2825514321687%29_%28cropped%29.jpg/330px-Sobrevuelos_CDMX_HJ2A4913_%2825514321687%29_%28cropped%29.jpg"
   },
   {
     "name": "challenger-disaster",
@@ -558,7 +578,8 @@
     "year": 1986,
     "category": "disaster-crises",
     "description": "The world's worst nuclear accident occurred at a Soviet power plant in Ukraine.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/IAEA_02790015_%285613115146%29.jpg/330px-IAEA_02790015_%285613115146%29.jpg"
   },
   {
     "name": "lockerbie-bombing",
@@ -661,7 +682,8 @@
     "year": 1997,
     "category": "disaster-crises",
     "description": "Princess Diana was killed in a car crash in Paris, shocking the world.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Diana%2C_Princess_of_Wales_1997_%282%29.jpg/330px-Diana%2C_Princess_of_Wales_1997_%282%29.jpg"
   },
   {
     "name": "asian-financial-crisis",
@@ -687,7 +709,8 @@
     "year": 1999,
     "category": "disaster-crises",
     "description": "Two students killed 13 people at a Colorado high school in a mass shooting.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Columbine_Shooting_Security_Camera.jpg/330px-Columbine_Shooting_Security_Camera.jpg"
   },
   {
     "name": "concorde-crash",
@@ -695,7 +718,8 @@
     "year": 2000,
     "category": "disaster-crises",
     "description": "A supersonic airliner crashed after takeoff from Paris, killing 113 people.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/0/03/Concorde_Air_France_Flight_4590_fire_on_runway.jpg"
   },
   {
     "name": "september-11-attacks",
@@ -712,7 +736,8 @@
     "year": 2003,
     "category": "disaster-crises",
     "description": "A deadly respiratory disease spread from China to countries worldwide.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/SARS_map.svg/330px-SARS_map.svg.png"
   },
   {
     "name": "indian-ocean-tsunami",
@@ -798,7 +823,8 @@
     "year": 2011,
     "category": "disaster-crises",
     "description": "A massive earthquake and tsunami killed over 18,000 people in Japan.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/SH-60B_helicopter_flies_over_Sendai.jpg/330px-SH-60B_helicopter_flies_over_Sendai.jpg"
   },
   {
     "name": "costa-concordia",
@@ -824,7 +850,8 @@
     "year": 2014,
     "category": "disaster-crises",
     "description": "The deadliest Ebola outbreak killed over 11,000 people in West Africa.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Africa-countries-WAFU-UFOA.png/330px-Africa-countries-WAFU-UFOA.png"
   },
   {
     "name": "mh370-disappearance",
@@ -832,7 +859,8 @@
     "year": 2014,
     "category": "disaster-crises",
     "description": "A passenger plane vanished over the Indian Ocean and was never found.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Malaysia_Airlines%2C_Airbus_A350-900_9M-MAF_NRT_%2842887513761%29.jpg/330px-Malaysia_Airlines%2C_Airbus_A350-900_9M-MAF_NRT_%2842887513761%29.jpg"
   },
   {
     "name": "nepal-earthquake",
@@ -865,7 +893,8 @@
     "year": 2020,
     "category": "disaster-crises",
     "description": "A novel coronavirus spread globally, causing millions of deaths worldwide.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Covid-19_SP_-_UTI_V._Nova_Cachoeirinha.jpg/330px-Covid-19_SP_-_UTI_V._Nova_Cachoeirinha.jpg"
   },
   {
     "name": "beirut-explosion",
@@ -873,7 +902,8 @@
     "year": 2020,
     "category": "disaster-crises",
     "description": "A massive ammonium nitrate explosion devastated the Lebanese capital.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Damages_after_2020_Beirut_explosions_1.jpg/330px-Damages_after_2020_Beirut_explosions_1.jpg"
   },
   {
     "name": "texas-winter-storm",

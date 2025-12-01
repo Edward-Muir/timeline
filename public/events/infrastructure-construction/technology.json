@@ -5,7 +5,8 @@
     "year": 1837,
     "category": "infrastructure-construction",
     "description": "Samuel Morse invented the electric telegraph.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/OptischerTelegraf.jpg/330px-OptischerTelegraf.jpg"
   },
   {
     "name": "telephone",
@@ -13,7 +14,8 @@
     "year": 1876,
     "category": "infrastructure-construction",
     "description": "Alexander Graham Bell patented the telephone.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Telefon_BW_2012-02-18_13-44-32.JPG/330px-Telefon_BW_2012-02-18_13-44-32.JPG"
   },
   {
     "name": "light-bulb",
@@ -21,7 +23,8 @@
     "year": 1879,
     "category": "infrastructure-construction",
     "description": "Thomas Edison developed the practical incandescent light bulb.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Light-bulbs.jpg/330px-Light-bulbs.jpg"
   },
   {
     "name": "television",
@@ -29,7 +32,8 @@
     "year": 1927,
     "category": "infrastructure-construction",
     "description": "Philo Farnsworth demonstrated the first electronic television.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Cptvdisplay.jpg/330px-Cptvdisplay.jpg"
   },
   {
     "name": "world-wide-web",
@@ -37,7 +41,8 @@
     "year": 1989,
     "category": "infrastructure-construction",
     "description": "Tim Berners-Lee invented the World Wide Web.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Chrome_on_Linux.png/330px-Chrome_on_Linux.png"
   },
   {
     "name": "google-founded",
@@ -45,7 +50,8 @@
     "year": 1998,
     "category": "infrastructure-construction",
     "description": "Larry Page and Sergey Brin founded the search engine giant.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/320px-Google_2015_logo.svg.png"
   },
   {
     "name": "iphone",
@@ -53,7 +59,8 @@
     "year": 2007,
     "category": "infrastructure-construction",
     "description": "Apple released the iPhone, revolutionizing smartphones.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/IPhone_17_Pro_Vector.svg/320px-IPhone_17_Pro_Vector.svg.png"
   },
   {
     "name": "apple-founded",
@@ -61,6 +68,7 @@
     "year": 1976,
     "category": "infrastructure-construction",
     "description": "Steve Jobs and Steve Wozniak founded Apple in a garage.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/330px-Apple_logo_black.svg.png"
   }
 ]

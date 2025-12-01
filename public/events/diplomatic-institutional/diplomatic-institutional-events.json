@@ -13,7 +13,8 @@
     "year": -508,
     "category": "diplomatic-institutional",
     "description": "Cleisthenes introduced democratic reforms in ancient Athens.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Discurso_funebre_pericles.PNG/330px-Discurso_funebre_pericles.PNG"
   },
   {
     "name": "twelve-tables",
@@ -21,7 +22,8 @@
     "year": -450,
     "category": "diplomatic-institutional",
     "description": "Rome codified its first written laws, forming the foundation of Roman legal tradition.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Roman_SPQR_banner.svg/320px-Roman_SPQR_banner.svg.png"
   },
   {
     "name": "delian-league",
@@ -29,7 +31,8 @@
     "year": -478,
     "category": "diplomatic-institutional",
     "description": "Greek city-states formed an alliance led by Athens against the Persian Empire.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Map_Peloponnesian_War_431_BC-en.svg/330px-Map_Peloponnesian_War_431_BC-en.svg.png"
   },
   {
     "name": "roman-republic",
@@ -37,7 +40,8 @@
     "year": -509,
     "category": "diplomatic-institutional",
     "description": "Rome overthrew its monarchy and established a republican government.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Roman_republic%2C_territory_44_BC.svg/330px-Roman_republic%2C_territory_44_BC.svg.png"
   },
   {
     "name": "maurya-empire",
@@ -45,7 +49,8 @@
     "year": -322,
     "category": "diplomatic-institutional",
     "description": "Chandragupta Maurya established the first empire to unify most of India.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Maurya_Empire%2C_c.250_BCE_network_model_v01.png/330px-Maurya_Empire%2C_c.250_BCE_network_model_v01.png"
   },
   {
     "name": "qin-unification",
@@ -61,7 +66,8 @@
     "year": -27,
     "category": "diplomatic-institutional",
     "description": "Augustus became the first Roman Emperor, ending the Republic.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Roman_Empire_Trajan_117AD.png/330px-Roman_Empire_Trajan_117AD.png"
   },
   {
     "name": "edict-milan",
@@ -95,7 +101,8 @@
     "year": 534,
     "category": "diplomatic-institutional",
     "description": "Byzantine Emperor Justinian codified Roman law, influencing legal systems for centuries.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Corpus_Iuris_Civilis_-_Dion%C3%ADsio_Godofredo_-_1583.jpg/330px-Corpus_Iuris_Civilis_-_Dion%C3%ADsio_Godofredo_-_1583.jpg"
   },
   {
     "name": "constitution-medina",
@@ -111,7 +118,8 @@
     "year": 618,
     "category": "diplomatic-institutional",
     "description": "The Tang Dynasty began China's golden age of culture and governance.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Tang_outline_map%2C_661.svg/330px-Tang_outline_map%2C_661.svg.png"
   },
   {
     "name": "charlemagne-crowned",
@@ -136,7 +144,8 @@
     "year": 962,
     "category": "diplomatic-institutional",
     "description": "Otto I was crowned, establishing the Holy Roman Empire in central Europe.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Banner_of_the_Holy_Roman_Emperor_with_haloes_%281430-1806%29.svg/330px-Banner_of_the_Holy_Roman_Emperor_with_haloes_%281430-1806%29.svg.png"
   },
   {
     "name": "great-schism",
@@ -170,7 +179,8 @@
     "year": 1291,
     "category": "diplomatic-institutional",
     "description": "Three Swiss cantons formed an alliance that became modern Switzerland.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Flag_of_Switzerland_%28Pantone%29.svg/330px-Flag_of_Switzerland_%28Pantone%29.svg.png"
   },
   {
     "name": "ottoman-empire-founded",
@@ -178,7 +188,8 @@
     "year": 1299,
     "category": "diplomatic-institutional",
     "description": "Osman I established the dynasty that would rule for over 600 years.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Flag_of_the_Ottoman_Empire_%281844%E2%80%931922%29.svg/330px-Flag_of_the_Ottoman_Empire_%281844%E2%80%931922%29.svg.png"
   },
   {
     "name": "ming-dynasty",
@@ -186,7 +197,8 @@
     "year": 1368,
     "category": "diplomatic-institutional",
     "description": "The Ming Dynasty restored Chinese rule after Mongol domination.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Map_of_Ming_Chinese_empire_1415_%28cropped_2%29.jpg/330px-Map_of_Ming_Chinese_empire_1415_%28cropped_2%29.jpg"
   },
   {
     "name": "treaty-tordesillas",
@@ -211,7 +223,8 @@
     "year": 1534,
     "category": "diplomatic-institutional",
     "description": "Henry VIII broke from Rome and established the Anglican Church.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Logo_of_the_Church_of_England.svg/330px-Logo_of_the_Church_of_England.svg.png"
   },
   {
     "name": "peace-augsburg",
@@ -228,7 +241,8 @@
     "year": 1581,
     "category": "diplomatic-institutional",
     "description": "The Netherlands declared independence from Spanish rule.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Prinsenvlag.svg/330px-Prinsenvlag.svg.png"
   },
   {
     "name": "edict-nantes",
@@ -245,7 +259,8 @@
     "year": 1600,
     "category": "diplomatic-institutional",
     "description": "England chartered the company that would dominate trade with Asia.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Flag_of_the_British_East_India_Company_%281801%29.svg/330px-Flag_of_the_British_East_India_Company_%281801%29.svg.png"
   },
   {
     "name": "jamestown-founded",
@@ -261,7 +276,8 @@
     "year": 1620,
     "category": "diplomatic-institutional",
     "description": "Pilgrims created an early form of self-government in America.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/The_Mayflower_Compact_1620_cph.3g07155.jpg/330px-The_Mayflower_Compact_1620_cph.3g07155.jpg"
   },
   {
     "name": "peace-westphalia",
@@ -304,7 +320,8 @@
     "year": 1694,
     "category": "diplomatic-institutional",
     "description": "The world's second oldest central bank was established.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/7/72/Bank_of_England_logo.svg/320px-Bank_of_England_logo.svg.png"
   },
   {
     "name": "act-of-union-britain",
@@ -338,7 +355,8 @@
     "year": 1788,
     "category": "diplomatic-institutional",
     "description": "The United States adopted its constitution establishing the federal government.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Constitution_of_the_United_States%2C_page_1.jpg/330px-Constitution_of_the_United_States%2C_page_1.jpg"
   },
   {
     "name": "french-declaration-rights",
@@ -381,7 +399,8 @@
     "year": 1823,
     "category": "diplomatic-institutional",
     "description": "The US opposed European colonization in the Americas.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/James_Monroe_White_House_portrait_1819_%28cropped%29%282%29.jpg/330px-James_Monroe_White_House_portrait_1819_%28cropped%29%282%29.jpg"
   },
   {
     "name": "abolition-slavery-uk",
@@ -415,7 +434,8 @@
     "year": 1863,
     "category": "diplomatic-institutional",
     "description": "Henry Dunant established the humanitarian organization in Geneva.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Croixrouge_logos.jpg/330px-Croixrouge_logos.jpg"
   },
   {
     "name": "13th-amendment",
@@ -423,7 +443,8 @@
     "year": 1865,
     "category": "diplomatic-institutional",
     "description": "The United States abolished slavery through constitutional amendment.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Greater_coat_of_arms_of_the_United_States.svg/330px-Greater_coat_of_arms_of_the_United_States.svg.png"
   },
   {
     "name": "dominion-canada",
@@ -431,7 +452,8 @@
     "year": 1867,
     "category": "diplomatic-institutional",
     "description": "Canadian provinces united to form a self-governing dominion within the British Empire.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Dauphin_Map_of_Canada_-_circa_1543_-_Project_Gutenberg_etext_20110.jpg/330px-Dauphin_Map_of_Canada_-_circa_1543_-_Project_Gutenberg_etext_20110.jpg"
   },
   {
     "name": "meiji-restoration",
@@ -474,7 +496,8 @@
     "year": 1901,
     "category": "diplomatic-institutional",
     "description": "Australian colonies federated to form a single nation.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/330px-Flag_of_Australia_%28converted%29.svg.png"
   },
   {
     "name": "entente-cordiale",
@@ -491,7 +514,8 @@
     "year": 1909,
     "category": "diplomatic-institutional",
     "description": "The civil rights organization was established to fight racial discrimination.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/NAACP_seal.svg/320px-NAACP_seal.svg.png"
   },
   {
     "name": "chinese-republic",
@@ -499,7 +523,8 @@
     "year": 1912,
     "category": "diplomatic-institutional",
     "description": "The Qing Dynasty fell and China became a republic.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Flag_of_the_Republic_of_China.svg/330px-Flag_of_the_Republic_of_China.svg.png"
   },
   {
     "name": "treaty-versailles",
@@ -516,7 +541,8 @@
     "year": 1920,
     "category": "diplomatic-institutional",
     "description": "The first international organization for world peace was established.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Flag_of_the_League_of_Nations_%281939%29.svg/330px-Flag_of_the_League_of_Nations_%281939%29.svg.png"
   },
   {
     "name": "womens-suffrage-us",
@@ -532,7 +558,8 @@
     "year": 1922,
     "category": "diplomatic-institutional",
     "description": "Ireland gained independence from Britain as a dominion.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Flag_of_Ireland.svg/330px-Flag_of_Ireland.svg.png"
   },
   {
     "name": "ussr-formed",
@@ -540,7 +567,8 @@
     "year": 1922,
     "category": "diplomatic-institutional",
     "description": "The Union of Soviet Socialist Republics was officially established.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/330px-Flag_of_the_Soviet_Union.svg.png"
   },
   {
     "name": "locarno-treaties",
@@ -566,7 +594,8 @@
     "year": 1933,
     "category": "diplomatic-institutional",
     "description": "FDR launched sweeping programs to combat the Great Depression.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/New_Deal_collage.jpg/330px-New_Deal_collage.jpg"
   },
   {
     "name": "social-security-act",
@@ -574,7 +603,8 @@
     "year": 1935,
     "category": "diplomatic-institutional",
     "description": "The US established its social insurance program for the elderly.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Great_Seal_of_the_United_States_%28obverse%29.svg/330px-Great_Seal_of_the_United_States_%28obverse%29.svg.png"
   },
   {
     "name": "united-nations-founded",
@@ -582,7 +612,8 @@
     "year": 1945,
     "category": "diplomatic-institutional",
     "description": "Fifty-one nations established the international organization for peace and cooperation.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_the_United_Nations.svg/330px-Flag_of_the_United_Nations.svg.png"
   },
   {
     "name": "imf-world-bank",
@@ -598,7 +629,8 @@
     "year": 1945,
     "category": "diplomatic-institutional",
     "description": "Nazi war criminals were prosecuted in the first international war crimes tribunal.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Color_photograph_of_judges%27_bench_at_IMT.jpg/330px-Color_photograph_of_judges%27_bench_at_IMT.jpg"
   },
   {
     "name": "indian-independence",
@@ -623,7 +655,8 @@
     "year": 1948,
     "category": "diplomatic-institutional",
     "description": "Israel declared independence as a Jewish homeland.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Israel.svg/330px-Flag_of_Israel.svg.png"
   },
   {
     "name": "nato-founded",
@@ -631,7 +664,8 @@
     "year": 1949,
     "category": "diplomatic-institutional",
     "description": "Western nations formed a military alliance for collective defense.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/NATO_OTAN_landscape_logo.svg/330px-NATO_OTAN_landscape_logo.svg.png"
   },
   {
     "name": "geneva-conventions-1949",
@@ -639,7 +673,8 @@
     "year": 1949,
     "category": "diplomatic-institutional",
     "description": "Nations adopted comprehensive humanitarian law for armed conflicts.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Original_Geneva_Conventions.jpg/330px-Original_Geneva_Conventions.jpg"
   },
   {
     "name": "european-coal-steel",
@@ -664,7 +699,8 @@
     "year": 1955,
     "category": "diplomatic-institutional",
     "description": "The Soviet Union and Eastern Bloc formed a military alliance.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Warsaw_Pact_in_1990_%28orthographic_projection%29.svg/330px-Warsaw_Pact_in_1990_%28orthographic_projection%29.svg.png"
   },
   {
     "name": "treaty-rome",
@@ -734,7 +770,8 @@
     "year": 1979,
     "category": "diplomatic-institutional",
     "description": "Iran became an Islamic theocracy after the revolution.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Flag_of_Iran_%28official%29.svg/330px-Flag_of_Iran_%28official%29.svg.png"
   },
   {
     "name": "european-union-precursor",
@@ -751,7 +788,8 @@
     "year": 1989,
     "category": "diplomatic-institutional",
     "description": "East Germany opened its borders, symbolizing the end of the Cold War.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Berlinermauer.jpg/330px-Berlinermauer.jpg"
   },
   {
     "name": "german-reunification",
@@ -768,7 +806,8 @@
     "year": 1991,
     "category": "diplomatic-institutional",
     "description": "The USSR officially dissolved into fifteen independent republics.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/330px-Flag_of_the_Soviet_Union.svg.png"
   },
   {
     "name": "maastricht-treaty",
@@ -802,7 +841,8 @@
     "year": 1995,
     "category": "diplomatic-institutional",
     "description": "The international organization for trade rules and negotiations was established.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/WTO_members_and_observers.svg/330px-WTO_members_and_observers.svg.png"
   },
   {
     "name": "good-friday-agreement",
@@ -810,7 +850,8 @@
     "year": 1998,
     "category": "diplomatic-institutional",
     "description": "A peace agreement largely ended decades of conflict in Northern Ireland.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Cristo_crucificado.jpg/330px-Cristo_crucificado.jpg"
   },
   {
     "name": "euro-introduced",
@@ -818,7 +859,8 @@
     "year": 1999,
     "category": "diplomatic-institutional",
     "description": "Eleven European nations adopted a common currency.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Euro_Series_Banknotes_%282019%29.jpg/330px-Euro_Series_Banknotes_%282019%29.jpg"
   },
   {
     "name": "icc-established",
@@ -826,7 +868,8 @@
     "year": 2002,
     "category": "diplomatic-institutional",
     "description": "The first permanent international court for war crimes was established.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/International_Criminal_Court_%E2%80%93_State_Parties.svg/330px-International_Criminal_Court_%E2%80%93_State_Parties.svg.png"
   },
   {
     "name": "african-union",
@@ -834,7 +877,8 @@
     "year": 2002,
     "category": "diplomatic-institutional",
     "description": "African nations formed a continental union for political and economic integration.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Flag_of_the_African_Union.svg/330px-Flag_of_the_African_Union.svg.png"
   },
   {
     "name": "paris-climate-agreement",
@@ -851,6 +895,7 @@
     "year": 2020,
     "category": "diplomatic-institutional",
     "description": "The United Kingdom officially left the European Union.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Location_map_of_the_United_Kingdom_and_the_European_Union.svg/330px-Location_map_of_the_United_Kingdom_and_the_European_Union.svg.png"
   }
 ]

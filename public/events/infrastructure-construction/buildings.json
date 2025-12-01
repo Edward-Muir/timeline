@@ -5,7 +5,8 @@
     "year": -2560,
     "category": "infrastructure-construction",
     "description": "The ancient Egyptians built the last surviving wonder of the ancient world.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg/330px-Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg"
   },
   {
     "name": "stonehenge",
@@ -13,7 +14,8 @@
     "year": -2500,
     "category": "infrastructure-construction",
     "description": "The mysterious stone circle in England was completed.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Stonehenge2007_07_30.jpg/330px-Stonehenge2007_07_30.jpg"
   },
   {
     "name": "parthenon",
@@ -21,7 +23,8 @@
     "year": -432,
     "category": "infrastructure-construction",
     "description": "The temple to Athena was completed on the Athenian Acropolis.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/The_Parthenon_in_Athens.jpg/330px-The_Parthenon_in_Athens.jpg"
   },
   {
     "name": "colosseum",
@@ -29,7 +32,8 @@
     "year": 80,
     "category": "infrastructure-construction",
     "description": "Rome's iconic amphitheater was completed.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/330px-Colosseo_2020.jpg"
   },
   {
     "name": "great-wall-start",
@@ -37,7 +41,8 @@
     "year": -221,
     "category": "infrastructure-construction",
     "description": "Construction began on China's massive defensive wall.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/The_Great_Wall_of_China_at_Jinshanling-edit.jpg/330px-The_Great_Wall_of_China_at_Jinshanling-edit.jpg"
   },
   {
     "name": "taj-mahal",
@@ -45,7 +50,8 @@
     "year": 1653,
     "category": "infrastructure-construction",
     "description": "The magnificent mausoleum was completed in India.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Taj_Mahal_%28Edited%29.jpeg/330px-Taj_Mahal_%28Edited%29.jpeg"
   },
   {
     "name": "eiffel-tower",
@@ -62,6 +68,7 @@
     "year": 1931,
     "category": "infrastructure-construction",
     "description": "The iconic New York skyscraper was completed.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg/330px-Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg"
   }
 ]

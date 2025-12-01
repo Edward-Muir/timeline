@@ -9,6 +9,7 @@ interface HandCardProps {
   index: number;
   isRevealing?: boolean;
   showYear?: boolean;
+  onCardClick?: (event: HistoricalEvent) => void;
 }
 
 const HandCard: React.FC<HandCardProps> = ({
@@ -16,6 +17,7 @@ const HandCard: React.FC<HandCardProps> = ({
   index,
   isRevealing = false,
   showYear = false,
+  onCardClick,
 }) => {
   const {
     attributes,
@@ -61,6 +63,7 @@ const HandCard: React.FC<HandCardProps> = ({
         showYear={showYear || isRevealing}
         isRevealing={isRevealing}
         className={isRevealing ? 'ring-4 ring-red-500 animate-shake' : ''}
+        onClick={onCardClick ? () => onCardClick(event) : undefined}
       />
     </div>
   );

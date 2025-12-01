@@ -5,7 +5,8 @@
     "year": -3500,
     "category": "infrastructure-construction",
     "description": "The wheel was invented in Mesopotamia, transforming transportation.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Landesmuseum_W%C3%BCrttemberg_Kelten_011.4.jpg/330px-Landesmuseum_W%C3%BCrttemberg_Kelten_011.4.jpg"
   },
   {
     "name": "steam-engine",
@@ -21,7 +22,8 @@
     "year": 1826,
     "category": "infrastructure-construction",
     "description": "Nicephore Niepce captured the first permanent photograph.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Icelandic_Landscape_near_Neskaupsta%C3%B0ur_July_2014.JPG/330px-Icelandic_Landscape_near_Neskaupsta%C3%B0ur_July_2014.JPG"
   },
   {
     "name": "automobile",
@@ -29,7 +31,8 @@
     "year": 1886,
     "category": "infrastructure-construction",
     "description": "Karl Benz patented the first practical automobile.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/1925_Ford_Model_T_touring.jpg/330px-1925_Ford_Model_T_touring.jpg"
   },
   {
     "name": "flight",

@@ -14,6 +14,7 @@
     "year": -66000000,
     "category": "disasters-crises",
     "description": "An asteroid impact caused the mass extinction of the dinosaurs.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Impact_event.jpg/330px-Impact_event.jpg"
   }
 ]

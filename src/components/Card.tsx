@@ -9,6 +9,7 @@ interface CardProps {
   isRevealing?: boolean;
   className?: string;
   rotation?: number;
+  onClick?: () => void;
 }
 
 const Card: React.FC<CardProps> = ({
@@ -17,6 +18,7 @@ const Card: React.FC<CardProps> = ({
   isRevealing = false,
   className = '',
   rotation = 0,
+  onClick,
 }) => {
   const [imageError, setImageError] = useState(false);
   const bgColor = getCategoryColorClass(event.category);
@@ -32,15 +34,17 @@ const Card: React.FC<CardProps> = ({
     <div
       className={`
         relative rounded-lg overflow-hidden
-        w-[100px] h-[133px] sm:w-[120px] sm:h-[160px] md:w-36 md:h-48
+        w-[125px] h-[167px] sm:w-[150px] sm:h-[200px] md:w-[180px] md:h-[240px]
         ${bgColor} ${borderColor}
         border-2 sm:border-4 shadow-sketch
         flex flex-col justify-between
         transition-all duration-200
         ${isRevealing ? 'reveal-year' : ''}
+        ${onClick ? 'cursor-pointer' : ''}
         ${className}
       `}
       style={rotationStyle}
+      onClick={onClick}
     >
       {/* Background image or category icon */}
       {hasImage ? (
@@ -74,7 +78,7 @@ const Card: React.FC<CardProps> = ({
       {/* Card content */}
       <div className="relative z-10 flex-1 flex items-center justify-center p-2 sm:p-3">
         <h3
-          className="text-white text-center font-hand text-sm sm:text-base md:text-lg leading-tight"
+          className="text-white text-center font-hand text-base sm:text-lg md:text-xl leading-tight"
           style={{ textShadow: '0 2px 4px rgba(0,0,0,0.8), 0 1px 2px rgba(0,0,0,0.9)' }}
         >
           {event.friendly_name}
@@ -84,12 +88,12 @@ const Card: React.FC<CardProps> = ({
       {/* Year section - revealed or hidden */}
       <div className={`
         relative z-10 mx-2 mb-2 sm:mx-3 sm:mb-3
-        h-8 sm:h-10 md:h-12 rounded-md flex items-center justify-center
+        h-10 sm:h-12 md:h-14 rounded-md flex items-center justify-center
         ${showYear ? 'bg-white/90' : 'bg-white/20 border-2 border-dashed border-white/40'}
         transition-all duration-300
       `}>
         {showYear ? (
-          <span className="font-hand text-base sm:text-lg md:text-xl text-sketch font-bold">
+          <span className="font-hand text-lg sm:text-xl md:text-2xl text-sketch font-bold">
             {formatYear(event.year)}
           </span>
         ) : (

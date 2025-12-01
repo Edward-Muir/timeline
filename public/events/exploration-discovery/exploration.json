@@ -31,7 +31,8 @@
     "year": 1607,
     "category": "exploration-discovery",
     "description": "The first permanent English settlement in America was established.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/1639_Jamestown_Church_%282883847775%29.jpg/330px-1639_Jamestown_Church_%282883847775%29.jpg"
   },
   {
     "name": "mayflower",
@@ -55,7 +56,8 @@
     "year": 1922,
     "category": "exploration-discovery",
     "description": "Howard Carter discovered the nearly intact tomb of the Egyptian pharaoh.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Inside_Pharaoh_Tutankhamun%27s_tomb%2C_18th_dynasty.jpg/330px-Inside_Pharaoh_Tutankhamun%27s_tomb%2C_18th_dynasty.jpg"
   },
   {
     "name": "tenochtitlan",
@@ -63,6 +65,7 @@
     "year": 1325,
     "category": "exploration-discovery",
     "description": "The Aztec capital was founded on an island in Lake Texcoco.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Painting_of_Tenochtitlan-Tlatelolco_on_Lake_Texcoco_%289755215791%29.jpg/330px-Painting_of_Tenochtitlan-Tlatelolco_on_Lake_Texcoco_%289755215791%29.jpg"
   }
 ]

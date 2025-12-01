@@ -50,7 +50,8 @@
     "year": 1775,
     "category": "conflict-politics",
     "description": "The Battles of Lexington and Concord marked the start of American independence.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Surrender_of_Lord_Cornwallis.jpg/330px-Surrender_of_Lord_Cornwallis.jpg"
   },
   {
     "name": "american-independence",
@@ -66,7 +67,8 @@
     "year": 1789,
     "category": "conflict-politics",
     "description": "The storming of the Bastille ignited revolutionary fervor across France.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Anonymous_-_Prise_de_la_Bastille.jpg/330px-Anonymous_-_Prise_de_la_Bastille.jpg"
   },
   {
     "name": "napoleon-waterloo",
@@ -83,7 +85,8 @@
     "year": 1861,
     "category": "conflict-politics",
     "description": "Confederate forces attacked Fort Sumter, starting the bloodiest American conflict.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Battle_of_Gettysburg%2C_by_Currier_and_Ives.png/330px-Battle_of_Gettysburg%2C_by_Currier_and_Ives.png"
   },
   {
     "name": "us-civil-war-end",
@@ -91,7 +94,8 @@
     "year": 1865,
     "category": "conflict-politics",
     "description": "General Lee surrendered at Appomattox Courthouse, ending the Civil War.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Battle_of_Gettysburg%2C_by_Currier_and_Ives.png/330px-Battle_of_Gettysburg%2C_by_Currier_and_Ives.png"
   },
   {
     "name": "lincoln-assassination",
@@ -99,7 +103,8 @@
     "year": 1865,
     "category": "conflict-politics",
     "description": "President Lincoln was shot by John Wilkes Booth at Ford's Theatre.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Abraham_Lincoln_1863_Portrait_%283x4_cropped%29.jpg/330px-Abraham_Lincoln_1863_Portrait_%283x4_cropped%29.jpg"
   },
   {
     "name": "russian-revolution",
@@ -134,7 +139,8 @@
     "year": 1950,
     "category": "conflict-politics",
     "description": "North Korea invaded South Korea, beginning a major Cold War conflict.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Chosin.jpg/330px-Chosin.jpg"
   },
   {
     "name": "korean-war-armistice",
@@ -142,7 +148,8 @@
     "year": 1953,
     "category": "conflict-politics",
     "description": "An armistice halted fighting on the Korean Peninsula, though no peace treaty was signed.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Chosin.jpg/330px-Chosin.jpg"
   },
   {
     "name": "vietnam-war-start",
@@ -150,7 +157,8 @@
     "year": 1965,
     "category": "conflict-politics",
     "description": "The United States deployed ground troops to South Vietnam.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/U.S._Army_UH-1H_Hueys_insert_ARVN_troops_at_Kh%C3%A2m_%C4%90%E1%BB%A9c%2C_Vietnam%2C_12_July_1970_%2879431435%29.jpg/330px-U.S._Army_UH-1H_Hueys_insert_ARVN_troops_at_Kh%C3%A2m_%C4%90%E1%BB%A9c%2C_Vietnam%2C_12_July_1970_%2879431435%29.jpg"
   },
   {
     "name": "vietnam-war-end",
@@ -176,7 +184,8 @@
     "year": 1991,
     "category": "conflict-politics",
     "description": "The USSR officially dissolved into fifteen independent republics.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/330px-Flag_of_the_Soviet_Union.svg.png"
   },
   {
     "name": "gulf-war",
@@ -184,7 +193,8 @@
     "year": 1991,
     "category": "conflict-politics",
     "description": "A US-led coalition launched Operation Desert Storm to liberate Kuwait.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/USAF_F-16A_F-15C_F-15E_Desert_Storm_edit2.jpg/330px-USAF_F-16A_F-15C_F-15E_Desert_Storm_edit2.jpg"
   },
   {
     "name": "september-11",
@@ -201,7 +211,8 @@
     "year": 2003,
     "category": "conflict-politics",
     "description": "The United States invaded Iraq to overthrow Saddam Hussein's regime.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/DM-SD-06-01266.png/330px-DM-SD-06-01266.png"
   },
   {
     "name": "magna-carta",
@@ -218,7 +229,8 @@
     "year": 1337,
     "category": "conflict-politics",
     "description": "England and France began a prolonged conflict over succession and territory.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Hundred_years_war_collage.jpg/330px-Hundred_years_war_collage.jpg"
   },
   {
     "name": "hundred-years-war-end",
@@ -226,7 +238,8 @@
     "year": 1453,
     "category": "conflict-politics",
     "description": "France expelled the English, ending over a century of intermittent warfare.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Hundred_years_war_collage.jpg/330px-Hundred_years_war_collage.jpg"
   },
   {
     "name": "constantinople-fall",
@@ -243,7 +256,8 @@
     "year": 1588,
     "category": "conflict-politics",
     "description": "England repelled Spain's massive invasion fleet, securing Protestant rule.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Armadaroute.jpg/330px-Armadaroute.jpg"
   },
   {
     "name": "english-civil-war-start",
@@ -251,7 +265,8 @@
     "year": 1642,
     "category": "conflict-politics",
     "description": "Conflict erupted between Parliamentarians and Royalists over governance of England.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Battle_of_Naseby.jpg/330px-Battle_of_Naseby.jpg"
   },
   {
     "name": "charles-i-execution",
@@ -276,7 +291,8 @@
     "year": 1756,
     "category": "conflict-politics",
     "description": "A global conflict erupted involving most European great powers.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Seven_Years%27_War_Collage.jpg/330px-Seven_Years%27_War_Collage.jpg"
   },
   {
     "name": "bastille-day",
@@ -293,7 +309,8 @@
     "year": 1793,
     "category": "conflict-politics",
     "description": "The French king was guillotined during the Reign of Terror.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Antoine-Fran%C3%A7ois_Callet_-_Louis_XVI%2C_roi_de_France_et_de_Navarre_%281754-1793%29%2C_rev%C3%AAtu_du_grand_costume_royal_en_1779_-_Google_Art_Project.jpg/330px-Antoine-Fran%C3%A7ois_Callet_-_Louis_XVI%2C_roi_de_France_et_de_Navarre_%281754-1793%29%2C_rev%C3%AAtu_du_grand_costume_royal_en_1779_-_Google_Art_Project.jpg"
   },
   {
     "name": "haitian-revolution",
@@ -301,7 +318,8 @@
     "year": 1804,
     "category": "conflict-politics",
     "description": "Haiti became the first nation founded by a successful slave revolt.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Revolucion_Haitiana.png/330px-Revolucion_Haitiana.png"
   },
   {
     "name": "napoleon-emperor",
@@ -317,7 +335,8 @@
     "year": 1812,
     "category": "conflict-politics",
     "description": "The United States declared war on Britain over trade restrictions and impressment.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/War_of_1812_Montage.jpg/330px-War_of_1812_Montage.jpg"
   },
   {
     "name": "napoleon-russia",
@@ -333,7 +352,8 @@
     "year": 1821,
     "category": "conflict-politics",
     "description": "Greeks revolted against Ottoman rule, seeking national independence.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Greek_revolution_collage.jpg/330px-Greek_revolution_collage.jpg"
   },
   {
     "name": "mexican-american-war",
@@ -341,7 +361,8 @@
     "year": 1846,
     "category": "conflict-politics",
     "description": "Conflict erupted between the US and Mexico over Texas annexation.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/MXAMWAR.png/330px-MXAMWAR.png"
   },
   {
     "name": "revolutions-1848",
@@ -358,7 +379,8 @@
     "year": 1853,
     "category": "conflict-politics",
     "description": "Britain, France, and the Ottoman Empire fought against Russian expansion.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/%D0%9E%D1%81%D0%B0%D0%B4%D0%B0_%D0%A1%D0%B8%D0%BB%D0%B8%D1%81%D1%82%D1%80%D0%B8%D0%B8_1._%D0%92%D0%B8%D0%BB%D0%BB%D0%B5%D0%B2%D0%B0%D0%BB%D1%8C%D0%B4%D0%B5.jpg/330px-%D0%9E%D1%81%D0%B0%D0%B4%D0%B0_%D0%A1%D0%B8%D0%BB%D0%B8%D1%81%D1%82%D1%80%D0%B8%D0%B8_1._%D0%92%D0%B8%D0%BB%D0%BB%D0%B5%D0%B2%D0%B0%D0%BB%D1%8C%D0%B4%D0%B5.jpg"
   },
   {
     "name": "indian-rebellion",
@@ -375,7 +397,8 @@
     "year": 1871,
     "category": "conflict-politics",
     "description": "The Kingdom of Italy unified the Italian peninsula under one government.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Episodio_delle_cinque_giornate_%28Baldassare_Verazzi%29.jpg/330px-Episodio_delle_cinque_giornate_%28Baldassare_Verazzi%29.jpg"
   },
   {
     "name": "german-unification",
@@ -392,7 +415,8 @@
     "year": 1870,
     "category": "conflict-politics",
     "description": "Prussia and German allies went to war with France over succession disputes.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/A_v_Werner_-_Kaiserproklamation_am_18_Januar_1871_%283._Fassung_1885%29.jpg/330px-A_v_Werner_-_Kaiserproklamation_am_18_Januar_1871_%283._Fassung_1885%29.jpg"
   },
   {
     "name": "paris-commune",
@@ -418,7 +442,8 @@
     "year": 1899,
     "category": "conflict-politics",
     "description": "Britain fought Dutch settlers in South Africa in a brutal colonial conflict.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Second_Boer_War_Collage.png/330px-Second_Boer_War_Collage.png"
   },
   {
     "name": "russo-japanese-war",
@@ -478,7 +503,8 @@
     "year": 1919,
     "category": "conflict-politics",
     "description": "Irish republicans launched a guerrilla war against British rule.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Hogan%27s_Flying_Column.gif/330px-Hogan%27s_Flying_Column.gif"
   },
   {
     "name": "mussolini-power",
@@ -486,7 +512,8 @@
     "year": 1922,
     "category": "conflict-politics",
     "description": "The March on Rome brought Benito Mussolini to power as Italy's fascist leader.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Mussolini_mezzobusto.jpg/330px-Mussolini_mezzobusto.jpg"
   },
   {
     "name": "hitler-chancellor",
@@ -494,7 +521,8 @@
     "year": 1933,
     "category": "conflict-politics",
     "description": "Adolf Hitler was appointed Chancellor of Germany, beginning Nazi rule.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Hitler_portrait_crop_%28cropped%29%282%29.jpg/330px-Hitler_portrait_crop_%28cropped%29%282%29.jpg"
   },
   {
     "name": "spanish-civil-war",
@@ -502,7 +530,8 @@
     "year": 1936,
     "category": "conflict-politics",
     "description": "Nationalist forces led by Franco rebelled against Spain's Republican government.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/%D0%98%D1%81%D0%BF%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_11_%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B1%D1%80%D0%B8%D0%B3%D0%B0%D0%B4%D0%B0_%D0%B2_%D0%B1%D0%BE%D1%8E_%D0%BF%D0%BE%D0%B4_%D0%91%D0%B5%D0%BB%D1%8C%D1%87%D0%B8%D1%82%D0%B5._1937-edit.jpg/330px-%D0%98%D1%81%D0%BF%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_11_%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B1%D1%80%D0%B8%D0%B3%D0%B0%D0%B4%D0%B0_%D0%B2_%D0%B1%D0%BE%D1%8E_%D0%BF%D0%BE%D0%B4_%D0%91%D0%B5%D0%BB%D1%8C%D1%87%D0%B8%D1%82%D0%B5._1937-edit.jpg"
   },
   {
     "name": "kristallnacht",
@@ -537,7 +566,8 @@
     "year": 1943,
     "category": "conflict-politics",
     "description": "Soviet forces defeated Germany in a turning point of World War II.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/The_Battle_of_Stalingrad_second_collage.jpg/330px-The_Battle_of_Stalingrad_second_collage.jpg"
   },
   {
     "name": "nuremberg-trials",
@@ -545,7 +575,8 @@
     "year": 1945,
     "category": "conflict-politics",
     "description": "Nazi war criminals were prosecuted for crimes against humanity.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Color_photograph_of_judges%27_bench_at_IMT.jpg/330px-Color_photograph_of_judges%27_bench_at_IMT.jpg"
   },
   {
     "name": "indian-independence",
@@ -561,7 +592,8 @@
     "year": 1948,
     "category": "conflict-politics",
     "description": "Israel declared independence, immediately sparking conflict with Arab neighbors.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Israel.svg/330px-Flag_of_Israel.svg.png"
   },
   {
     "name": "nato-founded",
@@ -569,7 +601,8 @@
     "year": 1949,
     "category": "conflict-politics",
     "description": "Western nations formed a military alliance against Soviet expansion.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/NATO_OTAN_landscape_logo.svg/330px-NATO_OTAN_landscape_logo.svg.png"
   },
   {
     "name": "chinese-communist-victory",
@@ -577,7 +610,8 @@
     "year": 1949,
     "category": "conflict-politics",
     "description": "Mao Zedong's communists defeated the Nationalists and founded the People's Republic.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/19191107-lenin_second_anniversary_october_revolution_moscow.jpg/330px-19191107-lenin_second_anniversary_october_revolution_moscow.jpg"
   },
   {
     "name": "cuban-revolution",
@@ -585,7 +619,8 @@
     "year": 1959,
     "category": "conflict-politics",
     "description": "Fidel Castro's forces overthrew the Batista dictatorship in Cuba.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Cuban_Revolution_collage.png/330px-Cuban_Revolution_collage.png"
   },
   {
     "name": "bay-of-pigs",
@@ -611,7 +646,8 @@
     "year": 1963,
     "category": "conflict-politics",
     "description": "President John F. Kennedy was shot and killed in Dallas, Texas.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/John_F._Kennedy%2C_White_House_color_photo_portrait.jpg/330px-John_F._Kennedy%2C_White_House_color_photo_portrait.jpg"
   },
   {
     "name": "six-day-war",
@@ -628,7 +664,8 @@
     "year": 1968,
     "category": "conflict-politics",
     "description": "The civil rights leader was shot in Memphis, sparking nationwide unrest.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Martin_Luther_King%2C_Jr..jpg/330px-Martin_Luther_King%2C_Jr..jpg"
   },
   {
     "name": "prague-spring",
@@ -636,7 +673,8 @@
     "year": 1968,
     "category": "conflict-politics",
     "description": "Soviet forces invaded Czechoslovakia to end political liberalization.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/10_Soviet_Invasion_of_Czechoslovakia_-_Flickr_-_The_Central_Intelligence_Agency.jpg/330px-10_Soviet_Invasion_of_Czechoslovakia_-_Flickr_-_The_Central_Intelligence_Agency.jpg"
   },
   {
     "name": "yom-kippur-war",
@@ -661,7 +699,8 @@
     "year": 1975,
     "category": "conflict-politics",
     "description": "The Khmer Rouge seized Cambodia and began a genocide killing nearly two million.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Democratic_Kampuchea.svg/330px-Flag_of_Democratic_Kampuchea.svg.png"
   },
   {
     "name": "iranian-revolution",
@@ -678,7 +717,8 @@
     "year": 1979,
     "category": "conflict-politics",
     "description": "The Soviet Union invaded Afghanistan to support its communist government.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Mortar_attack_on_Shigal_Tarna_garrison%2C_Kunar_Province%2C_87.jpg/330px-Mortar_attack_on_Shigal_Tarna_garrison%2C_Kunar_Province%2C_87.jpg"
   },
   {
     "name": "falklands-war",
@@ -713,7 +753,8 @@
     "year": 1991,
     "category": "conflict-politics",
     "description": "Yugoslavia began to dissolve amid ethnic conflicts and declarations of independence.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Collage_Yugoslav_wars.jpg/330px-Collage_Yugoslav_wars.jpg"
   },
   {
     "name": "apartheid-ends",
@@ -756,7 +797,8 @@
     "year": 1998,
     "category": "conflict-politics",
     "description": "A peace agreement largely ended decades of conflict in Northern Ireland.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Cristo_crucificado.jpg/330px-Cristo_crucificado.jpg"
   },
   {
     "name": "kosovo-war",
@@ -764,7 +806,8 @@
     "year": 1999,
     "category": "conflict-politics",
     "description": "NATO bombing forced Serbian withdrawal from Kosovo.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Bllace_refugee_camp.jpg/330px-Bllace_refugee_camp.jpg"
   },
   {
     "name": "afghanistan-war-start",
@@ -780,7 +823,8 @@
     "year": 2003,
     "category": "conflict-politics",
     "description": "US forces captured the Iraqi dictator hiding in a spider hole.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Saddam_Hussein_1960s_Portrait_%28cropped%29.png/330px-Saddam_Hussein_1960s_Portrait_%28cropped%29.png"
   },
   {
     "name": "madrid-bombings",
@@ -805,7 +849,8 @@
     "year": 2011,
     "category": "conflict-politics",
     "description": "US Navy SEALs killed the al-Qaeda leader in Pakistan.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Osama_bin_Laden_portrait.jpg/330px-Osama_bin_Laden_portrait.jpg"
   },
   {
     "name": "arab-spring",
@@ -813,7 +858,8 @@
     "year": 2011,
     "category": "conflict-politics",
     "description": "Pro-democracy protests swept across the Middle East and North Africa.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Infobox_collage_for_MENA_protests.PNG/330px-Infobox_collage_for_MENA_protests.PNG"
   },
   {
     "name": "syrian-civil-war",
@@ -821,7 +867,8 @@
     "year": 2011,
     "category": "conflict-politics",
     "description": "Anti-government protests in Syria escalated into a devastating civil war.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Syrian_Civil_War_map_%28ISW-CTP%29.svg/330px-Syrian_Civil_War_map_%28ISW-CTP%29.svg.png"
   },
   {
     "name": "crimea-annexation",

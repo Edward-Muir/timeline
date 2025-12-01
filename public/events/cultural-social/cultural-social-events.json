@@ -5,7 +5,8 @@
     "year": -15000,
     "category": "cultural-social",
     "description": "Prehistoric humans painted elaborate animal scenes in caves in modern-day France.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Lascaux_painting.jpg/330px-Lascaux_painting.jpg"
   },
   {
     "name": "first-writing",
@@ -21,7 +22,8 @@
     "year": -2560,
     "category": "cultural-social",
     "description": "The largest Egyptian pyramid was built as a tomb for Pharaoh Khufu.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg/330px-Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg"
   },
   {
     "name": "code-hammurabi",
@@ -29,7 +31,8 @@
     "year": -1754,
     "category": "cultural-social",
     "description": "The Babylonian king established one of the oldest written legal codes.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/P1050763_Louvre_code_Hammurabi_face_rwk.JPG/330px-P1050763_Louvre_code_Hammurabi_face_rwk.JPG"
   },
   {
     "name": "first-olympics",
@@ -70,7 +73,8 @@
     "year": -432,
     "category": "cultural-social",
     "description": "Athens finished constructing the iconic temple to the goddess Athena.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/The_Parthenon_in_Athens.jpg/330px-The_Parthenon_in_Athens.jpg"
   },
   {
     "name": "socrates-death",
@@ -86,7 +90,8 @@
     "year": -283,
     "category": "cultural-social",
     "description": "The ancient world's greatest library was established in Egypt.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Ancientlibraryalex.jpg/330px-Ancientlibraryalex.jpg"
   },
   {
     "name": "dead-sea-scrolls-written",
@@ -94,7 +99,8 @@
     "year": -150,
     "category": "cultural-social",
     "description": "Jewish scribes created ancient religious manuscripts found near the Dead Sea.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Dead_Sea_beach_00.JPG/330px-Dead_Sea_beach_00.JPG"
   },
   {
     "name": "jesus-crucifixion",
@@ -111,7 +117,8 @@
     "year": 80,
     "category": "cultural-social",
     "description": "Rome finished building its massive amphitheater for gladiatorial games.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/330px-Colosseo_2020.jpg"
   },
   {
     "name": "christianity-legalized",
@@ -127,7 +134,8 @@
     "year": 405,
     "category": "cultural-social",
     "description": "Saint Jerome completed his Latin translation of the Bible.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Cod._Sangallensis_63_%28277%29.jpg/330px-Cod._Sangallensis_63_%28277%29.jpg"
   },
   {
     "name": "muhammad-revelation",
@@ -143,7 +151,8 @@
     "year": 800,
     "category": "cultural-social",
     "description": "Irish monks created an illuminated manuscript of the four Gospels.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/KellsFol032vChristEnthroned.jpg/330px-KellsFol032vChristEnthroned.jpg"
   },
   {
     "name": "tale-of-genji",
@@ -159,7 +168,8 @@
     "year": 1163,
     "category": "cultural-social",
     "description": "Work began on the iconic Gothic cathedral in Paris.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Notre-Dame_de_Paris%2C_4_October_2017.jpg/330px-Notre-Dame_de_Paris%2C_4_October_2017.jpg"
   },
   {
     "name": "oxford-founded",
@@ -167,7 +177,8 @@
     "year": 1167,
     "category": "cultural-social",
     "description": "The oldest English-speaking university began formal instruction.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Arms_of_University_of_Oxford.svg/330px-Arms_of_University_of_Oxford.svg.png"
   },
   {
     "name": "marco-polo-china",
@@ -175,7 +186,8 @@
     "year": 1275,
     "category": "cultural-social",
     "description": "The Venetian explorer arrived at the court of Kublai Khan.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Marco_Polo_-_costume_tartare.jpg/330px-Marco_Polo_-_costume_tartare.jpg"
   },
   {
     "name": "divine-comedy",
@@ -200,7 +212,8 @@
     "year": 1512,
     "category": "cultural-social",
     "description": "Michelangelo finished painting his masterpiece on the chapel ceiling.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Sistine_Chapel_ceiling_02_%28brightened%29.jpg/330px-Sistine_Chapel_ceiling_02_%28brightened%29.jpg"
   },
   {
     "name": "protestant-reformation",
@@ -225,7 +238,8 @@
     "year": 1611,
     "category": "cultural-social",
     "description": "The influential English translation of the Bible was completed.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/KJV-King-James-Version-Bible-first-edition-title-page-1611.jpg/330px-KJV-King-James-Version-Bible-first-edition-title-page-1611.jpg"
   },
   {
     "name": "taj-mahal-completed",
@@ -233,7 +247,8 @@
     "year": 1653,
     "category": "cultural-social",
     "description": "The Mughal emperor finished building the famous mausoleum for his wife.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Taj_Mahal_%28Edited%29.jpeg/330px-Taj_Mahal_%28Edited%29.jpeg"
   },
   {
     "name": "paradise-lost",
@@ -241,7 +256,8 @@
     "year": 1667,
     "category": "cultural-social",
     "description": "John Milton published his epic poem about the fall of man.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Houghton_EC65.M6427P.1667aa_-_Paradise_Lost%2C_1667.jpg/330px-Houghton_EC65.M6427P.1667aa_-_Paradise_Lost%2C_1667.jpg"
   },
   {
     "name": "newton-principia",
@@ -265,7 +281,8 @@
     "year": 1751,
     "category": "cultural-social",
     "description": "Diderot and d'Alembert began publishing their Enlightenment encyclopedia.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Encyclopedie_de_D%27Alembert_et_Diderot_-_Premiere_Page_-_ENC_1-NA5.jpg/330px-Encyclopedie_de_D%27Alembert_et_Diderot_-_Premiere_Page_-_ENC_1-NA5.jpg"
   },
   {
     "name": "wealth-of-nations",
@@ -273,7 +290,8 @@
     "year": 1776,
     "category": "cultural-social",
     "description": "Adam Smith published his foundational work on modern economics.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Wealth_of_Nations.jpg/330px-Wealth_of_Nations.jpg"
   },
   {
     "name": "mozart-don-giovanni",
@@ -315,7 +333,8 @@
     "year": 1848,
     "category": "cultural-social",
     "description": "Karl Marx and Friedrich Engels published their influential political pamphlet.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Communist-manifesto.png/330px-Communist-manifesto.png"
   },
   {
     "name": "origin-of-species",
@@ -323,7 +342,8 @@
     "year": 1859,
     "category": "cultural-social",
     "description": "Charles Darwin published his theory of evolution by natural selection.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Origin_of_Species_title_page.jpg/330px-Origin_of_Species_title_page.jpg"
   },
   {
     "name": "slavery-abolished-us",
@@ -348,7 +368,8 @@
     "year": 1877,
     "category": "cultural-social",
     "description": "Thomas Edison invented a device to record and play back sound.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Turntable.svg/330px-Turntable.svg.png"
   },
   {
     "name": "first-motion-picture",
@@ -364,7 +385,8 @@
     "year": 1896,
     "category": "cultural-social",
     "description": "Athens hosted the revival of the ancient Olympic Games.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Olympic_rings_without_rims.svg/330px-Olympic_rings_without_rims.svg.png"
   },
   {
     "name": "freud-interpretation-dreams",
@@ -372,7 +394,8 @@
     "year": 1899,
     "category": "cultural-social",
     "description": "Sigmund Freud published his groundbreaking work on psychoanalysis.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Die_Traumdeutung_%28Congress_scan%29.jpg/330px-Die_Traumdeutung_%28Congress_scan%29.jpg"
   },
   {
     "name": "first-powered-flight",
@@ -420,7 +443,8 @@
     "year": 1920,
     "category": "cultural-social",
     "description": "Jazz music exploded in popularity, defining the Roaring Twenties.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/CarterAndKingJazzingOrchestra.jpg/330px-CarterAndKingJazzingOrchestra.jpg"
   },
   {
     "name": "first-talking-film",
@@ -436,7 +460,8 @@
     "year": 1928,
     "category": "cultural-social",
     "description": "Alexander Fleming discovered the first antibiotic, revolutionizing medicine.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Penicillin_core.svg/330px-Penicillin_core.svg.png"
   },
   {
     "name": "first-television-broadcast",
@@ -460,7 +485,8 @@
     "year": 1941,
     "category": "cultural-social",
     "description": "Orson Welles directed what many consider the greatest film ever made.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Citizen_Kane_poster%2C_1941_%28Style_B%2C_unrestored%29.jpg/330px-Citizen_Kane_poster%2C_1941_%28Style_B%2C_unrestored%29.jpg"
   },
   {
     "name": "un-human-rights",
@@ -477,7 +503,8 @@
     "year": 1949,
     "category": "cultural-social",
     "description": "George Orwell published his dystopian novel about totalitarian surveillance.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/1984_Events_Collage.jpg/330px-1984_Events_Collage.jpg"
   },
   {
     "name": "dna-structure",
@@ -494,7 +521,8 @@
     "year": 1955,
     "category": "cultural-social",
     "description": "Jonas Salk's vaccine was declared safe and effective against polio.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Poliodrops.jpg"
   },
   {
     "name": "disneyland-opens",
@@ -502,7 +530,8 @@
     "year": 1955,
     "category": "cultural-social",
     "description": "Walt Disney opened his first theme park in Anaheim, California.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Sleeping_Beauty_Castle_-_February_2024.png/330px-Sleeping_Beauty_Castle_-_February_2024.png"
   },
   {
     "name": "elvis-ed-sullivan",
@@ -518,7 +547,8 @@
     "year": 1960,
     "category": "cultural-social",
     "description": "The FDA approved the first oral contraceptive pill for women.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Contraception_%E2%80%93_How_to_Prevent_Unwanted_Pregnancy.webm/320px--Contraception_%E2%80%93_How_to_Prevent_Unwanted_Pregnancy.webm.jpg"
   },
   {
     "name": "beatles-ed-sullivan",
@@ -578,7 +608,8 @@
     "year": 1977,
     "category": "cultural-social",
     "description": "George Lucas's space opera became a cultural phenomenon.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Star_wars2.svg/330px-Star_wars2.svg.png"
   },
   {
     "name": "first-test-tube-baby",
@@ -586,7 +617,8 @@
     "year": 1978,
     "category": "cultural-social",
     "description": "Louise Brown became the first baby conceived through IVF.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/e/e1/First_Test.jpg"
   },
   {
     "name": "walkman-released",
@@ -594,7 +626,8 @@
     "year": 1979,
     "category": "cultural-social",
     "description": "Sony introduced the portable cassette player that changed how people listened to music.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Walkman_logo_%282000%29.svg/330px-Walkman_logo_%282000%29.svg.png"
   },
   {
     "name": "mtv-launches",
@@ -618,7 +651,8 @@
     "year": 1982,
     "category": "cultural-social",
     "description": "Michael Jackson released the best-selling album of all time.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/5/55/Michael_Jackson_-_Thriller.png"
   },
   {
     "name": "live-aid",
@@ -644,7 +678,8 @@
     "year": 1989,
     "category": "cultural-social",
     "description": "Tim Berners-Lee invented the World Wide Web at CERN.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Chrome_on_Linux.png/330px-Chrome_on_Linux.png"
   },
   {
     "name": "hubble-launched",
@@ -652,7 +687,8 @@
     "year": 1990,
     "category": "cultural-social",
     "description": "NASA launched the space telescope that revolutionized astronomy.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/HST-SM4.jpeg/330px-HST-SM4.jpeg"
   },
   {
     "name": "human-genome-project",
@@ -660,7 +696,8 @@
     "year": 1990,
     "category": "cultural-social",
     "description": "Scientists began the massive effort to map all human genes.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Logo_HGP.jpg/330px-Logo_HGP.jpg"
   },
   {
     "name": "nelson-mandela-freed",
@@ -668,7 +705,8 @@
     "year": 1990,
     "category": "cultural-social",
     "description": "The anti-apartheid leader was freed after 27 years in prison.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Nelson_Mandela_1994.jpg/330px-Nelson_Mandela_1994.jpg"
   },
   {
     "name": "dolly-sheep-cloned",
@@ -684,7 +722,8 @@
     "year": 1997,
     "category": "cultural-social",
     "description": "J.K. Rowling published the first Harry Potter book, launching a global phenomenon.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Harry_Potter_logo.svg/330px-Harry_Potter_logo.svg.png"
   },
   {
     "name": "google-founded",
@@ -692,7 +731,8 @@
     "year": 1998,
     "category": "cultural-social",
     "description": "Larry Page and Sergey Brin founded the search engine company.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/320px-Google_2015_logo.svg.png"
   },
   {
     "name": "y2k",
@@ -708,7 +748,8 @@
     "year": 2001,
     "category": "cultural-social",
     "description": "Apple launched the portable music player that transformed the music industry.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/IPod_family.png/330px-IPod_family.png"
   },
   {
     "name": "human-genome-completed",
@@ -716,7 +757,8 @@
     "year": 2003,
     "category": "cultural-social",
     "description": "Scientists completed mapping the entire human genetic code.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Human_karyotype_with_bands_and_sub-bands.png/330px-Human_karyotype_with_bands_and_sub-bands.png"
   },
   {
     "name": "facebook-launched",
@@ -724,7 +766,8 @@
     "year": 2004,
     "category": "cultural-social",
     "description": "Mark Zuckerberg launched the social network from his Harvard dorm room.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/6/64/Facebook_user_page.png"
   },
   {
     "name": "youtube-founded",
@@ -732,7 +775,8 @@
     "year": 2005,
     "category": "cultural-social",
     "description": "The video-sharing platform that changed online media was created.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Youtube_interface%2C_showing_search_results_of_Burger_Recipe.png/330px-Youtube_interface%2C_showing_search_results_of_Burger_Recipe.png"
   },
   {
     "name": "twitter-launched",
@@ -740,7 +784,8 @@
     "year": 2006,
     "category": "cultural-social",
     "description": "The microblogging platform began with its 140-character posts.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/X_%28formerly_Twitter%29_logo_late_2025.svg/320px-X_%28formerly_Twitter%29_logo_late_2025.svg.png"
   },
   {
     "name": "iphone-released",
@@ -748,7 +793,8 @@
     "year": 2007,
     "category": "cultural-social",
     "description": "Apple's smartphone revolutionized mobile technology and communication.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/IPhone_17_Pro_Vector.svg/320px-IPhone_17_Pro_Vector.svg.png"
   },
   {
     "name": "obama-elected",
@@ -756,7 +802,8 @@
     "year": 2008,
     "category": "cultural-social",
     "description": "The United States elected its first African American president.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/President_Barack_Obama.jpg/330px-President_Barack_Obama.jpg"
   },
   {
     "name": "bitcoin-created",
@@ -764,7 +811,8 @@
     "year": 2009,
     "category": "cultural-social",
     "description": "The mysterious Satoshi Nakamoto launched the first cryptocurrency.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Bitcoin.svg/320px-Bitcoin.svg.png"
   },
   {
     "name": "instagram-launched",
@@ -772,7 +820,8 @@
     "year": 2010,
     "category": "cultural-social",
     "description": "The photo-sharing app that transformed social media was released.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/330px-Instagram_logo_2022.svg.png"
   },
   {
     "name": "higgs-boson",
@@ -780,7 +829,8 @@
     "year": 2012,
     "category": "cultural-social",
     "description": "Scientists at CERN confirmed the existence of the God particle.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Candidate_Higgs_Events_in_ATLAS_and_CMS.png/330px-Candidate_Higgs_Events_in_ATLAS_and_CMS.png"
   },
   {
     "name": "marriage-equality-us",
@@ -804,7 +854,8 @@
     "year": 2020,
     "category": "cultural-social",
     "description": "The World Health Organization declared a global pandemic.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Covid-19_SP_-_UTI_V._Nova_Cachoeirinha.jpg/330px-Covid-19_SP_-_UTI_V._Nova_Cachoeirinha.jpg"
   },
   {
     "name": "chatgpt-released",
@@ -812,6 +863,7 @@
     "year": 2022,
     "category": "cultural-social",
     "description": "OpenAI launched the AI chatbot that sparked a technological revolution.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/OpenAI_logo_2025_%28symbol%29.svg/330px-OpenAI_logo_2025_%28symbol%29.svg.png"
   }
 ]

@@ -17,6 +17,7 @@ import Timeline from './Timeline/Timeline';
 import Hand from './Hand/Hand';
 import PlayerInfo from './PlayerInfo';
 import Card from './Card';
+import EventDescriptionModal from './EventDescriptionModal';
 
 interface GameBoardProps {
   gameState: GameState;
@@ -60,6 +61,17 @@ const GameBoard: React.FC<GameBoardProps> = ({
 
   // Track the insertion index during drag (using state for re-renders)
   const [insertionIndex, setInsertionIndex] = useState<number | null>(null);
+
+  // Modal state for showing event descriptions
+  const [modalEvent, setModalEvent] = useState<HistoricalEvent | null>(null);
+
+  const handleCardClick = useCallback((event: HistoricalEvent) => {
+    setModalEvent(event);
+  }, []);
+
+  const handleCloseModal = useCallback(() => {
+    setModalEvent(null);
+  }, []);
 
   // Configure sensors for drag detection
   const sensors = useSensors(
@@ -276,6 +288,7 @@ const GameBoard: React.FC<GameBoardProps> = ({
             useTapMode={useTapMode}
             isCardSelected={!!selectedCard}
             onPlacementTap={handlePlacementTap}
+            onCardClick={handleCardClick}
           />
         </div>
 
@@ -356,6 +369,7 @@ const GameBoard: React.FC<GameBoardProps> = ({
                 useTapMode={useTapMode}
                 selectedCard={selectedCard}
                 onSelectCard={onSelectCard}
+                onCardClick={handleCardClick}
               />
             </div>
 
@@ -373,6 +387,11 @@ const GameBoard: React.FC<GameBoardProps> = ({
           <Card event={draggedCard} showYear={false} />
         ) : null}
       </DragOverlay>
+
+      {/* Event description modal */}
+      {modalEvent && (
+        <EventDescriptionModal event={modalEvent} onClose={handleCloseModal} />
+      )}
     </DndContext>
   );
 };

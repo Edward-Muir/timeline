@@ -13,7 +13,8 @@
     "year": -10000,
     "category": "exploration-discovery",
     "description": "Humans began cultivating crops in the Fertile Crescent, starting the Neolithic Revolution.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/PivotWithDrops.JPG/330px-PivotWithDrops.JPG"
   },
   {
     "name": "wheel-invented",
@@ -21,7 +22,8 @@
     "year": -3500,
     "category": "exploration-discovery",
     "description": "The wheel was invented in Mesopotamia, revolutionizing transportation and machinery.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Landesmuseum_W%C3%BCrttemberg_Kelten_011.4.jpg/330px-Landesmuseum_W%C3%BCrttemberg_Kelten_011.4.jpg"
   },
   {
     "name": "bronze-discovered",
@@ -37,7 +39,8 @@
     "year": -1200,
     "category": "exploration-discovery",
     "description": "The ability to smelt iron ore transformed warfare and agriculture.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/TVA_phosphate_smelting_furnace.jpg/330px-TVA_phosphate_smelting_furnace.jpg"
   },
   {
     "name": "polynesian-expansion",
@@ -45,7 +48,8 @@
     "year": -1000,
     "category": "exploration-discovery",
     "description": "Polynesian navigators began exploring and settling islands across the Pacific Ocean.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Pacific_Culture_Areas_%28Philippines%2BVanuatu_Correction%29.svg/330px-Pacific_Culture_Areas_%28Philippines%2BVanuatu_Correction%29.svg.png"
   },
   {
     "name": "phoenician-circumnavigation",
@@ -61,7 +65,8 @@
     "year": -530,
     "category": "exploration-discovery",
     "description": "Pythagoras proved the mathematical relationship between sides of a right triangle.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Pythagorean.svg/330px-Pythagorean.svg.png"
   },
   {
     "name": "herodotus-histories",
@@ -93,7 +98,8 @@
     "year": -240,
     "category": "exploration-discovery",
     "description": "Eratosthenes accurately calculated the circumference of the Earth using shadows.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Globe_Atlantic.svg/330px-Globe_Atlantic.svg.png"
   },
   {
     "name": "silk-road-opens",
@@ -101,7 +107,8 @@
     "year": -130,
     "category": "exploration-discovery",
     "description": "Trade routes connecting China to the Mediterranean were established.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Silk_road_Kazakhstan.svg/330px-Silk_road_Kazakhstan.svg.png"
   },
   {
     "name": "paper-invented",
@@ -117,7 +124,8 @@
     "year": 206,
     "category": "exploration-discovery",
     "description": "Chinese inventors created the first magnetic compass for navigation.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/2016_Busola.JPG/330px-2016_Busola.JPG"
   },
   {
     "name": "gunpowder-invented",
@@ -125,7 +133,8 @@
     "year": 850,
     "category": "exploration-discovery",
     "description": "Chinese alchemists accidentally discovered gunpowder while seeking immortality.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Black_Powder-1.JPG/330px-Black_Powder-1.JPG"
   },
   {
     "name": "vikings-iceland",
@@ -157,7 +166,8 @@
     "year": 1275,
     "category": "exploration-discovery",
     "description": "The Venetian explorer arrived at the court of Kublai Khan.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Marco_Polo_-_costume_tartare.jpg/330px-Marco_Polo_-_costume_tartare.jpg"
   },
   {
     "name": "ibn-battuta-travels",
@@ -165,7 +175,8 @@
     "year": 1325,
     "category": "exploration-discovery",
     "description": "The Moroccan explorer began a journey covering 75,000 miles across the Islamic world.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Handmade_oil_painting_reproduction_of_Ibn_Battuta_in_Egypt%2C_a_painting_by_Hippolyte_Leon_Benett..jpg/330px-Handmade_oil_painting_reproduction_of_Ibn_Battuta_in_Egypt%2C_a_painting_by_Hippolyte_Leon_Benett..jpg"
   },
   {
     "name": "zheng-he-voyages",
@@ -181,7 +192,8 @@
     "year": 1440,
     "category": "exploration-discovery",
     "description": "Johannes Gutenberg invented movable type printing, revolutionizing knowledge sharing.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/PrintMus_038.jpg/330px-PrintMus_038.jpg"
   },
   {
     "name": "portuguese-cape-verde",
@@ -270,7 +282,8 @@
     "year": 1590,
     "category": "exploration-discovery",
     "description": "Dutch spectacle makers invented the first compound microscope.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Ukrainian_microscope_%28cropped%29.jpg/330px-Ukrainian_microscope_%28cropped%29.jpg"
   },
   {
     "name": "telescope-invented",
@@ -278,7 +291,8 @@
     "year": 1608,
     "category": "exploration-discovery",
     "description": "Hans Lippershey invented the first practical telescope in the Netherlands.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/100inchHooker.jpg/330px-100inchHooker.jpg"
   },
   {
     "name": "galileo-jupiter-moons",
@@ -326,7 +340,8 @@
     "year": 1676,
     "category": "exploration-discovery",
     "description": "Antonie van Leeuwenhoek observed bacteria through his microscope.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/E._coli_Bacteria_%287316101966%29.jpg/330px-E._coli_Bacteria_%287316101966%29.jpg"
   },
   {
     "name": "bering-strait",
@@ -358,7 +373,8 @@
     "year": 1774,
     "category": "exploration-discovery",
     "description": "Joseph Priestley and Carl Wilhelm Scheele independently discovered oxygen.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Liquid_oxygen_in_a_beaker_4.jpg/330px-Liquid_oxygen_in_a_beaker_4.jpg"
   },
   {
     "name": "uranus-discovered",
@@ -366,7 +382,8 @@
     "year": 1781,
     "category": "exploration-discovery",
     "description": "William Herschel discovered the seventh planet in our solar system.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Uranus_Voyager2_color_calibrated.png/330px-Uranus_Voyager2_color_calibrated.png"
   },
   {
     "name": "vaccination-invented",
@@ -374,7 +391,8 @@
     "year": 1796,
     "category": "exploration-discovery",
     "description": "Edward Jenner developed the first successful vaccine using cowpox.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Smallpox_vaccine.jpg/330px-Smallpox_vaccine.jpg"
   },
   {
     "name": "rosetta-stone",
@@ -400,7 +418,8 @@
     "year": 1820,
     "category": "exploration-discovery",
     "description": "Hans Christian Ørsted discovered the relationship between electricity and magnetism.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Plasma_globe_60th.jpg/330px-Plasma_globe_60th.jpg"
   },
   {
     "name": "hieroglyphics-decoded",
@@ -432,7 +451,8 @@
     "year": 1846,
     "category": "exploration-discovery",
     "description": "Johann Galle observed Neptune based on mathematical predictions.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Neptune_Voyager2_color_calibrated.png/330px-Neptune_Voyager2_color_calibrated.png"
   },
   {
     "name": "gorillas-discovered",
@@ -480,7 +500,8 @@
     "year": 1869,
     "category": "exploration-discovery",
     "description": "Dmitri Mendeleev organized elements into the periodic table.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Colour_18-col_PT_with_labels.png/330px-Colour_18-col_PT_with_labels.png"
   },
   {
     "name": "troy-discovered",
@@ -488,7 +509,8 @@
     "year": 1871,
     "category": "exploration-discovery",
     "description": "Heinrich Schliemann excavated the legendary city of Troy in Turkey.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Walls_of_Troy_%282%29.jpg/330px-Walls_of_Troy_%282%29.jpg"
   },
   {
     "name": "telephone-invented",
@@ -496,7 +518,8 @@
     "year": 1876,
     "category": "exploration-discovery",
     "description": "Alexander Graham Bell patented the first practical telephone.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Telefon_BW_2012-02-18_13-44-32.JPG/330px-Telefon_BW_2012-02-18_13-44-32.JPG"
   },
   {
     "name": "lightbulb-invented",
@@ -512,7 +535,8 @@
     "year": 1880,
     "category": "exploration-discovery",
     "description": "Louis Pasteur and Robert Koch established that microorganisms cause disease.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Cholera_bacteria_SEM.jpg/330px-Cholera_bacteria_SEM.jpg"
   },
   {
     "name": "x-rays-discovered",
@@ -520,7 +544,8 @@
     "year": 1895,
     "category": "exploration-discovery",
     "description": "Wilhelm Röntgen discovered X-rays, revolutionizing medical imaging.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Color_X-ray_photogram.jpg/330px-Color_X-ray_photogram.jpg"
   },
   {
     "name": "radioactivity-discovered",
@@ -528,7 +553,8 @@
     "year": 1896,
     "category": "exploration-discovery",
     "description": "Henri Becquerel discovered radioactivity in uranium.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/NuclearReaction.svg/330px-NuclearReaction.svg.png"
   },
   {
     "name": "electron-discovered",
@@ -536,7 +562,8 @@
     "year": 1897,
     "category": "exploration-discovery",
     "description": "J.J. Thomson discovered the electron, the first subatomic particle.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Atomic-orbital-clouds_spd_m0.png/330px-Atomic-orbital-clouds_spd_m0.png"
   },
   {
     "name": "radium-discovered",
@@ -544,7 +571,8 @@
     "year": 1898,
     "category": "exploration-discovery",
     "description": "Marie and Pierre Curie discovered the radioactive element radium.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Radium226.jpg/330px-Radium226.jpg"
   },
   {
     "name": "powered-flight",
@@ -560,7 +588,8 @@
     "year": 1905,
     "category": "exploration-discovery",
     "description": "Albert Einstein published his theory of special relativity.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Einstein_patentoffice.jpg/330px-Einstein_patentoffice.jpg"
   },
   {
     "name": "north-pole-reached",
@@ -568,7 +597,8 @@
     "year": 1909,
     "category": "exploration-discovery",
     "description": "Robert Peary claimed to be the first person to reach the North Pole.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Arctic_Ocean_SVG.svg/330px-Arctic_Ocean_SVG.svg.png"
   },
   {
     "name": "machu-picchu-discovered",
@@ -576,7 +606,8 @@
     "year": 1911,
     "category": "exploration-discovery",
     "description": "Hiram Bingham brought the ancient Inca citadel to worldwide attention.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Machu_Picchu%2C_2023_%28012%29.jpg/330px-Machu_Picchu%2C_2023_%28012%29.jpg"
   },
   {
     "name": "south-pole-reached",
@@ -584,7 +615,8 @@
     "year": 1911,
     "category": "exploration-discovery",
     "description": "Roald Amundsen led the first expedition to reach the South Pole.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Pole-south.gif/330px-Pole-south.gif"
   },
   {
     "name": "continental-drift",
@@ -600,7 +632,8 @@
     "year": 1911,
     "category": "exploration-discovery",
     "description": "Ernest Rutherford discovered that atoms have a dense central nucleus.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Nucleus_drawing.svg/330px-Nucleus_drawing.svg.png"
   },
   {
     "name": "general-relativity",
@@ -608,7 +641,8 @@
     "year": 1915,
     "category": "exploration-discovery",
     "description": "Albert Einstein published his theory of general relativity and gravity.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/BBH_gravitational_lensing_of_gw150914.webm/320px--BBH_gravitational_lensing_of_gw150914.webm.jpg"
   },
   {
     "name": "tutankhamun-tomb",
@@ -616,7 +650,8 @@
     "year": 1922,
     "category": "exploration-discovery",
     "description": "Howard Carter discovered the nearly intact tomb of the Egyptian pharaoh.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Inside_Pharaoh_Tutankhamun%27s_tomb%2C_18th_dynasty.jpg/330px-Inside_Pharaoh_Tutankhamun%27s_tomb%2C_18th_dynasty.jpg"
   },
   {
     "name": "insulin-discovered",
@@ -624,7 +659,8 @@
     "year": 1921,
     "category": "exploration-discovery",
     "description": "Frederick Banting and Charles Best discovered insulin, saving millions of diabetics.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Insulin_struct.png/330px-Insulin_struct.png"
   },
   {
     "name": "hubble-galaxies",
@@ -640,7 +676,8 @@
     "year": 1928,
     "category": "exploration-discovery",
     "description": "Alexander Fleming discovered the first antibiotic by accident.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Penicillin_core.svg/330px-Penicillin_core.svg.png"
   },
   {
     "name": "expanding-universe",
@@ -648,7 +685,8 @@
     "year": 1929,
     "category": "exploration-discovery",
     "description": "Edwin Hubble discovered that the universe is expanding.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/CMB_Timeline300_no_WMAP.jpg/330px-CMB_Timeline300_no_WMAP.jpg"
   },
   {
     "name": "pluto-discovered",
@@ -656,7 +694,8 @@
     "year": 1930,
     "category": "exploration-discovery",
     "description": "Clyde Tombaugh discovered Pluto at Lowell Observatory.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Pluto_in_True_Color_-_High-Res.jpg/330px-Pluto_in_True_Color_-_High-Res.jpg"
   },
   {
     "name": "neutron-discovered",
@@ -664,7 +703,8 @@
     "year": 1932,
     "category": "exploration-discovery",
     "description": "James Chadwick discovered the neutron in the atomic nucleus.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Quark_structure_neutron.svg/330px-Quark_structure_neutron.svg.png"
   },
   {
     "name": "nuclear-fission",
@@ -672,7 +712,8 @@
     "year": 1938,
     "category": "exploration-discovery",
     "description": "Otto Hahn and Fritz Strassmann discovered nuclear fission.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Nuclear_fission.svg/320px-Nuclear_fission.svg.png"
   },
   {
     "name": "dead-sea-scrolls",
@@ -680,7 +721,8 @@
     "year": 1947,
     "category": "exploration-discovery",
     "description": "Ancient Jewish manuscripts were found in caves near the Dead Sea.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Mordecai_and_Esther.jpg/330px-Mordecai_and_Esther.jpg"
   },
   {
     "name": "dna-structure",
@@ -697,7 +739,8 @@
     "year": 1953,
     "category": "exploration-discovery",
     "description": "Edmund Hillary and Tenzing Norgay became the first to reach the summit.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Mount_Everest_as_seen_from_Drukair2_PLW_edit_Cropped.jpg/330px-Mount_Everest_as_seen_from_Drukair2_PLW_edit_Cropped.jpg"
   },
   {
     "name": "polio-vaccine",
@@ -705,7 +748,8 @@
     "year": 1955,
     "category": "exploration-discovery",
     "description": "Jonas Salk's vaccine was declared safe and effective against polio.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Poliodrops.jpg"
   },
   {
     "name": "sputnik-launched",
@@ -713,7 +757,8 @@
     "year": 1957,
     "category": "exploration-discovery",
     "description": "The Soviet Union launched the first artificial satellite into orbit.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/%D0%9F%D0%B5%D1%80%D0%B2%D1%8B%D0%B9_%D0%B2_%D0%BC%D0%B8%D1%80%D0%B5_%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D1%81%D0%BF%D1%83%D1%82%D0%BD%D0%B8%D0%BA_%D0%97%D0%B5%D0%BC%D0%BB%D0%B8.jpg/330px-%D0%9F%D0%B5%D1%80%D0%B2%D1%8B%D0%B9_%D0%B2_%D0%BC%D0%B8%D1%80%D0%B5_%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D1%81%D0%BF%D1%83%D1%82%D0%BD%D0%B8%D0%BA_%D0%97%D0%B5%D0%BC%D0%BB%D0%B8.jpg"
   },
   {
     "name": "mariana-trench",
@@ -721,7 +766,8 @@
     "year": 1960,
     "category": "exploration-discovery",
     "description": "Jacques Piccard and Don Walsh descended to the deepest point on Earth.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Marianatrenchmap.png/330px-Marianatrenchmap.png"
   },
   {
     "name": "first-human-space",
@@ -729,7 +775,8 @@
     "year": 1961,
     "category": "exploration-discovery",
     "description": "Yuri Gagarin became the first human to travel to outer space.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/%D0%9A%D0%BE%D1%81%D0%BC%D0%BE%D0%BD%D0%B0%D0%B2%D1%82_%D0%AE%D1%80%D0%B8%D0%B9_%D0%93%D0%B0%D0%B3%D0%B0%D1%80%D0%B8%D0%BD_%28cropped%29.jpg/330px-%D0%9A%D0%BE%D1%81%D0%BC%D0%BE%D0%BD%D0%B0%D0%B2%D1%82_%D0%AE%D1%80%D0%B8%D0%B9_%D0%93%D0%B0%D0%B3%D0%B0%D1%80%D0%B8%D0%BD_%28cropped%29.jpg"
   },
   {
     "name": "moon-landing",
@@ -770,7 +817,8 @@
     "year": 1985,
     "category": "exploration-discovery",
     "description": "Robert Ballard discovered the wreck of the Titanic on the ocean floor.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Titanic_wreck_bow.jpg/330px-Titanic_wreck_bow.jpg"
   },
   {
     "name": "world-wide-web",
@@ -778,7 +826,8 @@
     "year": 1989,
     "category": "exploration-discovery",
     "description": "Tim Berners-Lee invented the World Wide Web at CERN.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Chrome_on_Linux.png/330px-Chrome_on_Linux.png"
   },
   {
     "name": "hubble-telescope-launched",
@@ -786,7 +835,8 @@
     "year": 1990,
     "category": "exploration-discovery",
     "description": "NASA launched the space telescope that revolutionized astronomy.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/HST-SM4.jpeg/330px-HST-SM4.jpeg"
   },
   {
     "name": "first-exoplanet",
@@ -810,7 +860,8 @@
     "year": 2003,
     "category": "exploration-discovery",
     "description": "Scientists completed mapping the entire human genetic code.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Human_karyotype_with_bands_and_sub-bands.png/330px-Human_karyotype_with_bands_and_sub-bands.png"
   },
   {
     "name": "higgs-boson",
@@ -818,7 +869,8 @@
     "year": 2012,
     "category": "exploration-discovery",
     "description": "Scientists at CERN confirmed the existence of the Higgs boson particle.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Candidate_Higgs_Events_in_ATLAS_and_CMS.png/330px-Candidate_Higgs_Events_in_ATLAS_and_CMS.png"
   },
   {
     "name": "gravitational-waves",
@@ -826,7 +878,8 @@
     "year": 2015,
     "category": "exploration-discovery",
     "description": "LIGO detected gravitational waves, confirming Einstein's prediction.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Warped_Space_and_Time_Around_Colliding_Black_Holes_%28Courtesy_Caltech-MIT-LIGO_Laboratory%2C_produced_by_SXS_project%29.webm/320px--Warped_Space_and_Time_Around_Colliding_Black_Holes_%28Courtesy_Caltech-MIT-LIGO_Laboratory%2C_produced_by_SXS_project%29.webm.jpg"
   },
   {
     "name": "black-hole-image",
@@ -842,6 +895,7 @@
     "year": 2021,
     "category": "exploration-discovery",
     "description": "NASA launched the most powerful space telescope ever built.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/JWST_spacecraft_model_3.png/330px-JWST_spacecraft_model_3.png"
   }
 ]

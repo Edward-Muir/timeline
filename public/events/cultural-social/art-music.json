@@ -39,7 +39,8 @@
     "year": 1791,
     "category": "cultural-social",
     "description": "The musical prodigy died at age 35 in Vienna.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/The_Mozart_Family_-_Wolfgang_Amadeus_Mozart_headshot.jpg/330px-The_Mozart_Family_-_Wolfgang_Amadeus_Mozart_headshot.jpg"
   },
   {
     "name": "beatles-usa",
@@ -64,7 +65,8 @@
     "year": 1977,
     "category": "cultural-social",
     "description": "George Lucas's space opera became a cultural phenomenon.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Star_wars2.svg/330px-Star_wars2.svg.png"
   },
   {
     "name": "gutenberg",
@@ -72,6 +74,7 @@
     "year": 1440,
     "category": "cultural-social",
     "description": "Gutenberg's movable type revolutionized the spread of knowledge.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/PrintMus_038.jpg/330px-PrintMus_038.jpg"
   }
 ]

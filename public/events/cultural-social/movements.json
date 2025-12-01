@@ -30,7 +30,8 @@
     "year": 622,
     "category": "cultural-social",
     "description": "Muhammad's Hijra to Medina marks the start of the Islamic calendar.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/The_Kaaba_during_Hajj.jpg/330px-The_Kaaba_during_Hajj.jpg"
   },
   {
     "name": "luther-theses",
@@ -47,6 +48,7 @@
     "year": 1848,
     "category": "cultural-social",
     "description": "Marx and Engels published the influential political pamphlet.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Communist-manifesto.png/330px-Communist-manifesto.png"
   }
 ]

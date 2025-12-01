@@ -24,6 +24,7 @@ module.exports = {
       fontFamily: {
         hand: ['Caveat', 'cursive'],
         sketch: ['Patrick Hand', 'cursive'],
+        museum: ['Playfair Display', 'Georgia', 'serif'],
       },
       animation: {
         'card-hover': 'cardHover 0.2s ease-out forwards',

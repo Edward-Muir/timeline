@@ -14,6 +14,7 @@ interface TimelineProps {
   useTapMode?: boolean;
   isCardSelected?: boolean;
   onPlacementTap?: (index: number) => void;
+  onCardClick?: (event: HistoricalEvent) => void;
 }
 
 // Insertion indicator component - glowing line showing where card will be placed
@@ -114,6 +115,7 @@ const Timeline: React.FC<TimelineProps> = ({
   useTapMode = false,
   isCardSelected = false,
   onPlacementTap,
+  onCardClick,
 }) => {
   const scrollRef = useRef<HTMLDivElement>(null);
   const cardsContainerRef = useRef<HTMLDivElement>(null);
@@ -179,6 +181,7 @@ const Timeline: React.FC<TimelineProps> = ({
                   <TimelineCard
                     event={event}
                     index={index}
+                    onCardClick={onCardClick}
                   />
                   {/* Tap mode: Show insertion point AFTER each card */}
                   {showTapInsertionPoints && (
