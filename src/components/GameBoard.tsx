@@ -284,8 +284,8 @@ const GameBoard: React.FC<GameBoardProps> = ({
           </div>
         )}
 
-        {/* Timeline */}
-        <div className="flex-shrink-0 overflow-visible">
+        {/* Timeline - Museum Display Case */}
+        <div className="flex-shrink-0 overflow-visible mx-4 sm:mx-8 display-case">
           <Timeline
             events={gameState.timeline}
             isDragging={isDragging}
@@ -366,7 +366,7 @@ const GameBoard: React.FC<GameBoardProps> = ({
             </div>
           </div>
         ) : (
-          <div className="flex-shrink-0 bg-gradient-to-t from-amber-100/50 to-transparent">
+          <div className="flex-shrink-0 curator-desk">
             <Hand
               player={currentPlayer}
               revealingCard={revealingCard}
