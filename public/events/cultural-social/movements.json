@@ -21,7 +21,8 @@
     "year": -4,
     "category": "cultural-social",
     "description": "The birth of Jesus, founder of Christianity.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Adoration_of_the_sheperds_-_Matthias_Stomer.jpg/330px-Adoration_of_the_sheperds_-_Matthias_Stomer.jpg"
   },
   {
     "name": "islam-founded",
@@ -37,7 +38,8 @@
     "year": 1517,
     "category": "cultural-social",
     "description": "Martin Luther posted his theses, sparking the Protestant Reformation.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Luther_95_Thesen.png/330px-Luther_95_Thesen.png"
   },
   {
     "name": "communist-manifesto",

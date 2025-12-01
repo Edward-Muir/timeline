@@ -253,7 +253,8 @@
     "year": 1522,
     "category": "exploration-discovery",
     "description": "Magellan's expedition completed the first voyage around the world.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Detail_from_a_map_of_Ortelius_-_Magellan%27s_ship_Victoria.png/330px-Detail_from_a_map_of_Ortelius_-_Magellan%27s_ship_Victoria.png"
   },
   {
     "name": "cartier-st-lawrence",
@@ -381,7 +382,8 @@
     "year": 1799,
     "category": "exploration-discovery",
     "description": "French soldiers found the key to deciphering Egyptian hieroglyphics.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Rosetta_Stone.JPG/330px-Rosetta_Stone.JPG"
   },
   {
     "name": "lewis-clark-expedition",
@@ -389,7 +391,8 @@
     "year": 1804,
     "category": "exploration-discovery",
     "description": "The expedition explored the American West from the Mississippi to the Pacific.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Lewis_and_Clark.jpg/330px-Lewis_and_Clark.jpg"
   },
   {
     "name": "electromagnetism-discovered",
@@ -685,7 +688,8 @@
     "year": 1953,
     "category": "exploration-discovery",
     "description": "Watson and Crick discovered the double helix structure of DNA.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/DNA-structure-and-bases.png/330px-DNA-structure-and-bases.png"
   },
   {
     "name": "everest-summited",
@@ -733,7 +737,8 @@
     "year": 1969,
     "category": "exploration-discovery",
     "description": "Neil Armstrong became the first human to walk on the Moon.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/A_Man_on_the_Moon%2C_AS11-40-5903_%28cropped%29.jpg/330px-A_Man_on_the_Moon%2C_AS11-40-5903_%28cropped%29.jpg"
   },
   {
     "name": "lucy-discovered",

@@ -37,7 +37,8 @@
     "year": -776,
     "category": "cultural-social",
     "description": "Ancient Greeks held the first recorded Olympic Games at Olympia.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Commemorative_album_of_1896_Olympic_Games_-_cover_by_E._Gilli%C3%A9ron.jpg/330px-Commemorative_album_of_1896_Olympic_Games_-_cover_by_E._Gilli%C3%A9ron.jpg"
   },
   {
     "name": "homer-iliad",
@@ -101,7 +102,8 @@
     "year": 33,
     "category": "cultural-social",
     "description": "Jesus of Nazareth was crucified in Jerusalem, founding Christianity.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Cristo_crucificado.jpg/330px-Cristo_crucificado.jpg"
   },
   {
     "name": "colosseum-completed",
@@ -189,7 +191,8 @@
     "year": 1440,
     "category": "cultural-social",
     "description": "Johannes Gutenberg invented movable type printing in Europe.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/PrintMus_038.jpg/330px-PrintMus_038.jpg"
   },
   {
     "name": "sistine-chapel-ceiling",
@@ -213,7 +216,8 @@
     "year": 1601,
     "category": "cultural-social",
     "description": "William Shakespeare completed his famous tragedy about the Danish prince.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Edwin_Booth_Hamlet_1870.jpg/330px-Edwin_Booth_Hamlet_1870.jpg"
   },
   {
     "name": "king-james-bible",
@@ -285,7 +289,8 @@
     "year": 1824,
     "category": "cultural-social",
     "description": "Beethoven premiered his final symphony, including the Ode to Joy.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/The_Premiere_of_Symphony_No._9.jpg/330px-The_Premiere_of_Symphony_No._9.jpg"
   },
   {
     "name": "first-photograph",
@@ -293,7 +298,8 @@
     "year": 1826,
     "category": "cultural-social",
     "description": "Joseph Nicéphore Niépce captured the world's first permanent photograph.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Untitled_%28point_de_vue%29%2C_Ni%C3%A9pce_1827_%E2%80%94_HRC_2020_%28cropped%29.jpg/330px-Untitled_%28point_de_vue%29%2C_Ni%C3%A9pce_1827_%E2%80%94_HRC_2020_%28cropped%29.jpg"
   },
   {
     "name": "slavery-abolished-uk",
@@ -333,7 +339,8 @@
     "year": 1874,
     "category": "cultural-social",
     "description": "Monet, Renoir, and others held their first independent art exhibition in Paris.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Premi%C3%A8re_Exposition_1874%2C_35_Boulevard_des_Capucines_Catalogue.jpg/330px-Premi%C3%A8re_Exposition_1874%2C_35_Boulevard_des_Capucines_Catalogue.jpg"
   },
   {
     "name": "phonograph-invented",
@@ -461,7 +468,8 @@
     "year": 1948,
     "category": "cultural-social",
     "description": "The United Nations adopted a landmark document on human rights.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Eleanor_Roosevelt_UDHR.jpg/330px-Eleanor_Roosevelt_UDHR.jpg"
   },
   {
     "name": "nineteen-eighty-four",
@@ -477,7 +485,8 @@
     "year": 1953,
     "category": "cultural-social",
     "description": "Watson and Crick discovered the double helix structure of DNA.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/DNA-structure-and-bases.png/330px-DNA-structure-and-bases.png"
   },
   {
     "name": "polio-vaccine",
@@ -525,7 +534,8 @@
     "year": 1964,
     "category": "cultural-social",
     "description": "Landmark US legislation outlawed discrimination based on race, color, religion, sex, or national origin.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Great_Seal_of_the_United_States_%28obverse%29.svg/330px-Great_Seal_of_the_United_States_%28obverse%29.svg.png"
   },
   {
     "name": "woodstock",
@@ -533,7 +543,8 @@
     "year": 1969,
     "category": "cultural-social",
     "description": "Nearly half a million people gathered for the iconic music festival.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Woodstock_poster.jpg/330px-Woodstock_poster.jpg"
   },
   {
     "name": "moon-landing",
@@ -541,7 +552,8 @@
     "year": 1969,
     "category": "cultural-social",
     "description": "Neil Armstrong became the first human to walk on the Moon.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/A_Man_on_the_Moon%2C_AS11-40-5903_%28cropped%29.jpg/330px-A_Man_on_the_Moon%2C_AS11-40-5903_%28cropped%29.jpg"
   },
   {
     "name": "stonewall-riots",
@@ -549,7 +561,8 @@
     "year": 1969,
     "category": "cultural-social",
     "description": "LGBTQ patrons resisted a police raid, sparking the gay rights movement.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/4/42/Stonewall_riots.jpg/330px-Stonewall_riots.jpg"
   },
   {
     "name": "first-email",
@@ -613,7 +626,8 @@
     "year": 1985,
     "category": "cultural-social",
     "description": "A dual-venue rock concert raised millions for Ethiopian famine relief.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/9/9c/Official_Live_Aid_poster.jpeg"
   },
   {
     "name": "chernobyl-disaster",
@@ -621,7 +635,8 @@
     "year": 1986,
     "category": "cultural-social",
     "description": "The world's worst nuclear accident occurred at a Soviet power plant.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/IAEA_02790015_%285613115146%29.jpg/330px-IAEA_02790015_%285613115146%29.jpg"
   },
   {
     "name": "world-wide-web",

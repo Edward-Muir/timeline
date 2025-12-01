@@ -453,7 +453,8 @@
     "year": 1869,
     "category": "infrastructure-construction",
     "description": "The first railroad spanning North America was completed at Promontory Summit.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/East_and_West_Shaking_hands_at_the_laying_of_last_rail_Union_Pacific_Railroad_-_Restoration.jpg/330px-East_and_West_Shaking_hands_at_the_laying_of_last_rail_Union_Pacific_Railroad_-_Restoration.jpg"
   },
   {
     "name": "brooklyn-bridge-completed",
@@ -469,7 +470,8 @@
     "year": 1886,
     "category": "infrastructure-construction",
     "description": "France's gift to America was unveiled in New York Harbor.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Front_view_of_Statue_of_Liberty_%28cropped%29.jpg/330px-Front_view_of_Statue_of_Liberty_%28cropped%29.jpg"
   },
   {
     "name": "eiffel-tower",
@@ -477,7 +479,8 @@
     "year": 1889,
     "category": "infrastructure-construction",
     "description": "The iron lattice tower was built for the Paris World's Fair.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg/330px-Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg"
   },
   {
     "name": "tower-bridge-london",
@@ -509,7 +512,8 @@
     "year": 1914,
     "category": "infrastructure-construction",
     "description": "The canal connecting the Atlantic and Pacific Oceans opened to shipping.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Panama_Canal_Map_EN.png/330px-Panama_Canal_Map_EN.png"
   },
   {
     "name": "lincoln-memorial",

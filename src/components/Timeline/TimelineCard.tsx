@@ -37,6 +37,7 @@ const TimelineCard: React.FC<TimelineCardProps> = ({ event, index }) => {
     <div
       ref={setNodeRef}
       style={style}
+      data-timeline-card
       {...attributes}
       {...listeners}
       className="flex-shrink-0 transition-all duration-200 hover:scale-110 hover:z-10"

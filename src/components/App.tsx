@@ -1,6 +1,7 @@
 import React from 'react';
 import { GameConfig } from '../types';
 import { useGameState } from '../hooks/useGameState';
+import { useMobileDetection } from '../hooks/useMobileDetection';
 import GameSetup from './GameSetup';
 import GameBoard from './GameBoard';
 
@@ -21,7 +22,12 @@ const App: React.FC = () => {
     setDraggedCard,
     revealingCard,
     clearReveal,
+    selectedCard,
+    selectCard,
+    placeSelectedCard,
   } = useGameState();
+
+  const { useTapMode } = useMobileDetection();
 
   const handleStartGame = (config: GameConfig) => {
     startGame(config);
@@ -86,6 +92,10 @@ const App: React.FC = () => {
       setDraggedCard={setDraggedCard}
       revealingCard={revealingCard}
       clearReveal={clearReveal}
+      useTapMode={useTapMode}
+      selectedCard={selectedCard}
+      onSelectCard={selectCard}
+      onPlaceSelectedCard={placeSelectedCard}
     />
   );
 };

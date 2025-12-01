@@ -13,7 +13,8 @@
     "year": 1969,
     "category": "exploration-discovery",
     "description": "Neil Armstrong became the first human to walk on the Moon.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/A_Man_on_the_Moon%2C_AS11-40-5903_%28cropped%29.jpg/330px-A_Man_on_the_Moon%2C_AS11-40-5903_%28cropped%29.jpg"
   },
   {
     "name": "hubble-launch",

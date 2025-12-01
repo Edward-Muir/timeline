@@ -5,7 +5,8 @@
     "year": 1914,
     "category": "conflict-politics",
     "description": "The assassination of Archduke Franz Ferdinand sparked the Great War.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Bataille_de_Verdun_1916.jpg/330px-Bataille_de_Verdun_1916.jpg"
   },
   {
     "name": "wwi-end",
@@ -13,7 +14,8 @@
     "year": 1918,
     "category": "conflict-politics",
     "description": "The armistice was signed ending the Great War after four years of conflict.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Armisticetrain_%28slight_crop%29.jpg/330px-Armisticetrain_%28slight_crop%29.jpg"
   },
   {
     "name": "wwii-start",
@@ -21,7 +23,8 @@
     "year": 1939,
     "category": "conflict-politics",
     "description": "Germany invaded Poland, triggering the Second World War.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Battle_of_Poland.png/330px-Battle_of_Poland.png"
   },
   {
     "name": "wwii-end",
@@ -29,7 +32,8 @@
     "year": 1945,
     "category": "conflict-politics",
     "description": "Japan surrendered following the atomic bombings, ending WWII.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Surrender_of_Japan_-_USS_Missouri_%28restored%29.jpg/330px-Surrender_of_Japan_-_USS_Missouri_%28restored%29.jpg"
   },
   {
     "name": "pearl-harbor",
@@ -37,7 +41,8 @@
     "year": 1941,
     "category": "conflict-politics",
     "description": "Japan's surprise attack on Pearl Harbor brought the US into WWII.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Attack_on_Pearl_Harbor_Japanese_planes_view.jpg/330px-Attack_on_Pearl_Harbor_Japanese_planes_view.jpg"
   },
   {
     "name": "d-day",
@@ -45,7 +50,8 @@
     "year": 1944,
     "category": "conflict-politics",
     "description": "Allied forces invaded Normandy in the largest amphibious assault in history.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Into_the_Jaws_of_Death_23-0455M_edit.jpg/330px-Into_the_Jaws_of_Death_23-0455M_edit.jpg"
   },
   {
     "name": "hiroshima",
@@ -53,7 +59,8 @@
     "year": 1945,
     "category": "conflict-politics",
     "description": "The first nuclear weapon used in warfare devastated Hiroshima.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Atomic_bombing_of_Japan.jpg/330px-Atomic_bombing_of_Japan.jpg"
   },
   {
     "name": "waterloo",
@@ -61,7 +68,8 @@
     "year": 1815,
     "category": "conflict-politics",
     "description": "Napoleon's final defeat ended French dominance in Europe.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Battle_of_Waterloo_1815.PNG/330px-Battle_of_Waterloo_1815.PNG"
   },
   {
     "name": "civil-war-start",
@@ -69,7 +77,8 @@
     "year": 1861,
     "category": "conflict-politics",
     "description": "The Confederate attack on Fort Sumter started the American Civil War.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Bombardment_of_Fort_Sumter.jpg/330px-Bombardment_of_Fort_Sumter.jpg"
   },
   {
     "name": "vietnam-end",
@@ -77,7 +86,8 @@
     "year": 1975,
     "category": "conflict-politics",
     "description": "The Fall of Saigon marked the end of the Vietnam War.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/9/95/Saigon-hubert-van-es.jpg/330px-Saigon-hubert-van-es.jpg"
   },
   {
     "name": "first-crusade",
@@ -85,7 +95,8 @@
     "year": 1096,
     "category": "conflict-politics",
     "description": "Pope Urban II called for the first military expedition to the Holy Land.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Peter_the_Hermit.jpg/330px-Peter_the_Hermit.jpg"
   },
   {
     "name": "norman-conquest",
@@ -93,7 +104,8 @@
     "year": 1066,
     "category": "conflict-politics",
     "description": "William the Conqueror defeated King Harold at the Battle of Hastings.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Bayeux_Tapestry_scene57_Harold_death.jpg/330px-Bayeux_Tapestry_scene57_Harold_death.jpg"
   },
   {
     "name": "alexander-empire",
@@ -101,7 +113,8 @@
     "year": -331,
     "category": "conflict-politics",
     "description": "Alexander the Great defeated the Persian Empire at Gaugamela.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Alexander_the_Great_mosaic_%28cropped%29.jpg/330px-Alexander_the_Great_mosaic_%28cropped%29.jpg"
   },
   {
     "name": "rome-falls",
@@ -109,7 +122,8 @@
     "year": 476,
     "category": "conflict-politics",
     "description": "The last Roman emperor was deposed, ending ancient Rome.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Roman_Republic_Empire_map.gif/330px-Roman_Republic_Empire_map.gif"
   },
   {
     "name": "constantinople-falls",
@@ -117,7 +131,8 @@
     "year": 1453,
     "category": "conflict-politics",
     "description": "The Ottoman conquest ended the Byzantine Empire after 1000 years.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Le_si%C3%A8ge_de_Constantinople_%281453%29_by_Jean_Le_Tavernier_after_1455.jpg/330px-Le_si%C3%A8ge_de_Constantinople_%281453%29_by_Jean_Le_Tavernier_after_1455.jpg"
   },
   {
     "name": "genghis-khan",
@@ -125,7 +140,8 @@
     "year": 1206,
     "category": "conflict-politics",
     "description": "Genghis Khan united the Mongol tribes and began building an empire.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/YuanEmperorAlbumGenghisPortrait.jpg/330px-YuanEmperorAlbumGenghisPortrait.jpg"
   },
   {
     "name": "september-11",
@@ -133,7 +149,8 @@
     "year": 2001,
     "category": "conflict-politics",
     "description": "Terrorist attacks on the World Trade Center and Pentagon killed nearly 3,000.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/WTC_smoking_on_9-11.jpeg/330px-WTC_smoking_on_9-11.jpeg"
   },
   {
     "name": "cuban-missile",
@@ -141,7 +158,8 @@
     "year": 1962,
     "category": "conflict-politics",
     "description": "A 13-day confrontation brought the US and USSR to the brink of nuclear war.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/PGM-19A_Jupiter_missile-02.jpg/330px-PGM-19A_Jupiter_missile-02.jpg"
   },
   {
     "name": "gunpowder-europe",

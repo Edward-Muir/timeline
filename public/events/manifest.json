@@ -2,27 +2,57 @@
   "categories": [
     {
       "name": "conflict-politics",
-      "files": ["wars.json", "revolutions.json", "political.json"]
-    },
-    {
-      "name": "disasters-crises",
-      "files": ["natural.json", "pandemics.json", "accidents.json"]
-    },
-    {
-      "name": "exploration-discovery",
-      "files": ["exploration.json", "science.json", "space.json"]
+      "files": [
+        "conflict-politics-events.json",
+        "political.json",
+        "revolutions.json",
+        "wars.json"
+      ]
     },
     {
       "name": "cultural-social",
-      "files": ["art-music.json", "movements.json", "milestones.json"]
-    },
-    {
-      "name": "infrastructure-construction",
-      "files": ["buildings.json", "engineering.json", "technology.json"]
+      "files": [
+        "art-music.json",
+        "cultural-social-events.json",
+        "milestones.json",
+        "movements.json"
+      ]
     },
     {
       "name": "diplomatic-institutional",
-      "files": ["treaties.json", "organizations.json", "founding.json"]
+      "files": [
+        "diplomatic-institutional-events.json",
+        "founding.json",
+        "organizations.json",
+        "treaties.json"
+      ]
+    },
+    {
+      "name": "disasters-crises",
+      "files": [
+        "accidents.json",
+        "disaster-crises-events.json",
+        "natural.json",
+        "pandemics.json"
+      ]
+    },
+    {
+      "name": "exploration-discovery",
+      "files": [
+        "exploration-discovery-events.json",
+        "exploration.json",
+        "science.json",
+        "space.json"
+      ]
+    },
+    {
+      "name": "infrastructure-construction",
+      "files": [
+        "buildings.json",
+        "engineering.json",
+        "infrastructure-construction-events.json",
+        "technology.json"
+      ]
     }
   ]
 }

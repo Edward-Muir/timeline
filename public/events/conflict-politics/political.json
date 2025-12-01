@@ -21,7 +21,8 @@
     "year": 1963,
     "category": "conflict-politics",
     "description": "President John F. Kennedy was assassinated in Dallas, Texas.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/JFK_Motorcade_GettyImages-517330536.jpg/330px-JFK_Motorcade_GettyImages-517330536.jpg"
   },
   {
     "name": "watergate",
@@ -29,7 +30,8 @@
     "year": 1972,
     "category": "conflict-politics",
     "description": "The break-in and cover-up that led to Nixon's resignation.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Watergate_complex.jpg/330px-Watergate_complex.jpg"
   },
   {
     "name": "obama-elected",
@@ -53,7 +55,8 @@
     "year": 1776,
     "category": "conflict-politics",
     "description": "The American colonies declared independence from Britain.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/United_States_Declaration_of_Independence.jpg/330px-United_States_Declaration_of_Independence.jpg"
   },
   {
     "name": "slavery-abolished",
@@ -69,7 +72,8 @@
     "year": 1863,
     "category": "conflict-politics",
     "description": "Lincoln delivered his famous speech during the Civil War.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Lincolnatgettysburg.jpg/330px-Lincolnatgettysburg.jpg"
   },
   {
     "name": "india-independence",
@@ -109,7 +113,8 @@
     "year": -1754,
     "category": "conflict-politics",
     "description": "One of the earliest written legal codes was established in Babylon.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/P1050763_Louvre_code_Hammurabi_face_rwk.JPG/330px-P1050763_Louvre_code_Hammurabi_face_rwk.JPG"
   },
   {
     "name": "magna-carta",
@@ -117,7 +122,8 @@
     "year": 1215,
     "category": "conflict-politics",
     "description": "King John signed the charter limiting royal power.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Magna_Carta_%28British_Library_Cotton_MS_Augustus_II.106%29.jpg/330px-Magna_Carta_%28British_Library_Cotton_MS_Augustus_II.106%29.jpg"
   },
   {
     "name": "charlemagne",

@@ -31,37 +31,37 @@ const GameSetup: React.FC<GameSetupProps> = ({ onStartGame, eventCount }) => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center p-4">
-      <div className="bg-white/90 rounded-2xl shadow-sketch-lg p-8 max-w-md w-full">
+    <div className="min-h-screen flex items-center justify-center p-2 sm:p-4">
+      <div className="bg-white/90 rounded-2xl shadow-sketch-lg p-4 sm:p-8 max-w-md w-full">
         {/* Title */}
-        <div className="text-center mb-8">
-          <h1 className="font-hand text-5xl text-sketch mb-2">
+        <div className="text-center mb-4 sm:mb-8">
+          <h1 className="font-hand text-4xl sm:text-5xl text-sketch mb-2">
             Timeline
           </h1>
-          <p className="font-hand text-xl text-sketch/60">
+          <p className="font-hand text-lg sm:text-xl text-sketch/60">
             Place events in chronological order!
           </p>
         </div>
 
         {/* Decorative line */}
-        <div className="flex items-center gap-4 mb-8">
+        <div className="flex items-center gap-4 mb-4 sm:mb-8">
           <div className="flex-1 h-0.5 bg-sketch/20" />
           <span className="font-hand text-sketch/40">⏳</span>
           <div className="flex-1 h-0.5 bg-sketch/20" />
         </div>
 
         {/* Player count */}
-        <div className="mb-6">
-          <label className="block font-hand text-xl text-sketch mb-2">
+        <div className="mb-4 sm:mb-6">
+          <label className="block font-hand text-lg sm:text-xl text-sketch mb-2">
             Number of Players
           </label>
-          <div className="flex gap-2">
+          <div className="flex gap-1 sm:gap-2">
             {[1, 2, 3, 4, 5, 6].map((num) => (
               <button
                 key={num}
                 onClick={() => setPlayerCount(num)}
                 className={`
-                  w-12 h-12 rounded-lg font-hand text-2xl
+                  w-10 h-10 sm:w-12 sm:h-12 rounded-lg font-hand text-xl sm:text-2xl
                   transition-all duration-200
                   ${playerCount === num
                     ? 'bg-yellow-400 text-sketch shadow-md scale-105'
@@ -76,8 +76,8 @@ const GameSetup: React.FC<GameSetupProps> = ({ onStartGame, eventCount }) => {
         </div>
 
         {/* Player names */}
-        <div className="mb-6">
-          <label className="block font-hand text-xl text-sketch mb-2">
+        <div className="mb-4 sm:mb-6">
+          <label className="block font-hand text-lg sm:text-xl text-sketch mb-2">
             Player Names
           </label>
           <div className="space-y-2">
@@ -89,9 +89,9 @@ const GameSetup: React.FC<GameSetupProps> = ({ onStartGame, eventCount }) => {
                 value={playerNames[index]}
                 onChange={(e) => handlePlayerNameChange(index, e.target.value)}
                 className="
-                  w-full px-4 py-2 rounded-lg
+                  w-full px-3 sm:px-4 py-2 rounded-lg
                   border-2 border-sketch/20
-                  font-hand text-lg text-sketch
+                  font-hand text-base sm:text-lg text-sketch
                   placeholder:text-sketch/40
                   focus:outline-none focus:border-yellow-400
                   transition-colors duration-200
@@ -102,8 +102,8 @@ const GameSetup: React.FC<GameSetupProps> = ({ onStartGame, eventCount }) => {
         </div>
 
         {/* Starting events */}
-        <div className="mb-8">
-          <label className="block font-hand text-xl text-sketch mb-2">
+        <div className="mb-6 sm:mb-8">
+          <label className="block font-hand text-lg sm:text-xl text-sketch mb-2">
             Starting Timeline Events: {startingEvents}
           </label>
           <input
@@ -124,9 +124,9 @@ const GameSetup: React.FC<GameSetupProps> = ({ onStartGame, eventCount }) => {
         <button
           onClick={handleStartGame}
           className="
-            w-full py-4 rounded-xl
+            w-full py-3 sm:py-4 rounded-xl
             bg-gradient-to-r from-yellow-400 to-orange-400
-            font-hand text-2xl text-white
+            font-hand text-xl sm:text-2xl text-white
             shadow-sketch hover:shadow-sketch-lg
             transition-all duration-200
             hover:scale-105 active:scale-95
@@ -136,7 +136,7 @@ const GameSetup: React.FC<GameSetupProps> = ({ onStartGame, eventCount }) => {
         </button>
 
         {/* Rules hint */}
-        <p className="text-center mt-4 font-hand text-sm text-sketch/50">
+        <p className="text-center mt-3 sm:mt-4 font-hand text-sm text-sketch/50">
           Each player gets 5 cards. Place them correctly to win!
         </p>
         {eventCount && (

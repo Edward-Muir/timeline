@@ -15,6 +15,7 @@ export interface HistoricalEvent {
   category: Category;
   description: string;
   difficulty: Difficulty;
+  image_url?: string;     // Optional Wikipedia thumbnail URL
 }
 
 export interface Player {

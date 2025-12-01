@@ -5,7 +5,8 @@
     "year": 1914,
     "category": "conflict-politics",
     "description": "The assassination of Archduke Franz Ferdinand sparked the Great War.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Bataille_de_Verdun_1916.jpg/330px-Bataille_de_Verdun_1916.jpg"
   },
   {
     "name": "wwi-end",
@@ -13,7 +14,8 @@
     "year": 1918,
     "category": "conflict-politics",
     "description": "The armistice was signed ending the Great War after four years of conflict.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Armisticetrain_%28slight_crop%29.jpg/330px-Armisticetrain_%28slight_crop%29.jpg"
   },
   {
     "name": "wwii-start",
@@ -21,7 +23,8 @@
     "year": 1939,
     "category": "conflict-politics",
     "description": "Germany invaded Poland, triggering declarations of war from Britain and France.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Battle_of_Poland.png/330px-Battle_of_Poland.png"
   },
   {
     "name": "wwii-end-europe",
@@ -29,7 +32,8 @@
     "year": 1945,
     "category": "conflict-politics",
     "description": "Nazi Germany surrendered unconditionally, ending World War II in Europe.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Winston_Churchill_waves_to_crowds_in_Whitehall_in_London_as_they_celebrate_VE_Day%2C_8_May_1945._H41849.jpg/330px-Winston_Churchill_waves_to_crowds_in_Whitehall_in_London_as_they_celebrate_VE_Day%2C_8_May_1945._H41849.jpg"
   },
   {
     "name": "wwii-end-pacific",
@@ -37,7 +41,8 @@
     "year": 1945,
     "category": "conflict-politics",
     "description": "Japan surrendered after atomic bombs were dropped on Hiroshima and Nagasaki.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Surrender_of_Japan_-_USS_Missouri_%28restored%29.jpg/330px-Surrender_of_Japan_-_USS_Missouri_%28restored%29.jpg"
   },
   {
     "name": "american-revolution-start",
@@ -69,7 +74,8 @@
     "year": 1815,
     "category": "conflict-politics",
     "description": "Napoleon Bonaparte was decisively defeated, ending his rule over France.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Battle_of_Waterloo_1815.PNG/330px-Battle_of_Waterloo_1815.PNG"
   },
   {
     "name": "us-civil-war-start",
@@ -101,7 +107,8 @@
     "year": 1917,
     "category": "conflict-politics",
     "description": "The Bolsheviks seized power, establishing the world's first communist state.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/%D0%9C%D0%B8%D1%82%D0%B8%D0%BD%D0%B3_%D0%BD%D0%B0_%D0%9D%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%BC_%D0%BF%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B5_%281917%29.jpg/330px-%D0%9C%D0%B8%D1%82%D0%B8%D0%BD%D0%B3_%D0%BD%D0%B0_%D0%9D%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%BC_%D0%BF%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B5_%281917%29.jpg"
   },
   {
     "name": "pearl-harbor",
@@ -109,7 +116,8 @@
     "year": 1941,
     "category": "conflict-politics",
     "description": "Japan's surprise attack brought the United States into World War II.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Attack_on_Pearl_Harbor_Japanese_planes_view.jpg/330px-Attack_on_Pearl_Harbor_Japanese_planes_view.jpg"
   },
   {
     "name": "d-day",
@@ -117,7 +125,8 @@
     "year": 1944,
     "category": "conflict-politics",
     "description": "Allied forces landed on Normandy beaches in the largest amphibious invasion in history.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Into_the_Jaws_of_Death_23-0455M_edit.jpg/330px-Into_the_Jaws_of_Death_23-0455M_edit.jpg"
   },
   {
     "name": "korean-war-start",
@@ -149,7 +158,8 @@
     "year": 1975,
     "category": "conflict-politics",
     "description": "North Vietnamese forces captured Saigon, ending the Vietnam War.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/9/95/Saigon-hubert-van-es.jpg/330px-Saigon-hubert-van-es.jpg"
   },
   {
     "name": "berlin-wall-fall",
@@ -157,7 +167,8 @@
     "year": 1989,
     "category": "conflict-politics",
     "description": "East Germany opened its borders, symbolizing the end of the Cold War.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/West_and_East_Germans_at_the_Brandenburg_Gate_in_1989.jpg/330px-West_and_East_Germans_at_the_Brandenburg_Gate_in_1989.jpg"
   },
   {
     "name": "soviet-union-collapse",
@@ -181,7 +192,8 @@
     "year": 2001,
     "category": "conflict-politics",
     "description": "Terrorists hijacked planes and attacked the World Trade Center and Pentagon.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/WTC_smoking_on_9-11.jpeg/330px-WTC_smoking_on_9-11.jpeg"
   },
   {
     "name": "iraq-war-start",
@@ -197,7 +209,8 @@
     "year": 1215,
     "category": "conflict-politics",
     "description": "English barons forced King John to sign a charter limiting royal power.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Magna_Carta_%28British_Library_Cotton_MS_Augustus_II.106%29.jpg/330px-Magna_Carta_%28British_Library_Cotton_MS_Augustus_II.106%29.jpg"
   },
   {
     "name": "hundred-years-war-start",
@@ -221,7 +234,8 @@
     "year": 1453,
     "category": "conflict-politics",
     "description": "Ottoman forces conquered the Byzantine capital, ending the Eastern Roman Empire.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Le_si%C3%A8ge_de_Constantinople_%281453%29_by_Jean_Le_Tavernier_after_1455.jpg/330px-Le_si%C3%A8ge_de_Constantinople_%281453%29_by_Jean_Le_Tavernier_after_1455.jpg"
   },
   {
     "name": "spanish-armada",
@@ -253,7 +267,8 @@
     "year": 1688,
     "category": "conflict-politics",
     "description": "William of Orange overthrew King James II in a largely bloodless coup.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/William_of_Orange_III_and_his_Dutch_army_land_in_Brixham%2C_1688.jpg/330px-William_of_Orange_III_and_his_Dutch_army_land_in_Brixham%2C_1688.jpg"
   },
   {
     "name": "seven-years-war-start",
@@ -269,7 +284,8 @@
     "year": 1789,
     "category": "conflict-politics",
     "description": "Parisian revolutionaries stormed the royal fortress, symbolizing the revolution.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Anonymous_-_Prise_de_la_Bastille.jpg/330px-Anonymous_-_Prise_de_la_Bastille.jpg"
   },
   {
     "name": "louis-xvi-execution",
@@ -333,7 +349,8 @@
     "year": 1848,
     "category": "conflict-politics",
     "description": "A wave of revolutionary uprisings swept across Europe demanding reform.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Horace_Vernet-Barricade_rue_Soufflot.jpg/330px-Horace_Vernet-Barricade_rue_Soufflot.jpg"
   },
   {
     "name": "crimean-war",
@@ -349,7 +366,8 @@
     "year": 1857,
     "category": "conflict-politics",
     "description": "Indian soldiers revolted against the British East India Company.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Indian_Rebellion_of_1857.jpg/330px-Indian_Rebellion_of_1857.jpg"
   },
   {
     "name": "italian-unification",
@@ -365,7 +383,8 @@
     "year": 1871,
     "category": "conflict-politics",
     "description": "Prussia united German states into the German Empire after defeating France.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Deutsches_Reich_%281871-1918%29-en.png/330px-Deutsches_Reich_%281871-1918%29-en.png"
   },
   {
     "name": "franco-prussian-war",
@@ -381,7 +400,8 @@
     "year": 1871,
     "category": "conflict-politics",
     "description": "Radical socialists briefly governed Paris before being violently suppressed.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Barricade18March1871_%28cropped%29.jpg/330px-Barricade18March1871_%28cropped%29.jpg"
   },
   {
     "name": "spanish-american-war",
@@ -389,7 +409,8 @@
     "year": 1898,
     "category": "conflict-politics",
     "description": "The US defeated Spain, gaining control of Cuba, Puerto Rico, and the Philippines.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Collage_infobox_for_Spanish-American_War.jpg/330px-Collage_infobox_for_Spanish-American_War.jpg"
   },
   {
     "name": "boer-war",
@@ -405,7 +426,8 @@
     "year": 1904,
     "category": "conflict-politics",
     "description": "Japan defeated Russia, becoming the first Asian power to beat a European nation.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/RUSSOJAPANESEWARIMAGE.jpg/330px-RUSSOJAPANESEWARIMAGE.jpg"
   },
   {
     "name": "russian-revolution-1905",
@@ -413,7 +435,8 @@
     "year": 1905,
     "category": "conflict-politics",
     "description": "Mass unrest forced Tsar Nicholas II to create a parliament.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/The_Russian_Revolution%2C_1905_Q81555.jpg/330px-The_Russian_Revolution%2C_1905_Q81555.jpg"
   },
   {
     "name": "chinese-revolution",
@@ -437,7 +460,8 @@
     "year": 1916,
     "category": "conflict-politics",
     "description": "One of the bloodiest battles in history killed over one million soldiers.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Map_of_the_Battle_of_the_Somme%2C_1916.svg/330px-Map_of_the_Battle_of_the_Somme%2C_1916.svg.png"
   },
   {
     "name": "treaty-versailles",
@@ -445,7 +469,8 @@
     "year": 1919,
     "category": "conflict-politics",
     "description": "The peace treaty officially ended World War I and imposed harsh terms on Germany.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Treaty_of_Versailles%2C_English_version.jpg/330px-Treaty_of_Versailles%2C_English_version.jpg"
   },
   {
     "name": "irish-independence",
@@ -485,7 +510,8 @@
     "year": 1938,
     "category": "conflict-politics",
     "description": "Nazi mobs attacked Jewish businesses and synagogues across Germany.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Interior_view_of_the_destroyed_Fasanenstrasse_Synagogue%2C_Berlin.jpg/330px-Interior_view_of_the_destroyed_Fasanenstrasse_Synagogue%2C_Berlin.jpg"
   },
   {
     "name": "munich-agreement",
@@ -493,7 +519,8 @@
     "year": 1938,
     "category": "conflict-politics",
     "description": "European powers allowed Hitler to annex part of Czechoslovakia.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Bundesarchiv_Bild_183-R69173%2C_M%C3%BCnchener_Abkommen%2C_Staatschefs.jpg/330px-Bundesarchiv_Bild_183-R69173%2C_M%C3%BCnchener_Abkommen%2C_Staatschefs.jpg"
   },
   {
     "name": "battle-britain",
@@ -501,7 +528,8 @@
     "year": 1940,
     "category": "conflict-politics",
     "description": "The Royal Air Force defended Britain against sustained German bombing.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Heinkel_He_111_over_Wapping%2C_East_London.jpg/330px-Heinkel_He_111_over_Wapping%2C_East_London.jpg"
   },
   {
     "name": "stalingrad",
@@ -565,7 +593,8 @@
     "year": 1961,
     "category": "conflict-politics",
     "description": "A CIA-backed invasion of Cuba by exiles failed disastrously.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Attack_near_Playa_Giron._April_19%2C_1961._-_panoramio.jpg/330px-Attack_near_Playa_Giron._April_19%2C_1961._-_panoramio.jpg"
   },
   {
     "name": "cuban-missile-crisis",
@@ -573,7 +602,8 @@
     "year": 1962,
     "category": "conflict-politics",
     "description": "The US and USSR came to the brink of nuclear war over missiles in Cuba.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/PGM-19A_Jupiter_missile-02.jpg/330px-PGM-19A_Jupiter_missile-02.jpg"
   },
   {
     "name": "jfk-assassination",
@@ -589,7 +619,8 @@
     "year": 1967,
     "category": "conflict-politics",
     "description": "Israel defeated Arab nations and captured the Sinai, Gaza, West Bank, and Golan Heights.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/6DayWarEnglish.png/330px-6DayWarEnglish.png"
   },
   {
     "name": "mlk-assassination",
@@ -613,7 +644,8 @@
     "year": 1973,
     "category": "conflict-politics",
     "description": "Egypt and Syria launched a surprise attack on Israel during the Jewish holiday.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Yom_Kippur_War_Montage.png/330px-Yom_Kippur_War_Montage.png"
   },
   {
     "name": "watergate",
@@ -637,7 +669,8 @@
     "year": 1979,
     "category": "conflict-politics",
     "description": "Islamic revolutionaries overthrew the Shah and established a theocratic republic.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Mass_demonstration_in_Iran%2C_date_unknown.jpg/330px-Mass_demonstration_in_Iran%2C_date_unknown.jpg"
   },
   {
     "name": "soviet-afghanistan",
@@ -653,7 +686,8 @@
     "year": 1982,
     "category": "conflict-politics",
     "description": "Britain and Argentina fought over the Falkland Islands in the South Atlantic.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/HMS_Broadsword_and_Hermes%2C_1982_%28IWM%29.jpg/330px-HMS_Broadsword_and_Hermes%2C_1982_%28IWM%29.jpg"
   },
   {
     "name": "tiananmen-square",
@@ -661,7 +695,8 @@
     "year": 1989,
     "category": "conflict-politics",
     "description": "Chinese troops killed pro-democracy protesters in Beijing.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Ud%C3%A1losti_na_n%C3%A1m%C4%9Bst%C3%AD_Tian_an_men%2C_%C4%8C%C3%ADna_1989%2C_foto_Ji%C5%99%C3%AD_Tondl.jpg"
   },
   {
     "name": "german-reunification",
@@ -669,7 +704,8 @@
     "year": 1990,
     "category": "conflict-politics",
     "description": "East and West Germany reunited as a single nation after 45 years.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/West_and_East_Germans_at_the_Brandenburg_Gate_in_1989.jpg/330px-West_and_East_Germans_at_the_Brandenburg_Gate_in_1989.jpg"
   },
   {
     "name": "yugoslavia-wars-start",
@@ -693,7 +729,8 @@
     "year": 1994,
     "category": "conflict-politics",
     "description": "Hutu extremists killed approximately 800,000 Tutsis and moderate Hutus.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Nyamata_Memorial_Site_13.jpg/330px-Nyamata_Memorial_Site_13.jpg"
   },
   {
     "name": "oklahoma-city-bombing",
@@ -701,7 +738,8 @@
     "year": 1995,
     "category": "conflict-politics",
     "description": "A domestic terrorist attack killed 168 people at a federal building.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Oklahomacitybombing-DF-ST-98-01356.jpg/330px-Oklahomacitybombing-DF-ST-98-01356.jpg"
   },
   {
     "name": "srebrenica-massacre",
@@ -709,7 +747,8 @@
     "year": 1995,
     "category": "conflict-politics",
     "description": "Bosnian Serb forces killed over 8,000 Bosniak Muslims in Europe's worst post-WWII atrocity.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Srebrenica_massacre_memorial_gravestones_2009_1.jpg/330px-Srebrenica_massacre_memorial_gravestones_2009_1.jpg"
   },
   {
     "name": "good-friday-agreement",
@@ -749,7 +788,8 @@
     "year": 2004,
     "category": "conflict-politics",
     "description": "Terrorist attacks on commuter trains killed 193 people in Spain.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Atentado_11M.jpg/330px-Atentado_11M.jpg"
   },
   {
     "name": "london-bombings",
@@ -805,7 +845,8 @@
     "year": 2016,
     "category": "conflict-politics",
     "description": "The United Kingdom voted to leave the European Union.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Coat_of_arms_of_the_United_Kingdom_%282024%2C_lesser_arms%29.svg/330px-Coat_of_arms_of_the_United_Kingdom_%282024%2C_lesser_arms%29.svg.png"
   },
   {
     "name": "russia-ukraine-invasion",

@@ -29,6 +29,10 @@ interface UseGameStateReturn {
   setDraggedCard: (card: HistoricalEvent | null) => void;
   revealingCard: HistoricalEvent | null;
   clearReveal: () => void;
+  // Tap mode selection state
+  selectedCard: HistoricalEvent | null;
+  selectCard: (card: HistoricalEvent | null) => void;
+  placeSelectedCard: (position: DropPosition) => PlacementResult | null;
 }
 
 export function useGameState(): UseGameStateReturn {
@@ -40,6 +44,7 @@ export function useGameState(): UseGameStateReturn {
   const [draggedCard, setDraggedCard] = useState<HistoricalEvent | null>(null);
   const [revealingCard, setRevealingCard] = useState<HistoricalEvent | null>(null);
   const [lastConfig, setLastConfig] = useState<GameConfig | null>(null);
+  const [selectedCard, setSelectedCard] = useState<HistoricalEvent | null>(null);
 
   // Load events on mount
   useEffect(() => {
@@ -78,6 +83,7 @@ export function useGameState(): UseGameStateReturn {
       setIsDragging(false);
       setDraggedCard(null);
       setRevealingCard(null);
+      setSelectedCard(null);
       const newGameState = initializeGame(lastConfig, allEvents);
       setGameState(newGameState);
     }
@@ -88,6 +94,7 @@ export function useGameState(): UseGameStateReturn {
     setIsDragging(false);
     setDraggedCard(null);
     setRevealingCard(null);
+    setSelectedCard(null);
   }, []);
 
   const clearReveal = useCallback(() => {
@@ -191,6 +198,19 @@ export function useGameState(): UseGameStateReturn {
     return { success, event };
   }, [gameState]);
 
+  // Tap mode: select a card from hand
+  const selectCard = useCallback((card: HistoricalEvent | null) => {
+    setSelectedCard(card);
+  }, []);
+
+  // Tap mode: place the selected card at a position
+  const placeSelectedCard = useCallback((position: DropPosition): PlacementResult | null => {
+    if (!selectedCard) return null;
+    const result = placeCard(selectedCard, position);
+    setSelectedCard(null);
+    return result;
+  }, [selectedCard, placeCard]);
+
   return {
     gameState,
     allEvents,
@@ -207,6 +227,9 @@ export function useGameState(): UseGameStateReturn {
     setDraggedCard,
     revealingCard,
     clearReveal,
+    selectedCard,
+    selectCard,
+    placeSelectedCard,
   };
 }
 

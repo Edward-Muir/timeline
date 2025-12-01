@@ -30,6 +30,11 @@ interface GameBoardProps {
   setDraggedCard: (card: HistoricalEvent | null) => void;
   revealingCard: HistoricalEvent | null;
   clearReveal: () => void;
+  // Tap mode props
+  useTapMode?: boolean;
+  selectedCard?: HistoricalEvent | null;
+  onSelectCard?: (card: HistoricalEvent | null) => void;
+  onPlaceSelectedCard?: (position: DropPosition) => void;
 }
 
 const GameBoard: React.FC<GameBoardProps> = ({
@@ -44,6 +49,10 @@ const GameBoard: React.FC<GameBoardProps> = ({
   setDraggedCard,
   revealingCard,
   clearReveal,
+  useTapMode = false,
+  selectedCard = null,
+  onSelectCard,
+  onPlaceSelectedCard,
 }) => {
   const currentPlayer = gameState.players[gameState.currentPlayerIndex];
   const isGameOver = gameState.phase === 'gameOver';
@@ -200,6 +209,22 @@ const GameBoard: React.FC<GameBoardProps> = ({
     }
   }, [revealingCard, clearReveal]);
 
+  // Tap mode: handle placement when user taps an insertion point
+  const handlePlacementTap = useCallback((index: number) => {
+    if (!onPlaceSelectedCard) return;
+
+    const leftEvent = index > 0 ? gameState.timeline[index - 1] : null;
+    const rightEvent = index < gameState.timeline.length ? gameState.timeline[index] : null;
+
+    const position: DropPosition = {
+      index,
+      leftEvent,
+      rightEvent,
+    };
+
+    onPlaceSelectedCard(position);
+  }, [gameState.timeline, onPlaceSelectedCard]);
+
   // Show feedback message
   const lastResult = gameState.lastPlacementResult;
 
@@ -230,14 +255,14 @@ const GameBoard: React.FC<GameBoardProps> = ({
         {/* Feedback message */}
         {lastResult && (
           <div className={`
-            text-center py-2 font-hand text-xl
+            text-center py-1 sm:py-2 px-4 font-hand text-base sm:text-xl
             transition-all duration-300
             ${lastResult.success ? 'text-green-600' : 'text-red-600'}
           `}>
             {lastResult.success ? (
-              <span>✓ Correct! "{lastResult.event.friendly_name}" placed successfully!</span>
+              <span>Correct! "{lastResult.event.friendly_name}" placed!</span>
             ) : (
-              <span>✗ Wrong! "{lastResult.event.friendly_name}" has been discarded.</span>
+              <span>Wrong! "{lastResult.event.friendly_name}" discarded.</span>
             )}
           </div>
         )}
@@ -248,6 +273,9 @@ const GameBoard: React.FC<GameBoardProps> = ({
             events={gameState.timeline}
             isDragging={isDragging}
             insertionIndex={insertionIndex}
+            useTapMode={useTapMode}
+            isCardSelected={!!selectedCard}
+            onPlacementTap={handlePlacementTap}
           />
         </div>
 
@@ -256,30 +284,30 @@ const GameBoard: React.FC<GameBoardProps> = ({
 
         {/* Current player's hand OR Winner display */}
         {isGameOver ? (
-          <div className="flex-shrink-0 bg-gradient-to-t from-amber-100/50 to-transparent pt-8 pb-8">
+          <div className="flex-shrink-0 bg-gradient-to-t from-amber-100/50 to-transparent pt-4 sm:pt-8 pb-4 sm:pb-8">
             <div className="text-center">
               {/* Winner display */}
-              <div className="flex items-center justify-center gap-3 mb-4">
-                <span className="text-4xl">🏆</span>
-                <h2 className="font-hand text-3xl text-sketch">
+              <div className="flex items-center justify-center gap-2 sm:gap-3 mb-2 sm:mb-4">
+                <span className="text-2xl sm:text-4xl">🏆</span>
+                <h2 className="font-hand text-2xl sm:text-3xl text-sketch">
                   {sortedWinners.length === 1 ? 'Winner!' : 'Winners!'}
                 </h2>
-                <span className="text-4xl">🏆</span>
+                <span className="text-2xl sm:text-4xl">🏆</span>
               </div>
 
-              <div className="flex justify-center gap-4 mb-6">
+              <div className="flex flex-wrap justify-center gap-2 sm:gap-4 mb-4 sm:mb-6 px-4">
                 {sortedWinners.map((winner, index) => (
                   <div
                     key={winner.id}
                     className={`
-                      py-2 px-6 rounded-xl font-hand text-xl
+                      py-1 sm:py-2 px-4 sm:px-6 rounded-xl font-hand text-base sm:text-xl
                       ${index === 0
                         ? 'bg-yellow-400 text-sketch'
                         : 'bg-gray-200 text-sketch/80'
                       }
                     `}
                   >
-                    <span className="mr-2">
+                    <span className="mr-1 sm:mr-2">
                       {index === 0 ? '🥇' : index === 1 ? '🥈' : '🥉'}
                     </span>
                     <span className="font-bold">{winner.name}</span>
@@ -288,13 +316,13 @@ const GameBoard: React.FC<GameBoardProps> = ({
               </div>
 
               {/* Restart and New Game buttons */}
-              <div className="flex justify-center gap-4">
+              <div className="flex justify-center gap-2 sm:gap-4">
                 <button
                   onClick={onRestart}
                   className="
-                    px-8 py-3 rounded-xl
+                    px-4 sm:px-8 py-2 sm:py-3 rounded-xl
                     bg-gradient-to-r from-green-400 to-teal-400
-                    font-hand text-2xl text-white
+                    font-hand text-lg sm:text-2xl text-white
                     shadow-sketch hover:shadow-sketch-lg
                     transition-all duration-200
                     hover:scale-105 active:scale-95
@@ -305,9 +333,9 @@ const GameBoard: React.FC<GameBoardProps> = ({
                 <button
                   onClick={onNewGame}
                   className="
-                    px-8 py-3 rounded-xl
+                    px-4 sm:px-8 py-2 sm:py-3 rounded-xl
                     bg-gray-300
-                    font-hand text-2xl text-sketch
+                    font-hand text-lg sm:text-2xl text-sketch
                     shadow-sketch hover:shadow-sketch-lg
                     transition-all duration-200
                     hover:scale-105 active:scale-95
@@ -320,16 +348,19 @@ const GameBoard: React.FC<GameBoardProps> = ({
           </div>
         ) : (
           <>
-            <div className="flex-shrink-0 bg-gradient-to-t from-amber-100/50 to-transparent pt-8">
+            <div className="flex-shrink-0 bg-gradient-to-t from-amber-100/50 to-transparent pt-4 sm:pt-8">
               <Hand
                 player={currentPlayer}
                 revealingCard={revealingCard}
                 isCurrentPlayer={true}
+                useTapMode={useTapMode}
+                selectedCard={selectedCard}
+                onSelectCard={onSelectCard}
               />
             </div>
 
             {/* Deck info */}
-            <div className="text-center pb-4 font-hand text-sketch/60">
+            <div className="text-center pb-2 sm:pb-4 font-hand text-sm sm:text-base text-sketch/60">
               Cards remaining in deck: {gameState.deck.length}
             </div>
           </>

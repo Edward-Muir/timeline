@@ -13,7 +13,8 @@
     "year": 1512,
     "category": "cultural-social",
     "description": "Michelangelo completed his masterpiece ceiling fresco.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Sistine_Chapel_ceiling_02_%28brightened%29.jpg/330px-Sistine_Chapel_ceiling_02_%28brightened%29.jpg"
   },
   {
     "name": "shakespeare-hamlet",
@@ -21,7 +22,8 @@
     "year": 1600,
     "category": "cultural-social",
     "description": "Shakespeare wrote one of the greatest plays in the English language.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Edwin_Booth_Hamlet_1870.jpg/330px-Edwin_Booth_Hamlet_1870.jpg"
   },
   {
     "name": "bach-well-tempered",
@@ -53,7 +55,8 @@
     "year": 1969,
     "category": "cultural-social",
     "description": "The iconic music festival defined a generation.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Woodstock_poster.jpg/330px-Woodstock_poster.jpg"
   },
   {
     "name": "star-wars",

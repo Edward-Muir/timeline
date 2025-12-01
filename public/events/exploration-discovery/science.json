@@ -5,7 +5,8 @@
     "year": -4500000000,
     "category": "exploration-discovery",
     "description": "Our planet formed from cosmic dust and gas around the young Sun.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/The_Blue_Marble%2C_AS17-148-22727.jpg/330px-The_Blue_Marble%2C_AS17-148-22727.jpg"
   },
   {
     "name": "first-life",
@@ -109,7 +110,8 @@
     "year": 1928,
     "category": "exploration-discovery",
     "description": "Alexander Fleming discovered the first antibiotic.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Penicillin_core.svg/330px-Penicillin_core.svg.png"
   },
   {
     "name": "dna-structure",
@@ -117,7 +119,8 @@
     "year": 1953,
     "category": "exploration-discovery",
     "description": "Watson and Crick revealed the double helix structure of DNA.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/DNA-structure-and-bases.png/330px-DNA-structure-and-bases.png"
   },
   {
     "name": "higgs-boson",

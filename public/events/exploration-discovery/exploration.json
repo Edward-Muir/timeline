@@ -5,7 +5,8 @@
     "year": 1492,
     "category": "exploration-discovery",
     "description": "Christopher Columbus landed in the Americas, beginning European exploration.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Viajes_de_colon_en2.svg/330px-Viajes_de_colon_en2.svg.png"
   },
   {
     "name": "magellan-circumnavigation",
@@ -13,7 +14,8 @@
     "year": 1522,
     "category": "exploration-discovery",
     "description": "Magellan's expedition completed the first voyage around the world.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Detail_from_a_map_of_Ortelius_-_Magellan%27s_ship_Victoria.png/330px-Detail_from_a_map_of_Ortelius_-_Magellan%27s_ship_Victoria.png"
   },
   {
     "name": "viking-america",

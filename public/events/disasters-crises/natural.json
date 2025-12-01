@@ -5,7 +5,8 @@
     "year": 79,
     "category": "disasters-crises",
     "description": "Mount Vesuvius erupted and buried the Roman city of Pompeii.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Destruction_of_Pompeii_and_Herculaneum.jpg/330px-Destruction_of_Pompeii_and_Herculaneum.jpg"
   },
   {
     "name": "dinosaur-extinction",

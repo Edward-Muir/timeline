@@ -101,3 +101,33 @@ body {
 .animate-shake {
   animation: shake 0.5s ease-in-out;
 }
+
+/* Touch-friendly styles */
+.touch-manipulation {
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+
+/* Timeline scroll optimization for mobile */
+.timeline-scroll {
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+}
+
+/* Ensure minimum touch target size on mobile */
+@media (max-width: 767px) {
+  .timeline-scroll::-webkit-scrollbar {
+    height: 12px; /* Larger scrollbar for touch */
+  }
+
+  button, [role="button"] {
+    min-height: 44px;
+  }
+}
+
+/* Prevent double-tap zoom on interactive elements */
+button, a, input, [role="button"] {
+  touch-action: manipulation;
+}

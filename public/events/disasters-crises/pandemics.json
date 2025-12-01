@@ -5,7 +5,8 @@
     "year": 1347,
     "category": "disasters-crises",
     "description": "The bubonic plague killed up to 200 million people across Europe.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/1346-1353_spread_of_the_Black_Death_in_Europe_map.svg/330px-1346-1353_spread_of_the_Black_Death_in_Europe_map.svg.png"
   },
   {
     "name": "covid-pandemic",

@@ -3,11 +3,17 @@ import { SortableContext, horizontalListSortingStrategy } from '@dnd-kit/sortabl
 import { useDroppable } from '@dnd-kit/core';
 import { HistoricalEvent } from '../../types';
 import TimelineCard from './TimelineCard';
+import InsertionPoint from './InsertionPoint';
+import TimeStreamConnector from './TimeStreamConnector';
 
 interface TimelineProps {
   events: HistoricalEvent[];
   isDragging: boolean;
   insertionIndex?: number | null;
+  // Tap mode props
+  useTapMode?: boolean;
+  isCardSelected?: boolean;
+  onPlacementTap?: (index: number) => void;
 }
 
 // Insertion indicator component - glowing line showing where card will be placed
@@ -16,14 +22,41 @@ const InsertionIndicator: React.FC = () => (
 );
 
 // Empty timeline drop zone component
-const EmptyTimelineDropZone: React.FC<{ isActive: boolean }> = ({ isActive }) => {
+const EmptyTimelineDropZone: React.FC<{
+  isActive: boolean;
+  useTapMode?: boolean;
+  isCardSelected?: boolean;
+  onPlacementTap?: (index: number) => void;
+}> = ({ isActive, useTapMode, isCardSelected, onPlacementTap }) => {
   const { isOver, setNodeRef } = useDroppable({
     id: 'empty-timeline',
   });
 
+  // Tap mode: show tappable zone when card is selected
+  if (useTapMode && isCardSelected && onPlacementTap) {
+    return (
+      <button
+        onClick={() => onPlacementTap(0)}
+        className="
+          flex items-center justify-center
+          h-[133px] sm:h-[160px] md:h-48 min-w-[150px] sm:min-w-[200px]
+          rounded-lg border-4 border-dashed
+          border-blue-400 bg-blue-100/50
+          hover:bg-blue-200/60 active:scale-95
+          transition-all duration-200
+          touch-manipulation
+        "
+      >
+        <span className="font-hand text-lg sm:text-xl text-blue-500">
+          Tap to place here
+        </span>
+      </button>
+    );
+  }
+
   if (!isActive) {
     return (
-      <div className="flex items-center justify-center h-48 text-sketch/40 font-hand text-xl">
+      <div className="flex items-center justify-center h-[133px] sm:h-[160px] md:h-48 text-sketch/40 font-hand text-base sm:text-xl">
         Timeline will appear here
       </div>
     );
@@ -33,7 +66,7 @@ const EmptyTimelineDropZone: React.FC<{ isActive: boolean }> = ({ isActive }) =>
     <div
       ref={setNodeRef}
       className={`
-        flex items-center justify-center h-48 min-w-[200px]
+        flex items-center justify-center h-[133px] sm:h-[160px] md:h-48 min-w-[150px] sm:min-w-[200px]
         rounded-lg border-4 border-dashed
         transition-all duration-200
         ${isOver
@@ -43,7 +76,7 @@ const EmptyTimelineDropZone: React.FC<{ isActive: boolean }> = ({ isActive }) =>
       `}
     >
       <span className={`
-        font-hand text-xl
+        font-hand text-base sm:text-xl
         ${isOver ? 'text-blue-500' : 'text-gray-400'}
       `}>
         Drop here to start the timeline
@@ -74,8 +107,16 @@ const EdgeDropZone: React.FC<{ id: string; isActive: boolean }> = ({ id, isActiv
   );
 };
 
-const Timeline: React.FC<TimelineProps> = ({ events, isDragging, insertionIndex }) => {
+const Timeline: React.FC<TimelineProps> = ({
+  events,
+  isDragging,
+  insertionIndex,
+  useTapMode = false,
+  isCardSelected = false,
+  onPlacementTap,
+}) => {
   const scrollRef = useRef<HTMLDivElement>(null);
+  const cardsContainerRef = useRef<HTMLDivElement>(null);
 
   // Auto-scroll to center when timeline changes
   useEffect(() => {
@@ -87,62 +128,81 @@ const Timeline: React.FC<TimelineProps> = ({ events, isDragging, insertionIndex 
     }
   }, [events.length]);
 
+  // In tap mode, show insertion points when a card is selected
+  const showTapInsertionPoints = useTapMode && isCardSelected && onPlacementTap;
+
   return (
-    <div className="w-full py-8">
+    <div className="w-full py-4 sm:py-8">
       {/* Timeline title */}
-      <div className="text-center mb-4">
-        <h2 className="font-hand text-3xl text-sketch">
+      <div className="text-center mb-2 sm:mb-4">
+        <h2 className="font-hand text-2xl sm:text-3xl text-sketch">
           The Timeline
         </h2>
-        <div className="w-32 h-1 bg-sketch mx-auto mt-2 rounded" />
+        <div className="w-24 sm:w-32 h-1 bg-sketch mx-auto mt-2 rounded" />
       </div>
 
       {/* Scrollable timeline container */}
       <div
         ref={scrollRef}
-        className="overflow-x-auto timeline-scroll px-8 py-4"
+        className="overflow-x-auto timeline-scroll px-4 sm:px-8 py-4"
       >
         {events.length === 0 ? (
-          <EmptyTimelineDropZone isActive={isDragging} />
+          <EmptyTimelineDropZone
+            isActive={isDragging}
+            useTapMode={useTapMode}
+            isCardSelected={isCardSelected}
+            onPlacementTap={onPlacementTap}
+          />
         ) : (
           <SortableContext
             items={events.map(e => e.name)}
             strategy={horizontalListSortingStrategy}
           >
-            <div className="flex items-center justify-center min-w-max gap-4">
-              {/* Timeline line */}
-              <div className="absolute left-0 right-0 h-1 bg-sketch/20 -z-10" />
+            <div ref={cardsContainerRef} className="relative flex items-center justify-center min-w-max gap-2 sm:gap-4">
+              {/* Time Stream Connector - golden/amber flowing line */}
+              <TimeStreamConnector cardCount={events.length} containerRef={cardsContainerRef} />
 
-              {/* Left edge drop zone for inserting before first card */}
-              <EdgeDropZone id="timeline-edge-start" isActive={isDragging} />
+              {/* Left edge: either drop zone (drag mode) or insertion point (tap mode) */}
+              {showTapInsertionPoints ? (
+                <InsertionPoint index={0} onTap={onPlacementTap} />
+              ) : (
+                <EdgeDropZone id="timeline-edge-start" isActive={isDragging} />
+              )}
 
-              {/* Render timeline cards with insertion indicators */}
+              {/* Render timeline cards with insertion indicators/points */}
               {events.map((event, index) => (
                 <React.Fragment key={event.name}>
-                  {/* Show indicator BEFORE this card if insertionIndex matches */}
-                  {isDragging && insertionIndex === index && (
+                  {/* Drag mode: Show indicator BEFORE this card if insertionIndex matches */}
+                  {!useTapMode && isDragging && insertionIndex === index && (
                     <InsertionIndicator />
                   )}
                   <TimelineCard
                     event={event}
                     index={index}
                   />
+                  {/* Tap mode: Show insertion point AFTER each card */}
+                  {showTapInsertionPoints && (
+                    <InsertionPoint index={index + 1} onTap={onPlacementTap} />
+                  )}
                 </React.Fragment>
               ))}
-              {/* Show indicator at END if inserting after last card */}
-              {isDragging && insertionIndex === events.length && (
+
+              {/* Drag mode: Show indicator at END if inserting after last card */}
+              {!useTapMode && isDragging && insertionIndex === events.length && (
                 <InsertionIndicator />
               )}
 
-              {/* Right edge drop zone for inserting after last card */}
-              <EdgeDropZone id="timeline-edge-end" isActive={isDragging} />
+              {/* Right edge drop zone (drag mode only, tap mode uses InsertionPoints) */}
+              {!useTapMode && (
+                <EdgeDropZone id="timeline-edge-end" isActive={isDragging} />
+              )}
             </div>
           </SortableContext>
         )}
       </div>
 
       {/* Direction indicators */}
-      <div className="flex justify-between px-12 mt-4 text-sketch/60 font-hand text-lg">
+      <div className="flex justify-between px-6 sm:px-12 mt-2 sm:mt-4 text-sketch/60 font-hand text-sm sm:text-lg">
         <span>← Earlier</span>
         <span>Later →</span>
       </div>

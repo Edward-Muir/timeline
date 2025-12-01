@@ -69,7 +69,8 @@
     "year": 313,
     "category": "diplomatic-institutional",
     "description": "Emperor Constantine legalized Christianity throughout the Roman Empire.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Constantine_Chiaramonti_Inv1749.jpg/330px-Constantine_Chiaramonti_Inv1749.jpg"
   },
   {
     "name": "council-nicaea",
@@ -85,7 +86,8 @@
     "year": 476,
     "category": "diplomatic-institutional",
     "description": "The last Western Roman Emperor was deposed, ending the empire.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Roman_Republic_Empire_map.gif/330px-Roman_Republic_Empire_map.gif"
   },
   {
     "name": "justinian-code",
@@ -125,7 +127,8 @@
     "year": 843,
     "category": "diplomatic-institutional",
     "description": "Charlemagne's empire was divided into three kingdoms, shaping medieval Europe.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Louis_the_Pious_blessing_the_division_of_the_Carolingian_Empire_in_843_into_West_Francia%2C_Lotharingia%2C_and_East_Francia.jpg/330px-Louis_the_Pious_blessing_the_division_of_the_Carolingian_Empire_in_843_into_West_Francia%2C_Lotharingia%2C_and_East_Francia.jpg"
   },
   {
     "name": "holy-roman-empire",
@@ -149,7 +152,8 @@
     "year": 1215,
     "category": "diplomatic-institutional",
     "description": "English barons forced King John to sign a charter limiting royal power.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Magna_Carta_%28British_Library_Cotton_MS_Augustus_II.106%29.jpg/330px-Magna_Carta_%28British_Library_Cotton_MS_Augustus_II.106%29.jpg"
   },
   {
     "name": "english-parliament",
@@ -157,7 +161,8 @@
     "year": 1265,
     "category": "diplomatic-institutional",
     "description": "Simon de Montfort summoned the first elected parliament in England.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Coat_of_Arms_of_England_%28-1340%29.svg/330px-Coat_of_Arms_of_England_%28-1340%29.svg.png"
   },
   {
     "name": "swiss-confederation",
@@ -189,7 +194,8 @@
     "year": 1494,
     "category": "diplomatic-institutional",
     "description": "Spain and Portugal divided the newly discovered lands outside Europe.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Treaty_of_Tordesillas.jpg/330px-Treaty_of_Tordesillas.jpg"
   },
   {
     "name": "reformation-begins",
@@ -213,7 +219,8 @@
     "year": 1555,
     "category": "diplomatic-institutional",
     "description": "The treaty allowed German princes to choose Catholicism or Lutheranism for their states.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Druck_Augsburger_Reichsfrieden.jpg/330px-Druck_Augsburger_Reichsfrieden.jpg"
   },
   {
     "name": "dutch-republic",
@@ -229,7 +236,8 @@
     "year": 1598,
     "category": "diplomatic-institutional",
     "description": "Henry IV granted religious tolerance to French Protestants.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/King_Henry_IV_of_France.jpg/330px-King_Henry_IV_of_France.jpg"
   },
   {
     "name": "east-india-company",
@@ -261,7 +269,8 @@
     "year": 1648,
     "category": "diplomatic-institutional",
     "description": "The treaties ended the Thirty Years' War and established modern state sovereignty.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/M%C3%BCnster%2C_Historisches_Rathaus_--_2014_--_6855.jpg/330px-M%C3%BCnster%2C_Historisches_Rathaus_--_2014_--_6855.jpg"
   },
   {
     "name": "habeas-corpus",
@@ -277,7 +286,8 @@
     "year": 1688,
     "category": "diplomatic-institutional",
     "description": "Parliament replaced King James II with William and Mary.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/William_of_Orange_III_and_his_Dutch_army_land_in_Brixham%2C_1688.jpg/330px-William_of_Orange_III_and_his_Dutch_army_land_in_Brixham%2C_1688.jpg"
   },
   {
     "name": "bill-of-rights-england",
@@ -285,7 +295,8 @@
     "year": 1689,
     "category": "diplomatic-institutional",
     "description": "Parliament established constitutional limits on the monarchy.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Coat_of_arms_of_England_%281689%E2%80%931694%29.svg/330px-Coat_of_arms_of_England_%281689%E2%80%931694%29.svg.png"
   },
   {
     "name": "bank-of-england",
@@ -309,7 +320,8 @@
     "year": 1763,
     "category": "diplomatic-institutional",
     "description": "The treaty ended the Seven Years' War and reshaped colonial empires.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/SevenYearsWar.png/330px-SevenYearsWar.png"
   },
   {
     "name": "declaration-independence",
@@ -317,7 +329,8 @@
     "year": 1776,
     "category": "diplomatic-institutional",
     "description": "The thirteen American colonies declared independence from Britain.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/United_States_Declaration_of_Independence.jpg/330px-United_States_Declaration_of_Independence.jpg"
   },
   {
     "name": "us-constitution",
@@ -333,7 +346,8 @@
     "year": 1789,
     "category": "diplomatic-institutional",
     "description": "Revolutionary France proclaimed fundamental rights and freedoms.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Declaration_of_the_Rights_of_Man_and_of_the_Citizen_in_1789.jpg/330px-Declaration_of_the_Rights_of_Man_and_of_the_Citizen_in_1789.jpg"
   },
   {
     "name": "bill-of-rights-us",
@@ -349,7 +363,8 @@
     "year": 1803,
     "category": "diplomatic-institutional",
     "description": "The United States bought vast territories from France, doubling its size.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Louisiana_Purchase.png/330px-Louisiana_Purchase.png"
   },
   {
     "name": "congress-vienna",
@@ -357,7 +372,8 @@
     "year": 1815,
     "category": "diplomatic-institutional",
     "description": "European powers redrew the map after Napoleon's defeat.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Europe_1815_map_en.png/330px-Europe_1815_map_en.png"
   },
   {
     "name": "monroe-doctrine",
@@ -381,7 +397,8 @@
     "year": 1840,
     "category": "diplomatic-institutional",
     "description": "Britain and Māori chiefs signed the founding document of New Zealand.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/A_Maori_man_and_Joseph_Banks_exchanging_a_crayfish_for_a_piece_of_cloth%2C_c._1769.jpg/330px-A_Maori_man_and_Joseph_Banks_exchanging_a_crayfish_for_a_piece_of_cloth%2C_c._1769.jpg"
   },
   {
     "name": "geneva-convention-1864",
@@ -389,7 +406,8 @@
     "year": 1864,
     "category": "diplomatic-institutional",
     "description": "Nations agreed to protect wounded soldiers and medical personnel in war.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Original_Geneva_Conventions.jpg/330px-Original_Geneva_Conventions.jpg"
   },
   {
     "name": "red-cross-founded",
@@ -421,7 +439,8 @@
     "year": 1868,
     "category": "diplomatic-institutional",
     "description": "Japan restored imperial rule and began rapid modernization.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Emperor_Meiji_by_Takahashi_Yuichi.jpg/330px-Emperor_Meiji_by_Takahashi_Yuichi.jpg"
   },
   {
     "name": "berlin-conference",
@@ -429,7 +448,8 @@
     "year": 1884,
     "category": "diplomatic-institutional",
     "description": "European powers divided Africa among themselves without African participation.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Afrikakonferenz.jpg/330px-Afrikakonferenz.jpg"
   },
   {
     "name": "first-zionist-congress",
@@ -437,7 +457,8 @@
     "year": 1897,
     "category": "diplomatic-institutional",
     "description": "Theodor Herzl organized the movement for a Jewish homeland.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/THEODOR_HERZL_AT_THE_FIRST_ZIONIST_CONGRESS_IN_BASEL_ON_25.8.1897._%D7%AA%D7%90%D7%95%D7%93%D7%95%D7%A8_%D7%94%D7%A8%D7%A6%D7%9C_%D7%91%D7%A7%D7%95%D7%A0%D7%92%D7%A8%D7%A1_%D7%94%D7%A6%D7%99%D7%95%D7%A0%D7%99_%D7%94%D7%A8%D7%90%D7%A9%D7%95%D7%9F_-_1897.8.25_%28cropped%29.jpg/330px-THEODOR_HERZL_AT_THE_FIRST_ZIONIST_CONGRESS_IN_BASEL_ON_25.8.1897._%D7%AA%D7%90%D7%95%D7%93%D7%95%D7%A8_%D7%94%D7%A8%D7%A6%D7%9C_%D7%91%D7%A7%D7%95%D7%A0%D7%92%D7%A8%D7%A1_%D7%94%D7%A6%D7%99%D7%95%D7%A0%D7%99_%D7%94%D7%A8%D7%90%D7%A9%D7%95%D7%9F_-_1897.8.25_%28cropped%29.jpg"
   },
   {
     "name": "hague-conventions",
@@ -461,7 +482,8 @@
     "year": 1904,
     "category": "diplomatic-institutional",
     "description": "Britain and France signed agreements ending centuries of rivalry.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Entente_Cordiale_dancing.jpg/330px-Entente_Cordiale_dancing.jpg"
   },
   {
     "name": "naacp-founded",
@@ -485,7 +507,8 @@
     "year": 1919,
     "category": "diplomatic-institutional",
     "description": "The peace treaty officially ended World War I and created the League of Nations.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Treaty_of_Versailles%2C_English_version.jpg/330px-Treaty_of_Versailles%2C_English_version.jpg"
   },
   {
     "name": "league-of-nations",
@@ -525,7 +548,8 @@
     "year": 1925,
     "category": "diplomatic-institutional",
     "description": "European nations agreed to mutual borders and peaceful relations.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Bundesarchiv_Bild_183-R03618%2C_Locarno%2C_Gustav_Stresemann%2C_Chamberlain%2C_Briand.jpg/330px-Bundesarchiv_Bild_183-R03618%2C_Locarno%2C_Gustav_Stresemann%2C_Chamberlain%2C_Briand.jpg"
   },
   {
     "name": "kellogg-briand-pact",
@@ -533,7 +557,8 @@
     "year": 1928,
     "category": "diplomatic-institutional",
     "description": "Nations agreed to renounce war as an instrument of national policy.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Kellogg%E2%80%93Briand_Pact_%281928%29.jpg/330px-Kellogg%E2%80%93Briand_Pact_%281928%29.jpg"
   },
   {
     "name": "new-deal",
@@ -589,7 +614,8 @@
     "year": 1948,
     "category": "diplomatic-institutional",
     "description": "The United Nations adopted the landmark document on human rights.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Eleanor_Roosevelt_UDHR.jpg/330px-Eleanor_Roosevelt_UDHR.jpg"
   },
   {
     "name": "israel-founded",
@@ -621,7 +647,8 @@
     "year": 1951,
     "category": "diplomatic-institutional",
     "description": "Six nations created the first European supranational organization.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Flag_of_the_European_Coal_and_Steel_Community_12_Star_Version.svg/330px-Flag_of_the_European_Coal_and_Steel_Community_12_Star_Version.svg.png"
   },
   {
     "name": "brown-v-board",
@@ -645,7 +672,8 @@
     "year": 1957,
     "category": "diplomatic-institutional",
     "description": "Six nations created the European Economic Community.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/3/35/Treaty_of_Rome.jpg/330px-Treaty_of_Rome.jpg"
   },
   {
     "name": "civil-rights-act-1964",
@@ -653,7 +681,8 @@
     "year": 1964,
     "category": "diplomatic-institutional",
     "description": "The US outlawed discrimination based on race, color, religion, sex, or national origin.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Great_Seal_of_the_United_States_%28obverse%29.svg/330px-Great_Seal_of_the_United_States_%28obverse%29.svg.png"
   },
   {
     "name": "voting-rights-act",
@@ -661,7 +690,8 @@
     "year": 1965,
     "category": "diplomatic-institutional",
     "description": "The US prohibited racial discrimination in voting.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Great_Seal_of_the_United_States_%28obverse%29.svg/330px-Great_Seal_of_the_United_States_%28obverse%29.svg.png"
   },
   {
     "name": "nuclear-non-proliferation",
@@ -669,7 +699,8 @@
     "year": 1968,
     "category": "diplomatic-institutional",
     "description": "Nations agreed to prevent the spread of nuclear weapons.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/NPT_parties.svg/330px-NPT_parties.svg.png"
   },
   {
     "name": "apollo-11-treaty",
@@ -677,7 +708,8 @@
     "year": 1967,
     "category": "diplomatic-institutional",
     "description": "Nations agreed that space should be free for exploration and cannot be claimed.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Outer_Space_Treaty_parties.svg/330px-Outer_Space_Treaty_parties.svg.png"
   },
   {
     "name": "nixon-china",
@@ -693,7 +725,8 @@
     "year": 1978,
     "category": "diplomatic-institutional",
     "description": "Egypt and Israel signed a peace agreement brokered by the US.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Close_up_of_Menahem_Begin%2C_Jimmy_Carter_and_Anwar_Sadat_at_Camp_David.%2C_09-07-1978_-_NARA_-_181133.tif/lossy-page1-320px-Close_up_of_Menahem_Begin%2C_Jimmy_Carter_and_Anwar_Sadat_at_Camp_David.%2C_09-07-1978_-_NARA_-_181133.tif.jpg"
   },
   {
     "name": "iran-revolution",
@@ -709,7 +742,8 @@
     "year": 1986,
     "category": "diplomatic-institutional",
     "description": "European nations agreed to create a single market.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/330px-Flag_of_Europe.svg.png"
   },
   {
     "name": "berlin-wall-falls",
@@ -725,7 +759,8 @@
     "year": 1990,
     "category": "diplomatic-institutional",
     "description": "East and West Germany reunited as a single nation.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/West_and_East_Germans_at_the_Brandenburg_Gate_in_1989.jpg/330px-West_and_East_Germans_at_the_Brandenburg_Gate_in_1989.jpg"
   },
   {
     "name": "soviet-union-dissolves",
@@ -741,7 +776,8 @@
     "year": 1992,
     "category": "diplomatic-institutional",
     "description": "The treaty created the European Union and planned a common currency.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/GER_%E2%80%94_BY_%E2%80%94_Regensburg_-_Donaumarkt_1_%28Museum_der_Bayerischen_Geschichte%3B_Vertrag_von_Maastricht%29_%28cropped%29.JPG/330px-GER_%E2%80%94_BY_%E2%80%94_Regensburg_-_Donaumarkt_1_%28Museum_der_Bayerischen_Geschichte%3B_Vertrag_von_Maastricht%29_%28cropped%29.JPG"
   },
   {
     "name": "oslo-accords",
@@ -749,7 +785,8 @@
     "year": 1993,
     "category": "diplomatic-institutional",
     "description": "Israel and the PLO signed agreements toward Palestinian self-governance.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Bill_Clinton%2C_Yitzhak_Rabin%2C_Yasser_Arafat_at_the_White_House_1993-09-13.jpg/330px-Bill_Clinton%2C_Yitzhak_Rabin%2C_Yasser_Arafat_at_the_White_House_1993-09-13.jpg"
   },
   {
     "name": "apartheid-ends",
@@ -805,7 +842,8 @@
     "year": 2015,
     "category": "diplomatic-institutional",
     "description": "Nearly 200 nations agreed to limit global warming to well below 2°C.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/ParisAgreement.svg/330px-ParisAgreement.svg.png"
   },
   {
     "name": "brexit",
