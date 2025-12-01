@@ -51,18 +51,20 @@ const HandCard: React.FC<HandCardProps> = ({
       {...attributes}
       {...listeners}
       className={`
-        cursor-grab hover:-translate-y-4 hover:scale-105 hover:z-20
+        cursor-grab
         ${isDragging ? 'scale-95 cursor-grabbing' : ''}
         ${isRevealing ? 'cursor-default' : ''}
       `}
     >
-      <Card
-        event={event}
-        showYear={showYear || isRevealing}
-        isRevealing={isRevealing}
-        className={isRevealing ? 'ring-4 ring-red-500 animate-shake' : ''}
-        onClick={onCardClick ? () => onCardClick(event) : undefined}
-      />
+      <div className="transition-all duration-200 hover:scale-110 hover:z-10">
+        <Card
+          event={event}
+          showYear={showYear || isRevealing}
+          isRevealing={isRevealing}
+          className={isRevealing ? 'ring-4 ring-red-500 animate-shake' : ''}
+          onClick={onCardClick ? () => onCardClick(event) : undefined}
+        />
+      </div>
     </div>
   );
 };
