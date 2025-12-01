@@ -5,11 +5,13 @@ import { HistoricalEvent } from '../../types';
 import TimelineCard from './TimelineCard';
 import InsertionPoint from './InsertionPoint';
 import TimeStreamConnector from './TimeStreamConnector';
+import Card from '../Card';
 
 interface TimelineProps {
   events: HistoricalEvent[];
   isDragging: boolean;
   insertionIndex?: number | null;
+  draggedCard?: HistoricalEvent | null;
   // Tap mode props
   useTapMode?: boolean;
   isCardSelected?: boolean;
@@ -17,9 +19,11 @@ interface TimelineProps {
   onCardClick?: (event: HistoricalEvent) => void;
 }
 
-// Insertion indicator component - glowing line showing where card will be placed
-const InsertionIndicator: React.FC = () => (
-  <div className="w-2 h-40 bg-blue-500 rounded-full animate-pulse mx-1 shadow-lg shadow-blue-500/50 flex-shrink-0" />
+// Insertion indicator component - shows preview of card being placed
+const InsertionIndicator: React.FC<{ card: HistoricalEvent }> = ({ card }) => (
+  <div className="opacity-50 flex-shrink-0">
+    <Card event={card} showYear={false} />
+  </div>
 );
 
 // Empty timeline drop zone component
@@ -112,6 +116,7 @@ const Timeline: React.FC<TimelineProps> = ({
   events,
   isDragging,
   insertionIndex,
+  draggedCard,
   useTapMode = false,
   isCardSelected = false,
   onPlacementTap,
@@ -167,8 +172,8 @@ const Timeline: React.FC<TimelineProps> = ({
               {events.map((event, index) => (
                 <React.Fragment key={event.name}>
                   {/* Drag mode: Show indicator BEFORE this card if insertionIndex matches */}
-                  {!useTapMode && isDragging && insertionIndex === index && (
-                    <InsertionIndicator />
+                  {!useTapMode && isDragging && insertionIndex === index && draggedCard && (
+                    <InsertionIndicator card={draggedCard} />
                   )}
                   <TimelineCard
                     event={event}
@@ -183,8 +188,8 @@ const Timeline: React.FC<TimelineProps> = ({
               ))}
 
               {/* Drag mode: Show indicator at END if inserting after last card */}
-              {!useTapMode && isDragging && insertionIndex === events.length && (
-                <InsertionIndicator />
+              {!useTapMode && isDragging && insertionIndex === events.length && draggedCard && (
+                <InsertionIndicator card={draggedCard} />
               )}
 
               {/* Right edge drop zone (drag mode only, tap mode uses InsertionPoints) */}

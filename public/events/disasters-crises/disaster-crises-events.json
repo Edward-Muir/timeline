@@ -493,15 +493,6 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/1972_Summer_Olympics_logo.svg/330px-1972_Summer_Olympics_logo.svg.png"
   },
   {
-    "name": "ethiopian-famine-1973",
-    "friendly_name": "Ethiopian Famine of 1973",
-    "year": 1973,
-    "category": "disaster-crises",
-    "description": "A devastating famine killed over 200,000 people in northern Ethiopia.",
-    "difficulty": "hard",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Map_of_Abyssinia_and_Nubia_-_DPLA_-_83edec2a46dd4cc5c780681e653753e5.jpg/330px-Map_of_Abyssinia_and_Nubia_-_DPLA_-_83edec2a46dd4cc5c780681e653753e5.jpg"
-  },
-  {
     "name": "tangshan-earthquake",
     "friendly_name": "Tangshan Earthquake",
     "year": 1976,

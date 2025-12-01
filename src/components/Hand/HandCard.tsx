@@ -52,7 +52,7 @@ const HandCard: React.FC<HandCardProps> = ({
       {...listeners}
       className={`
         cursor-grab
-        ${isDragging ? 'scale-95 cursor-grabbing' : ''}
+        ${isDragging ? 'opacity-100 cursor-grabbing' : ''}
         ${isRevealing ? 'cursor-default' : ''}
       `}
     >

@@ -290,6 +290,7 @@ const GameBoard: React.FC<GameBoardProps> = ({
             events={gameState.timeline}
             isDragging={isDragging}
             insertionIndex={insertionIndex}
+            draggedCard={draggedCard}
             useTapMode={useTapMode}
             isCardSelected={!!selectedCard}
             onPlacementTap={handlePlacementTap}
