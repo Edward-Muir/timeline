@@ -13,6 +13,8 @@ interface HandProps {
   selectedCard?: HistoricalEvent | null;
   onSelectCard?: (card: HistoricalEvent | null) => void;
   onCardClick?: (event: HistoricalEvent) => void;
+  // Long press callback for viewing card description on mobile
+  onCardLongPress?: (event: HistoricalEvent) => void;
 }
 
 const Hand: React.FC<HandProps> = ({
@@ -23,6 +25,7 @@ const Hand: React.FC<HandProps> = ({
   selectedCard = null,
   onSelectCard,
   onCardClick,
+  onCardLongPress,
 }) => {
   if (player.hand.length === 0) {
     return (
@@ -44,17 +47,19 @@ const Hand: React.FC<HandProps> = ({
     `}>
       {/* Cards in hand - tap mode uses SelectableHandCard, drag mode uses HandCard */}
       {useTapMode && onSelectCard ? (
-        <div className="flex items-end justify-center gap-[-10px] sm:gap-[-20px]">
+        <div className="flex items-end justify-start gap-2 overflow-x-auto pb-2 px-2 snap-x snap-mandatory scrollbar-thin">
           {player.hand.map((event, index) => (
-            <SelectableHandCard
-              key={event.name}
-              event={event}
-              index={index}
-              isSelected={selectedCard?.name === event.name}
-              isRevealing={revealingCard?.name === event.name}
-              showYear={revealingCard?.name === event.name}
-              onSelect={onSelectCard}
-            />
+            <div key={event.name} className="flex-shrink-0 snap-center">
+              <SelectableHandCard
+                event={event}
+                index={index}
+                isSelected={selectedCard?.name === event.name}
+                isRevealing={revealingCard?.name === event.name}
+                showYear={revealingCard?.name === event.name}
+                onSelect={onSelectCard}
+                onLongPress={onCardLongPress}
+              />
+            </div>
           ))}
         </div>
       ) : (
@@ -79,9 +84,9 @@ const Hand: React.FC<HandProps> = ({
 
       {/* Instructions */}
       {isCurrentPlayer && (
-        <p className="text-center mt-1 sm:mt-2  text-base sm:text-lg text-sketch/70">
+        <p className="text-center mt-1 sm:mt-2 text-base sm:text-lg text-sketch/70">
           {useTapMode
-            ? 'Tap a card to select, then tap where to place it'
+            ? 'Tap to select • Long-press for details'
             : 'Drag a card to place it on the timeline'}
         </p>
       )}

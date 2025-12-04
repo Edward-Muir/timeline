@@ -94,6 +94,9 @@ const GameBoard: React.FC<GameBoardProps> = ({
     useSensor(KeyboardSensor)
   );
 
+  // In tap mode, disable sensors to allow native touch events on cards
+  const activeSensors = useTapMode ? [] : sensors;
+
   const handleDragStart = useCallback((event: DragStartEvent) => {
     const { active } = event;
     // Find the card being dragged from hand
@@ -269,7 +272,7 @@ const GameBoard: React.FC<GameBoardProps> = ({
 
   return (
     <DndContext
-      sensors={sensors}
+      sensors={activeSensors}
       collisionDetection={closestCenter}
       onDragStart={handleDragStart}
       onDragOver={handleDragOver}
@@ -320,7 +323,10 @@ const GameBoard: React.FC<GameBoardProps> = ({
         )}
 
         {/* Timeline - Museum Display Case */}
-        <div className="flex-shrink-0 overflow-visible mx-4 sm:mx-8 display-case">
+        <div className={`
+          overflow-visible mx-2 sm:mx-4 md:mx-8 display-case
+          ${useTapMode ? 'flex-1 min-h-0' : 'flex-shrink-0'}
+        `}>
           <Timeline
             events={gameState.timeline}
             isDragging={isDragging}
@@ -330,11 +336,12 @@ const GameBoard: React.FC<GameBoardProps> = ({
             isCardSelected={!!selectedCard}
             onPlacementTap={handlePlacementTap}
             onCardClick={handleTimelineCardClick}
+            isVertical={useTapMode}
           />
         </div>
 
-        {/* Spacer */}
-        <div className="flex-1" />
+        {/* Spacer - only on desktop */}
+        {!useTapMode && <div className="flex-1" />}
 
         {/* Current player's hand OR Winner display */}
         {isGameOver ? (
@@ -401,7 +408,10 @@ const GameBoard: React.FC<GameBoardProps> = ({
             </div>
           </div>
         ) : (
-          <div className="flex-shrink-0 curator-desk">
+          <div className={`
+            flex-shrink-0 curator-desk
+            ${useTapMode ? 'max-h-[30vh]' : ''}
+          `}>
             <Hand
               player={currentPlayer}
               revealingCard={revealingCard}
@@ -410,6 +420,7 @@ const GameBoard: React.FC<GameBoardProps> = ({
               selectedCard={selectedCard}
               onSelectCard={onSelectCard}
               onCardClick={handleHandCardClick}
+              onCardLongPress={handleHandCardClick}
             />
           </div>
         )}

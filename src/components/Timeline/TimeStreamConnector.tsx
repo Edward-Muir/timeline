@@ -6,6 +6,7 @@ interface TimeStreamConnectorProps {
   cardCount: number;
   containerRef: React.RefObject<HTMLDivElement | null>;
   events?: HistoricalEvent[];
+  isVertical?: boolean;
 }
 
 interface CardPosition {
@@ -17,7 +18,8 @@ interface CardPosition {
 const TimeStreamConnector: React.FC<TimeStreamConnectorProps> = ({
   cardCount,
   containerRef,
-  events = []
+  events = [],
+  isVertical = false
 }) => {
   const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
   const [cardPositions, setCardPositions] = useState<CardPosition[]>([]);
@@ -91,6 +93,77 @@ const TimeStreamConnector: React.FC<TimeStreamConnectorProps> = ({
 
   if (!firstCard || !lastCard) return null;
 
+  // Vertical mode rendering
+  if (isVertical) {
+    const lineX = 24; // Fixed X position on the left side
+    const lineStart = Math.max(0, firstCard.y - 40);
+    const lineEnd = Math.min(dimensions.height, lastCard.y + 40);
+
+    return (
+      <div
+        className="absolute inset-0 pointer-events-none"
+        style={{ overflow: 'visible' }}
+      >
+        {/* Main vertical timeline line */}
+        <div
+          className="absolute w-1 rounded-full"
+          style={{
+            left: lineX - 2,
+            top: lineStart,
+            height: lineEnd - lineStart,
+            background: 'linear-gradient(180deg, rgba(120, 53, 15, 0.2) 0%, rgba(120, 53, 15, 0.7) 5%, rgba(120, 53, 15, 0.7) 95%, rgba(120, 53, 15, 0.2) 100%)',
+          }}
+        />
+
+        {/* Top endcap */}
+        <div
+          className="absolute w-3 h-3 rounded-full border-[3px] border-amber-800 bg-cream"
+          style={{
+            left: lineX - 6,
+            top: lineStart - 6,
+          }}
+        />
+
+        {/* Bottom endcap */}
+        <div
+          className="absolute w-3 h-3 rounded-full border-[3px] border-amber-800 bg-cream"
+          style={{
+            left: lineX - 6,
+            top: lineEnd - 6,
+          }}
+        />
+
+        {/* Tick marks at each card position */}
+        {cardPositions.map((pos, index) => (
+          <div key={index} className="absolute" style={{ left: lineX, top: pos.y }}>
+            {/* Tick mark - horizontal */}
+            <div
+              className="absolute h-[3px] w-4 bg-amber-800 rounded-sm"
+              style={{
+                left: -8,
+                top: -1.5,
+              }}
+            />
+            {/* Year label - to the left of the line */}
+            {pos.year !== undefined && (
+              <div
+                className="absolute whitespace-nowrap text-[10px] font-semibold text-amber-800"
+                style={{
+                  right: 20,
+                  top: '50%',
+                  transform: 'translateY(-50%)',
+                }}
+              >
+                {formatYear(pos.year)}
+              </div>
+            )}
+          </div>
+        ))}
+      </div>
+    );
+  }
+
+  // Horizontal mode rendering (original)
   const lineY = firstCard.y;
   const lineStart = Math.max(0, firstCard.x - 60);
   const lineEnd = Math.min(dimensions.width, lastCard.x + 60);

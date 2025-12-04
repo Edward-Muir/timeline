@@ -10,6 +10,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #FDF5E6;
+  background-image: url('../public/background.png');
+  background-repeat: repeat;
+  background-size: auto;
+  background-attachment: fixed;
   min-height: 100vh;
   position: relative;
 }
@@ -247,4 +251,63 @@ button, a, input, [role="button"] {
   color: #78350f;
   font-weight: 600;
   white-space: nowrap;
+}
+
+/* Vertical timeline scroll for mobile */
+.timeline-scroll-vertical {
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-y: contain;
+  scroll-snap-type: y proximity;
+  scrollbar-width: thin;
+  scrollbar-color: #DAA520 #FDF5E6;
+}
+
+.timeline-scroll-vertical::-webkit-scrollbar {
+  width: 8px;
+}
+
+.timeline-scroll-vertical::-webkit-scrollbar-track {
+  background: #FDF5E6;
+  border-radius: 4px;
+}
+
+.timeline-scroll-vertical::-webkit-scrollbar-thumb {
+  background: #DAA520;
+  border-radius: 4px;
+}
+
+/* Mobile vertical timeline enhancements */
+@media (max-width: 767px) {
+  .timeline-scroll-vertical::-webkit-scrollbar {
+    width: 12px; /* Larger scrollbar for touch */
+  }
+
+  .timeline-scroll-vertical > div > * {
+    scroll-snap-align: center;
+  }
+}
+
+/* Long-press visual feedback */
+.long-press-active {
+  transform: scale(0.95);
+  opacity: 0.8;
+}
+
+/* Scrollbar styling for horizontal hand card tray */
+.scrollbar-thin {
+  scrollbar-width: thin;
+  scrollbar-color: #DAA520 transparent;
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  height: 6px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: #DAA520;
+  border-radius: 3px;
 }

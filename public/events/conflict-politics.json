@@ -1158,5 +1158,936 @@
     "category": "conflict-politics",
     "description": "Russia launched a full-scale invasion of Ukraine, starting a major European war.",
     "difficulty": "easy"
+  },
+  {
+    "name": "battle-megiddo",
+    "friendly_name": "Battle of Megiddo",
+    "year": -1457,
+    "category": "conflict-politics",
+    "description": "The first battle recorded in detail, Pharaoh Thutmose III defeated a Canaanite coalition.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "battle-kadesh",
+    "friendly_name": "Battle of Kadesh",
+    "year": -1274,
+    "category": "conflict-politics",
+    "description": "Egypt and the Hittite Empire clashed in one of the largest chariot battles in history.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Egypt_Abou_Simbel6.jpg/330px-Egypt_Abou_Simbel6.jpg"
+  },
+  {
+    "name": "battle-marathon",
+    "friendly_name": "Battle of Marathon",
+    "year": -490,
+    "category": "conflict-politics",
+    "description": "Athenian forces defeated the Persian invasion, inspiring the marathon race legend.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Scene_of_the_Battle_of_Marathon.jpg/330px-Scene_of_the_Battle_of_Marathon.jpg"
+  },
+  {
+    "name": "battle-thermopylae",
+    "friendly_name": "Battle of Thermopylae",
+    "year": -480,
+    "category": "conflict-politics",
+    "description": "King Leonidas and 300 Spartans made their legendary last stand against Persia.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/L%C3%A9onidas_aux_Thermopyles_-_Jacques-Louis_David_-_Mus%C3%A9e_du_Louvre_Peintures_INV_3690_%3B_L_3711.jpg/330px-L%C3%A9onidas_aux_Thermopyles_-_Jacques-Louis_David_-_Mus%C3%A9e_du_Louvre_Peintures_INV_3690_%3B_L_3711.jpg"
+  },
+  {
+    "name": "battle-salamis",
+    "friendly_name": "Battle of Salamis",
+    "year": -480,
+    "category": "conflict-politics",
+    "description": "The Greek navy decisively defeated the Persian fleet in a narrow strait.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Battle_of_salamis.png/330px-Battle_of_salamis.png"
+  },
+  {
+    "name": "battle-cannae",
+    "friendly_name": "Battle of Cannae",
+    "year": -216,
+    "category": "conflict-politics",
+    "description": "Hannibal's double envelopment annihilated a Roman army of 80,000 men.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/The_Death_of_Paulus_Aemilius_at_the_Battle_of_Cannae_%28Yale_University_Art_Gallery_scan%29.jpg/330px-The_Death_of_Paulus_Aemilius_at_the_Battle_of_Cannae_%28Yale_University_Art_Gallery_scan%29.jpg"
+  },
+  {
+    "name": "siege-syracuse",
+    "friendly_name": "Siege of Syracuse",
+    "year": -212,
+    "category": "conflict-politics",
+    "description": "Rome besieged Syracuse where Archimedes' war machines defended the city.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Gari-Melchers-War-Highsmith.jpeg/330px-Gari-Melchers-War-Highsmith.jpeg"
+  },
+  {
+    "name": "battle-zama",
+    "friendly_name": "Battle of Zama",
+    "year": -202,
+    "category": "conflict-politics",
+    "description": "Scipio Africanus defeated Hannibal, ending the Second Punic War.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "spartacus-revolt",
+    "friendly_name": "Spartacus Slave Revolt",
+    "year": -73,
+    "category": "conflict-politics",
+    "description": "Gladiator Spartacus led the largest slave uprising in Roman history.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "battle-teutoburg-forest",
+    "friendly_name": "Battle of Teutoburg Forest",
+    "year": 9,
+    "category": "conflict-politics",
+    "description": "Germanic tribes destroyed three Roman legions, halting Rome's expansion into Germany.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Epitaph_des_Marcus_Caelius.JPG/330px-Epitaph_des_Marcus_Caelius.JPG"
+  },
+  {
+    "name": "jewish-revolt-begins",
+    "friendly_name": "Jewish Revolt Against Rome",
+    "year": 66,
+    "category": "conflict-politics",
+    "description": "Jews in Judea rose against Roman rule in a rebellion lasting seven years.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "siege-masada",
+    "friendly_name": "Siege of Masada",
+    "year": 73,
+    "category": "conflict-politics",
+    "description": "Jewish rebels held out against Rome before choosing mass suicide over surrender.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Israel-2013-Aerial_21-Masada.jpg/330px-Israel-2013-Aerial_21-Masada.jpg"
+  },
+  {
+    "name": "battle-adrianople",
+    "friendly_name": "Battle of Adrianople",
+    "year": 378,
+    "category": "conflict-politics",
+    "description": "Visigoths defeated Rome and killed Emperor Valens, signaling Rome's decline.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Battle_of_Adrianople_378_en.svg/330px-Battle_of_Adrianople_378_en.svg.png"
+  },
+  {
+    "name": "sack-rome-visigoths",
+    "friendly_name": "Visigoths Sack Rome",
+    "year": 410,
+    "category": "conflict-politics",
+    "description": "Alaric's Visigoths sacked Rome for the first time in 800 years.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "sack-rome-vandals",
+    "friendly_name": "Vandals Sack Rome",
+    "year": 455,
+    "category": "conflict-politics",
+    "description": "The Vandals plundered Rome for two weeks, giving rise to the term vandalism.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "battle-tours",
+    "friendly_name": "Battle of Tours",
+    "year": 732,
+    "category": "conflict-politics",
+    "description": "Charles Martel halted the Umayyad advance into Western Europe.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Steuben_-_Bataille_de_Poitiers.png/330px-Steuben_-_Bataille_de_Poitiers.png"
+  },
+  {
+    "name": "viking-lindisfarne",
+    "friendly_name": "Viking Raid on Lindisfarne",
+    "year": 793,
+    "category": "conflict-politics",
+    "description": "Vikings attacked the English monastery, beginning the Viking Age.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Cultural_History_%28historisk%29_Museum_Oslo._VIKINGR_Norwegian_Viking-Age_Exhibition_11_Elaborate_swords%2C_decorated_hilts%2C_ornated_blades%2C_home-forged_and_foreign-made%2C_ca_800-1000._Found_in_Telemark%2C_Nordland%2C_Hedmark._4706.jpg/330px-thumbnail.jpg"
+  },
+  {
+    "name": "battle-lechfeld",
+    "friendly_name": "Battle of Lechfeld",
+    "year": 955,
+    "category": "conflict-politics",
+    "description": "Otto I decisively defeated the Magyars, ending their raids into Western Europe.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Lechfeld1457.jpg/330px-Lechfeld1457.jpg"
+  },
+  {
+    "name": "battle-manzikert",
+    "friendly_name": "Battle of Manzikert",
+    "year": 1071,
+    "category": "conflict-politics",
+    "description": "Seljuk Turks captured the Byzantine Emperor, opening Anatolia to Turkish settlement.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/131_Bataille_de_Malazgirt.jpg/330px-131_Bataille_de_Malazgirt.jpg"
+  },
+  {
+    "name": "battle-crecy",
+    "friendly_name": "Battle of Crécy",
+    "year": 1346,
+    "category": "conflict-politics",
+    "description": "English longbowmen devastated French knights in a pivotal Hundred Years' War battle.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Battle_of_crecy_froissart.jpg/330px-Battle_of_crecy_froissart.jpg"
+  },
+  {
+    "name": "battle-poitiers",
+    "friendly_name": "Battle of Poitiers",
+    "year": 1356,
+    "category": "conflict-politics",
+    "description": "The English captured the French king in another devastating defeat for France.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Battle_poitiers.jpg/330px-Battle_poitiers.jpg"
+  },
+  {
+    "name": "battle-agincourt",
+    "friendly_name": "Battle of Agincourt",
+    "year": 1415,
+    "category": "conflict-politics",
+    "description": "Henry V's outnumbered English army crushed the French, immortalized by Shakespeare.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Schlacht_von_Azincourt.jpg/330px-Schlacht_von_Azincourt.jpg"
+  },
+  {
+    "name": "fall-granada",
+    "friendly_name": "Fall of Granada",
+    "year": 1492,
+    "category": "conflict-politics",
+    "description": "The last Moorish stronghold in Spain fell, completing the Reconquista.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/La_Rendici%C3%B3n_de_Granada_-_Pradilla.jpg/330px-La_Rendici%C3%B3n_de_Granada_-_Pradilla.jpg"
+  },
+  {
+    "name": "siege-vienna-1529",
+    "friendly_name": "First Siege of Vienna",
+    "year": 1529,
+    "category": "conflict-politics",
+    "description": "Ottoman forces besieged Vienna but failed to capture the Habsburg capital.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Schoenbrunn_philharmoniker_2012.jpg/330px-Schoenbrunn_philharmoniker_2012.jpg"
+  },
+  {
+    "name": "battle-lepanto",
+    "friendly_name": "Battle of Lepanto",
+    "year": 1571,
+    "category": "conflict-politics",
+    "description": "A Christian fleet destroyed the Ottoman navy in the last major galley battle.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Laureys_a_Castro_-_The_Battle_of_Lepanto.jpeg/330px-Laureys_a_Castro_-_The_Battle_of_Lepanto.jpeg"
+  },
+  {
+    "name": "thirty-years-war-begins",
+    "friendly_name": "Thirty Years' War Begins",
+    "year": 1618,
+    "category": "conflict-politics",
+    "description": "Religious conflict erupted in Europe's most devastating war before the 20th century.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Carl_Friedrich_Lessing_-_The_Siege_%28Defense_of_a_Church_Courtyard_During_the_Thirty_Years%E2%80%99_War%29_-_Google_Art_Project.jpg/330px-Carl_Friedrich_Lessing_-_The_Siege_%28Defense_of_a_Church_Courtyard_During_the_Thirty_Years%E2%80%99_War%29_-_Google_Art_Project.jpg"
+  },
+  {
+    "name": "battle-breitenfeld",
+    "friendly_name": "Battle of Breitenfeld",
+    "year": 1631,
+    "category": "conflict-politics",
+    "description": "Gustavus Adolphus revolutionized warfare with combined arms tactics against the Empire.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "battle-marston-moor",
+    "friendly_name": "Battle of Marston Moor",
+    "year": 1644,
+    "category": "conflict-politics",
+    "description": "Parliament's largest victory in the English Civil War, showcasing Cromwell's cavalry.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Battle_of_Marston_Moor_1644_by_John_Barker.png/330px-Battle_of_Marston_Moor_1644_by_John_Barker.png"
+  },
+  {
+    "name": "battle-vienna-1683",
+    "friendly_name": "Battle of Vienna",
+    "year": 1683,
+    "category": "conflict-politics",
+    "description": "A Christian relief force broke the Ottoman siege, ending Turkish expansion in Europe.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Anonym_Entsatz_Wien_1683.jpg/330px-Anonym_Entsatz_Wien_1683.jpg"
+  },
+  {
+    "name": "battle-blenheim",
+    "friendly_name": "Battle of Blenheim",
+    "year": 1704,
+    "category": "conflict-politics",
+    "description": "Marlborough's victory saved Vienna and changed the course of the War of Spanish Succession.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Copy_after_Jan_van_Huchtenburgh_%28Haarlem_1647-Amsterdam_1733%29_-_The_Battle_of_Blenheim_%28or_H%C3%B6chst%C3%A4dt%29%2C_1704._-_RCIN_404899_-_Royal_Collection.jpg/330px-Copy_after_Jan_van_Huchtenburgh_%28Haarlem_1647-Amsterdam_1733%29_-_The_Battle_of_Blenheim_%28or_H%C3%B6chst%C3%A4dt%29%2C_1704._-_RCIN_404899_-_Royal_Collection.jpg"
+  },
+  {
+    "name": "battle-poltava",
+    "friendly_name": "Battle of Poltava",
+    "year": 1709,
+    "category": "conflict-politics",
+    "description": "Peter the Great crushed Sweden, establishing Russia as a major European power.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Marten%27s_Poltava.jpg/330px-Marten%27s_Poltava.jpg"
+  },
+  {
+    "name": "jacobite-rising-1745",
+    "friendly_name": "Jacobite Rising of 1745",
+    "year": 1745,
+    "category": "conflict-politics",
+    "description": "Bonnie Prince Charlie attempted to reclaim the British throne for the Stuarts.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/The_Battle_of_Culloden.jpg/330px-The_Battle_of_Culloden.jpg"
+  },
+  {
+    "name": "battle-plassey",
+    "friendly_name": "Battle of Plassey",
+    "year": 1757,
+    "category": "conflict-politics",
+    "description": "Robert Clive's victory began British colonial rule in India.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Lord_Clive_meeting_with_Mir_Jafar_after_the_Battle_of_Plassey.jpg/330px-Lord_Clive_meeting_with_Mir_Jafar_after_the_Battle_of_Plassey.jpg"
+  },
+  {
+    "name": "battle-quebec",
+    "friendly_name": "Battle of Quebec",
+    "year": 1759,
+    "category": "conflict-politics",
+    "description": "British forces captured Quebec, deciding French Canada's fate.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Flag_of_Quebec.svg/330px-Flag_of_Quebec.svg.png"
+  },
+  {
+    "name": "boston-tea-party",
+    "friendly_name": "Boston Tea Party",
+    "year": 1773,
+    "category": "conflict-politics",
+    "description": "Colonists dumped British tea into Boston Harbor to protest taxation without representation.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Boston_Tea_Party_w.jpg/330px-Boston_Tea_Party_w.jpg"
+  },
+  {
+    "name": "battle-bunker-hill",
+    "friendly_name": "Battle of Bunker Hill",
+    "year": 1775,
+    "category": "conflict-politics",
+    "description": "American colonists proved they could stand against British regulars despite losing.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/The_Death_of_General_Warren_at_the_Battle_of_Bunker%27s_Hill.jpg/330px-The_Death_of_General_Warren_at_the_Battle_of_Bunker%27s_Hill.jpg"
+  },
+  {
+    "name": "battle-yorktown",
+    "friendly_name": "Siege of Yorktown",
+    "year": 1781,
+    "category": "conflict-politics",
+    "description": "Washington's victory forced British surrender, effectively ending the Revolutionary War.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Surrender_of_Lord_Cornwallis.jpg/330px-Surrender_of_Lord_Cornwallis.jpg"
+  },
+  {
+    "name": "storming-tuileries",
+    "friendly_name": "Storming of the Tuileries",
+    "year": 1792,
+    "category": "conflict-politics",
+    "description": "Revolutionary crowds stormed the royal palace, ending the French monarchy.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tuileriensturm.jpg/330px-Tuileriensturm.jpg"
+  },
+  {
+    "name": "reign-of-terror-begins",
+    "friendly_name": "Reign of Terror Begins",
+    "year": 1793,
+    "category": "conflict-politics",
+    "description": "The Revolutionary Tribunal began mass executions of perceived enemies of the Revolution.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Octobre_1793%2C_supplice_de_9_%C3%A9migr%C3%A9s.jpg/330px-Octobre_1793%2C_supplice_de_9_%C3%A9migr%C3%A9s.jpg"
+  },
+  {
+    "name": "battle-austerlitz",
+    "friendly_name": "Battle of Austerlitz",
+    "year": 1805,
+    "category": "conflict-politics",
+    "description": "Napoleon's masterpiece victory destroyed the Third Coalition against France.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/La_bataille_d%27Austerlitz._2_decembre_1805_%28Fran%C3%A7ois_G%C3%A9rard%29.jpg/330px-La_bataille_d%27Austerlitz._2_decembre_1805_%28Fran%C3%A7ois_G%C3%A9rard%29.jpg"
+  },
+  {
+    "name": "battle-trafalgar",
+    "friendly_name": "Battle of Trafalgar",
+    "year": 1805,
+    "category": "conflict-politics",
+    "description": "Nelson's victory ensured British naval supremacy but cost him his life.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/The_Battle_of_Trafalgar_by_William_Clarkson_Stanfield.jpg/330px-The_Battle_of_Trafalgar_by_William_Clarkson_Stanfield.jpg"
+  },
+  {
+    "name": "battle-leipzig",
+    "friendly_name": "Battle of Leipzig",
+    "year": 1813,
+    "category": "conflict-politics",
+    "description": "The largest battle before WWI saw Napoleon defeated by a coalition of European powers.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/MoshkovVI_SrazhLeypcigomGRM.jpg/330px-MoshkovVI_SrazhLeypcigomGRM.jpg"
+  },
+  {
+    "name": "battle-new-orleans",
+    "friendly_name": "Battle of New Orleans",
+    "year": 1815,
+    "category": "conflict-politics",
+    "description": "Andrew Jackson's victory made him a national hero, though peace had already been signed.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Battle_of_New_Orleans%2C_Jean_Hyacinthe_de_Laclotte.jpg/330px-Battle_of_New_Orleans%2C_Jean_Hyacinthe_de_Laclotte.jpg"
+  },
+  {
+    "name": "texas-revolution-alamo",
+    "friendly_name": "Battle of the Alamo",
+    "year": 1836,
+    "category": "conflict-politics",
+    "description": "Texas defenders died at the Alamo, becoming martyrs for Texan independence.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/1854_Alamo.jpg/330px-1854_Alamo.jpg"
+  },
+  {
+    "name": "first-opium-war",
+    "friendly_name": "First Opium War Begins",
+    "year": 1839,
+    "category": "conflict-politics",
+    "description": "Britain went to war with China over trade restrictions on opium.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Destroying_Chinese_war_junks%2C_by_E._Duncan_%281843%29.jpg/330px-Destroying_Chinese_war_junks%2C_by_E._Duncan_%281843%29.jpg"
+  },
+  {
+    "name": "taiping-rebellion",
+    "friendly_name": "Taiping Rebellion Begins",
+    "year": 1850,
+    "category": "conflict-politics",
+    "description": "A Christian-inspired uprising killed 20-30 million people in China.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Regaining_the_Provincial_City_Anqing2.jpg/330px-Regaining_the_Provincial_City_Anqing2.jpg"
+  },
+  {
+    "name": "charge-light-brigade",
+    "friendly_name": "Charge of the Light Brigade",
+    "year": 1854,
+    "category": "conflict-politics",
+    "description": "British cavalry charged Russian guns in a tragic miscommunication during the Crimean War.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/William_Simpson_-_Charge_of_the_light_cavalry_brigade%2C_25th_Oct._1854%2C_under_Major_General_the_Earl_of_Cardigan.jpg/330px-William_Simpson_-_Charge_of_the_light_cavalry_brigade%2C_25th_Oct._1854%2C_under_Major_General_the_Earl_of_Cardigan.jpg"
+  },
+  {
+    "name": "battle-antietam",
+    "friendly_name": "Battle of Antietam",
+    "year": 1862,
+    "category": "conflict-politics",
+    "description": "The bloodiest single day in American history halted Lee's first invasion of the North.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Thure_de_Thulstrup_-_Battle_of_Antietam.jpg/330px-Thure_de_Thulstrup_-_Battle_of_Antietam.jpg"
+  },
+  {
+    "name": "battle-gettysburg",
+    "friendly_name": "Battle of Gettysburg",
+    "year": 1863,
+    "category": "conflict-politics",
+    "description": "The Union victory turned the tide of the Civil War after three days of fighting.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Thure_de_Thulstrup_-_L._Prang_and_Co._-_Battle_of_Gettysburg_-_Restoration_by_Adam_Cuerden.jpg/330px-Thure_de_Thulstrup_-_L._Prang_and_Co._-_Battle_of_Gettysburg_-_Restoration_by_Adam_Cuerden.jpg"
+  },
+  {
+    "name": "shermans-march",
+    "friendly_name": "Sherman's March to the Sea",
+    "year": 1864,
+    "category": "conflict-politics",
+    "description": "General Sherman's devastating march through Georgia broke Southern morale.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/F.O.C._Darley_and_Alexander_Hay_Ritchie_-_Sherman%27s_March_to_the_Sea.jpg/330px-F.O.C._Darley_and_Alexander_Hay_Ritchie_-_Sherman%27s_March_to_the_Sea.jpg"
+  },
+  {
+    "name": "austro-prussian-war",
+    "friendly_name": "Austro-Prussian War",
+    "year": 1866,
+    "category": "conflict-politics",
+    "description": "Prussia's rapid victory over Austria reshaped the balance of power in Europe.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Schlacht-bei-koeniggraetz-von-georg-bleibtreu.jpg/330px-Schlacht-bei-koeniggraetz-von-georg-bleibtreu.jpg"
+  },
+  {
+    "name": "battle-sedan",
+    "friendly_name": "Battle of Sedan",
+    "year": 1870,
+    "category": "conflict-politics",
+    "description": "Prussia captured Napoleon III, leading to the fall of the Second French Empire.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Nap_sedan_von_Wilhelm_Camphausen.jpg/330px-Nap_sedan_von_Wilhelm_Camphausen.jpg"
+  },
+  {
+    "name": "battle-little-bighorn",
+    "friendly_name": "Battle of Little Bighorn",
+    "year": 1876,
+    "category": "conflict-politics",
+    "description": "Lakota and Cheyenne warriors annihilated Custer's cavalry at Last Stand Hill.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Charles_Marion_Russell_-_The_Custer_Fight_%281903%29.jpg/330px-Charles_Marion_Russell_-_The_Custer_Fight_%281903%29.jpg"
+  },
+  {
+    "name": "zulu-war",
+    "friendly_name": "Anglo-Zulu War",
+    "year": 1879,
+    "category": "conflict-politics",
+    "description": "British forces fought the Zulu Kingdom in a short but brutal conflict.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Anglo-Zulu_War_collage.png/330px-Anglo-Zulu_War_collage.png"
+  },
+  {
+    "name": "boxer-rebellion",
+    "friendly_name": "Boxer Rebellion",
+    "year": 1900,
+    "category": "conflict-politics",
+    "description": "Chinese nationalists besieged foreign legations before an international force relieved them.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Taku_Forts_Landing.JPG/330px-Taku_Forts_Landing.JPG"
+  },
+  {
+    "name": "battle-tsushima",
+    "friendly_name": "Battle of Tsushima",
+    "year": 1905,
+    "category": "conflict-politics",
+    "description": "Japan destroyed the Russian Baltic Fleet, shocking the Western world.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Battle_of_Tsushima%2C_1905_by_T%C5%8Dj%C5%8D_Sh%C5%8Dtar%C5%8D.jpg/330px-Battle_of_Tsushima%2C_1905_by_T%C5%8Dj%C5%8D_Sh%C5%8Dtar%C5%8D.jpg"
+  },
+  {
+    "name": "mexican-revolution",
+    "friendly_name": "Mexican Revolution Begins",
+    "year": 1910,
+    "category": "conflict-politics",
+    "description": "A decade-long civil war overthrew the Porfirio Díaz dictatorship.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Decena_tr%C3%A1gica.JPG/330px-Decena_tr%C3%A1gica.JPG"
+  },
+  {
+    "name": "battle-verdun",
+    "friendly_name": "Battle of Verdun",
+    "year": 1916,
+    "category": "conflict-politics",
+    "description": "Germany's attempt to bleed France white became a symbol of WWI's futility.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Battle_of_Verdun_map.png/330px-Battle_of_Verdun_map.png"
+  },
+  {
+    "name": "battle-jutland",
+    "friendly_name": "Battle of Jutland",
+    "year": 1916,
+    "category": "conflict-politics",
+    "description": "The largest naval battle of WWI saw Britain maintain control of the seas.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Map_of_the_Battle_of_Jutland%2C_1916.svg/330px-Map_of_the_Battle_of_Jutland%2C_1916.svg.png"
+  },
+  {
+    "name": "battle-passchendaele",
+    "friendly_name": "Battle of Passchendaele",
+    "year": 1917,
+    "category": "conflict-politics",
+    "description": "British troops fought through mud for months to gain five miles at Ypres.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Chateauwood.jpg/330px-Chateauwood.jpg"
+  },
+  {
+    "name": "easter-rising",
+    "friendly_name": "Irish Easter Rising",
+    "year": 1916,
+    "category": "conflict-politics",
+    "description": "Irish republicans seized Dublin buildings in an unsuccessful bid for independence.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "red-army-formed",
+    "friendly_name": "Red Army Founded",
+    "year": 1918,
+    "category": "conflict-politics",
+    "description": "Trotsky organized the Workers' and Peasants' Red Army to defend the Revolution.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Red_Army_Badge.svg/330px-Red_Army_Badge.svg.png"
+  },
+  {
+    "name": "russian-civil-war-ends",
+    "friendly_name": "Russian Civil War Ends",
+    "year": 1922,
+    "category": "conflict-politics",
+    "description": "The Bolsheviks defeated the White Army and various nationalist movements.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/CWRArticleImage.jpg/330px-CWRArticleImage.jpg"
+  },
+  {
+    "name": "long-march-begins",
+    "friendly_name": "Long March Begins",
+    "year": 1934,
+    "category": "conflict-politics",
+    "description": "Chinese Communists began their epic 6,000-mile retreat from Nationalist forces.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Map_of_the_Long_March_1934-1935-en.svg/330px-Map_of_the_Long_March_1934-1935-en.svg.png"
+  },
+  {
+    "name": "sino-japanese-war",
+    "friendly_name": "Second Sino-Japanese War",
+    "year": 1937,
+    "category": "conflict-politics",
+    "description": "Japan launched a full-scale invasion of China, killing millions of civilians.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Japanese_Special_Naval_Landing_Forces_in_Battle_of_Shanghai_1937.jpg/330px-Japanese_Special_Naval_Landing_Forces_in_Battle_of_Shanghai_1937.jpg"
+  },
+  {
+    "name": "rape-nanking",
+    "friendly_name": "Nanjing Massacre",
+    "year": 1937,
+    "category": "conflict-politics",
+    "description": "Japanese troops committed mass atrocities after capturing the Chinese capital.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Nanking_bodies_1937.jpg/330px-Nanking_bodies_1937.jpg"
+  },
+  {
+    "name": "anschluss",
+    "friendly_name": "Anschluss",
+    "year": 1938,
+    "category": "conflict-politics",
+    "description": "Nazi Germany annexed Austria without military resistance.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Anschluss_Heldenplatz1.jpg/330px-Anschluss_Heldenplatz1.jpg"
+  },
+  {
+    "name": "invasion-france-1940",
+    "friendly_name": "Fall of France",
+    "year": 1940,
+    "category": "conflict-politics",
+    "description": "Germany conquered France in six weeks using blitzkrieg tactics.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Battle_of_France_Infobox.png/330px-Battle_of_France_Infobox.png"
+  },
+  {
+    "name": "dunkirk-evacuation",
+    "friendly_name": "Dunkirk Evacuation",
+    "year": 1940,
+    "category": "conflict-politics",
+    "description": "Over 330,000 Allied troops were rescued from beaches in a miracle evacuation.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Dunkirk_26-29_May_1940_NYP68075.jpg/330px-Dunkirk_26-29_May_1940_NYP68075.jpg"
+  },
+  {
+    "name": "battle-el-alamein",
+    "friendly_name": "Battle of El Alamein",
+    "year": 1942,
+    "category": "conflict-politics",
+    "description": "Montgomery's victory over Rommel turned the tide in North Africa.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Armen_Agop_Untitled_2018.jpg/330px-Armen_Agop_Untitled_2018.jpg"
+  },
+  {
+    "name": "battle-midway",
+    "friendly_name": "Battle of Midway",
+    "year": 1942,
+    "category": "conflict-politics",
+    "description": "The US Navy destroyed four Japanese carriers, turning the tide in the Pacific.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/USS_Yorktown_%28CV-5%29_is_hit_by_a_torpedo_on_4_June_1942.jpg/330px-USS_Yorktown_%28CV-5%29_is_hit_by_a_torpedo_on_4_June_1942.jpg"
+  },
+  {
+    "name": "battle-kursk",
+    "friendly_name": "Battle of Kursk",
+    "year": 1943,
+    "category": "conflict-politics",
+    "description": "The largest tank battle in history ended German offensive capability in the East.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Battle_of_Kursk_%28map%29.jpg/330px-Battle_of_Kursk_%28map%29.jpg"
+  },
+  {
+    "name": "battle-bulge",
+    "friendly_name": "Battle of the Bulge",
+    "year": 1944,
+    "category": "conflict-politics",
+    "description": "Germany's last major offensive in the West caught the Allies off guard.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/117th_Infantry_North_Carolina_NG_at_St._Vith_1945.jpg/330px-117th_Infantry_North_Carolina_NG_at_St._Vith_1945.jpg"
+  },
+  {
+    "name": "fall-berlin-1945",
+    "friendly_name": "Fall of Berlin",
+    "year": 1945,
+    "category": "conflict-politics",
+    "description": "Soviet forces captured the Nazi capital after brutal street fighting.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Museumsinsel_Berlin_Juli_2021_1_%28cropped%29_b.jpg/330px-Museumsinsel_Berlin_Juli_2021_1_%28cropped%29_b.jpg"
+  },
+  {
+    "name": "suez-crisis",
+    "friendly_name": "Suez Crisis",
+    "year": 1956,
+    "category": "conflict-politics",
+    "description": "Britain and France failed to seize the Suez Canal, marking the end of European colonialism.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Tanks_Destroyed_Sinai.jpg/330px-Tanks_Destroyed_Sinai.jpg"
+  },
+  {
+    "name": "hungarian-revolution",
+    "friendly_name": "Hungarian Revolution",
+    "year": 1956,
+    "category": "conflict-politics",
+    "description": "Soviet tanks crushed a popular uprising against communist rule in Hungary.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "congo-crisis",
+    "friendly_name": "Congo Crisis",
+    "year": 1960,
+    "category": "conflict-politics",
+    "description": "The newly independent Congo descended into chaos and Cold War proxy conflict.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/UN_Baluba_camp.jpg/330px-UN_Baluba_camp.jpg"
+  },
+  {
+    "name": "lumumba-assassination",
+    "friendly_name": "Patrice Lumumba Assassinated",
+    "year": 1961,
+    "category": "conflict-politics",
+    "description": "The Congolese independence leader was killed with Belgian and CIA involvement.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Patrice_Lumumba%2C_1960_%28cropped%29.jpg/330px-Patrice_Lumumba%2C_1960_%28cropped%29.jpg"
+  },
+  {
+    "name": "tet-offensive",
+    "friendly_name": "Tet Offensive",
+    "year": 1968,
+    "category": "conflict-politics",
+    "description": "North Vietnam's surprise attacks shocked Americans and turned public opinion against the war.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Tet_Offensive_map.png/330px-Tet_Offensive_map.png"
+  },
+  {
+    "name": "bangladesh-liberation-war",
+    "friendly_name": "Bangladesh Liberation War",
+    "year": 1971,
+    "category": "conflict-politics",
+    "description": "East Pakistan broke away with Indian help to become Bangladesh.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/BangladeshLiberationWarMontage.jpg/330px-BangladeshLiberationWarMontage.jpg"
+  },
+  {
+    "name": "ethiopian-revolution",
+    "friendly_name": "Ethiopian Revolution",
+    "year": 1974,
+    "category": "conflict-politics",
+    "description": "A military junta overthrew Emperor Haile Selassie after 44 years of rule.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Coordinating_Committee_of_the_Armed_Forces_%28Derg%29_in_1974.jpg/330px-Coordinating_Committee_of_the_Armed_Forces_%28Derg%29_in_1974.jpg"
+  },
+  {
+    "name": "angolan-civil-war",
+    "friendly_name": "Angolan Civil War Begins",
+    "year": 1975,
+    "category": "conflict-politics",
+    "description": "A Cold War proxy conflict erupted as Angola gained independence from Portugal.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Los_jefes_angolano_y_cubano_del_frente_este_comandantes_dangereaux_kimenga_y_carlos_fernandez_gondin.webp/330px-Los_jefes_angolano_y_cubano_del_frente_este_comandantes_dangereaux_kimenga_y_carlos_fernandez_gondin.webp.png"
+  },
+  {
+    "name": "iran-iraq-war",
+    "friendly_name": "Iran-Iraq War Begins",
+    "year": 1980,
+    "category": "conflict-politics",
+    "description": "Saddam Hussein invaded Iran, beginning an eight-year war killing over a million.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Chemical_weapon1.jpg/330px-Chemical_weapon1.jpg"
+  },
+  {
+    "name": "grenada-invasion",
+    "friendly_name": "US Invasion of Grenada",
+    "year": 1983,
+    "category": "conflict-politics",
+    "description": "American forces invaded the Caribbean island after a Marxist coup.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Grenada.svg/330px-Flag_of_Grenada.svg.png"
+  },
+  {
+    "name": "first-intifada",
+    "friendly_name": "First Intifada",
+    "year": 1987,
+    "category": "conflict-politics",
+    "description": "Palestinians began a sustained uprising against Israeli occupation.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Intifada_in_Gaza_Strip%2C_1987_V_Dan_Hadani_Archive.jpg/330px-Intifada_in_Gaza_Strip%2C_1987_V_Dan_Hadani_Archive.jpg"
+  },
+  {
+    "name": "second-intifada",
+    "friendly_name": "Second Intifada Begins",
+    "year": 2000,
+    "category": "conflict-politics",
+    "description": "A more violent Palestinian uprising erupted after peace talks collapsed.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/b/bf/Faris_odeh03a.jpg"
+  },
+  {
+    "name": "georgia-russia-war",
+    "friendly_name": "Russo-Georgian War",
+    "year": 2008,
+    "category": "conflict-politics",
+    "description": "Russia invaded Georgia over the breakaway regions of South Ossetia and Abkhazia.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Ruins_of_a_burnt_apartment_building_in_Gori.jpg/330px-Ruins_of_a_burnt_apartment_building_in_Gori.jpg"
+  },
+  {
+    "name": "libyan-civil-war",
+    "friendly_name": "Libyan Civil War Begins",
+    "year": 2011,
+    "category": "conflict-politics",
+    "description": "An uprising against Gaddafi led to NATO intervention and regime change.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Libyan_Civil_War.svg/330px-Libyan_Civil_War.svg.png"
+  },
+  {
+    "name": "persian-wars-begin",
+    "friendly_name": "Persian Wars Begin",
+    "year": -499,
+    "category": "conflict-politics",
+    "description": "Greek city-states revolted against Persian rule, beginning decades of conflict.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Greek-Persian_duel.jpg/330px-Greek-Persian_duel.jpg"
+  },
+  {
+    "name": "peloponnesian-war",
+    "friendly_name": "Peloponnesian War Begins",
+    "year": -431,
+    "category": "conflict-politics",
+    "description": "Athens and Sparta began a devastating 27-year war that weakened all of Greece.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Pelop_war_en.png/330px-Pelop_war_en.png"
+  },
+  {
+    "name": "first-punic-war",
+    "friendly_name": "First Punic War Begins",
+    "year": -264,
+    "category": "conflict-politics",
+    "description": "Rome and Carthage began their first conflict over control of Sicily.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/First_Punic_War_264_BC_v3.png/330px-First_Punic_War_264_BC_v3.png"
+  },
+  {
+    "name": "hannibal-crosses-alps",
+    "friendly_name": "Hannibal Crosses the Alps",
+    "year": -218,
+    "category": "conflict-politics",
+    "description": "Hannibal led his army and war elephants over the Alps to invade Italy.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "third-punic-war",
+    "friendly_name": "Destruction of Carthage",
+    "year": -146,
+    "category": "conflict-politics",
+    "description": "Rome completely destroyed Carthage, ending the Punic Wars.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Catapulta_by_Edward_Poynter.jpg/330px-Catapulta_by_Edward_Poynter.jpg"
+  },
+  {
+    "name": "crossing-rubicon",
+    "friendly_name": "Caesar Crosses the Rubicon",
+    "year": -49,
+    "category": "conflict-politics",
+    "description": "Caesar's crossing sparked civil war and the end of the Roman Republic.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "battle-actium",
+    "friendly_name": "Battle of Actium",
+    "year": -31,
+    "category": "conflict-politics",
+    "description": "Octavian defeated Antony and Cleopatra, becoming sole ruler of Rome.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Medinaceli_Actium_reliefs_06.jpg/330px-Medinaceli_Actium_reliefs_06.jpg"
+  },
+  {
+    "name": "bar-kokhba-revolt",
+    "friendly_name": "Bar Kokhba Revolt",
+    "year": 132,
+    "category": "conflict-politics",
+    "description": "The last Jewish revolt against Rome led to mass exile from Judea.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Bar_kochba22.jpg/330px-Bar_kochba22.jpg"
+  },
+  {
+    "name": "attila-invasion",
+    "friendly_name": "Attila Invades Western Europe",
+    "year": 451,
+    "category": "conflict-politics",
+    "description": "The Hunnic king ravaged Gaul before being defeated at the Battle of the Catalaunian Plains.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "arab-conquest-persia",
+    "friendly_name": "Arab Conquest of Persia",
+    "year": 651,
+    "category": "conflict-politics",
+    "description": "Muslim forces conquered the Sasanian Empire, ending 400 years of Persian rule.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Flag_of_Iran_%28official%29.svg/330px-Flag_of_Iran_%28official%29.svg.png"
+  },
+  {
+    "name": "third-crusade",
+    "friendly_name": "Third Crusade Begins",
+    "year": 1189,
+    "category": "conflict-politics",
+    "description": "Richard the Lionheart and Saladin faced off for control of the Holy Land.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/The_Third_Crusade_%281189-1192%29.png/330px-The_Third_Crusade_%281189-1192%29.png"
+  },
+  {
+    "name": "mongol-baghdad",
+    "friendly_name": "Mongols Sack Baghdad",
+    "year": 1258,
+    "category": "conflict-politics",
+    "description": "The Mongols destroyed the Abbasid Caliphate and killed hundreds of thousands.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "joan-of-arc",
+    "friendly_name": "Joan of Arc Leads French Army",
+    "year": 1429,
+    "category": "conflict-politics",
+    "description": "A peasant girl inspired French victories before being captured and burned.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Joan_of_Arc_miniature_graded.jpg/330px-Joan_of_Arc_miniature_graded.jpg"
+  },
+  {
+    "name": "wars-of-roses",
+    "friendly_name": "Wars of the Roses Begin",
+    "year": 1455,
+    "category": "conflict-politics",
+    "description": "The Houses of York and Lancaster fought for the English throne.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "dutch-revolt",
+    "friendly_name": "Dutch Revolt Begins",
+    "year": 1568,
+    "category": "conflict-politics",
+    "description": "The Netherlands began their 80-year war for independence from Spain.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Battle_of_Gibraltar_1607.jpg/330px-Battle_of_Gibraltar_1607.jpg"
+  },
+  {
+    "name": "peace-westphalia",
+    "friendly_name": "Peace of Westphalia",
+    "year": 1648,
+    "category": "conflict-politics",
+    "description": "Treaties ending the Thirty Years' War established the modern state system.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/M%C3%BCnster%2C_Historisches_Rathaus_--_2014_--_6855.jpg/330px-M%C3%BCnster%2C_Historisches_Rathaus_--_2014_--_6855.jpg"
+  },
+  {
+    "name": "great-northern-war",
+    "friendly_name": "Great Northern War Begins",
+    "year": 1700,
+    "category": "conflict-politics",
+    "description": "Sweden faced a coalition that would end its status as a great power.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Great_Northern_War_Collage.jpg/330px-Great_Northern_War_Collage.jpg"
   }
 ]

@@ -1004,5 +1004,863 @@
     "description": "OpenAI released ChatGPT, bringing AI to the mainstream.",
     "difficulty": "easy",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/OpenAI_logo_2025_%28symbol%29.svg/330px-OpenAI_logo_2025_%28symbol%29.svg.png"
+  },
+  {
+    "name": "epic-gilgamesh",
+    "friendly_name": "Epic of Gilgamesh Composed",
+    "year": -2100,
+    "category": "cultural-social",
+    "description": "The oldest surviving great work of literature was written in Mesopotamia.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/British_Museum_Flood_Tablet.jpg/330px-British_Museum_Flood_Tablet.jpg"
+  },
+  {
+    "name": "book-of-dead",
+    "friendly_name": "Egyptian Book of the Dead",
+    "year": -1550,
+    "category": "cultural-social",
+    "description": "Ancient Egyptians compiled funerary texts to guide the dead to the afterlife.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/El_pesado_del_coraz%C3%B3n_en_el_Papiro_de_Hunefer.jpg/330px-El_pesado_del_coraz%C3%B3n_en_el_Papiro_de_Hunefer.jpg"
+  },
+  {
+    "name": "rigveda-composed",
+    "friendly_name": "Rigveda Composed",
+    "year": -1500,
+    "category": "cultural-social",
+    "description": "The oldest known Vedic Sanskrit text was composed in ancient India.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "zoroaster-teaches",
+    "friendly_name": "Zoroaster Founds Zoroastrianism",
+    "year": -1000,
+    "category": "cultural-social",
+    "description": "The Persian prophet founded one of the world's oldest monotheistic religions.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "i-ching-compiled",
+    "friendly_name": "I Ching Compiled",
+    "year": -1000,
+    "category": "cultural-social",
+    "description": "The ancient Chinese divination text was compiled during the Zhou Dynasty.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/I_Ching_Song_Dynasty_print.jpg/330px-I_Ching_Song_Dynasty_print.jpg"
+  },
+  {
+    "name": "upanishads-composed",
+    "friendly_name": "Upanishads Composed",
+    "year": -800,
+    "category": "cultural-social",
+    "description": "Hindu philosophical texts exploring the nature of reality were written.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "aesops-fables",
+    "friendly_name": "Aesop's Fables Composed",
+    "year": -600,
+    "category": "cultural-social",
+    "description": "The Greek storyteller created moral tales featuring animals.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Aesop_and_Priests_by_Francis_Barlow_1687.png/330px-Aesop_and_Priests_by_Francis_Barlow_1687.png"
+  },
+  {
+    "name": "pythagoras-school",
+    "friendly_name": "Pythagoras Founds School",
+    "year": -530,
+    "category": "cultural-social",
+    "description": "The mathematician founded a school combining philosophy, mathematics, and mysticism.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "plato-academy",
+    "friendly_name": "Plato Founds the Academy",
+    "year": -387,
+    "category": "cultural-social",
+    "description": "Plato established the first institution of higher learning in the Western world.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "aristotle-lyceum",
+    "friendly_name": "Aristotle Founds the Lyceum",
+    "year": -335,
+    "category": "cultural-social",
+    "description": "Aristotle established his own school after leaving Plato's Academy.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "euclid-elements",
+    "friendly_name": "Euclid Writes Elements",
+    "year": -300,
+    "category": "cultural-social",
+    "description": "The Greek mathematician wrote the foundational textbook of geometry.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "septuagint-translated",
+    "friendly_name": "Septuagint Translated",
+    "year": -250,
+    "category": "cultural-social",
+    "description": "The Hebrew Bible was translated into Greek in Alexandria.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "virgil-aeneid",
+    "friendly_name": "Virgil Writes the Aeneid",
+    "year": -29,
+    "category": "cultural-social",
+    "description": "The Roman poet composed the epic tale of Aeneas founding Rome.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "council-chalcedon",
+    "friendly_name": "Council of Chalcedon",
+    "year": 451,
+    "category": "cultural-social",
+    "description": "Church leaders defined the orthodox doctrine of Christ's divine and human natures.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Fourth_ecumenical_council_of_chalcedon_-_1876.jpg/330px-Fourth_ecumenical_council_of_chalcedon_-_1876.jpg"
+  },
+  {
+    "name": "monte-cassino-founded",
+    "friendly_name": "Monte Cassino Founded",
+    "year": 529,
+    "category": "cultural-social",
+    "description": "Saint Benedict founded the monastery that became the birthplace of Western monasticism.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/MonteCassino_Abbey.jpg/330px-MonteCassino_Abbey.jpg"
+  },
+  {
+    "name": "quran-compiled",
+    "friendly_name": "Quran Compiled",
+    "year": 650,
+    "category": "cultural-social",
+    "description": "The Islamic holy book was compiled into written form under Caliph Uthman.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "great-schism",
+    "friendly_name": "Great Schism",
+    "year": 1054,
+    "category": "cultural-social",
+    "description": "Christianity split into Roman Catholic and Eastern Orthodox churches.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Great_Schism_with_former_borders_%281054%29.png/330px-Great_Schism_with_former_borders_%281054%29.png"
+  },
+  {
+    "name": "franciscan-order",
+    "friendly_name": "Franciscan Order Founded",
+    "year": 1209,
+    "category": "cultural-social",
+    "description": "Saint Francis of Assisi founded the order dedicated to poverty and preaching.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/FrancescoCoA_PioM.svg/330px-FrancescoCoA_PioM.svg.png"
+  },
+  {
+    "name": "aquinas-summa",
+    "friendly_name": "Aquinas Writes Summa Theologica",
+    "year": 1265,
+    "category": "cultural-social",
+    "description": "Thomas Aquinas began his masterwork synthesizing Christian theology and philosophy.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "wycliffe-bible",
+    "friendly_name": "Wycliffe Translates Bible",
+    "year": 1382,
+    "category": "cultural-social",
+    "description": "John Wycliffe produced the first complete English translation of the Bible.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "gutenberg-bible",
+    "friendly_name": "Gutenberg Bible Printed",
+    "year": 1455,
+    "category": "cultural-social",
+    "description": "The first major book printed using movable type in Europe.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Gutenberg_Bible%2C_Lenox_Copy%2C_New_York_Public_Library%2C_2009._Pic_01.jpg/330px-Gutenberg_Bible%2C_Lenox_Copy%2C_New_York_Public_Library%2C_2009._Pic_01.jpg"
+  },
+  {
+    "name": "council-trent",
+    "friendly_name": "Council of Trent Begins",
+    "year": 1545,
+    "category": "cultural-social",
+    "description": "The Catholic Church began its response to the Protestant Reformation.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Concilio_Trento_Museo_Buonconsiglio.jpg/330px-Concilio_Trento_Museo_Buonconsiglio.jpg"
+  },
+  {
+    "name": "giotto-scrovegni",
+    "friendly_name": "Giotto Paints Scrovegni Chapel",
+    "year": 1305,
+    "category": "cultural-social",
+    "description": "Giotto's frescoes revolutionized Western art with naturalistic human emotion.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "petrarch-sonnets",
+    "friendly_name": "Petrarch Begins Sonnets",
+    "year": 1327,
+    "category": "cultural-social",
+    "description": "The Italian poet began his influential sonnet sequence to Laura.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "chaucer-canterbury",
+    "friendly_name": "Canterbury Tales Written",
+    "year": 1387,
+    "category": "cultural-social",
+    "description": "Geoffrey Chaucer began writing his collection of stories told by pilgrims.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Canterbury_Tales_characters_around_table_%E2%80%94_traced.svg/330px-Canterbury_Tales_characters_around_table_%E2%80%94_traced.svg.png"
+  },
+  {
+    "name": "botticelli-venus",
+    "friendly_name": "Birth of Venus Painted",
+    "year": 1485,
+    "category": "cultural-social",
+    "description": "Botticelli completed his iconic Renaissance painting of the goddess.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg/330px-Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg"
+  },
+  {
+    "name": "leonardo-last-supper",
+    "friendly_name": "Last Supper Painted",
+    "year": 1498,
+    "category": "cultural-social",
+    "description": "Leonardo da Vinci completed his mural depicting Jesus's final meal.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg/330px-The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg"
+  },
+  {
+    "name": "leonardo-mona-lisa",
+    "friendly_name": "Mona Lisa Painted",
+    "year": 1503,
+    "category": "cultural-social",
+    "description": "Leonardo da Vinci began painting the world's most famous portrait.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/330px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg"
+  },
+  {
+    "name": "michelangelo-david",
+    "friendly_name": "Michelangelo Sculpts David",
+    "year": 1504,
+    "category": "cultural-social",
+    "description": "Michelangelo completed his masterpiece sculpture of the biblical hero.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "machiavelli-prince",
+    "friendly_name": "The Prince Written",
+    "year": 1513,
+    "category": "cultural-social",
+    "description": "Machiavelli wrote his influential treatise on political power.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Machiavelli_Principe_Cover_Page.jpg/330px-Machiavelli_Principe_Cover_Page.jpg"
+  },
+  {
+    "name": "shakespeare-born",
+    "friendly_name": "Shakespeare Born",
+    "year": 1564,
+    "category": "cultural-social",
+    "description": "The greatest writer in the English language was born in Stratford-upon-Avon.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/William_Shakespeare_by_John_Taylor%2C_edited.jpg/330px-William_Shakespeare_by_John_Taylor%2C_edited.jpg"
+  },
+  {
+    "name": "don-quixote-published",
+    "friendly_name": "Don Quixote Published",
+    "year": 1605,
+    "category": "cultural-social",
+    "description": "Cervantes published the novel often called the first modern novel.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Title_page_first_edition_Don_Quijote.jpg/330px-Title_page_first_edition_Don_Quijote.jpg"
+  },
+  {
+    "name": "rembrandt-night-watch",
+    "friendly_name": "The Night Watch Painted",
+    "year": 1642,
+    "category": "cultural-social",
+    "description": "Rembrandt completed his most famous group portrait.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/La_ronda_de_noche%2C_por_Rembrandt_van_Rijn.jpg/330px-La_ronda_de_noche%2C_por_Rembrandt_van_Rijn.jpg"
+  },
+  {
+    "name": "handel-messiah",
+    "friendly_name": "Handel's Messiah Premiered",
+    "year": 1742,
+    "category": "cultural-social",
+    "description": "Handel premiered his famous oratorio featuring the Hallelujah Chorus.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Messiah-titlepage.jpg/330px-Messiah-titlepage.jpg"
+  },
+  {
+    "name": "voltaire-candide",
+    "friendly_name": "Candide Published",
+    "year": 1759,
+    "category": "cultural-social",
+    "description": "Voltaire published his satirical novella mocking philosophical optimism.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Candide1759.jpg/330px-Candide1759.jpg"
+  },
+  {
+    "name": "britannica-first",
+    "friendly_name": "Encyclopedia Britannica First Edition",
+    "year": 1768,
+    "category": "cultural-social",
+    "description": "The first edition of the English-language encyclopedia was published in Scotland.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "goethe-faust",
+    "friendly_name": "Goethe Writes Faust Part 1",
+    "year": 1808,
+    "category": "cultural-social",
+    "description": "Goethe published the first part of his masterpiece about a scholar's bargain with the devil.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "pride-prejudice",
+    "friendly_name": "Pride and Prejudice Published",
+    "year": 1813,
+    "category": "cultural-social",
+    "description": "Jane Austen published her beloved novel of manners and marriage.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/PrideAndPrejudiceTitlePage.jpg/330px-PrideAndPrejudiceTitlePage.jpg"
+  },
+  {
+    "name": "grimm-fairy-tales",
+    "friendly_name": "Grimm's Fairy Tales Published",
+    "year": 1812,
+    "category": "cultural-social",
+    "description": "The Brothers Grimm published their collection of German folk tales.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Grimm%27s_Kinder-_und_Hausm%C3%A4rchen%2C_Erster_Theil_%281812%29.cover.jpg"
+  },
+  {
+    "name": "frankenstein-published",
+    "friendly_name": "Frankenstein Published",
+    "year": 1818,
+    "category": "cultural-social",
+    "description": "Mary Shelley published the novel that launched science fiction.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Christie%27s_auction_scan_of_Frankenstein_1818.jpg/330px-Christie%27s_auction_scan_of_Frankenstein_1818.jpg"
+  },
+  {
+    "name": "louvre-opens",
+    "friendly_name": "Louvre Opens as Public Museum",
+    "year": 1793,
+    "category": "cultural-social",
+    "description": "The former French royal palace opened as one of the world's first public museums.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "beethoven-fifth",
+    "friendly_name": "Beethoven's Fifth Symphony",
+    "year": 1808,
+    "category": "cultural-social",
+    "description": "Beethoven premiered his famous symphony with its iconic four-note opening.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Beethoven-Deckblatt.png"
+  },
+  {
+    "name": "schubert-unfinished",
+    "friendly_name": "Schubert's Unfinished Symphony",
+    "year": 1822,
+    "category": "cultural-social",
+    "description": "Schubert composed his mysterious two-movement symphony.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Symphony_No._8_in_B_minor.jpg/330px-Symphony_No._8_in_B_minor.jpg"
+  },
+  {
+    "name": "les-miserables",
+    "friendly_name": "Les Misérables Published",
+    "year": 1862,
+    "category": "cultural-social",
+    "description": "Victor Hugo published his epic novel of justice and redemption in France.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Monsieur_Madeleine_par_Gustave_Brion.jpg/330px-Monsieur_Madeleine_par_Gustave_Brion.jpg"
+  },
+  {
+    "name": "tchaikovsky-swan-lake",
+    "friendly_name": "Swan Lake Premiered",
+    "year": 1877,
+    "category": "cultural-social",
+    "description": "Tchaikovsky's ballet premiered in Moscow, though initially unsuccessful.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "dostoevsky-karamazov",
+    "friendly_name": "Brothers Karamazov Published",
+    "year": 1880,
+    "category": "cultural-social",
+    "description": "Dostoevsky completed his final novel exploring faith, doubt, and morality.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Dostoevsky-Brothers_Karamazov.jpg/330px-Dostoevsky-Brothers_Karamazov.jpg"
+  },
+  {
+    "name": "van-gogh-starry-night",
+    "friendly_name": "Starry Night Painted",
+    "year": 1889,
+    "category": "cultural-social",
+    "description": "Van Gogh painted his swirling masterpiece from an asylum window.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/330px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg"
+  },
+  {
+    "name": "dvorak-new-world",
+    "friendly_name": "New World Symphony Premiered",
+    "year": 1893,
+    "category": "cultural-social",
+    "description": "Dvořák's symphony premiered in New York, inspired by American folk music.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/The_title_page_of_the_autograph_score_of_Dvo%C5%99%C3%A1k%27s_ninth_symphony.jpg/330px-The_title_page_of_the_autograph_score_of_Dvo%C5%99%C3%A1k%27s_ninth_symphony.jpg"
+  },
+  {
+    "name": "picasso-blue-period",
+    "friendly_name": "Picasso's Blue Period Begins",
+    "year": 1901,
+    "category": "cultural-social",
+    "description": "Picasso began painting in shades of blue following a friend's suicide.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "rite-of-spring",
+    "friendly_name": "Rite of Spring Premiere Riot",
+    "year": 1913,
+    "category": "cultural-social",
+    "description": "Stravinsky's revolutionary ballet caused a riot at its Paris premiere.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Roerich_Rite_of_Spring.jpg/330px-Roerich_Rite_of_Spring.jpg"
+  },
+  {
+    "name": "dada-movement",
+    "friendly_name": "Dada Movement Begins",
+    "year": 1916,
+    "category": "cultural-social",
+    "description": "Artists in Zurich launched an anti-art movement in response to World War I.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Grand_opening_of_the_first_Dada_exhibition%2C_Berlin%2C_5_June_1920.jpg/330px-Grand_opening_of_the_first_Dada_exhibition%2C_Berlin%2C_5_June_1920.jpg"
+  },
+  {
+    "name": "bauhaus-founded",
+    "friendly_name": "Bauhaus School Founded",
+    "year": 1919,
+    "category": "cultural-social",
+    "description": "Walter Gropius founded the influential art and design school in Germany.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/6265_Dessau.JPG/330px-6265_Dessau.JPG"
+  },
+  {
+    "name": "harlem-renaissance",
+    "friendly_name": "Harlem Renaissance Begins",
+    "year": 1920,
+    "category": "cultural-social",
+    "description": "African American art, literature, and music flourished in New York.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Three_Harlem_Women%2C_ca._1925.png/330px-Three_Harlem_Women%2C_ca._1925.png"
+  },
+  {
+    "name": "surrealist-manifesto",
+    "friendly_name": "Surrealist Manifesto Published",
+    "year": 1924,
+    "category": "cultural-social",
+    "description": "André Breton published the founding document of the Surrealist movement.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "mickey-mouse-debut",
+    "friendly_name": "Mickey Mouse Debuts",
+    "year": 1928,
+    "category": "cultural-social",
+    "description": "Walt Disney's iconic character appeared in Steamboat Willie.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Mickey_Mouse_%28poster_version%29.svg/330px-Mickey_Mouse_%28poster_version%29.svg.png"
+  },
+  {
+    "name": "gone-with-wind-film",
+    "friendly_name": "Gone with the Wind Released",
+    "year": 1939,
+    "category": "cultural-social",
+    "description": "The epic Civil War film became the highest-grossing movie of its era.",
+    "difficulty": "easy"
+  },
+  {
+    "name": "casablanca-released",
+    "friendly_name": "Casablanca Released",
+    "year": 1942,
+    "category": "cultural-social",
+    "description": "The romantic war film starring Humphrey Bogart became a classic.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/Hassan_II_mosque%2C_Casablanca_2.jpg/330px-Hassan_II_mosque%2C_Casablanca_2.jpg"
+  },
+  {
+    "name": "abstract-expressionism",
+    "friendly_name": "Abstract Expressionism Emerges",
+    "year": 1943,
+    "category": "cultural-social",
+    "description": "New York artists pioneered the first major American art movement.",
+    "difficulty": "hard"
+  },
+  {
+    "name": "elvis-first-single",
+    "friendly_name": "Elvis Records First Single",
+    "year": 1954,
+    "category": "cultural-social",
+    "description": "Elvis Presley recorded That's All Right, launching rock and roll.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "west-side-story-opens",
+    "friendly_name": "West Side Story Opens",
+    "year": 1957,
+    "category": "cultural-social",
+    "description": "The groundbreaking musical reimagining Romeo and Juliet opened on Broadway.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/6/6a/West_Side_001.jpg"
+  },
+  {
+    "name": "beatles-form",
+    "friendly_name": "Beatles Form",
+    "year": 1960,
+    "category": "cultural-social",
+    "description": "John Lennon's band became the Beatles in Liverpool.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "dylan-goes-electric",
+    "friendly_name": "Bob Dylan Goes Electric",
+    "year": 1965,
+    "category": "cultural-social",
+    "description": "Dylan caused controversy by playing electric guitar at Newport Folk Festival.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Bob_Dylan._Olympia%2C_1966_-_btv1b10602781d_%2806_of_34%29_%28cropped%29_%28b%29.jpg/330px-Bob_Dylan._Olympia%2C_1966_-_btv1b10602781d_%2806_of_34%29_%28cropped%29_%28b%29.jpg"
+  },
+  {
+    "name": "monterey-pop",
+    "friendly_name": "Monterey Pop Festival",
+    "year": 1967,
+    "category": "cultural-social",
+    "description": "The first major rock festival launched the Summer of Love.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/b/b7/Monterey_International_Pop_Music_Festival_poster.jpg"
+  },
+  {
+    "name": "sesame-street-debut",
+    "friendly_name": "Sesame Street Debuts",
+    "year": 1969,
+    "category": "cultural-social",
+    "description": "The revolutionary children's educational show first aired on PBS.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Sesame_Street_logo.svg/330px-Sesame_Street_logo.svg.png"
+  },
+  {
+    "name": "disco-era-begins",
+    "friendly_name": "Disco Era Begins",
+    "year": 1974,
+    "category": "cultural-social",
+    "description": "Disco music emerged from underground clubs to dominate popular culture.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Disco_TGI_Bar_by_John_Vance.jpg/330px-Disco_TGI_Bar_by_John_Vance.jpg"
+  },
+  {
+    "name": "punk-rock-emerges",
+    "friendly_name": "Punk Rock Emerges",
+    "year": 1976,
+    "category": "cultural-social",
+    "description": "The Ramones, Sex Pistols, and others launched the punk movement.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "hip-hop-emerges",
+    "friendly_name": "Hip Hop Emerges",
+    "year": 1979,
+    "category": "cultural-social",
+    "description": "Rapper's Delight became the first hip hop hit, launching a global genre.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "thriller-video",
+    "friendly_name": "Thriller Video Released",
+    "year": 1983,
+    "category": "cultural-social",
+    "description": "Michael Jackson's 14-minute music video redefined the medium.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/50/Michael_Jackson%27s_Thriller_title_card.jpg/330px-Michael_Jackson%27s_Thriller_title_card.jpg"
+  },
+  {
+    "name": "nevermind-album",
+    "friendly_name": "Nevermind Album Released",
+    "year": 1991,
+    "category": "cultural-social",
+    "description": "Nirvana's album brought grunge and alternative rock to the mainstream.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "pulp-fiction-released",
+    "friendly_name": "Pulp Fiction Released",
+    "year": 1994,
+    "category": "cultural-social",
+    "description": "Tarantino's film revitalized independent cinema with its non-linear storytelling.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/3/3b/Pulp_Fiction_%281994%29_poster.jpg"
+  },
+  {
+    "name": "seneca-falls-convention",
+    "friendly_name": "Seneca Falls Convention",
+    "year": 1848,
+    "category": "cultural-social",
+    "description": "The first women's rights convention in the US launched the suffrage movement.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Woman%27s_Rights_Convention.jpg/330px-Woman%27s_Rights_Convention.jpg"
+  },
+  {
+    "name": "first-kindergarten",
+    "friendly_name": "First Kindergarten Opens",
+    "year": 1837,
+    "category": "cultural-social",
+    "description": "Friedrich Froebel opened the first kindergarten in Germany.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/First_Kindergarten_4.jpg/330px-First_Kindergarten_4.jpg"
+  },
+  {
+    "name": "ymca-founded",
+    "friendly_name": "YMCA Founded",
+    "year": 1844,
+    "category": "cultural-social",
+    "description": "The Young Men's Christian Association was founded in London.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/World_YMCA_logo.svg/330px-World_YMCA_logo.svg.png"
+  },
+  {
+    "name": "red-cross-founded",
+    "friendly_name": "Red Cross Founded",
+    "year": 1863,
+    "category": "cultural-social",
+    "description": "Henry Dunant founded the humanitarian organization in Geneva.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Croixrouge_logos.jpg/330px-Croixrouge_logos.jpg"
+  },
+  {
+    "name": "salvation-army-founded",
+    "friendly_name": "Salvation Army Founded",
+    "year": 1865,
+    "category": "cultural-social",
+    "description": "William Booth founded the Christian charitable organization in London.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/The_Salvation_Army.svg/320px-The_Salvation_Army.svg.png"
+  },
+  {
+    "name": "first-labor-day",
+    "friendly_name": "First Labor Day",
+    "year": 1882,
+    "category": "cultural-social",
+    "description": "New York held the first Labor Day parade honoring workers.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/First_United_States_Labor_Day_Parade%2C_September_5%2C_1882_in_New_York_City.jpg/330px-First_United_States_Labor_Day_Parade%2C_September_5%2C_1882_in_New_York_City.jpg"
+  },
+  {
+    "name": "hull-house-founded",
+    "friendly_name": "Hull House Founded",
+    "year": 1889,
+    "category": "cultural-social",
+    "description": "Jane Addams opened the pioneering settlement house in Chicago.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/The_Hull_House%2C_Chicago_%28front%29.tif/lossy-page1-320px-The_Hull_House%2C_Chicago_%28front%29.tif.jpg"
+  },
+  {
+    "name": "naacp-founded",
+    "friendly_name": "NAACP Founded",
+    "year": 1909,
+    "category": "cultural-social",
+    "description": "The National Association for the Advancement of Colored People was established.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/NAACP_seal.svg/330px-NAACP_seal.svg.png"
+  },
+  {
+    "name": "boy-scouts-founded",
+    "friendly_name": "Boy Scouts Founded",
+    "year": 1910,
+    "category": "cultural-social",
+    "description": "Robert Baden-Powell founded the Boy Scouts in the United Kingdom.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "girl-scouts-founded",
+    "friendly_name": "Girl Scouts Founded",
+    "year": 1912,
+    "category": "cultural-social",
+    "description": "Juliette Gordon Low founded the Girl Scouts in Savannah, Georgia.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/The_Girl_Guides_Association_in_Britain%2C_1914-1918_Q27918.jpg/330px-The_Girl_Guides_Association_in_Britain%2C_1914-1918_Q27918.jpg"
+  },
+  {
+    "name": "first-miss-america",
+    "friendly_name": "First Miss America Pageant",
+    "year": 1921,
+    "category": "cultural-social",
+    "description": "The first Miss America pageant was held in Atlantic City.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/9/9d/Miss_America_Logo.jpg"
+  },
+  {
+    "name": "social-security-act",
+    "friendly_name": "Social Security Act Signed",
+    "year": 1935,
+    "category": "cultural-social",
+    "description": "FDR signed the law creating retirement benefits for American workers.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Great_Seal_of_the_United_States_%28obverse%29.svg/330px-Great_Seal_of_the_United_States_%28obverse%29.svg.png"
+  },
+  {
+    "name": "march-on-washington",
+    "friendly_name": "March on Washington",
+    "year": 1963,
+    "category": "cultural-social",
+    "description": "250,000 people gathered for civil rights, hearing MLK's I Have a Dream speech.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Civil_rights_march_on_Washington%2C_D.C._from_Lincoln_%28cropped%29.jpg/330px-Civil_rights_march_on_Washington%2C_D.C._from_Lincoln_%28cropped%29.jpg"
+  },
+  {
+    "name": "first-earth-day",
+    "friendly_name": "First Earth Day",
+    "year": 1970,
+    "category": "cultural-social",
+    "description": "Twenty million Americans participated in the first Earth Day.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Earth_Day_Flag.png/330px-Earth_Day_Flag.png"
+  },
+  {
+    "name": "roe-v-wade",
+    "friendly_name": "Roe v. Wade Decision",
+    "year": 1973,
+    "category": "cultural-social",
+    "description": "The Supreme Court legalized abortion nationwide in a landmark ruling.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "aids-quilt",
+    "friendly_name": "AIDS Quilt Displayed",
+    "year": 1987,
+    "category": "cultural-social",
+    "description": "The NAMES Project AIDS Memorial Quilt was first displayed in Washington.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Aids_Quilt.jpg/330px-Aids_Quilt.jpg"
+  },
+  {
+    "name": "million-man-march",
+    "friendly_name": "Million Man March",
+    "year": 1995,
+    "category": "cultural-social",
+    "description": "Hundreds of thousands of African American men gathered in Washington.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/The_million_march_man.jpg/330px-The_million_march_man.jpg"
+  },
+  {
+    "name": "black-lives-matter-founded",
+    "friendly_name": "Black Lives Matter Founded",
+    "year": 2013,
+    "category": "cultural-social",
+    "description": "The movement began after Trayvon Martin's killer was acquitted.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Blmblm_cropped.svg/330px-Blmblm_cropped.svg.png"
+  },
+  {
+    "name": "morse-code-invented",
+    "friendly_name": "Morse Code Invented",
+    "year": 1838,
+    "category": "cultural-social",
+    "description": "Samuel Morse developed the code that revolutionized long-distance communication.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Morsetaste.jpg/330px-Morsetaste.jpg"
+  },
+  {
+    "name": "esperanto-created",
+    "friendly_name": "Esperanto Created",
+    "year": 1887,
+    "category": "cultural-social",
+    "description": "L.L. Zamenhof published the first book in his constructed international language.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Flag_of_Esperanto.svg/330px-Flag_of_Esperanto.svg.png"
+  },
+  {
+    "name": "nobel-prizes-first",
+    "friendly_name": "First Nobel Prizes Awarded",
+    "year": 1901,
+    "category": "cultural-social",
+    "description": "The first Nobel Prizes were awarded in Stockholm and Oslo.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "alcoholics-anonymous",
+    "friendly_name": "Alcoholics Anonymous Founded",
+    "year": 1935,
+    "category": "cultural-social",
+    "description": "Bill Wilson and Dr. Bob Smith founded the fellowship in Akron, Ohio.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Alcoholics_Anonymous_%28logo%29.svg/330px-Alcoholics_Anonymous_%28logo%29.svg.png"
+  },
+  {
+    "name": "great-gatsby",
+    "friendly_name": "Great Gatsby Published",
+    "year": 1925,
+    "category": "cultural-social",
+    "description": "F. Scott Fitzgerald published his classic novel of the Jazz Age.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/The_Great_Gatsby_Cover_1925_Retouched.jpg/330px-The_Great_Gatsby_Cover_1925_Retouched.jpg"
+  },
+  {
+    "name": "lord-of-rings",
+    "friendly_name": "Lord of the Rings Published",
+    "year": 1954,
+    "category": "cultural-social",
+    "description": "J.R.R. Tolkien published his epic fantasy trilogy.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/e/e9/First_Single_Volume_Edition_of_The_Lord_of_the_Rings.gif"
+  },
+  {
+    "name": "catch-22-published",
+    "friendly_name": "Catch-22 Published",
+    "year": 1961,
+    "category": "cultural-social",
+    "description": "Joseph Heller's satirical war novel introduced the famous logical paradox.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Catch-22_%281961%29_front_cover%2C_first_edition.jpg/330px-Catch-22_%281961%29_front_cover%2C_first_edition.jpg"
+  },
+  {
+    "name": "one-hundred-years-solitude",
+    "friendly_name": "One Hundred Years of Solitude Published",
+    "year": 1967,
+    "category": "cultural-social",
+    "description": "Gabriel García Márquez published his magical realist masterpiece.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/a/a0/Cien_a%C3%B1os_de_soledad_%28book_cover%2C_1967%29.jpg"
+  },
+  {
+    "name": "rodin-thinker",
+    "friendly_name": "The Thinker Sculpted",
+    "year": 1880,
+    "category": "cultural-social",
+    "description": "Auguste Rodin created his iconic sculpture of contemplation.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Le_Penseur_by_Rodin_%28Kunsthalle_Bielefeld%29_2014-04-10.JPG/330px-Le_Penseur_by_Rodin_%28Kunsthalle_Bielefeld%29_2014-04-10.JPG"
+  },
+  {
+    "name": "guernica-painted",
+    "friendly_name": "Guernica Painted",
+    "year": 1937,
+    "category": "cultural-social",
+    "description": "Picasso painted his powerful anti-war response to the bombing of a Spanish town.",
+    "difficulty": "medium"
+  },
+  {
+    "name": "warhol-soup-cans",
+    "friendly_name": "Warhol's Campbell's Soup Cans",
+    "year": 1962,
+    "category": "cultural-social",
+    "description": "Andy Warhol exhibited his iconic pop art series.",
+    "difficulty": "medium"
   }
 ]

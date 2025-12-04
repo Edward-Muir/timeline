@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from 'react';
-import { SortableContext, horizontalListSortingStrategy } from '@dnd-kit/sortable';
+import { SortableContext, horizontalListSortingStrategy, verticalListSortingStrategy } from '@dnd-kit/sortable';
 import { useDroppable } from '@dnd-kit/core';
 import { HistoricalEvent } from '../../types';
 import TimelineCard from './TimelineCard';
@@ -17,6 +17,8 @@ interface TimelineProps {
   isCardSelected?: boolean;
   onPlacementTap?: (index: number) => void;
   onCardClick?: (event: HistoricalEvent) => void;
+  // Mobile vertical layout
+  isVertical?: boolean;
 }
 
 // Insertion indicator component - shows preview of card being placed
@@ -32,7 +34,8 @@ const EmptyTimelineDropZone: React.FC<{
   useTapMode?: boolean;
   isCardSelected?: boolean;
   onPlacementTap?: (index: number) => void;
-}> = ({ isActive, useTapMode, isCardSelected, onPlacementTap }) => {
+  isVertical?: boolean;
+}> = ({ isActive, useTapMode, isCardSelected, onPlacementTap, isVertical }) => {
   const { isOver, setNodeRef } = useDroppable({
     id: 'empty-timeline',
   });
@@ -42,17 +45,20 @@ const EmptyTimelineDropZone: React.FC<{
     return (
       <button
         onClick={() => onPlacementTap(0)}
-        className="
+        className={`
           flex items-center justify-center
-          h-[167px] sm:h-[200px] md:h-[240px] min-w-[150px] sm:min-w-[200px]
           rounded-lg border-4 border-dashed
           border-blue-400 bg-blue-100/50
           hover:bg-blue-200/60 active:scale-95
           transition-all duration-200
           touch-manipulation
-        "
+          ${isVertical
+            ? 'w-full h-24 max-w-[200px]'
+            : 'h-[167px] sm:h-[200px] md:h-[240px] min-w-[150px] sm:min-w-[200px]'
+          }
+        `}
       >
-        <span className=" text-lg sm:text-xl text-blue-500">
+        <span className="text-lg sm:text-xl text-blue-500">
           Tap to place here
         </span>
       </button>
@@ -113,6 +119,7 @@ const Timeline: React.FC<TimelineProps> = ({
   isCardSelected = false,
   onPlacementTap,
   onCardClick,
+  isVertical = false,
 }) => {
   const scrollRef = useRef<HTMLDivElement>(null);
   const cardsContainerRef = useRef<HTMLDivElement>(null);
@@ -121,21 +128,37 @@ const Timeline: React.FC<TimelineProps> = ({
   useEffect(() => {
     if (scrollRef.current) {
       const scrollContainer = scrollRef.current;
-      const scrollWidth = scrollContainer.scrollWidth;
-      const clientWidth = scrollContainer.clientWidth;
-      scrollContainer.scrollLeft = (scrollWidth - clientWidth) / 2;
+      if (isVertical) {
+        // Vertical: scroll to center vertically
+        const scrollHeight = scrollContainer.scrollHeight;
+        const clientHeight = scrollContainer.clientHeight;
+        scrollContainer.scrollTop = (scrollHeight - clientHeight) / 2;
+      } else {
+        // Horizontal: scroll to center horizontally
+        const scrollWidth = scrollContainer.scrollWidth;
+        const clientWidth = scrollContainer.clientWidth;
+        scrollContainer.scrollLeft = (scrollWidth - clientWidth) / 2;
+      }
     }
-  }, [events.length]);
+  }, [events.length, isVertical]);
 
   // In tap mode, show insertion points when a card is selected
   const showTapInsertionPoints = useTapMode && isCardSelected && onPlacementTap;
 
+  // Select sorting strategy based on orientation
+  const sortingStrategy = isVertical ? verticalListSortingStrategy : horizontalListSortingStrategy;
+
   return (
-    <div className="w-full py-2 sm:py-4">
+    <div className={`w-full ${isVertical ? 'h-full' : 'py-2 sm:py-4'}`}>
       {/* Scrollable timeline container */}
       <div
         ref={scrollRef}
-        className="overflow-x-auto overflow-y-visible timeline-scroll px-4 sm:px-8 py-4 sm:py-6"
+        className={`
+          ${isVertical
+            ? 'overflow-y-auto overflow-x-hidden timeline-scroll-vertical h-full px-2 py-4'
+            : 'overflow-x-auto overflow-y-visible timeline-scroll px-4 sm:px-8 py-4 sm:py-6'
+          }
+        `}
       >
         {events.length === 0 ? (
           <EmptyTimelineDropZone
@@ -143,19 +166,34 @@ const Timeline: React.FC<TimelineProps> = ({
             useTapMode={useTapMode}
             isCardSelected={isCardSelected}
             onPlacementTap={onPlacementTap}
+            isVertical={isVertical}
           />
         ) : (
           <SortableContext
             items={events.map(e => e.name)}
-            strategy={horizontalListSortingStrategy}
+            strategy={sortingStrategy}
           >
-            <div ref={cardsContainerRef} className="relative flex items-center justify-center min-w-max gap-2 sm:gap-4">
-              {/* Classic Timeline Connector - horizontal line with tick marks and dates */}
-              <TimeStreamConnector cardCount={events.length} containerRef={cardsContainerRef} events={events} />
+            <div
+              ref={cardsContainerRef}
+              className={`
+                relative flex items-center justify-center gap-2 sm:gap-4
+                ${isVertical
+                  ? 'flex-col min-h-max py-4'
+                  : 'flex-row min-w-max'
+                }
+              `}
+            >
+              {/* Timeline Connector - line with tick marks and dates */}
+              <TimeStreamConnector
+                cardCount={events.length}
+                containerRef={cardsContainerRef}
+                events={events}
+                isVertical={isVertical}
+              />
 
-              {/* Left edge: either drop zone (drag mode) or insertion point (tap mode) */}
+              {/* Top/Left edge: either drop zone (drag mode) or insertion point (tap mode) */}
               {showTapInsertionPoints ? (
-                <InsertionPoint index={0} onTap={onPlacementTap} />
+                <InsertionPoint index={0} onTap={onPlacementTap} isVertical={isVertical} />
               ) : (
                 <EdgeDropZone id="timeline-edge-start" isActive={isDragging} />
               )}
@@ -171,10 +209,11 @@ const Timeline: React.FC<TimelineProps> = ({
                     event={event}
                     index={index}
                     onCardClick={onCardClick}
+                    useTapMode={useTapMode}
                   />
                   {/* Tap mode: Show insertion point AFTER each card */}
                   {showTapInsertionPoints && (
-                    <InsertionPoint index={index + 1} onTap={onPlacementTap} />
+                    <InsertionPoint index={index + 1} onTap={onPlacementTap} isVertical={isVertical} />
                   )}
                 </React.Fragment>
               ))}
@@ -194,10 +233,16 @@ const Timeline: React.FC<TimelineProps> = ({
       </div>
 
       {/* Direction indicators */}
-      <div className="flex justify-between px-6 sm:px-12 mt-1 sm:mt-2 text-sketch/60  text-sm sm:text-lg">
-        <span>← Earlier</span>
-        <span>Later →</span>
-      </div>
+      {isVertical ? (
+        <div className="flex justify-center px-4 py-2 text-sketch/60 text-sm">
+          <span>↑ Earlier &nbsp;&nbsp;|&nbsp;&nbsp; Later ↓</span>
+        </div>
+      ) : (
+        <div className="flex justify-between px-6 sm:px-12 mt-1 sm:mt-2 text-sketch/60 text-sm sm:text-lg">
+          <span>← Earlier</span>
+          <span>Later →</span>
+        </div>
+      )}
     </div>
   );
 };
