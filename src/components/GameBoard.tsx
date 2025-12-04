@@ -305,6 +305,7 @@ const GameBoard: React.FC<GameBoardProps> = ({
           turnNumber={gameState.turnNumber}
           roundNumber={gameState.roundNumber}
           winners={gameState.winners}
+          useTapMode={useTapMode}
         />
 
         {/* Feedback message */}

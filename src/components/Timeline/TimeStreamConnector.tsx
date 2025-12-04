@@ -136,7 +136,7 @@ const TimeStreamConnector: React.FC<TimeStreamConnectorProps> = ({
         {/* Tick marks at each card position */}
         {cardPositions.map((pos, index) => (
           <div key={index} className="absolute" style={{ left: lineX, top: pos.y }}>
-            {/* Tick mark - horizontal */}
+            {/* Tick mark - horizontal, extending right toward cards */}
             <div
               className="absolute h-[3px] w-4 bg-amber-800 rounded-sm"
               style={{
@@ -144,12 +144,12 @@ const TimeStreamConnector: React.FC<TimeStreamConnectorProps> = ({
                 top: -1.5,
               }}
             />
-            {/* Year label - to the left of the line */}
+            {/* Year label - to the right of the line */}
             {pos.year !== undefined && (
               <div
                 className="absolute whitespace-nowrap text-[10px] font-semibold text-amber-800"
                 style={{
-                  right: 20,
+                  left: 12,
                   top: '50%',
                   transform: 'translateY(-50%)',
                 }}

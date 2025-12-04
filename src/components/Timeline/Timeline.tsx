@@ -148,6 +148,11 @@ const Timeline: React.FC<TimelineProps> = ({
   // Select sorting strategy based on orientation
   const sortingStrategy = isVertical ? verticalListSortingStrategy : horizontalListSortingStrategy;
 
+  // For vertical mode, reverse display order so recent events are at top
+  // Original events array: [earliest, ..., most recent] (index 0 = earliest)
+  // Reversed for display: [most recent, ..., earliest] (visual top = most recent)
+  const displayEvents = isVertical ? [...events].reverse() : events;
+
   return (
     <div className={`w-full ${isVertical ? 'h-full' : 'py-2 sm:py-4'}`}>
       {/* Scrollable timeline container */}
@@ -187,36 +192,55 @@ const Timeline: React.FC<TimelineProps> = ({
               <TimeStreamConnector
                 cardCount={events.length}
                 containerRef={cardsContainerRef}
-                events={events}
+                events={displayEvents}
                 isVertical={isVertical}
               />
 
               {/* Top/Left edge: either drop zone (drag mode) or insertion point (tap mode) */}
               {showTapInsertionPoints ? (
-                <InsertionPoint index={0} onTap={onPlacementTap} isVertical={isVertical} />
+                // In vertical mode (reversed), top insertion = after all events (logical index = events.length)
+                // In horizontal mode, left insertion = before all events (logical index = 0)
+                <InsertionPoint
+                  index={isVertical ? events.length : 0}
+                  onTap={onPlacementTap}
+                  isVertical={isVertical}
+                />
               ) : (
                 <EdgeDropZone id="timeline-edge-start" isActive={isDragging} />
               )}
 
               {/* Render timeline cards with insertion indicators/points */}
-              {events.map((event, index) => (
-                <React.Fragment key={event.name}>
-                  {/* Drag mode: Show indicator BEFORE this card if insertionIndex matches */}
-                  {!useTapMode && isDragging && insertionIndex === index && draggedCard && (
-                    <InsertionIndicator card={draggedCard} />
-                  )}
-                  <TimelineCard
-                    event={event}
-                    index={index}
-                    onCardClick={onCardClick}
-                    useTapMode={useTapMode}
-                  />
-                  {/* Tap mode: Show insertion point AFTER each card */}
-                  {showTapInsertionPoints && (
-                    <InsertionPoint index={index + 1} onTap={onPlacementTap} isVertical={isVertical} />
-                  )}
-                </React.Fragment>
-              ))}
+              {displayEvents.map((event, visualIndex) => {
+                // Convert visual index to logical index for insertion points
+                // Vertical (reversed): visual 0 = logical (length-1), visual 1 = logical (length-2), etc.
+                // Horizontal: visual index = logical index
+                const logicalIndex = isVertical ? events.length - 1 - visualIndex : visualIndex;
+
+                return (
+                  <React.Fragment key={event.name}>
+                    {/* Drag mode: Show indicator BEFORE this card if insertionIndex matches */}
+                    {!useTapMode && isDragging && insertionIndex === logicalIndex && draggedCard && (
+                      <InsertionIndicator card={draggedCard} />
+                    )}
+                    <TimelineCard
+                      event={event}
+                      index={visualIndex}
+                      onCardClick={onCardClick}
+                      useTapMode={useTapMode}
+                    />
+                    {/* Tap mode: Show insertion point AFTER each card */}
+                    {showTapInsertionPoints && (
+                      // In vertical mode: insertion after visual card N = logical index (length - 1 - N)
+                      // In horizontal mode: insertion after card N = logical index N + 1
+                      <InsertionPoint
+                        index={isVertical ? events.length - 1 - visualIndex : visualIndex + 1}
+                        onTap={onPlacementTap}
+                        isVertical={isVertical}
+                      />
+                    )}
+                  </React.Fragment>
+                );
+              })}
 
               {/* Drag mode: Show indicator at END if inserting after last card */}
               {!useTapMode && isDragging && insertionIndex === events.length && draggedCard && (
@@ -235,7 +259,7 @@ const Timeline: React.FC<TimelineProps> = ({
       {/* Direction indicators */}
       {isVertical ? (
         <div className="flex justify-center px-4 py-2 text-sketch/60 text-sm">
-          <span>↑ Earlier &nbsp;&nbsp;|&nbsp;&nbsp; Later ↓</span>
+          <span>↑ Recent &nbsp;&nbsp;|&nbsp;&nbsp; Earlier ↓</span>
         </div>
       ) : (
         <div className="flex justify-between px-6 sm:px-12 mt-1 sm:mt-2 text-sketch/60 text-sm sm:text-lg">
