@@ -1,5 +1,14 @@
 [
   {
+    "name": "dinosaur-extinction",
+    "friendly_name": "Dinosaur Extinction",
+    "year": -66000000,
+    "category": "disasters-crises",
+    "description": "An asteroid impact caused the mass extinction of the dinosaurs.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Impact_event.jpg/330px-Impact_event.jpg"
+  },
+  {
     "name": "thera-eruption",
     "friendly_name": "Thera Volcanic Eruption",
     "year": -1600,
@@ -36,6 +45,15 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Il_cratere_del_Vulcano_-_panoramio.jpg/330px-Il_cratere_del_Vulcano_-_panoramio.jpg"
   },
   {
+    "name": "pompeii",
+    "friendly_name": "Destruction of Pompeii",
+    "year": 79,
+    "category": "disasters-crises",
+    "description": "Mount Vesuvius erupted and buried the Roman city of Pompeii.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Destruction_of_Pompeii_and_Herculaneum.jpg/330px-Destruction_of_Pompeii_and_Herculaneum.jpg"
+  },
+  {
     "name": "antonine-plague",
     "friendly_name": "Antonine Plague",
     "year": 165,
@@ -54,15 +72,6 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Heiliger_Cyprianus.jpg/330px-Heiliger_Cyprianus.jpg"
   },
   {
-    "name": "plague-of-justinian",
-    "friendly_name": "Plague of Justinian",
-    "year": 541,
-    "category": "disaster-crises",
-    "description": "Bubonic plague killed tens of millions across the Byzantine Empire.",
-    "difficulty": "medium",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Plaguet03.jpg/330px-Plaguet03.jpg"
-  },
-  {
     "name": "volcanic-winter-536",
     "friendly_name": "Volcanic Winter of 536",
     "year": 536,
@@ -70,6 +79,15 @@
     "description": "A mysterious fog plunged Europe into darkness and cold for eighteen months.",
     "difficulty": "hard",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Volcanic_injection.svg/330px-Volcanic_injection.svg.png"
+  },
+  {
+    "name": "plague-of-justinian",
+    "friendly_name": "Plague of Justinian",
+    "year": 541,
+    "category": "disaster-crises",
+    "description": "Bubonic plague killed tens of millions across the Byzantine Empire.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Plaguet03.jpg/330px-Plaguet03.jpg"
   },
   {
     "name": "damghan-earthquake",
@@ -95,6 +113,15 @@
     "category": "disaster-crises",
     "description": "The bubonic plague arrived in Europe, eventually killing one-third of the population.",
     "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/1346-1353_spread_of_the_Black_Death_in_Europe_map.svg/330px-1346-1353_spread_of_the_Black_Death_in_Europe_map.svg.png"
+  },
+  {
+    "name": "black-death",
+    "friendly_name": "Black Death Reaches Europe",
+    "year": 1347,
+    "category": "disasters-crises",
+    "description": "The bubonic plague killed up to 200 million people across Europe.",
+    "difficulty": "medium",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/1346-1353_spread_of_the_Black_Death_in_Europe_map.svg/330px-1346-1353_spread_of_the_Black_Death_in_Europe_map.svg.png"
   },
   {
@@ -296,6 +323,15 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Image_of_Triangle_Shirtwaist_Factory_fire_on_March_25_-_1911.jpg/330px-Image_of_Triangle_Shirtwaist_Factory_fire_on_March_25_-_1911.jpg"
   },
   {
+    "name": "titanic",
+    "friendly_name": "Titanic Sinks",
+    "year": 1912,
+    "category": "disasters-crises",
+    "description": "The 'unsinkable' ship struck an iceberg and sank on its maiden voyage.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/St%C3%B6wer_Titanic.jpg/330px-St%C3%B6wer_Titanic.jpg"
+  },
+  {
     "name": "titanic-disaster",
     "friendly_name": "Titanic Sinks",
     "year": 1912,
@@ -330,6 +366,15 @@
     "description": "A massive earthquake devastated Tokyo and Yokohama, killing over 100,000.",
     "difficulty": "medium",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/The_Great_Kanto_Earthquake_%283767766524%29_%28cropped%29.jpg/330px-The_Great_Kanto_Earthquake_%283767766524%29_%28cropped%29.jpg"
+  },
+  {
+    "name": "stock-crash",
+    "friendly_name": "Stock Market Crash",
+    "year": 1929,
+    "category": "disasters-crises",
+    "description": "The Wall Street crash triggered the Great Depression.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/2/21/Stock_market_crash_%282020%29.svg/330px-Stock_market_crash_%282020%29.svg.png"
   },
   {
     "name": "wall-street-crash",
@@ -554,6 +599,15 @@
     "description": "A powerful earthquake killed over 10,000 people in the Mexican capital.",
     "difficulty": "medium",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Sobrevuelos_CDMX_HJ2A4913_%2825514321687%29_%28cropped%29.jpg/330px-Sobrevuelos_CDMX_HJ2A4913_%2825514321687%29_%28cropped%29.jpg"
+  },
+  {
+    "name": "chernobyl",
+    "friendly_name": "Chernobyl Disaster",
+    "year": 1986,
+    "category": "disasters-crises",
+    "description": "A nuclear reactor explosion caused the worst nuclear disaster in history.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/IAEA_02790015_%285613115146%29.jpg/330px-IAEA_02790015_%285613115146%29.jpg"
   },
   {
     "name": "challenger-disaster",
@@ -903,6 +957,15 @@
     "description": "A massive ammonium nitrate explosion devastated the Lebanese capital.",
     "difficulty": "medium",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Damages_after_2020_Beirut_explosions_1.jpg/330px-Damages_after_2020_Beirut_explosions_1.jpg"
+  },
+  {
+    "name": "covid-pandemic",
+    "friendly_name": "COVID-19 Pandemic Begins",
+    "year": 2020,
+    "category": "disasters-crises",
+    "description": "The coronavirus pandemic caused a global health crisis.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Covid-19_SP_-_UTI_V._Nova_Cachoeirinha.jpg/330px-Covid-19_SP_-_UTI_V._Nova_Cachoeirinha.jpg"
   },
   {
     "name": "texas-winter-storm",

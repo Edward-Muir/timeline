@@ -12,6 +12,7 @@ import {
   DragOverEvent,
   MeasuringStrategy,
 } from '@dnd-kit/core';
+import ConfettiExplosion from 'react-confetti-explosion';
 import { GameState, HistoricalEvent, DropPosition } from '../types';
 import { formatYear } from '../utils/gameLogic';
 import Timeline from './Timeline/Timeline';
@@ -65,6 +66,13 @@ const GameBoard: React.FC<GameBoardProps> = ({
 
   // Modal state for showing event descriptions
   const [modalState, setModalState] = useState<{ event: HistoricalEvent; showYear: boolean } | null>(null);
+
+  // Visual feedback states
+  const [isShaking, setIsShaking] = useState(false);
+  const [showConfetti, setShowConfetti] = useState(false);
+
+  // Show feedback message
+  const lastResult = gameState.lastPlacementResult;
 
   const handleTimelineCardClick = useCallback((event: HistoricalEvent) => {
     setModalState({ event, showYear: true });
@@ -226,6 +234,23 @@ const GameBoard: React.FC<GameBoardProps> = ({
     }
   }, [revealingCard, clearReveal]);
 
+  // Trigger visual feedback based on placement result
+  useEffect(() => {
+    if (lastResult) {
+      if (lastResult.success) {
+        // Correct placement - show confetti
+        setShowConfetti(true);
+        const timer = setTimeout(() => setShowConfetti(false), 2500);
+        return () => clearTimeout(timer);
+      } else {
+        // Incorrect placement - screen shake
+        setIsShaking(true);
+        const timer = setTimeout(() => setIsShaking(false), 400);
+        return () => clearTimeout(timer);
+      }
+    }
+  }, [lastResult]);
+
   // Tap mode: handle placement when user taps an insertion point
   const handlePlacementTap = useCallback((index: number) => {
     if (!onPlaceSelectedCard) return;
@@ -242,9 +267,6 @@ const GameBoard: React.FC<GameBoardProps> = ({
     onPlaceSelectedCard(position);
   }, [gameState.timeline, onPlaceSelectedCard]);
 
-  // Show feedback message
-  const lastResult = gameState.lastPlacementResult;
-
   return (
     <DndContext
       sensors={sensors}
@@ -259,7 +281,20 @@ const GameBoard: React.FC<GameBoardProps> = ({
         },
       }}
     >
-      <div className="h-screen flex flex-col overflow-x-hidden">
+      <div className={`h-screen flex flex-col overflow-x-hidden ${isShaking ? 'animate-screen-shake' : ''}`}>
+        {/* Confetti effect on correct placement */}
+        {showConfetti && (
+          <div className="fixed top-1/2 left-1/2 z-50 pointer-events-none">
+            <ConfettiExplosion
+              force={0.6}
+              duration={2200}
+              particleCount={50}
+              width={400}
+              colors={['#DAA520', '#D4A574', '#8B4513', '#F4D03F', '#FCD34D']}
+            />
+          </div>
+        )}
+
         {/* Header with player info */}
         <PlayerInfo
           players={gameState.players}

@@ -3,55 +3,37 @@
     {
       "name": "conflict-politics",
       "files": [
-        "conflict-politics-events.json",
-        "political.json",
-        "revolutions.json",
-        "wars.json"
+        "conflict-politics.json"
       ]
     },
     {
       "name": "cultural-social",
       "files": [
-        "art-music.json",
-        "cultural-social-events.json",
-        "milestones.json",
-        "movements.json"
+        "cultural-social.json"
       ]
     },
     {
       "name": "diplomatic-institutional",
       "files": [
-        "diplomatic-institutional-events.json",
-        "founding.json",
-        "organizations.json",
-        "treaties.json"
+        "diplomatic-institutional.json"
       ]
     },
     {
       "name": "disasters-crises",
       "files": [
-        "accidents.json",
-        "disaster-crises-events.json",
-        "natural.json",
-        "pandemics.json"
+        "disasters-crises.json"
       ]
     },
     {
       "name": "exploration-discovery",
       "files": [
-        "exploration-discovery-events.json",
-        "exploration.json",
-        "science.json",
-        "space.json"
+        "exploration-discovery.json"
       ]
     },
     {
       "name": "infrastructure-construction",
       "files": [
-        "buildings.json",
-        "engineering.json",
-        "infrastructure-construction-events.json",
-        "technology.json"
+        "infrastructure-construction.json"
       ]
     }
   ]

@@ -5,6 +5,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      transitionDuration: {
+        'DEFAULT': '150ms',
+        'fast': '150ms',
+      },
       colors: {
         // Era category colors
         ancient: '#8B4513',      // warm brown
@@ -28,6 +32,8 @@ module.exports = {
         'slide-in': 'slideIn 0.3s ease-out forwards',
         'fade-out': 'fadeOut 1.5s ease-out forwards',
         'flip': 'flip 0.6s ease-in-out',
+        'screen-shake': 'screenShake 0.4s ease-in-out',
+        'entrance': 'entrance 0.25s ease-out forwards',
       },
       keyframes: {
         cardHover: {
@@ -56,10 +62,23 @@ module.exports = {
           '50%': { transform: 'rotateY(90deg)' },
           '100%': { transform: 'rotateY(0deg)' },
         },
+        screenShake: {
+          '0%, 100%': { transform: 'translate(0, 0)' },
+          '10%, 30%, 50%, 70%, 90%': { transform: 'translate(-2px, 0)' },
+          '20%, 40%, 60%, 80%': { transform: 'translate(2px, 0)' },
+        },
+        entrance: {
+          '0%': { opacity: '0', transform: 'translateY(20px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
       },
       boxShadow: {
         'sketch': '3px 3px 0px rgba(0, 0, 0, 0.2)',
         'sketch-lg': '5px 5px 0px rgba(0, 0, 0, 0.2)',
+        'card-rest': '2px 2px 8px rgba(0, 0, 0, 0.2)',
+        'card-hover': '8px 8px 20px rgba(0, 0, 0, 0.25), 0 0 30px rgba(218, 165, 32, 0.15)',
+        'card-dragging': '15px 15px 30px rgba(0, 0, 0, 0.35), 0 0 50px rgba(218, 165, 32, 0.2)',
+        'card-placed': '1px 1px 3px rgba(0, 0, 0, 0.25)',
       },
     },
   },

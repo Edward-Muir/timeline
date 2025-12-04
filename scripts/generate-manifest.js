@@ -4,30 +4,30 @@ const path = require('path');
 const eventsDir = path.join(__dirname, '..', 'public', 'events');
 const manifestPath = path.join(eventsDir, 'manifest.json');
 
+// Category names that map to their JSON files
+const CATEGORY_FILES = [
+  'conflict-politics',
+  'cultural-social',
+  'diplomatic-institutional',
+  'disasters-crises',
+  'exploration-discovery',
+  'infrastructure-construction'
+];
+
 function generateManifest() {
   const categories = [];
 
-  // Get all subdirectories in the events folder
-  const entries = fs.readdirSync(eventsDir, { withFileTypes: true });
+  for (const categoryName of CATEGORY_FILES) {
+    const fileName = `${categoryName}.json`;
+    const filePath = path.join(eventsDir, fileName);
 
-  for (const entry of entries) {
-    if (entry.isDirectory()) {
-      const categoryPath = path.join(eventsDir, entry.name);
-      const files = fs.readdirSync(categoryPath)
-        .filter(file => file.endsWith('.json'))
-        .sort();
-
-      if (files.length > 0) {
-        categories.push({
-          name: entry.name,
-          files: files
-        });
-      }
+    if (fs.existsSync(filePath)) {
+      categories.push({
+        name: categoryName,
+        files: [fileName]
+      });
     }
   }
-
-  // Sort categories alphabetically
-  categories.sort((a, b) => a.name.localeCompare(b.name));
 
   const manifest = { categories };
 

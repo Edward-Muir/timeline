@@ -40,7 +40,7 @@ const HandCard: React.FC<HandCardProps> = ({
     transform: isDragging
       ? CSS.Transform.toString(transform)
       : `rotate(${rotation}deg) translateY(${translateY}px)`,
-    transition: 'transform 75ms',
+    transition: 'transform 150ms',
     zIndex: isDragging ? 100 : undefined,
   };
 
@@ -56,12 +56,19 @@ const HandCard: React.FC<HandCardProps> = ({
         ${isRevealing ? 'cursor-default' : ''}
       `}
     >
-      <div className="transition-all duration-200 hover:scale-110 hover:z-10">
+      <div className={`
+        transition-all duration-fast
+        hover:scale-110 hover:z-10 hover:-translate-y-2
+        ${isDragging ? 'scale-105' : ''}
+      `}>
         <Card
           event={event}
           showYear={showYear || isRevealing}
           isRevealing={isRevealing}
-          className={isRevealing ? 'ring-4 ring-red-500 animate-shake' : ''}
+          className={`
+            ${isRevealing ? 'ring-4 ring-red-500 animate-shake' : ''}
+            ${isDragging ? 'shadow-card-dragging' : 'hover:shadow-card-hover'}
+          `}
           onClick={onCardClick ? () => onCardClick(event) : undefined}
         />
       </div>

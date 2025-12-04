@@ -1,11 +1,47 @@
 [
   {
+    "name": "earth-formation",
+    "friendly_name": "Formation of Earth",
+    "year": -4500000000,
+    "category": "exploration-discovery",
+    "description": "Our planet formed from cosmic dust and gas around the young Sun.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/The_Blue_Marble%2C_AS17-148-22727.jpg/330px-The_Blue_Marble%2C_AS17-148-22727.jpg"
+  },
+  {
+    "name": "first-life",
+    "friendly_name": "First Life on Earth",
+    "year": -3800000000,
+    "category": "exploration-discovery",
+    "description": "Single-celled organisms appeared in Earth's primordial oceans.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Origin_of_life_stages.svg/330px-Origin_of_life_stages.svg.png"
+  },
+  {
     "name": "fire-mastery",
     "friendly_name": "Humans Master Fire",
     "year": -400000,
     "category": "exploration-discovery",
     "description": "Early humans learned to control and use fire for warmth, cooking, and protection.",
     "difficulty": "medium"
+  },
+  {
+    "name": "first-humans",
+    "friendly_name": "First Homo Sapiens",
+    "year": -300000,
+    "category": "exploration-discovery",
+    "description": "Modern humans emerged in Africa.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Akha_cropped_hires.JPG/330px-Akha_cropped_hires.JPG"
+  },
+  {
+    "name": "fire-use",
+    "friendly_name": "Controlled Use of Fire",
+    "year": -125000,
+    "category": "exploration-discovery",
+    "description": "Humans mastered the control and use of fire.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Large_bonfire.jpg/330px-Large_bonfire.jpg"
   },
   {
     "name": "agriculture-begins",
@@ -15,6 +51,15 @@
     "description": "Humans began cultivating crops in the Fertile Crescent, starting the Neolithic Revolution.",
     "difficulty": "medium",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/PivotWithDrops.JPG/330px-PivotWithDrops.JPG"
+  },
+  {
+    "name": "agriculture",
+    "friendly_name": "Agricultural Revolution",
+    "year": -10000,
+    "category": "exploration-discovery",
+    "description": "Humans began farming, transforming civilization.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Fertile_crescent_Neolithic_B_circa_7500_BC.jpg/330px-Fertile_crescent_Neolithic_B_circa_7500_BC.jpg"
   },
   {
     "name": "wheel-invented",
@@ -33,6 +78,15 @@
     "description": "Humans discovered how to alloy copper and tin to create bronze tools and weapons.",
     "difficulty": "medium",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/AlacaStandarte.jpg/330px-AlacaStandarte.jpg"
+  },
+  {
+    "name": "writing-invention",
+    "friendly_name": "Invention of Writing",
+    "year": -3200,
+    "category": "exploration-discovery",
+    "description": "Sumerians developed cuneiform, the first writing system.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Rosetta_Stone.JPG/330px-Rosetta_Stone.JPG"
   },
   {
     "name": "iron-smelting",
@@ -170,6 +224,15 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Authentic_Viking_recreation.jpg/330px-Authentic_Viking_recreation.jpg"
   },
   {
+    "name": "viking-america",
+    "friendly_name": "Vikings Reach North America",
+    "year": 1000,
+    "category": "exploration-discovery",
+    "description": "Leif Erikson led the first known European expedition to North America.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Authentic_Viking_recreation.jpg/330px-Authentic_Viking_recreation.jpg"
+  },
+  {
     "name": "marco-polo-journey",
     "friendly_name": "Marco Polo Reaches China",
     "year": 1275,
@@ -186,6 +249,15 @@
     "description": "The Moroccan explorer began a journey covering 75,000 miles across the Islamic world.",
     "difficulty": "hard",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Handmade_oil_painting_reproduction_of_Ibn_Battuta_in_Egypt%2C_a_painting_by_Hippolyte_Leon_Benett..jpg/330px-Handmade_oil_painting_reproduction_of_Ibn_Battuta_in_Egypt%2C_a_painting_by_Hippolyte_Leon_Benett..jpg"
+  },
+  {
+    "name": "tenochtitlan",
+    "friendly_name": "Tenochtitlan Founded",
+    "year": 1325,
+    "category": "exploration-discovery",
+    "description": "The Aztec capital was founded on an island in Lake Texcoco.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Painting_of_Tenochtitlan-Tlatelolco_on_Lake_Texcoco_%289755215791%29.jpg/330px-Painting_of_Tenochtitlan-Tlatelolco_on_Lake_Texcoco_%289755215791%29.jpg"
   },
   {
     "name": "zheng-he-voyages",
@@ -233,13 +305,13 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Portrait_of_a_Man%2C_Said_to_be_Christopher_Columbus.jpg/330px-Portrait_of_a_Man%2C_Said_to_be_Christopher_Columbus.jpg"
   },
   {
-    "name": "vasco-da-gama-india",
-    "friendly_name": "Vasco da Gama Reaches India",
-    "year": 1498,
+    "name": "columbus-america",
+    "friendly_name": "Columbus Reaches America",
+    "year": 1492,
     "category": "exploration-discovery",
-    "description": "The Portuguese explorer found a sea route from Europe to India.",
-    "difficulty": "medium",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Ignoto_portoghese%2C_ritratto_di_un_cavaliere_dell%27ordine_di_cristo%2C_1525-50_ca._02.jpg/330px-Ignoto_portoghese%2C_ritratto_di_un_cavaliere_dell%27ordine_di_cristo%2C_1525-50_ca._02.jpg"
+    "description": "Christopher Columbus landed in the Americas, beginning European exploration.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Viajes_de_colon_en2.svg/330px-Viajes_de_colon_en2.svg.png"
   },
   {
     "name": "cabot-north-america",
@@ -249,6 +321,15 @@
     "description": "John Cabot explored the coast of North America for England.",
     "difficulty": "hard",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/JohnCabotPainting.jpg/330px-JohnCabotPainting.jpg"
+  },
+  {
+    "name": "vasco-da-gama-india",
+    "friendly_name": "Vasco da Gama Reaches India",
+    "year": 1498,
+    "category": "exploration-discovery",
+    "description": "The Portuguese explorer found a sea route from Europe to India.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Ignoto_portoghese%2C_ritratto_di_un_cavaliere_dell%27ordine_di_cristo%2C_1525-50_ca._02.jpg/330px-Ignoto_portoghese%2C_ritratto_di_un_cavaliere_dell%27ordine_di_cristo%2C_1525-50_ca._02.jpg"
   },
   {
     "name": "cabral-brazil",
@@ -269,15 +350,6 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Retrato_de_Vasco_Nu%C3%B1ez_de_Balboa_%281475-1517%29_-_An%C3%B3nimo.jpg/330px-Retrato_de_Vasco_Nu%C3%B1ez_de_Balboa_%281475-1517%29_-_An%C3%B3nimo.jpg"
   },
   {
-    "name": "copernicus-heliocentric",
-    "friendly_name": "Copernicus Proposes Heliocentrism",
-    "year": 1543,
-    "category": "exploration-discovery",
-    "description": "Nicolaus Copernicus published his theory that Earth orbits the Sun.",
-    "difficulty": "easy",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Nikolaus_Kopernikus_MOT.jpg/330px-Nikolaus_Kopernikus_MOT.jpg"
-  },
-  {
     "name": "magellan-circumnavigation",
     "friendly_name": "First Circumnavigation of Earth",
     "year": 1522,
@@ -296,6 +368,24 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Jacques_Cartier_1851-1852.jpg/330px-Jacques_Cartier_1851-1852.jpg"
   },
   {
+    "name": "copernicus-heliocentric",
+    "friendly_name": "Copernicus Proposes Heliocentrism",
+    "year": 1543,
+    "category": "exploration-discovery",
+    "description": "Nicolaus Copernicus published his theory that Earth orbits the Sun.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Nikolaus_Kopernikus_MOT.jpg/330px-Nikolaus_Kopernikus_MOT.jpg"
+  },
+  {
+    "name": "copernicus",
+    "friendly_name": "Copernicus Publishes Heliocentric Theory",
+    "year": 1543,
+    "category": "exploration-discovery",
+    "description": "Copernicus proposed that Earth orbits the Sun.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Nikolaus_Kopernikus_MOT.jpg/330px-Nikolaus_Kopernikus_MOT.jpg"
+  },
+  {
     "name": "microscope-invented",
     "friendly_name": "Microscope Invented",
     "year": 1590,
@@ -303,6 +393,15 @@
     "description": "Dutch spectacle makers invented the first compound microscope.",
     "difficulty": "medium",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Ukrainian_microscope_%28cropped%29.jpg/330px-Ukrainian_microscope_%28cropped%29.jpg"
+  },
+  {
+    "name": "jamestown",
+    "friendly_name": "Jamestown Colony Founded",
+    "year": 1607,
+    "category": "exploration-discovery",
+    "description": "The first permanent English settlement in America was established.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/1639_Jamestown_Church_%282883847775%29.jpg/330px-1639_Jamestown_Church_%282883847775%29.jpg"
   },
   {
     "name": "telescope-invented",
@@ -314,6 +413,24 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/100inchHooker.jpg/330px-100inchHooker.jpg"
   },
   {
+    "name": "hudson-river",
+    "friendly_name": "Hudson Explores Hudson River",
+    "year": 1609,
+    "category": "exploration-discovery",
+    "description": "Henry Hudson explored the river later named after him while seeking a northwest passage.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/HenryHudson.jpg/330px-HenryHudson.jpg"
+  },
+  {
+    "name": "galileo-telescope",
+    "friendly_name": "Galileo Uses Telescope",
+    "year": 1609,
+    "category": "exploration-discovery",
+    "description": "Galileo made groundbreaking astronomical observations with his telescope.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Galileo_Galilei_%281564-1642%29_RMG_BHC2700.tiff/lossy-page1-320px-Galileo_Galilei_%281564-1642%29_RMG_BHC2700.tiff.jpg"
+  },
+  {
     "name": "galileo-jupiter-moons",
     "friendly_name": "Galileo Discovers Jupiter's Moons",
     "year": 1610,
@@ -323,13 +440,13 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Galileo_Galilei_%281564-1642%29_RMG_BHC2700.tiff/lossy-page1-320px-Galileo_Galilei_%281564-1642%29_RMG_BHC2700.tiff.jpg"
   },
   {
-    "name": "hudson-river",
-    "friendly_name": "Hudson Explores Hudson River",
-    "year": 1609,
+    "name": "mayflower",
+    "friendly_name": "Mayflower Lands at Plymouth",
+    "year": 1620,
     "category": "exploration-discovery",
-    "description": "Henry Hudson explored the river later named after him while seeking a northwest passage.",
+    "description": "The Pilgrims arrived in Massachusetts aboard the Mayflower.",
     "difficulty": "medium",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/HenryHudson.jpg/330px-HenryHudson.jpg"
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Copyrighted_and_Published_by_A_S_Burbank%2C_The_Mayflower_at_Sea_%28NBY_21340%29.jpg/330px-Copyrighted_and_Published_by_A_S_Burbank%2C_The_Mayflower_at_Sea_%28NBY_21340%29.jpg"
   },
   {
     "name": "harvey-circulation",
@@ -366,6 +483,15 @@
     "description": "Antonie van Leeuwenhoek observed bacteria through his microscope.",
     "difficulty": "hard",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/E._coli_Bacteria_%287316101966%29.jpg/330px-E._coli_Bacteria_%287316101966%29.jpg"
+  },
+  {
+    "name": "newton-principia",
+    "friendly_name": "Newton Publishes Principia",
+    "year": 1687,
+    "category": "exploration-discovery",
+    "description": "Newton published his laws of motion and universal gravitation.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Newton%27s_Principia_title_page.png/330px-Newton%27s_Principia_title_page.png"
   },
   {
     "name": "bering-strait",
@@ -422,6 +548,15 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Smallpox_vaccine.jpg/330px-Smallpox_vaccine.jpg"
   },
   {
+    "name": "vaccination",
+    "friendly_name": "First Vaccine Developed",
+    "year": 1796,
+    "category": "exploration-discovery",
+    "description": "Edward Jenner developed the smallpox vaccine.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Edward_Jenner.jpg/330px-Edward_Jenner.jpg"
+  },
+  {
     "name": "rosetta-stone",
     "friendly_name": "Rosetta Stone Discovered",
     "year": 1799,
@@ -449,6 +584,15 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Plasma_globe_60th.jpg/330px-Plasma_globe_60th.jpg"
   },
   {
+    "name": "antarctica-sighted",
+    "friendly_name": "Antarctica Sighted",
+    "year": 1820,
+    "category": "exploration-discovery",
+    "description": "Russian, British, and American expeditions first sighted the Antarctic continent.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/James_Weddell_Expedition.jpg/330px-James_Weddell_Expedition.jpg"
+  },
+  {
     "name": "hieroglyphics-decoded",
     "friendly_name": "Hieroglyphics Decoded",
     "year": 1822,
@@ -467,13 +611,13 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Duria_Antiquior.jpg/330px-Duria_Antiquior.jpg"
   },
   {
-    "name": "antarctica-sighted",
-    "friendly_name": "Antarctica Sighted",
-    "year": 1820,
+    "name": "darwin-beagle",
+    "friendly_name": "Darwin Begins Beagle Voyage",
+    "year": 1831,
     "category": "exploration-discovery",
-    "description": "Russian, British, and American expeditions first sighted the Antarctic continent.",
-    "difficulty": "medium",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/James_Weddell_Expedition.jpg/330px-James_Weddell_Expedition.jpg"
+    "description": "Darwin's voyage led to his theory of evolution.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Charles_Darwin_seated_crop.jpg/330px-Charles_Darwin_seated_crop.jpg"
   },
   {
     "name": "neptune-discovered",
@@ -509,6 +653,15 @@
     "category": "exploration-discovery",
     "description": "Charles Darwin published his theory of evolution by natural selection.",
     "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Charles_Darwin_seated_crop.jpg/330px-Charles_Darwin_seated_crop.jpg"
+  },
+  {
+    "name": "darwin-origin",
+    "friendly_name": "Darwin Publishes Origin of Species",
+    "year": 1859,
+    "category": "exploration-discovery",
+    "description": "Darwin's book revolutionized our understanding of life.",
+    "difficulty": "medium",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Charles_Darwin_seated_crop.jpg/330px-Charles_Darwin_seated_crop.jpg"
   },
   {
@@ -584,6 +737,15 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Color_X-ray_photogram.jpg/330px-Color_X-ray_photogram.jpg"
   },
   {
+    "name": "x-ray",
+    "friendly_name": "X-Ray Discovered",
+    "year": 1895,
+    "category": "exploration-discovery",
+    "description": "Wilhelm Roentgen discovered X-rays, transforming medicine.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Color_X-ray_photogram.jpg/330px-Color_X-ray_photogram.jpg"
+  },
+  {
     "name": "radioactivity-discovered",
     "friendly_name": "Radioactivity Discovered",
     "year": 1896,
@@ -629,6 +791,15 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Einstein_patentoffice.jpg/330px-Einstein_patentoffice.jpg"
   },
   {
+    "name": "relativity",
+    "friendly_name": "Einstein's Special Relativity",
+    "year": 1905,
+    "category": "exploration-discovery",
+    "description": "Einstein published his theory of special relativity.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Albert_Einstein_Head_cleaned.jpg/330px-Albert_Einstein_Head_cleaned.jpg"
+  },
+  {
     "name": "north-pole-reached",
     "friendly_name": "North Pole Reached",
     "year": 1909,
@@ -656,15 +827,6 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Pole-south.gif/330px-Pole-south.gif"
   },
   {
-    "name": "continental-drift",
-    "friendly_name": "Continental Drift Proposed",
-    "year": 1912,
-    "category": "exploration-discovery",
-    "description": "Alfred Wegener proposed that continents move over geological time.",
-    "difficulty": "hard",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Alfred_Wegener_ca.1924-30.jpg/330px-Alfred_Wegener_ca.1924-30.jpg"
-  },
-  {
     "name": "atomic-nucleus",
     "friendly_name": "Atomic Nucleus Discovered",
     "year": 1911,
@@ -672,6 +834,15 @@
     "description": "Ernest Rutherford discovered that atoms have a dense central nucleus.",
     "difficulty": "hard",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Nucleus_drawing.svg/330px-Nucleus_drawing.svg.png"
+  },
+  {
+    "name": "continental-drift",
+    "friendly_name": "Continental Drift Proposed",
+    "year": 1912,
+    "category": "exploration-discovery",
+    "description": "Alfred Wegener proposed that continents move over geological time.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Alfred_Wegener_ca.1924-30.jpg/330px-Alfred_Wegener_ca.1924-30.jpg"
   },
   {
     "name": "general-relativity",
@@ -683,6 +854,24 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/BBH_gravitational_lensing_of_gw150914.webm/320px--BBH_gravitational_lensing_of_gw150914.webm.jpg"
   },
   {
+    "name": "insulin-discovered",
+    "friendly_name": "Insulin Discovered",
+    "year": 1921,
+    "category": "exploration-discovery",
+    "description": "Frederick Banting and Charles Best discovered insulin, saving millions of diabetics.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Insulin_struct.png/330px-Insulin_struct.png"
+  },
+  {
+    "name": "insulin",
+    "friendly_name": "Insulin Discovered",
+    "year": 1921,
+    "category": "exploration-discovery",
+    "description": "Banting and Best discovered insulin, saving millions of diabetics.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Insulin_struct.png/330px-Insulin_struct.png"
+  },
+  {
     "name": "tutankhamun-tomb",
     "friendly_name": "Tutankhamun's Tomb Discovered",
     "year": 1922,
@@ -692,13 +881,13 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Inside_Pharaoh_Tutankhamun%27s_tomb%2C_18th_dynasty.jpg/330px-Inside_Pharaoh_Tutankhamun%27s_tomb%2C_18th_dynasty.jpg"
   },
   {
-    "name": "insulin-discovered",
-    "friendly_name": "Insulin Discovered",
-    "year": 1921,
+    "name": "tutankhamun",
+    "friendly_name": "Tutankhamun's Tomb Discovered",
+    "year": 1922,
     "category": "exploration-discovery",
-    "description": "Frederick Banting and Charles Best discovered insulin, saving millions of diabetics.",
+    "description": "Howard Carter discovered the nearly intact tomb of the Egyptian pharaoh.",
     "difficulty": "medium",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Insulin_struct.png/330px-Insulin_struct.png"
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Inside_Pharaoh_Tutankhamun%27s_tomb%2C_18th_dynasty.jpg/330px-Inside_Pharaoh_Tutankhamun%27s_tomb%2C_18th_dynasty.jpg"
   },
   {
     "name": "hubble-galaxies",
@@ -716,6 +905,15 @@
     "category": "exploration-discovery",
     "description": "Alexander Fleming discovered the first antibiotic by accident.",
     "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Penicillin_core.svg/330px-Penicillin_core.svg.png"
+  },
+  {
+    "name": "penicillin",
+    "friendly_name": "Penicillin Discovered",
+    "year": 1928,
+    "category": "exploration-discovery",
+    "description": "Alexander Fleming discovered the first antibiotic.",
+    "difficulty": "medium",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Penicillin_core.svg/330px-Penicillin_core.svg.png"
   },
   {
@@ -782,6 +980,15 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Mount_Everest_as_seen_from_Drukair2_PLW_edit_Cropped.jpg/330px-Mount_Everest_as_seen_from_Drukair2_PLW_edit_Cropped.jpg"
   },
   {
+    "name": "everest",
+    "friendly_name": "First Everest Summit",
+    "year": 1953,
+    "category": "exploration-discovery",
+    "description": "Edmund Hillary and Tenzing Norgay became the first to summit Mount Everest.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Mount_Everest_as_seen_from_Drukair2_PLW_edit_Cropped.jpg/330px-Mount_Everest_as_seen_from_Drukair2_PLW_edit_Cropped.jpg"
+  },
+  {
     "name": "polio-vaccine",
     "friendly_name": "Polio Vaccine Developed",
     "year": 1955,
@@ -797,6 +1004,15 @@
     "category": "exploration-discovery",
     "description": "The Soviet Union launched the first artificial satellite into orbit.",
     "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/%D0%9F%D0%B5%D1%80%D0%B2%D1%8B%D0%B9_%D0%B2_%D0%BC%D0%B8%D1%80%D0%B5_%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D1%81%D0%BF%D1%83%D1%82%D0%BD%D0%B8%D0%BA_%D0%97%D0%B5%D0%BC%D0%BB%D0%B8.jpg/330px-%D0%9F%D0%B5%D1%80%D0%B2%D1%8B%D0%B9_%D0%B2_%D0%BC%D0%B8%D1%80%D0%B5_%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D1%81%D0%BF%D1%83%D1%82%D0%BD%D0%B8%D0%BA_%D0%97%D0%B5%D0%BC%D0%BB%D0%B8.jpg"
+  },
+  {
+    "name": "sputnik",
+    "friendly_name": "Sputnik Launched",
+    "year": 1957,
+    "category": "exploration-discovery",
+    "description": "The Soviet Union launched the first artificial satellite into orbit.",
+    "difficulty": "medium",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/%D0%9F%D0%B5%D1%80%D0%B2%D1%8B%D0%B9_%D0%B2_%D0%BC%D0%B8%D1%80%D0%B5_%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D1%81%D0%BF%D1%83%D1%82%D0%BD%D0%B8%D0%BA_%D0%97%D0%B5%D0%BC%D0%BB%D0%B8.jpg/330px-%D0%9F%D0%B5%D1%80%D0%B2%D1%8B%D0%B9_%D0%B2_%D0%BC%D0%B8%D1%80%D0%B5_%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D1%81%D0%BF%D1%83%D1%82%D0%BD%D0%B8%D0%BA_%D0%97%D0%B5%D0%BC%D0%BB%D0%B8.jpg"
   },
   {
@@ -834,6 +1050,14 @@
     "description": "Donald Johanson discovered the famous Australopithecus afarensis skeleton in Ethiopia.",
     "difficulty": "medium",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Reconstruction_of_the_fossil_skeleton_of_%22Lucy%22_the_Australopithecus_afarensis.jpg/330px-Reconstruction_of_the_fossil_skeleton_of_%22Lucy%22_the_Australopithecus_afarensis.jpg"
+  },
+  {
+    "name": "first-ivf",
+    "friendly_name": "First IVF Baby Born",
+    "year": 1978,
+    "category": "exploration-discovery",
+    "description": "Louise Brown became the first baby conceived through IVF.",
+    "difficulty": "hard"
   },
   {
     "name": "smallpox-eradicated",
@@ -881,6 +1105,15 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/HST-SM4.jpeg/330px-HST-SM4.jpeg"
   },
   {
+    "name": "hubble-launch",
+    "friendly_name": "Hubble Telescope Launched",
+    "year": 1990,
+    "category": "exploration-discovery",
+    "description": "NASA launched the Hubble Space Telescope into orbit.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/HST-SM4.jpeg/330px-HST-SM4.jpeg"
+  },
+  {
     "name": "first-exoplanet",
     "friendly_name": "First Exoplanet Discovered",
     "year": 1992,
@@ -896,6 +1129,15 @@
     "category": "exploration-discovery",
     "description": "Scientists created the first mammal cloned from an adult cell.",
     "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/b/b4/Dolly_the_Sheep_with_her_First_Born_Bonnie.jpg"
+  },
+  {
+    "name": "dolly-sheep",
+    "friendly_name": "Dolly the Sheep Cloned",
+    "year": 1996,
+    "category": "exploration-discovery",
+    "description": "The first mammal was cloned from an adult cell.",
+    "difficulty": "medium",
     "image_url": "https://upload.wikimedia.org/wikipedia/en/b/b4/Dolly_the_Sheep_with_her_First_Born_Bonnie.jpg"
   },
   {
@@ -935,6 +1177,15 @@
   },
   {
     "name": "james-webb-launched",
+    "friendly_name": "James Webb Telescope Launched",
+    "year": 2021,
+    "category": "exploration-discovery",
+    "description": "NASA launched the most powerful space telescope ever built.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/JWST_spacecraft_model_3.png/330px-JWST_spacecraft_model_3.png"
+  },
+  {
+    "name": "james-webb",
     "friendly_name": "James Webb Telescope Launched",
     "year": 2021,
     "category": "exploration-discovery",

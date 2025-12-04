@@ -27,6 +27,15 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/%C3%87atalh%C3%B6y%C3%BCk%2C_7400_BC%2C_Konya%2C_Turkey_-_UNESCO_World_Heritage_Site%2C_08.jpg/330px-%C3%87atalh%C3%B6y%C3%BCk%2C_7400_BC%2C_Konya%2C_Turkey_-_UNESCO_World_Heritage_Site%2C_08.jpg"
   },
   {
+    "name": "wheel-invention",
+    "friendly_name": "Invention of the Wheel",
+    "year": -3500,
+    "category": "infrastructure-construction",
+    "description": "The wheel was invented in Mesopotamia, transforming transportation.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Landesmuseum_W%C3%BCrttemberg_Kelten_011.4.jpg/330px-Landesmuseum_W%C3%BCrttemberg_Kelten_011.4.jpg"
+  },
+  {
     "name": "stonehenge-begins",
     "friendly_name": "Stonehenge Construction Begins",
     "year": -3000,
@@ -36,6 +45,15 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Stonehenge2007_07_30.jpg/330px-Stonehenge2007_07_30.jpg"
   },
   {
+    "name": "pyramids",
+    "friendly_name": "Great Pyramid of Giza Built",
+    "year": -2560,
+    "category": "infrastructure-construction",
+    "description": "The ancient Egyptians built the last surviving wonder of the ancient world.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg/330px-Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg"
+  },
+  {
     "name": "great-pyramid-giza",
     "friendly_name": "Great Pyramid of Giza Completed",
     "year": -2560,
@@ -43,6 +61,15 @@
     "description": "The largest Egyptian pyramid was built as a tomb for Pharaoh Khufu.",
     "difficulty": "easy",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg/330px-Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg"
+  },
+  {
+    "name": "stonehenge",
+    "friendly_name": "Stonehenge Completed",
+    "year": -2500,
+    "category": "infrastructure-construction",
+    "description": "The mysterious stone circle in England was completed.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Stonehenge2007_07_30.jpg/330px-Stonehenge2007_07_30.jpg"
   },
   {
     "name": "sphinx-built",
@@ -117,6 +144,15 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Gate_of_All_Nations%2C_Persepolis.jpg/330px-Gate_of_All_Nations%2C_Persepolis.jpg"
   },
   {
+    "name": "parthenon",
+    "friendly_name": "Parthenon Completed",
+    "year": -432,
+    "category": "infrastructure-construction",
+    "description": "The temple to Athena was completed on the Athenian Acropolis.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/The_Parthenon_in_Athens.jpg/330px-The_Parthenon_in_Athens.jpg"
+  },
+  {
     "name": "parthenon-completed",
     "friendly_name": "Parthenon Completed",
     "year": -432,
@@ -124,15 +160,6 @@
     "description": "Athens finished the iconic temple dedicated to the goddess Athena.",
     "difficulty": "easy",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/The_Parthenon_in_Athens.jpg/330px-The_Parthenon_in_Athens.jpg"
-  },
-  {
-    "name": "great-wall-begins",
-    "friendly_name": "Great Wall Construction Begins",
-    "year": -221,
-    "category": "infrastructure-construction",
-    "description": "Emperor Qin Shi Huang began connecting and extending defensive walls across China.",
-    "difficulty": "easy",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/The_Great_Wall_of_China_at_Jinshanling-edit.jpg/330px-The_Great_Wall_of_China_at_Jinshanling-edit.jpg"
   },
   {
     "name": "appian-way",
@@ -171,6 +198,24 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Lighthouse_-_Thiersch.png/330px-Lighthouse_-_Thiersch.png"
   },
   {
+    "name": "great-wall-start",
+    "friendly_name": "Great Wall Construction Begins",
+    "year": -221,
+    "category": "infrastructure-construction",
+    "description": "Construction began on China's massive defensive wall.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/The_Great_Wall_of_China_at_Jinshanling-edit.jpg/330px-The_Great_Wall_of_China_at_Jinshanling-edit.jpg"
+  },
+  {
+    "name": "great-wall-begins",
+    "friendly_name": "Great Wall Construction Begins",
+    "year": -221,
+    "category": "infrastructure-construction",
+    "description": "Emperor Qin Shi Huang began connecting and extending defensive walls across China.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/The_Great_Wall_of_China_at_Jinshanling-edit.jpg/330px-The_Great_Wall_of_China_at_Jinshanling-edit.jpg"
+  },
+  {
     "name": "terracotta-army",
     "friendly_name": "Terracotta Army Created",
     "year": -210,
@@ -187,6 +232,15 @@
     "description": "Romans built the impressive aqueduct bridge in southern France.",
     "difficulty": "medium",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Pont_du_Gard_BLS.jpg/330px-Pont_du_Gard_BLS.jpg"
+  },
+  {
+    "name": "colosseum",
+    "friendly_name": "Colosseum Completed",
+    "year": 80,
+    "category": "infrastructure-construction",
+    "description": "Rome's iconic amphitheater was completed.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/330px-Colosseo_2020.jpg"
   },
   {
     "name": "colosseum-completed",
@@ -333,15 +387,6 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Dawn_Charles_V_Palace_Alhambra_Granada_Andalusia_Spain.jpg/330px-Dawn_Charles_V_Palace_Alhambra_Granada_Andalusia_Spain.jpg"
   },
   {
-    "name": "florence-dome",
-    "friendly_name": "Florence Cathedral Dome Completed",
-    "year": 1436,
-    "category": "infrastructure-construction",
-    "description": "Brunelleschi finished the largest masonry dome ever built.",
-    "difficulty": "medium",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Cattedrale_di_Santa_Maria_del_Fiore_%E2%80%93_Il_Duomo_di_Firenze.jpg/330px-Cattedrale_di_Santa_Maria_del_Fiore_%E2%80%93_Il_Duomo_di_Firenze.jpg"
-  },
-  {
     "name": "forbidden-city-completed",
     "friendly_name": "Forbidden City Completed",
     "year": 1420,
@@ -349,6 +394,15 @@
     "description": "The massive imperial palace complex was finished in Beijing.",
     "difficulty": "easy",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/The_Forbidden_City_-_View_from_Coal_Hill.jpg/330px-The_Forbidden_City_-_View_from_Coal_Hill.jpg"
+  },
+  {
+    "name": "florence-dome",
+    "friendly_name": "Florence Cathedral Dome Completed",
+    "year": 1436,
+    "category": "infrastructure-construction",
+    "description": "Brunelleschi finished the largest masonry dome ever built.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Cattedrale_di_Santa_Maria_del_Fiore_%E2%80%93_Il_Duomo_di_Firenze.jpg/330px-Cattedrale_di_Santa_Maria_del_Fiore_%E2%80%93_Il_Duomo_di_Firenze.jpg"
   },
   {
     "name": "machu-picchu-built",
@@ -405,6 +459,15 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Rialto_2025_4.jpg/330px-Rialto_2025_4.jpg"
   },
   {
+    "name": "taj-mahal",
+    "friendly_name": "Taj Mahal Completed",
+    "year": 1653,
+    "category": "infrastructure-construction",
+    "description": "The magnificent mausoleum was completed in India.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Taj_Mahal_%28Edited%29.jpeg/330px-Taj_Mahal_%28Edited%29.jpeg"
+  },
+  {
     "name": "taj-mahal-completed",
     "friendly_name": "Taj Mahal Completed",
     "year": 1653,
@@ -423,15 +486,6 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Versailles-Chateau-Jardins02.jpg/330px-Versailles-Chateau-Jardins02.jpg"
   },
   {
-    "name": "st-pauls-completed",
-    "friendly_name": "St. Paul's Cathedral Completed",
-    "year": 1708,
-    "category": "infrastructure-construction",
-    "description": "Christopher Wren finished rebuilding London's cathedral after the Great Fire.",
-    "difficulty": "medium",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/St_Pauls_aerial_%28cropped%29.jpg/330px-St_Pauls_aerial_%28cropped%29.jpg"
-  },
-  {
     "name": "buckingham-palace",
     "friendly_name": "Buckingham Palace Built",
     "year": 1703,
@@ -441,6 +495,15 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Buckingham_Palace_UK.jpg/330px-Buckingham_Palace_UK.jpg"
   },
   {
+    "name": "st-pauls-completed",
+    "friendly_name": "St. Paul's Cathedral Completed",
+    "year": 1708,
+    "category": "infrastructure-construction",
+    "description": "Christopher Wren finished rebuilding London's cathedral after the Great Fire.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/St_Pauls_aerial_%28cropped%29.jpg/330px-St_Pauls_aerial_%28cropped%29.jpg"
+  },
+  {
     "name": "winter-palace-completed",
     "friendly_name": "Winter Palace Completed",
     "year": 1762,
@@ -448,6 +511,15 @@
     "description": "The Russian imperial residence in St. Petersburg was finished.",
     "difficulty": "medium",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/RUS-2016-Aerial-SPB-Winter_Palace_%28crop%29.jpg/330px-RUS-2016-Aerial-SPB-Winter_Palace_%28crop%29.jpg"
+  },
+  {
+    "name": "steam-engine",
+    "friendly_name": "Watt Improves Steam Engine",
+    "year": 1769,
+    "category": "infrastructure-construction",
+    "description": "James Watt's improvements accelerated the Industrial Revolution.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Watt_James_von_Breda.jpg/330px-Watt_James_von_Breda.jpg"
   },
   {
     "name": "iron-bridge",
@@ -486,6 +558,24 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Opening_Liverpool_and_Manchester_Railway.jpg/330px-Opening_Liverpool_and_Manchester_Railway.jpg"
   },
   {
+    "name": "photography",
+    "friendly_name": "First Photograph",
+    "year": 1826,
+    "category": "infrastructure-construction",
+    "description": "Nicephore Niepce captured the first permanent photograph.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Icelandic_Landscape_near_Neskaupsta%C3%B0ur_July_2014.JPG/330px-Icelandic_Landscape_near_Neskaupsta%C3%B0ur_July_2014.JPG"
+  },
+  {
+    "name": "telegraph",
+    "friendly_name": "Telegraph Invented",
+    "year": 1837,
+    "category": "infrastructure-construction",
+    "description": "Samuel Morse invented the electric telegraph.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/OptischerTelegraf.jpg/330px-OptischerTelegraf.jpg"
+  },
+  {
     "name": "brooklyn-bridge-begins",
     "friendly_name": "Brooklyn Bridge Construction Begins",
     "year": 1869,
@@ -513,6 +603,24 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/East_and_West_Shaking_hands_at_the_laying_of_last_rail_Union_Pacific_Railroad_-_Restoration.jpg/330px-East_and_West_Shaking_hands_at_the_laying_of_last_rail_Union_Pacific_Railroad_-_Restoration.jpg"
   },
   {
+    "name": "telephone",
+    "friendly_name": "Telephone Invented",
+    "year": 1876,
+    "category": "infrastructure-construction",
+    "description": "Alexander Graham Bell patented the telephone.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Telefon_BW_2012-02-18_13-44-32.JPG/330px-Telefon_BW_2012-02-18_13-44-32.JPG"
+  },
+  {
+    "name": "light-bulb",
+    "friendly_name": "Electric Light Bulb Invented",
+    "year": 1879,
+    "category": "infrastructure-construction",
+    "description": "Thomas Edison developed the practical incandescent light bulb.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Light-bulbs.jpg/330px-Light-bulbs.jpg"
+  },
+  {
     "name": "brooklyn-bridge-completed",
     "friendly_name": "Brooklyn Bridge Completed",
     "year": 1883,
@@ -520,6 +628,15 @@
     "description": "The iconic suspension bridge connecting Manhattan and Brooklyn opened.",
     "difficulty": "easy",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Brooklyn_Bridge_Manhattan.jpg/330px-Brooklyn_Bridge_Manhattan.jpg"
+  },
+  {
+    "name": "automobile",
+    "friendly_name": "First Automobile",
+    "year": 1886,
+    "category": "infrastructure-construction",
+    "description": "Karl Benz patented the first practical automobile.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/1925_Ford_Model_T_touring.jpg/330px-1925_Ford_Model_T_touring.jpg"
   },
   {
     "name": "statue-liberty",
@@ -535,7 +652,7 @@
     "friendly_name": "Eiffel Tower Completed",
     "year": 1889,
     "category": "infrastructure-construction",
-    "description": "The iron lattice tower was built for the Paris World's Fair.",
+    "description": "Gustave Eiffel's iron tower became the symbol of Paris.",
     "difficulty": "easy",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg/330px-Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg"
   },
@@ -549,15 +666,6 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Tower_Bridge_at_Dawn.jpg/330px-Tower_Bridge_at_Dawn.jpg"
   },
   {
-    "name": "trans-siberian-railway",
-    "friendly_name": "Trans-Siberian Railway Completed",
-    "year": 1904,
-    "category": "infrastructure-construction",
-    "description": "The world's longest railway connecting Moscow to Vladivostok was finished.",
-    "difficulty": "medium",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/VL_85-022_container_train.jpg/330px-VL_85-022_container_train.jpg"
-  },
-  {
     "name": "flatiron-building",
     "friendly_name": "Flatiron Building Completed",
     "year": 1902,
@@ -565,6 +673,24 @@
     "description": "The distinctive triangular skyscraper opened in New York City.",
     "difficulty": "medium",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Edificio_Fuller_%28Flatiron%29_en_2010_desde_el_Empire_State_crop_boxin.jpg/330px-Edificio_Fuller_%28Flatiron%29_en_2010_desde_el_Empire_State_crop_boxin.jpg"
+  },
+  {
+    "name": "flight",
+    "friendly_name": "First Powered Flight",
+    "year": 1903,
+    "category": "infrastructure-construction",
+    "description": "The Wright Brothers achieved the first powered flight.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Orville_Wright_1905-crop.jpg/330px-Orville_Wright_1905-crop.jpg"
+  },
+  {
+    "name": "trans-siberian-railway",
+    "friendly_name": "Trans-Siberian Railway Completed",
+    "year": 1904,
+    "category": "infrastructure-construction",
+    "description": "The world's longest railway connecting Moscow to Vladivostok was finished.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/VL_85-022_container_train.jpg/330px-VL_85-022_container_train.jpg"
   },
   {
     "name": "panama-canal",
@@ -585,12 +711,30 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Aerial_view_of_Lincoln_Memorial_-_east_side_EDIT.jpeg/330px-Aerial_view_of_Lincoln_Memorial_-_east_side_EDIT.jpeg"
   },
   {
+    "name": "television",
+    "friendly_name": "Television Invented",
+    "year": 1927,
+    "category": "infrastructure-construction",
+    "description": "Philo Farnsworth demonstrated the first electronic television.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Cptvdisplay.jpg/330px-Cptvdisplay.jpg"
+  },
+  {
     "name": "chrysler-building",
     "friendly_name": "Chrysler Building Completed",
     "year": 1930,
     "category": "infrastructure-construction",
     "description": "The Art Deco skyscraper briefly became the world's tallest building.",
     "difficulty": "medium"
+  },
+  {
+    "name": "empire-state",
+    "friendly_name": "Empire State Building Completed",
+    "year": 1931,
+    "category": "infrastructure-construction",
+    "description": "The iconic New York skyscraper was completed.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg/330px-Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg"
   },
   {
     "name": "empire-state-building",
@@ -602,15 +746,6 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg/330px-Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg"
   },
   {
-    "name": "golden-gate-bridge",
-    "friendly_name": "Golden Gate Bridge Completed",
-    "year": 1937,
-    "category": "infrastructure-construction",
-    "description": "The iconic orange suspension bridge opened in San Francisco.",
-    "difficulty": "easy",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Golden_Gate_Bridge_as_seen_from_Battery_East.jpg/330px-Golden_Gate_Bridge_as_seen_from_Battery_East.jpg"
-  },
-  {
     "name": "hoover-dam",
     "friendly_name": "Hoover Dam Completed",
     "year": 1936,
@@ -620,13 +755,13 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Ansel_Adams_-_National_Archives_79-AAB-01.jpg/330px-Ansel_Adams_-_National_Archives_79-AAB-01.jpg"
   },
   {
-    "name": "pentagon-completed",
-    "friendly_name": "Pentagon Completed",
-    "year": 1943,
+    "name": "golden-gate-bridge",
+    "friendly_name": "Golden Gate Bridge Completed",
+    "year": 1937,
     "category": "infrastructure-construction",
-    "description": "The world's largest office building was finished in just 16 months.",
-    "difficulty": "medium",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/5-gon_cyclic_01.svg/320px-5-gon_cyclic_01.svg.png"
+    "description": "The iconic orange suspension bridge opened in San Francisco.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Golden_Gate_Bridge_as_seen_from_Battery_East.jpg/330px-Golden_Gate_Bridge_as_seen_from_Battery_East.jpg"
   },
   {
     "name": "autobahn-expanded",
@@ -636,6 +771,15 @@
     "description": "Germany's high-speed highway network reached over 2,000 miles.",
     "difficulty": "hard",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Zeichen_330_-_Autobahn%2C_StVO_1992.svg/330px-Zeichen_330_-_Autobahn%2C_StVO_1992.svg.png"
+  },
+  {
+    "name": "pentagon-completed",
+    "friendly_name": "Pentagon Completed",
+    "year": 1943,
+    "category": "infrastructure-construction",
+    "description": "The world's largest office building was finished in just 16 months.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/5-gon_cyclic_01.svg/320px-5-gon_cyclic_01.svg.png"
   },
   {
     "name": "united-nations-hq",
@@ -736,6 +880,15 @@
     "difficulty": "medium"
   },
   {
+    "name": "apple-founded",
+    "friendly_name": "Apple Computer Founded",
+    "year": 1976,
+    "category": "infrastructure-construction",
+    "description": "Steve Jobs and Steve Wozniak founded Apple in a garage.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/330px-Apple_logo_black.svg.png"
+  },
+  {
     "name": "channel-tunnel-begins",
     "friendly_name": "Channel Tunnel Construction Begins",
     "year": 1988,
@@ -743,6 +896,15 @@
     "description": "Work began on the undersea tunnel connecting England and France.",
     "difficulty": "medium",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/TGV_TMST_3011-2_-_Sortie_Tunnel_sous_la_Manche_%C3%A0_Coquelles.jpg/330px-TGV_TMST_3011-2_-_Sortie_Tunnel_sous_la_Manche_%C3%A0_Coquelles.jpg"
+  },
+  {
+    "name": "world-wide-web",
+    "friendly_name": "World Wide Web Invented",
+    "year": 1989,
+    "category": "infrastructure-construction",
+    "description": "Tim Berners-Lee invented the World Wide Web.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Chrome_on_Linux.png/330px-Chrome_on_Linux.png"
   },
   {
     "name": "chunnel-completed",
@@ -770,6 +932,15 @@
     "description": "One of the world's largest and busiest airports opened on Lantau Island.",
     "difficulty": "hard",
     "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7d/HongKongAirportlogo.svg/320px-HongKongAirportlogo.svg.png"
+  },
+  {
+    "name": "google-founded",
+    "friendly_name": "Google Founded",
+    "year": 1998,
+    "category": "infrastructure-construction",
+    "description": "Larry Page and Sergey Brin founded the search engine giant.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/320px-Google_2015_logo.svg.png"
   },
   {
     "name": "millennium-dome",
@@ -815,6 +986,15 @@
     "description": "The world's largest hydroelectric dam was finished on China's Yangtze River.",
     "difficulty": "medium",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/ThreeGorgesDam-China2009.jpg/330px-ThreeGorgesDam-China2009.jpg"
+  },
+  {
+    "name": "iphone",
+    "friendly_name": "iPhone Released",
+    "year": 2007,
+    "category": "infrastructure-construction",
+    "description": "Apple released the iPhone, revolutionizing smartphones.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/IPhone_17_Pro_Vector.svg/320px-IPhone_17_Pro_Vector.svg.png"
   },
   {
     "name": "burj-khalifa",

@@ -1,219 +1,84 @@
 [
   {
-    "name": "wwi-start",
-    "friendly_name": "World War I Begins",
-    "year": 1914,
+    "name": "hammurabi",
+    "friendly_name": "Code of Hammurabi",
+    "year": -1754,
     "category": "conflict-politics",
-    "description": "The assassination of Archduke Franz Ferdinand sparked the Great War.",
-    "difficulty": "easy",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Bataille_de_Verdun_1916.jpg/330px-Bataille_de_Verdun_1916.jpg"
+    "description": "One of the earliest written legal codes was established in Babylon.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/P1050763_Louvre_code_Hammurabi_face_rwk.JPG/330px-P1050763_Louvre_code_Hammurabi_face_rwk.JPG"
   },
   {
-    "name": "wwi-end",
-    "friendly_name": "World War I Ends",
-    "year": 1918,
+    "name": "democracy-athens",
+    "friendly_name": "Athenian Democracy Founded",
+    "year": -508,
     "category": "conflict-politics",
-    "description": "The armistice was signed ending the Great War after four years of conflict.",
-    "difficulty": "easy",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Armisticetrain_%28slight_crop%29.jpg/330px-Armisticetrain_%28slight_crop%29.jpg"
+    "description": "Cleisthenes introduced democratic reforms in Athens.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Discurso_funebre_pericles.PNG/330px-Discurso_funebre_pericles.PNG"
   },
   {
-    "name": "wwii-start",
-    "friendly_name": "World War II Begins",
-    "year": 1939,
+    "name": "alexander-empire",
+    "friendly_name": "Alexander Conquers Persia",
+    "year": -331,
     "category": "conflict-politics",
-    "description": "Germany invaded Poland, triggering declarations of war from Britain and France.",
-    "difficulty": "easy",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Battle_of_Poland.png/330px-Battle_of_Poland.png"
-  },
-  {
-    "name": "wwii-end-europe",
-    "friendly_name": "V-E Day",
-    "year": 1945,
-    "category": "conflict-politics",
-    "description": "Nazi Germany surrendered unconditionally, ending World War II in Europe.",
-    "difficulty": "easy",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Winston_Churchill_waves_to_crowds_in_Whitehall_in_London_as_they_celebrate_VE_Day%2C_8_May_1945._H41849.jpg/330px-Winston_Churchill_waves_to_crowds_in_Whitehall_in_London_as_they_celebrate_VE_Day%2C_8_May_1945._H41849.jpg"
-  },
-  {
-    "name": "wwii-end-pacific",
-    "friendly_name": "V-J Day",
-    "year": 1945,
-    "category": "conflict-politics",
-    "description": "Japan surrendered after atomic bombs were dropped on Hiroshima and Nagasaki.",
-    "difficulty": "easy",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Surrender_of_Japan_-_USS_Missouri_%28restored%29.jpg/330px-Surrender_of_Japan_-_USS_Missouri_%28restored%29.jpg"
-  },
-  {
-    "name": "american-revolution-start",
-    "friendly_name": "American Revolutionary War Begins",
-    "year": 1775,
-    "category": "conflict-politics",
-    "description": "The Battles of Lexington and Concord marked the start of American independence.",
-    "difficulty": "easy",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Surrender_of_Lord_Cornwallis.jpg/330px-Surrender_of_Lord_Cornwallis.jpg"
-  },
-  {
-    "name": "american-independence",
-    "friendly_name": "Declaration of Independence Signed",
-    "year": 1776,
-    "category": "conflict-politics",
-    "description": "The thirteen American colonies declared independence from British rule.",
-    "difficulty": "easy",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/United_States_Declaration_of_Independence.jpg/330px-United_States_Declaration_of_Independence.jpg"
-  },
-  {
-    "name": "french-revolution-start",
-    "friendly_name": "French Revolution Begins",
-    "year": 1789,
-    "category": "conflict-politics",
-    "description": "The storming of the Bastille ignited revolutionary fervor across France.",
-    "difficulty": "easy",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Anonymous_-_Prise_de_la_Bastille.jpg/330px-Anonymous_-_Prise_de_la_Bastille.jpg"
-  },
-  {
-    "name": "napoleon-waterloo",
-    "friendly_name": "Battle of Waterloo",
-    "year": 1815,
-    "category": "conflict-politics",
-    "description": "Napoleon Bonaparte was decisively defeated, ending his rule over France.",
-    "difficulty": "easy",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Battle_of_Waterloo_1815.PNG/330px-Battle_of_Waterloo_1815.PNG"
-  },
-  {
-    "name": "us-civil-war-start",
-    "friendly_name": "American Civil War Begins",
-    "year": 1861,
-    "category": "conflict-politics",
-    "description": "Confederate forces attacked Fort Sumter, starting the bloodiest American conflict.",
-    "difficulty": "easy",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Battle_of_Gettysburg%2C_by_Currier_and_Ives.png/330px-Battle_of_Gettysburg%2C_by_Currier_and_Ives.png"
-  },
-  {
-    "name": "us-civil-war-end",
-    "friendly_name": "American Civil War Ends",
-    "year": 1865,
-    "category": "conflict-politics",
-    "description": "General Lee surrendered at Appomattox Courthouse, ending the Civil War.",
-    "difficulty": "easy",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Battle_of_Gettysburg%2C_by_Currier_and_Ives.png/330px-Battle_of_Gettysburg%2C_by_Currier_and_Ives.png"
-  },
-  {
-    "name": "lincoln-assassination",
-    "friendly_name": "Abraham Lincoln Assassinated",
-    "year": 1865,
-    "category": "conflict-politics",
-    "description": "President Lincoln was shot by John Wilkes Booth at Ford's Theatre.",
-    "difficulty": "easy",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Abraham_Lincoln_1863_Portrait_%283x4_cropped%29.jpg/330px-Abraham_Lincoln_1863_Portrait_%283x4_cropped%29.jpg"
-  },
-  {
-    "name": "russian-revolution",
-    "friendly_name": "Russian Revolution",
-    "year": 1917,
-    "category": "conflict-politics",
-    "description": "The Bolsheviks seized power, establishing the world's first communist state.",
-    "difficulty": "easy",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/%D0%9C%D0%B8%D1%82%D0%B8%D0%BD%D0%B3_%D0%BD%D0%B0_%D0%9D%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%BC_%D0%BF%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B5_%281917%29.jpg/330px-%D0%9C%D0%B8%D1%82%D0%B8%D0%BD%D0%B3_%D0%BD%D0%B0_%D0%9D%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%BC_%D0%BF%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B5_%281917%29.jpg"
-  },
-  {
-    "name": "pearl-harbor",
-    "friendly_name": "Attack on Pearl Harbor",
-    "year": 1941,
-    "category": "conflict-politics",
-    "description": "Japan's surprise attack brought the United States into World War II.",
-    "difficulty": "easy",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Attack_on_Pearl_Harbor_Japanese_planes_view.jpg/330px-Attack_on_Pearl_Harbor_Japanese_planes_view.jpg"
-  },
-  {
-    "name": "d-day",
-    "friendly_name": "D-Day Invasion",
-    "year": 1944,
-    "category": "conflict-politics",
-    "description": "Allied forces landed on Normandy beaches in the largest amphibious invasion in history.",
-    "difficulty": "easy",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Into_the_Jaws_of_Death_23-0455M_edit.jpg/330px-Into_the_Jaws_of_Death_23-0455M_edit.jpg"
-  },
-  {
-    "name": "korean-war-start",
-    "friendly_name": "Korean War Begins",
-    "year": 1950,
-    "category": "conflict-politics",
-    "description": "North Korea invaded South Korea, beginning a major Cold War conflict.",
+    "description": "Alexander the Great defeated the Persian Empire at Gaugamela.",
     "difficulty": "medium",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Chosin.jpg/330px-Chosin.jpg"
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Alexander_the_Great_mosaic_%28cropped%29.jpg/330px-Alexander_the_Great_mosaic_%28cropped%29.jpg"
   },
   {
-    "name": "korean-war-armistice",
-    "friendly_name": "Korean War Armistice",
-    "year": 1953,
+    "name": "julius-caesar",
+    "friendly_name": "Julius Caesar Assassinated",
+    "year": -44,
     "category": "conflict-politics",
-    "description": "An armistice halted fighting on the Korean Peninsula, though no peace treaty was signed.",
+    "description": "Roman senators assassinated Caesar on the Ides of March.",
     "difficulty": "medium",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Chosin.jpg/330px-Chosin.jpg"
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Retrato_de_Julio_C%C3%A9sar_%2826724093101%29_%28cropped%29.jpg/330px-Retrato_de_Julio_C%C3%A9sar_%2826724093101%29_%28cropped%29.jpg"
   },
   {
-    "name": "vietnam-war-start",
-    "friendly_name": "Vietnam War Escalates",
-    "year": 1965,
+    "name": "rome-falls",
+    "friendly_name": "Fall of Western Roman Empire",
+    "year": 476,
     "category": "conflict-politics",
-    "description": "The United States deployed ground troops to South Vietnam.",
+    "description": "The last Roman emperor was deposed, ending ancient Rome.",
     "difficulty": "medium",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/U.S._Army_UH-1H_Hueys_insert_ARVN_troops_at_Kh%C3%A2m_%C4%90%E1%BB%A9c%2C_Vietnam%2C_12_July_1970_%2879431435%29.jpg/330px-U.S._Army_UH-1H_Hueys_insert_ARVN_troops_at_Kh%C3%A2m_%C4%90%E1%BB%A9c%2C_Vietnam%2C_12_July_1970_%2879431435%29.jpg"
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Roman_Republic_Empire_map.gif/330px-Roman_Republic_Empire_map.gif"
   },
   {
-    "name": "vietnam-war-end",
-    "friendly_name": "Fall of Saigon",
-    "year": 1975,
+    "name": "charlemagne",
+    "friendly_name": "Charlemagne Crowned Emperor",
+    "year": 800,
     "category": "conflict-politics",
-    "description": "North Vietnamese forces captured Saigon, ending the Vietnam War.",
+    "description": "Charlemagne was crowned Holy Roman Emperor by the Pope.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Charlemagne_denier_Mayence_812_814.jpg/330px-Charlemagne_denier_Mayence_812_814.jpg"
+  },
+  {
+    "name": "norman-conquest",
+    "friendly_name": "Norman Conquest of England",
+    "year": 1066,
+    "category": "conflict-politics",
+    "description": "William the Conqueror defeated King Harold at the Battle of Hastings.",
     "difficulty": "medium",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/9/95/Saigon-hubert-van-es.jpg/330px-Saigon-hubert-van-es.jpg"
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Bayeux_Tapestry_scene57_Harold_death.jpg/330px-Bayeux_Tapestry_scene57_Harold_death.jpg"
   },
   {
-    "name": "berlin-wall-fall",
-    "friendly_name": "Fall of the Berlin Wall",
-    "year": 1989,
+    "name": "first-crusade",
+    "friendly_name": "First Crusade Begins",
+    "year": 1096,
     "category": "conflict-politics",
-    "description": "East Germany opened its borders, symbolizing the end of the Cold War.",
-    "difficulty": "easy",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/West_and_East_Germans_at_the_Brandenburg_Gate_in_1989.jpg/330px-West_and_East_Germans_at_the_Brandenburg_Gate_in_1989.jpg"
-  },
-  {
-    "name": "soviet-union-collapse",
-    "friendly_name": "Soviet Union Dissolves",
-    "year": 1991,
-    "category": "conflict-politics",
-    "description": "The USSR officially dissolved into fifteen independent republics.",
-    "difficulty": "easy",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/330px-Flag_of_the_Soviet_Union.svg.png"
-  },
-  {
-    "name": "gulf-war",
-    "friendly_name": "Gulf War Begins",
-    "year": 1991,
-    "category": "conflict-politics",
-    "description": "A US-led coalition launched Operation Desert Storm to liberate Kuwait.",
+    "description": "Pope Urban II called for the first military expedition to the Holy Land.",
     "difficulty": "medium",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/USAF_F-16A_F-15C_F-15E_Desert_Storm_edit2.jpg/330px-USAF_F-16A_F-15C_F-15E_Desert_Storm_edit2.jpg"
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Peter_the_Hermit.jpg/330px-Peter_the_Hermit.jpg"
   },
   {
-    "name": "september-11",
-    "friendly_name": "September 11 Attacks",
-    "year": 2001,
+    "name": "genghis-khan",
+    "friendly_name": "Genghis Khan Unites Mongols",
+    "year": 1206,
     "category": "conflict-politics",
-    "description": "Terrorists hijacked planes and attacked the World Trade Center and Pentagon.",
-    "difficulty": "easy",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/WTC_smoking_on_9-11.jpeg/330px-WTC_smoking_on_9-11.jpeg"
-  },
-  {
-    "name": "iraq-war-start",
-    "friendly_name": "Iraq War Begins",
-    "year": 2003,
-    "category": "conflict-politics",
-    "description": "The United States invaded Iraq to overthrow Saddam Hussein's regime.",
-    "difficulty": "easy",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/DM-SD-06-01266.png/330px-DM-SD-06-01266.png"
+    "description": "Genghis Khan united the Mongol tribes and began building an empire.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/YuanEmperorAlbumGenghisPortrait.jpg/330px-YuanEmperorAlbumGenghisPortrait.jpg"
   },
   {
     "name": "magna-carta",
@@ -234,6 +99,15 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Hundred_years_war_collage.jpg/330px-Hundred_years_war_collage.jpg"
   },
   {
+    "name": "gunpowder-europe",
+    "friendly_name": "Gunpowder Warfare in Europe",
+    "year": 1350,
+    "category": "conflict-politics",
+    "description": "The introduction of gunpowder weapons revolutionized European warfare.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/LariviereBatailleDunes.jpg/330px-LariviereBatailleDunes.jpg"
+  },
+  {
     "name": "hundred-years-war-end",
     "friendly_name": "Hundred Years' War Ends",
     "year": 1453,
@@ -248,6 +122,15 @@
     "year": 1453,
     "category": "conflict-politics",
     "description": "Ottoman forces conquered the Byzantine capital, ending the Eastern Roman Empire.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Le_si%C3%A8ge_de_Constantinople_%281453%29_by_Jean_Le_Tavernier_after_1455.jpg/330px-Le_si%C3%A8ge_de_Constantinople_%281453%29_by_Jean_Le_Tavernier_after_1455.jpg"
+  },
+  {
+    "name": "constantinople-falls",
+    "friendly_name": "Fall of Constantinople",
+    "year": 1453,
+    "category": "conflict-politics",
+    "description": "The Ottoman conquest ended the Byzantine Empire after 1000 years.",
     "difficulty": "medium",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Le_si%C3%A8ge_de_Constantinople_%281453%29_by_Jean_Le_Tavernier_after_1455.jpg/330px-Le_si%C3%A8ge_de_Constantinople_%281453%29_by_Jean_Le_Tavernier_after_1455.jpg"
   },
@@ -297,12 +180,57 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Seven_Years%27_War_Collage.jpg/330px-Seven_Years%27_War_Collage.jpg"
   },
   {
+    "name": "american-revolution-start",
+    "friendly_name": "American Revolutionary War Begins",
+    "year": 1775,
+    "category": "conflict-politics",
+    "description": "The Battles of Lexington and Concord marked the start of American independence.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Surrender_of_Lord_Cornwallis.jpg/330px-Surrender_of_Lord_Cornwallis.jpg"
+  },
+  {
+    "name": "american-independence",
+    "friendly_name": "Declaration of Independence Signed",
+    "year": 1776,
+    "category": "conflict-politics",
+    "description": "The thirteen American colonies declared independence from British rule.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/United_States_Declaration_of_Independence.jpg/330px-United_States_Declaration_of_Independence.jpg"
+  },
+  {
+    "name": "declaration-independence",
+    "friendly_name": "US Declaration of Independence",
+    "year": 1776,
+    "category": "conflict-politics",
+    "description": "The American colonies declared independence from Britain.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/United_States_Declaration_of_Independence.jpg/330px-United_States_Declaration_of_Independence.jpg"
+  },
+  {
+    "name": "french-revolution-start",
+    "friendly_name": "French Revolution Begins",
+    "year": 1789,
+    "category": "conflict-politics",
+    "description": "The storming of the Bastille ignited revolutionary fervor across France.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Anonymous_-_Prise_de_la_Bastille.jpg/330px-Anonymous_-_Prise_de_la_Bastille.jpg"
+  },
+  {
     "name": "bastille-day",
     "friendly_name": "Storming of the Bastille",
     "year": 1789,
     "category": "conflict-politics",
     "description": "Parisian revolutionaries stormed the royal fortress, symbolizing the revolution.",
     "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Anonymous_-_Prise_de_la_Bastille.jpg/330px-Anonymous_-_Prise_de_la_Bastille.jpg"
+  },
+  {
+    "name": "french-revolution",
+    "friendly_name": "French Revolution Begins",
+    "year": 1789,
+    "category": "conflict-politics",
+    "description": "The storming of the Bastille sparked the French Revolution.",
+    "difficulty": "easy",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Anonymous_-_Prise_de_la_Bastille.jpg/330px-Anonymous_-_Prise_de_la_Bastille.jpg"
   },
   {
@@ -351,6 +279,24 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/IV_corpo_durante_la_campagna_di_Russia.jpg/330px-IV_corpo_durante_la_campagna_di_Russia.jpg"
   },
   {
+    "name": "napoleon-waterloo",
+    "friendly_name": "Battle of Waterloo",
+    "year": 1815,
+    "category": "conflict-politics",
+    "description": "Napoleon Bonaparte was decisively defeated, ending his rule over France.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Battle_of_Waterloo_1815.PNG/330px-Battle_of_Waterloo_1815.PNG"
+  },
+  {
+    "name": "waterloo",
+    "friendly_name": "Battle of Waterloo",
+    "year": 1815,
+    "category": "conflict-politics",
+    "description": "Napoleon's final defeat ended French dominance in Europe.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Battle_of_Waterloo_1815.PNG/330px-Battle_of_Waterloo_1815.PNG"
+  },
+  {
     "name": "greek-independence",
     "friendly_name": "Greek War of Independence Begins",
     "year": 1821,
@@ -396,6 +342,69 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Indian_Rebellion_of_1857.jpg/330px-Indian_Rebellion_of_1857.jpg"
   },
   {
+    "name": "us-civil-war-start",
+    "friendly_name": "American Civil War Begins",
+    "year": 1861,
+    "category": "conflict-politics",
+    "description": "Confederate forces attacked Fort Sumter, starting the bloodiest American conflict.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Battle_of_Gettysburg%2C_by_Currier_and_Ives.png/330px-Battle_of_Gettysburg%2C_by_Currier_and_Ives.png"
+  },
+  {
+    "name": "civil-war-start",
+    "friendly_name": "US Civil War Begins",
+    "year": 1861,
+    "category": "conflict-politics",
+    "description": "The Confederate attack on Fort Sumter started the American Civil War.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Bombardment_of_Fort_Sumter.jpg/330px-Bombardment_of_Fort_Sumter.jpg"
+  },
+  {
+    "name": "gettysburg",
+    "friendly_name": "Gettysburg Address",
+    "year": 1863,
+    "category": "conflict-politics",
+    "description": "Lincoln delivered his famous speech during the Civil War.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Lincolnatgettysburg.jpg/330px-Lincolnatgettysburg.jpg"
+  },
+  {
+    "name": "us-civil-war-end",
+    "friendly_name": "American Civil War Ends",
+    "year": 1865,
+    "category": "conflict-politics",
+    "description": "General Lee surrendered at Appomattox Courthouse, ending the Civil War.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Battle_of_Gettysburg%2C_by_Currier_and_Ives.png/330px-Battle_of_Gettysburg%2C_by_Currier_and_Ives.png"
+  },
+  {
+    "name": "lincoln-assassination",
+    "friendly_name": "Abraham Lincoln Assassinated",
+    "year": 1865,
+    "category": "conflict-politics",
+    "description": "President Lincoln was shot by John Wilkes Booth at Ford's Theatre.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Abraham_Lincoln_1863_Portrait_%283x4_cropped%29.jpg/330px-Abraham_Lincoln_1863_Portrait_%283x4_cropped%29.jpg"
+  },
+  {
+    "name": "slavery-abolished",
+    "friendly_name": "Slavery Abolished in USA",
+    "year": 1865,
+    "category": "conflict-politics",
+    "description": "The 13th Amendment abolished slavery in the United States.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Greater_coat_of_arms_of_the_United_States.svg/330px-Greater_coat_of_arms_of_the_United_States.svg.png"
+  },
+  {
+    "name": "franco-prussian-war",
+    "friendly_name": "Franco-Prussian War Begins",
+    "year": 1870,
+    "category": "conflict-politics",
+    "description": "Prussia and German allies went to war with France over succession disputes.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/A_v_Werner_-_Kaiserproklamation_am_18_Januar_1871_%283._Fassung_1885%29.jpg/330px-A_v_Werner_-_Kaiserproklamation_am_18_Januar_1871_%283._Fassung_1885%29.jpg"
+  },
+  {
     "name": "italian-unification",
     "friendly_name": "Italian Unification Completed",
     "year": 1871,
@@ -412,15 +421,6 @@
     "description": "Prussia united German states into the German Empire after defeating France.",
     "difficulty": "medium",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Deutsches_Reich_%281871-1918%29-en.png/330px-Deutsches_Reich_%281871-1918%29-en.png"
-  },
-  {
-    "name": "franco-prussian-war",
-    "friendly_name": "Franco-Prussian War Begins",
-    "year": 1870,
-    "category": "conflict-politics",
-    "description": "Prussia and German allies went to war with France over succession disputes.",
-    "difficulty": "hard",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/A_v_Werner_-_Kaiserproklamation_am_18_Januar_1871_%283._Fassung_1885%29.jpg/330px-A_v_Werner_-_Kaiserproklamation_am_18_Januar_1871_%283._Fassung_1885%29.jpg"
   },
   {
     "name": "paris-commune",
@@ -477,6 +477,15 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Xinhai_Revolution_in_Shanghai.jpg/330px-Xinhai_Revolution_in_Shanghai.jpg"
   },
   {
+    "name": "wwi-start",
+    "friendly_name": "World War I Begins",
+    "year": 1914,
+    "category": "conflict-politics",
+    "description": "The assassination of Archduke Franz Ferdinand sparked the Great War.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Bataille_de_Verdun_1916.jpg/330px-Bataille_de_Verdun_1916.jpg"
+  },
+  {
     "name": "lusitania-sinking",
     "friendly_name": "Lusitania Sunk",
     "year": 1915,
@@ -493,6 +502,24 @@
     "description": "One of the bloodiest battles in history killed over one million soldiers.",
     "difficulty": "medium",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Map_of_the_Battle_of_the_Somme%2C_1916.svg/330px-Map_of_the_Battle_of_the_Somme%2C_1916.svg.png"
+  },
+  {
+    "name": "russian-revolution",
+    "friendly_name": "Russian Revolution",
+    "year": 1917,
+    "category": "conflict-politics",
+    "description": "The Bolsheviks seized power, establishing the world's first communist state.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/%D0%9C%D0%B8%D1%82%D0%B8%D0%BD%D0%B3_%D0%BD%D0%B0_%D0%9D%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%BC_%D0%BF%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B5_%281917%29.jpg/330px-%D0%9C%D0%B8%D1%82%D0%B8%D0%BD%D0%B3_%D0%BD%D0%B0_%D0%9D%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%BC_%D0%BF%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B5_%281917%29.jpg"
+  },
+  {
+    "name": "wwi-end",
+    "friendly_name": "World War I Ends",
+    "year": 1918,
+    "category": "conflict-politics",
+    "description": "The armistice was signed ending the Great War after four years of conflict.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Armisticetrain_%28slight_crop%29.jpg/330px-Armisticetrain_%28slight_crop%29.jpg"
   },
   {
     "name": "treaty-versailles",
@@ -531,6 +558,15 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Hitler_portrait_crop_%28cropped%29%282%29.jpg/330px-Hitler_portrait_crop_%28cropped%29%282%29.jpg"
   },
   {
+    "name": "hitler-power",
+    "friendly_name": "Hitler Becomes Chancellor",
+    "year": 1933,
+    "category": "conflict-politics",
+    "description": "Adolf Hitler was appointed Chancellor of Germany.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Hitler_portrait_crop_%28cropped%29%282%29.jpg/330px-Hitler_portrait_crop_%28cropped%29%282%29.jpg"
+  },
+  {
     "name": "spanish-civil-war",
     "friendly_name": "Spanish Civil War Begins",
     "year": 1936,
@@ -558,6 +594,15 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Bundesarchiv_Bild_183-R69173%2C_M%C3%BCnchener_Abkommen%2C_Staatschefs.jpg/330px-Bundesarchiv_Bild_183-R69173%2C_M%C3%BCnchener_Abkommen%2C_Staatschefs.jpg"
   },
   {
+    "name": "wwii-start",
+    "friendly_name": "World War II Begins",
+    "year": 1939,
+    "category": "conflict-politics",
+    "description": "Germany invaded Poland, triggering declarations of war from Britain and France.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Battle_of_Poland.png/330px-Battle_of_Poland.png"
+  },
+  {
     "name": "battle-britain",
     "friendly_name": "Battle of Britain",
     "year": 1940,
@@ -565,6 +610,15 @@
     "description": "The Royal Air Force defended Britain against sustained German bombing.",
     "difficulty": "medium",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Heinkel_He_111_over_Wapping%2C_East_London.jpg/330px-Heinkel_He_111_over_Wapping%2C_East_London.jpg"
+  },
+  {
+    "name": "pearl-harbor",
+    "friendly_name": "Attack on Pearl Harbor",
+    "year": 1941,
+    "category": "conflict-politics",
+    "description": "Japan's surprise attack brought the United States into World War II.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Attack_on_Pearl_Harbor_Japanese_planes_view.jpg/330px-Attack_on_Pearl_Harbor_Japanese_planes_view.jpg"
   },
   {
     "name": "stalingrad",
@@ -576,6 +630,33 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/The_Battle_of_Stalingrad_second_collage.jpg/330px-The_Battle_of_Stalingrad_second_collage.jpg"
   },
   {
+    "name": "d-day",
+    "friendly_name": "D-Day Invasion",
+    "year": 1944,
+    "category": "conflict-politics",
+    "description": "Allied forces landed on Normandy beaches in the largest amphibious invasion in history.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Into_the_Jaws_of_Death_23-0455M_edit.jpg/330px-Into_the_Jaws_of_Death_23-0455M_edit.jpg"
+  },
+  {
+    "name": "wwii-end-europe",
+    "friendly_name": "V-E Day",
+    "year": 1945,
+    "category": "conflict-politics",
+    "description": "Nazi Germany surrendered unconditionally, ending World War II in Europe.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Winston_Churchill_waves_to_crowds_in_Whitehall_in_London_as_they_celebrate_VE_Day%2C_8_May_1945._H41849.jpg/330px-Winston_Churchill_waves_to_crowds_in_Whitehall_in_London_as_they_celebrate_VE_Day%2C_8_May_1945._H41849.jpg"
+  },
+  {
+    "name": "wwii-end-pacific",
+    "friendly_name": "V-J Day",
+    "year": 1945,
+    "category": "conflict-politics",
+    "description": "Japan surrendered after atomic bombs were dropped on Hiroshima and Nagasaki.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Surrender_of_Japan_-_USS_Missouri_%28restored%29.jpg/330px-Surrender_of_Japan_-_USS_Missouri_%28restored%29.jpg"
+  },
+  {
     "name": "nuremberg-trials",
     "friendly_name": "Nuremberg Trials Begin",
     "year": 1945,
@@ -585,11 +666,38 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Color_photograph_of_judges%27_bench_at_IMT.jpg/330px-Color_photograph_of_judges%27_bench_at_IMT.jpg"
   },
   {
+    "name": "wwii-end",
+    "friendly_name": "World War II Ends",
+    "year": 1945,
+    "category": "conflict-politics",
+    "description": "Japan surrendered following the atomic bombings, ending WWII.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Surrender_of_Japan_-_USS_Missouri_%28restored%29.jpg/330px-Surrender_of_Japan_-_USS_Missouri_%28restored%29.jpg"
+  },
+  {
+    "name": "hiroshima",
+    "friendly_name": "Atomic Bomb Dropped on Hiroshima",
+    "year": 1945,
+    "category": "conflict-politics",
+    "description": "The first nuclear weapon used in warfare devastated Hiroshima.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Atomic_bombing_of_Japan.jpg/330px-Atomic_bombing_of_Japan.jpg"
+  },
+  {
     "name": "indian-independence",
     "friendly_name": "Indian Independence",
     "year": 1947,
     "category": "conflict-politics",
     "description": "India gained independence from British rule and was partitioned with Pakistan.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/India%2C_by_British_Information_Services%2C_1944_restored_version.jpg/330px-India%2C_by_British_Information_Services%2C_1944_restored_version.jpg"
+  },
+  {
+    "name": "india-independence",
+    "friendly_name": "Indian Independence",
+    "year": 1947,
+    "category": "conflict-politics",
+    "description": "India gained independence from British colonial rule.",
     "difficulty": "medium",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/India%2C_by_British_Information_Services%2C_1944_restored_version.jpg/330px-India%2C_by_British_Information_Services%2C_1944_restored_version.jpg"
   },
@@ -621,6 +729,24 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/19191107-lenin_second_anniversary_october_revolution_moscow.jpg/330px-19191107-lenin_second_anniversary_october_revolution_moscow.jpg"
   },
   {
+    "name": "korean-war-start",
+    "friendly_name": "Korean War Begins",
+    "year": 1950,
+    "category": "conflict-politics",
+    "description": "North Korea invaded South Korea, beginning a major Cold War conflict.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Chosin.jpg/330px-Chosin.jpg"
+  },
+  {
+    "name": "korean-war-armistice",
+    "friendly_name": "Korean War Armistice",
+    "year": 1953,
+    "category": "conflict-politics",
+    "description": "An armistice halted fighting on the Korean Peninsula, though no peace treaty was signed.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Chosin.jpg/330px-Chosin.jpg"
+  },
+  {
     "name": "cuban-revolution",
     "friendly_name": "Cuban Revolution Succeeds",
     "year": 1959,
@@ -648,6 +774,15 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/PGM-19A_Jupiter_missile-02.jpg/330px-PGM-19A_Jupiter_missile-02.jpg"
   },
   {
+    "name": "cuban-missile",
+    "friendly_name": "Cuban Missile Crisis",
+    "year": 1962,
+    "category": "conflict-politics",
+    "description": "A 13-day confrontation brought the US and USSR to the brink of nuclear war.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/PGM-19A_Jupiter_missile-02.jpg/330px-PGM-19A_Jupiter_missile-02.jpg"
+  },
+  {
     "name": "jfk-assassination",
     "friendly_name": "JFK Assassinated",
     "year": 1963,
@@ -655,6 +790,15 @@
     "description": "President John F. Kennedy was shot and killed in Dallas, Texas.",
     "difficulty": "easy",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/John_F._Kennedy%2C_White_House_color_photo_portrait.jpg/330px-John_F._Kennedy%2C_White_House_color_photo_portrait.jpg"
+  },
+  {
+    "name": "vietnam-war-start",
+    "friendly_name": "Vietnam War Escalates",
+    "year": 1965,
+    "category": "conflict-politics",
+    "description": "The United States deployed ground troops to South Vietnam.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/U.S._Army_UH-1H_Hueys_insert_ARVN_troops_at_Kh%C3%A2m_%C4%90%E1%BB%A9c%2C_Vietnam%2C_12_July_1970_%2879431435%29.jpg/330px-U.S._Army_UH-1H_Hueys_insert_ARVN_troops_at_Kh%C3%A2m_%C4%90%E1%BB%A9c%2C_Vietnam%2C_12_July_1970_%2879431435%29.jpg"
   },
   {
     "name": "six-day-war",
@@ -702,6 +846,15 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Watergate_complex.jpg/330px-Watergate_complex.jpg"
   },
   {
+    "name": "vietnam-war-end",
+    "friendly_name": "Fall of Saigon",
+    "year": 1975,
+    "category": "conflict-politics",
+    "description": "North Vietnamese forces captured Saigon, ending the Vietnam War.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/9/95/Saigon-hubert-van-es.jpg/330px-Saigon-hubert-van-es.jpg"
+  },
+  {
     "name": "cambodian-genocide",
     "friendly_name": "Khmer Rouge Takes Power",
     "year": 1975,
@@ -709,6 +862,15 @@
     "description": "The Khmer Rouge seized Cambodia and began a genocide killing nearly two million.",
     "difficulty": "hard",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Democratic_Kampuchea.svg/330px-Flag_of_Democratic_Kampuchea.svg.png"
+  },
+  {
+    "name": "vietnam-end",
+    "friendly_name": "Vietnam War Ends",
+    "year": 1975,
+    "category": "conflict-politics",
+    "description": "The Fall of Saigon marked the end of the Vietnam War.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/9/95/Saigon-hubert-van-es.jpg/330px-Saigon-hubert-van-es.jpg"
   },
   {
     "name": "iranian-revolution",
@@ -738,6 +900,15 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/HMS_Broadsword_and_Hermes%2C_1982_%28IWM%29.jpg/330px-HMS_Broadsword_and_Hermes%2C_1982_%28IWM%29.jpg"
   },
   {
+    "name": "berlin-wall-fall",
+    "friendly_name": "Fall of the Berlin Wall",
+    "year": 1989,
+    "category": "conflict-politics",
+    "description": "East Germany opened its borders, symbolizing the end of the Cold War.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/West_and_East_Germans_at_the_Brandenburg_Gate_in_1989.jpg/330px-West_and_East_Germans_at_the_Brandenburg_Gate_in_1989.jpg"
+  },
+  {
     "name": "tiananmen-square",
     "friendly_name": "Tiananmen Square Massacre",
     "year": 1989,
@@ -745,6 +916,15 @@
     "description": "Chinese troops killed pro-democracy protesters in Beijing.",
     "difficulty": "medium",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Ud%C3%A1losti_na_n%C3%A1m%C4%9Bst%C3%AD_Tian_an_men%2C_%C4%8C%C3%ADna_1989%2C_foto_Ji%C5%99%C3%AD_Tondl.jpg"
+  },
+  {
+    "name": "berlin-wall",
+    "friendly_name": "Berlin Wall Falls",
+    "year": 1989,
+    "category": "conflict-politics",
+    "description": "The fall of the Berlin Wall symbolized the end of the Cold War.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Berlinermauer.jpg/330px-Berlinermauer.jpg"
   },
   {
     "name": "german-reunification",
@@ -756,6 +936,24 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/West_and_East_Germans_at_the_Brandenburg_Gate_in_1989.jpg/330px-West_and_East_Germans_at_the_Brandenburg_Gate_in_1989.jpg"
   },
   {
+    "name": "soviet-union-collapse",
+    "friendly_name": "Soviet Union Dissolves",
+    "year": 1991,
+    "category": "conflict-politics",
+    "description": "The USSR officially dissolved into fifteen independent republics.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/330px-Flag_of_the_Soviet_Union.svg.png"
+  },
+  {
+    "name": "gulf-war",
+    "friendly_name": "Gulf War Begins",
+    "year": 1991,
+    "category": "conflict-politics",
+    "description": "A US-led coalition launched Operation Desert Storm to liberate Kuwait.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/USAF_F-16A_F-15C_F-15E_Desert_Storm_edit2.jpg/330px-USAF_F-16A_F-15C_F-15E_Desert_Storm_edit2.jpg"
+  },
+  {
     "name": "yugoslavia-wars-start",
     "friendly_name": "Yugoslav Wars Begin",
     "year": 1991,
@@ -763,6 +961,15 @@
     "description": "Yugoslavia began to dissolve amid ethnic conflicts and declarations of independence.",
     "difficulty": "hard",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Collage_Yugoslav_wars.jpg/330px-Collage_Yugoslav_wars.jpg"
+  },
+  {
+    "name": "soviet-collapse",
+    "friendly_name": "Soviet Union Collapses",
+    "year": 1991,
+    "category": "conflict-politics",
+    "description": "The dissolution of the USSR ended the Cold War era.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/330px-Flag_of_the_Soviet_Union.svg.png"
   },
   {
     "name": "apartheid-ends",
@@ -781,6 +988,15 @@
     "description": "Hutu extremists killed approximately 800,000 Tutsis and moderate Hutus.",
     "difficulty": "medium",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Nyamata_Memorial_Site_13.jpg/330px-Nyamata_Memorial_Site_13.jpg"
+  },
+  {
+    "name": "apartheid-end",
+    "friendly_name": "Apartheid Ends",
+    "year": 1994,
+    "category": "conflict-politics",
+    "description": "Nelson Mandela became South Africa's first Black president.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Monomotapa_Map.jpg/330px-Monomotapa_Map.jpg"
   },
   {
     "name": "oklahoma-city-bombing",
@@ -819,6 +1035,15 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Bllace_refugee_camp.jpg/330px-Bllace_refugee_camp.jpg"
   },
   {
+    "name": "september-11",
+    "friendly_name": "September 11 Attacks",
+    "year": 2001,
+    "category": "conflict-politics",
+    "description": "Terrorists hijacked planes and attacked the World Trade Center and Pentagon.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/WTC_smoking_on_9-11.jpeg/330px-WTC_smoking_on_9-11.jpeg"
+  },
+  {
     "name": "afghanistan-war-start",
     "friendly_name": "War in Afghanistan Begins",
     "year": 2001,
@@ -826,6 +1051,15 @@
     "description": "The US invaded Afghanistan following the September 11 attacks.",
     "difficulty": "easy",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/U.S._Army_firefight_in_Kunar.jpg/330px-U.S._Army_firefight_in_Kunar.jpg"
+  },
+  {
+    "name": "iraq-war-start",
+    "friendly_name": "Iraq War Begins",
+    "year": 2003,
+    "category": "conflict-politics",
+    "description": "The United States invaded Iraq to overthrow Saddam Hussein's regime.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/DM-SD-06-01266.png/330px-DM-SD-06-01266.png"
   },
   {
     "name": "saddam-hussein-captured",
@@ -853,6 +1087,15 @@
     "description": "Suicide bombers attacked London's transport system, killing 52 people.",
     "difficulty": "medium",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Russell_square_ambulances.jpg/330px-Russell_square_ambulances.jpg"
+  },
+  {
+    "name": "obama-elected",
+    "friendly_name": "Obama Elected President",
+    "year": 2008,
+    "category": "conflict-politics",
+    "description": "Barack Obama became the first Black president of the United States.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/President_Barack_Obama.jpg/330px-President_Barack_Obama.jpg"
   },
   {
     "name": "bin-laden-killed",

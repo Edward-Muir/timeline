@@ -90,24 +90,16 @@ const EmptyTimelineDropZone: React.FC<{
   );
 };
 
-// Edge drop zone for inserting at timeline ends
+// Edge drop zone for inserting at timeline ends (invisible but functional)
 const EdgeDropZone: React.FC<{ id: string; isActive: boolean }> = ({ id, isActive }) => {
-  const { isOver, setNodeRef } = useDroppable({ id });
+  const { setNodeRef } = useDroppable({ id });
 
   if (!isActive) return null;
 
   return (
     <div
       ref={setNodeRef}
-      className={`
-        w-16 h-40 flex-shrink-0
-        rounded-lg border-2 border-dashed
-        transition-all duration-200
-        ${isOver
-          ? 'border-blue-500 bg-blue-100/50'
-          : 'border-gray-300/50 bg-gray-100/20'
-        }
-      `}
+      className="w-16 h-40 flex-shrink-0"
     />
   );
 };
@@ -158,8 +150,8 @@ const Timeline: React.FC<TimelineProps> = ({
             strategy={horizontalListSortingStrategy}
           >
             <div ref={cardsContainerRef} className="relative flex items-center justify-center min-w-max gap-2 sm:gap-4">
-              {/* Time Stream Connector - golden/amber flowing line */}
-              <TimeStreamConnector cardCount={events.length} containerRef={cardsContainerRef} />
+              {/* Classic Timeline Connector - horizontal line with tick marks and dates */}
+              <TimeStreamConnector cardCount={events.length} containerRef={cardsContainerRef} events={events} />
 
               {/* Left edge: either drop zone (drag mode) or insertion point (tap mode) */}
               {showTapInsertionPoints ? (

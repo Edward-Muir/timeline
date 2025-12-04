@@ -20,15 +20,15 @@ export async function loadAllEvents(): Promise<HistoricalEvent[]> {
     for (const category of manifest.categories) {
       for (const file of category.files) {
         try {
-          const response = await fetch(`/events/${category.name}/${file}`);
+          const response = await fetch(`/events/${file}`);
           if (response.ok) {
             const events: HistoricalEvent[] = await response.json();
             allEvents.push(...events);
           } else {
-            console.warn(`Failed to load ${category.name}/${file}`);
+            console.warn(`Failed to load ${file}`);
           }
         } catch (error) {
-          console.warn(`Error loading ${category.name}/${file}:`, error);
+          console.warn(`Error loading ${file}:`, error);
         }
       }
     }

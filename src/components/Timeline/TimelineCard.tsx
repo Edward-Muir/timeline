@@ -41,12 +41,17 @@ const TimelineCard: React.FC<TimelineCardProps> = ({ event, index, onCardClick }
       data-timeline-card
       {...attributes}
       {...listeners}
-      className="flex-shrink-0 transition-all duration-200 hover:scale-110 hover:z-10"
+      className="flex-shrink-0 transition-all duration-fast hover:scale-105 hover:z-10 hover:-translate-y-1"
     >
       <Card
         event={event}
         showYear={true}
         rotation={rotation}
+        className={`
+          shadow-card-placed
+          hover:shadow-card-hover
+          ${isDragging ? 'shadow-card-dragging' : ''}
+        `}
         onClick={onCardClick ? () => onCardClick(event) : undefined}
       />
     </div>

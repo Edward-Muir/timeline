@@ -9,6 +9,15 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Karnak_%C3%84gyptisch-Hethitischer_Friedensvertrag_06.jpg/330px-Karnak_%C3%84gyptisch-Hethitischer_Friedensvertrag_06.jpg"
   },
   {
+    "name": "roman-republic",
+    "friendly_name": "Roman Republic Established",
+    "year": -509,
+    "category": "diplomatic-institutional",
+    "description": "Rome overthrew its monarchy and established a republican government.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Roman_republic%2C_territory_44_BC.svg/330px-Roman_republic%2C_territory_44_BC.svg.png"
+  },
+  {
     "name": "athenian-democracy",
     "friendly_name": "Athenian Democracy Established",
     "year": -508,
@@ -16,15 +25,6 @@
     "description": "Cleisthenes introduced democratic reforms in ancient Athens.",
     "difficulty": "medium",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Discurso_funebre_pericles.PNG/330px-Discurso_funebre_pericles.PNG"
-  },
-  {
-    "name": "twelve-tables",
-    "friendly_name": "Twelve Tables of Roman Law",
-    "year": -450,
-    "category": "diplomatic-institutional",
-    "description": "Rome codified its first written laws, forming the foundation of Roman legal tradition.",
-    "difficulty": "hard",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Roman_SPQR_banner.svg/320px-Roman_SPQR_banner.svg.png"
   },
   {
     "name": "delian-league",
@@ -36,13 +36,13 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Map_Peloponnesian_War_431_BC-en.svg/330px-Map_Peloponnesian_War_431_BC-en.svg.png"
   },
   {
-    "name": "roman-republic",
-    "friendly_name": "Roman Republic Established",
-    "year": -509,
+    "name": "twelve-tables",
+    "friendly_name": "Twelve Tables of Roman Law",
+    "year": -450,
     "category": "diplomatic-institutional",
-    "description": "Rome overthrew its monarchy and established a republican government.",
-    "difficulty": "medium",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Roman_republic%2C_territory_44_BC.svg/330px-Roman_republic%2C_territory_44_BC.svg.png"
+    "description": "Rome codified its first written laws, forming the foundation of Roman legal tradition.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Roman_SPQR_banner.svg/320px-Roman_SPQR_banner.svg.png"
   },
   {
     "name": "maurya-empire",
@@ -108,15 +108,6 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Corpus_Iuris_Civilis_-_Dion%C3%ADsio_Godofredo_-_1583.jpg/330px-Corpus_Iuris_Civilis_-_Dion%C3%ADsio_Godofredo_-_1583.jpg"
   },
   {
-    "name": "constitution-medina",
-    "friendly_name": "Constitution of Medina",
-    "year": 622,
-    "category": "diplomatic-institutional",
-    "description": "The Prophet Muhammad established a political agreement unifying Medina's diverse groups.",
-    "difficulty": "hard",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Al-Masjid_An-Nabawi_%28Bird%27s_Eye_View%29.jpg/330px-Al-Masjid_An-Nabawi_%28Bird%27s_Eye_View%29.jpg"
-  },
-  {
     "name": "tang-dynasty",
     "friendly_name": "Tang Dynasty Established",
     "year": 618,
@@ -124,6 +115,15 @@
     "description": "The Tang Dynasty began China's golden age of culture and governance.",
     "difficulty": "medium",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Tang_outline_map%2C_661.svg/330px-Tang_outline_map%2C_661.svg.png"
+  },
+  {
+    "name": "constitution-medina",
+    "friendly_name": "Constitution of Medina",
+    "year": 622,
+    "category": "diplomatic-institutional",
+    "description": "The Prophet Muhammad established a political agreement unifying Medina's diverse groups.",
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Al-Masjid_An-Nabawi_%28Bird%27s_Eye_View%29.jpg/330px-Al-Masjid_An-Nabawi_%28Bird%27s_Eye_View%29.jpg"
   },
   {
     "name": "charlemagne-crowned",
@@ -431,15 +431,6 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/A_Maori_man_and_Joseph_Banks_exchanging_a_crayfish_for_a_piece_of_cloth%2C_c._1769.jpg/330px-A_Maori_man_and_Joseph_Banks_exchanging_a_crayfish_for_a_piece_of_cloth%2C_c._1769.jpg"
   },
   {
-    "name": "geneva-convention-1864",
-    "friendly_name": "First Geneva Convention",
-    "year": 1864,
-    "category": "diplomatic-institutional",
-    "description": "Nations agreed to protect wounded soldiers and medical personnel in war.",
-    "difficulty": "medium",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Original_Geneva_Conventions.jpg/330px-Original_Geneva_Conventions.jpg"
-  },
-  {
     "name": "red-cross-founded",
     "friendly_name": "Red Cross Founded",
     "year": 1863,
@@ -447,6 +438,15 @@
     "description": "Henry Dunant established the humanitarian organization in Geneva.",
     "difficulty": "medium",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Croixrouge_logos.jpg/330px-Croixrouge_logos.jpg"
+  },
+  {
+    "name": "geneva-convention-1864",
+    "friendly_name": "First Geneva Convention",
+    "year": 1864,
+    "category": "diplomatic-institutional",
+    "description": "Nations agreed to protect wounded soldiers and medical personnel in war.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Original_Geneva_Conventions.jpg/330px-Original_Geneva_Conventions.jpg"
   },
   {
     "name": "13th-amendment",
@@ -620,15 +620,6 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Great_Seal_of_the_United_States_%28obverse%29.svg/330px-Great_Seal_of_the_United_States_%28obverse%29.svg.png"
   },
   {
-    "name": "united-nations-founded",
-    "friendly_name": "United Nations Founded",
-    "year": 1945,
-    "category": "diplomatic-institutional",
-    "description": "Fifty-one nations established the international organization for peace and cooperation.",
-    "difficulty": "easy",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_the_United_Nations.svg/330px-Flag_of_the_United_Nations.svg.png"
-  },
-  {
     "name": "imf-world-bank",
     "friendly_name": "IMF and World Bank Established",
     "year": 1944,
@@ -638,6 +629,15 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Mt._Washington_Hotel.jpg/330px-Mt._Washington_Hotel.jpg"
   },
   {
+    "name": "united-nations-founded",
+    "friendly_name": "United Nations Founded",
+    "year": 1945,
+    "category": "diplomatic-institutional",
+    "description": "Fifty-one nations established the international organization for peace and cooperation.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_the_United_Nations.svg/330px-Flag_of_the_United_Nations.svg.png"
+  },
+  {
     "name": "nuremberg-trials",
     "friendly_name": "Nuremberg Trials Begin",
     "year": 1945,
@@ -645,6 +645,15 @@
     "description": "Nazi war criminals were prosecuted in the first international war crimes tribunal.",
     "difficulty": "easy",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Color_photograph_of_judges%27_bench_at_IMT.jpg/330px-Color_photograph_of_judges%27_bench_at_IMT.jpg"
+  },
+  {
+    "name": "united-nations",
+    "friendly_name": "United Nations Founded",
+    "year": 1945,
+    "category": "diplomatic-institutional",
+    "description": "The UN was established to maintain international peace and security.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_the_United_Nations.svg/330px-Flag_of_the_United_Nations.svg.png"
   },
   {
     "name": "indian-independence",
@@ -746,15 +755,6 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Great_Seal_of_the_United_States_%28obverse%29.svg/330px-Great_Seal_of_the_United_States_%28obverse%29.svg.png"
   },
   {
-    "name": "nuclear-non-proliferation",
-    "friendly_name": "Nuclear Non-Proliferation Treaty",
-    "year": 1968,
-    "category": "diplomatic-institutional",
-    "description": "Nations agreed to prevent the spread of nuclear weapons.",
-    "difficulty": "medium",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/NPT_parties.svg/330px-NPT_parties.svg.png"
-  },
-  {
     "name": "apollo-11-treaty",
     "friendly_name": "Outer Space Treaty",
     "year": 1967,
@@ -762,6 +762,15 @@
     "description": "Nations agreed that space should be free for exploration and cannot be claimed.",
     "difficulty": "hard",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Outer_Space_Treaty_parties.svg/330px-Outer_Space_Treaty_parties.svg.png"
+  },
+  {
+    "name": "nuclear-non-proliferation",
+    "friendly_name": "Nuclear Non-Proliferation Treaty",
+    "year": 1968,
+    "category": "diplomatic-institutional",
+    "description": "Nations agreed to prevent the spread of nuclear weapons.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/NPT_parties.svg/330px-NPT_parties.svg.png"
   },
   {
     "name": "nixon-china",
@@ -905,6 +914,15 @@
     "category": "diplomatic-institutional",
     "description": "Nearly 200 nations agreed to limit global warming to well below 2°C.",
     "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/ParisAgreement.svg/330px-ParisAgreement.svg.png"
+  },
+  {
+    "name": "paris-agreement",
+    "friendly_name": "Paris Climate Agreement",
+    "year": 2015,
+    "category": "diplomatic-institutional",
+    "description": "Nations agreed to limit global warming to 1.5 degrees Celsius.",
+    "difficulty": "medium",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/ParisAgreement.svg/330px-ParisAgreement.svg.png"
   },
   {

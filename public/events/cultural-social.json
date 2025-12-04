@@ -1,5 +1,14 @@
 [
   {
+    "name": "cave-paintings",
+    "friendly_name": "First Cave Paintings",
+    "year": -40000,
+    "category": "cultural-social",
+    "description": "Early humans created paintings in Lascaux and other caves.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/SantaCruz-CuevaManos-P2210651b.jpg/330px-SantaCruz-CuevaManos-P2210651b.jpg"
+  },
+  {
     "name": "lascaux-cave-paintings",
     "friendly_name": "Lascaux Cave Paintings Created",
     "year": -15000,
@@ -108,6 +117,15 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Dead_Sea_beach_00.JPG/330px-Dead_Sea_beach_00.JPG"
   },
   {
+    "name": "jesus-birth",
+    "friendly_name": "Birth of Jesus Christ",
+    "year": -4,
+    "category": "cultural-social",
+    "description": "The birth of Jesus, founder of Christianity.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Adoration_of_the_sheperds_-_Matthias_Stomer.jpg/330px-Adoration_of_the_sheperds_-_Matthias_Stomer.jpg"
+  },
+  {
     "name": "jesus-crucifixion",
     "friendly_name": "Crucifixion of Jesus",
     "year": 33,
@@ -151,6 +169,15 @@
     "description": "The Prophet Muhammad received the first verses of the Quran, founding Islam.",
     "difficulty": "medium",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Dark_vignette_Al-Masjid_AL-Nabawi_Door800x600x300_%28cropped%29.jpg/330px-Dark_vignette_Al-Masjid_AL-Nabawi_Door800x600x300_%28cropped%29.jpg"
+  },
+  {
+    "name": "islam-founded",
+    "friendly_name": "Islam Founded",
+    "year": 622,
+    "category": "cultural-social",
+    "description": "Muhammad's Hijra to Medina marks the start of the Islamic calendar.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/The_Kaaba_during_Hajj.jpg/330px-The_Kaaba_during_Hajj.jpg"
   },
   {
     "name": "book-of-kells",
@@ -207,6 +234,15 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Dante_Domenico_di_Michelino.jpg/330px-Dante_Domenico_di_Michelino.jpg"
   },
   {
+    "name": "gutenberg",
+    "friendly_name": "Gutenberg Printing Press",
+    "year": 1440,
+    "category": "cultural-social",
+    "description": "Gutenberg's movable type revolutionized the spread of knowledge.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/PrintMus_038.jpg/330px-PrintMus_038.jpg"
+  },
+  {
     "name": "printing-press",
     "friendly_name": "Gutenberg Printing Press",
     "year": 1440,
@@ -214,6 +250,15 @@
     "description": "Johannes Gutenberg invented movable type printing in Europe.",
     "difficulty": "easy",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/PrintMus_038.jpg/330px-PrintMus_038.jpg"
+  },
+  {
+    "name": "sistine-chapel",
+    "friendly_name": "Sistine Chapel Ceiling Painted",
+    "year": 1512,
+    "category": "cultural-social",
+    "description": "Michelangelo completed his masterpiece ceiling fresco.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Sistine_Chapel_ceiling_02_%28brightened%29.jpg/330px-Sistine_Chapel_ceiling_02_%28brightened%29.jpg"
   },
   {
     "name": "sistine-chapel-ceiling",
@@ -233,12 +278,21 @@
     "difficulty": "easy"
   },
   {
+    "name": "luther-theses",
+    "friendly_name": "Luther's 95 Theses",
+    "year": 1517,
+    "category": "cultural-social",
+    "description": "Martin Luther posted his theses, sparking the Protestant Reformation.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Luther_95_Thesen.png/330px-Luther_95_Thesen.png"
+  },
+  {
     "name": "shakespeare-hamlet",
     "friendly_name": "Shakespeare Writes Hamlet",
-    "year": 1601,
+    "year": 1600,
     "category": "cultural-social",
-    "description": "William Shakespeare completed his famous tragedy about the Danish prince.",
-    "difficulty": "easy",
+    "description": "Shakespeare wrote one of the greatest plays in the English language.",
+    "difficulty": "medium",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Edwin_Booth_Hamlet_1870.jpg/330px-Edwin_Booth_Hamlet_1870.jpg"
   },
   {
@@ -282,7 +336,7 @@
     "friendly_name": "Bach Completes Well-Tempered Clavier",
     "year": 1722,
     "category": "cultural-social",
-    "description": "Johann Sebastian Bach finished his influential collection of keyboard music.",
+    "description": "Bach completed his influential collection of keyboard music.",
     "difficulty": "hard",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Bach-wtc1-title-ms.jpg/330px-Bach-wtc1-title-ms.jpg"
   },
@@ -312,6 +366,15 @@
     "description": "Mozart's opera about the legendary seducer premiered in Prague.",
     "difficulty": "hard",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Max_Slevogt_-_Der_S%C3%A4nger_Francisco_d%27Andrade_als_Don_Giovanni_in_Mozarts_Oper_-_Google_Art_Project.jpg/330px-Max_Slevogt_-_Der_S%C3%A4nger_Francisco_d%27Andrade_als_Don_Giovanni_in_Mozarts_Oper_-_Google_Art_Project.jpg"
+  },
+  {
+    "name": "mozart-dies",
+    "friendly_name": "Mozart Dies",
+    "year": 1791,
+    "category": "cultural-social",
+    "description": "The musical prodigy died at age 35 in Vienna.",
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/The_Mozart_Family_-_Wolfgang_Amadeus_Mozart_headshot.jpg/330px-The_Mozart_Family_-_Wolfgang_Amadeus_Mozart_headshot.jpg"
   },
   {
     "name": "beethoven-ninth",
@@ -575,6 +638,15 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Contraception_%E2%80%93_How_to_Prevent_Unwanted_Pregnancy.webm/320px--Contraception_%E2%80%93_How_to_Prevent_Unwanted_Pregnancy.webm.jpg"
   },
   {
+    "name": "beatles-usa",
+    "friendly_name": "Beatles Arrive in USA",
+    "year": 1964,
+    "category": "cultural-social",
+    "description": "The British Invasion began with the Beatles' American tour.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_4-3_crop.jpg/330px-The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_4-3_crop.jpg"
+  },
+  {
     "name": "beatles-ed-sullivan",
     "friendly_name": "Beatles on Ed Sullivan",
     "year": 1964,
@@ -597,8 +669,8 @@
     "friendly_name": "Woodstock Festival",
     "year": 1969,
     "category": "cultural-social",
-    "description": "Nearly half a million people gathered for the iconic music festival.",
-    "difficulty": "easy",
+    "description": "The iconic music festival defined a generation.",
+    "difficulty": "medium",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Woodstock_poster.jpg/330px-Woodstock_poster.jpg"
   },
   {
@@ -627,6 +699,15 @@
     "description": "Ray Tomlinson sent the first network email using the @ symbol.",
     "difficulty": "hard",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Evolution_36_mail.png/330px-Evolution_36_mail.png"
+  },
+  {
+    "name": "star-wars",
+    "friendly_name": "Star Wars Released",
+    "year": 1977,
+    "category": "cultural-social",
+    "description": "George Lucas's space opera became a cultural phenomenon.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Star_wars2.svg/330px-Star_wars2.svg.png"
   },
   {
     "name": "star-wars-release",
@@ -773,6 +854,14 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Bug_de_l%27an_2000.jpg/330px-Bug_de_l%27an_2000.jpg"
   },
   {
+    "name": "millennium",
+    "friendly_name": "Y2K New Millennium",
+    "year": 2000,
+    "category": "cultural-social",
+    "description": "The world celebrated the turn of the millennium.",
+    "difficulty": "easy"
+  },
+  {
     "name": "ipod-released",
     "friendly_name": "iPod Released",
     "year": 2001,
@@ -796,6 +885,15 @@
     "year": 2004,
     "category": "cultural-social",
     "description": "Mark Zuckerberg launched the social network from his Harvard dorm room.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/6/64/Facebook_user_page.png"
+  },
+  {
+    "name": "facebook-founded",
+    "friendly_name": "Facebook Founded",
+    "year": 2004,
+    "category": "cultural-social",
+    "description": "Mark Zuckerberg launched Facebook from his Harvard dorm room.",
     "difficulty": "easy",
     "image_url": "https://upload.wikimedia.org/wikipedia/en/6/64/Facebook_user_page.png"
   },
@@ -895,6 +993,15 @@
     "year": 2022,
     "category": "cultural-social",
     "description": "OpenAI launched the AI chatbot that sparked a technological revolution.",
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/OpenAI_logo_2025_%28symbol%29.svg/330px-OpenAI_logo_2025_%28symbol%29.svg.png"
+  },
+  {
+    "name": "chatgpt",
+    "friendly_name": "ChatGPT Released",
+    "year": 2022,
+    "category": "cultural-social",
+    "description": "OpenAI released ChatGPT, bringing AI to the mainstream.",
     "difficulty": "easy",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/OpenAI_logo_2025_%28symbol%29.svg/330px-OpenAI_logo_2025_%28symbol%29.svg.png"
   }
