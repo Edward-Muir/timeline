@@ -7,7 +7,7 @@ interface GameSetupProps {
 }
 
 const GameSetup: React.FC<GameSetupProps> = ({ onStartGame, eventCount }) => {
-  const [playerCount, setPlayerCount] = useState(2);
+  const [playerCount, setPlayerCount] = useState(1);
   const [cardsPerPlayer, setCardsPerPlayer] = useState(5);
   const [startingEvents, setStartingEvents] = useState(3);
   const [playerNames, setPlayerNames] = useState<string[]>(['', '', '', '', '', '']);
