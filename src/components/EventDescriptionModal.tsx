@@ -11,12 +11,12 @@ interface EventDescriptionModalProps {
 // Get category border color for the inner border
 const getCategoryBorderColor = (category: string): string => {
   const colors: Record<string, string> = {
-    'conflict-politics': 'bg-red-700',
-    'disasters-crises': 'bg-gray-700',
-    'exploration-discovery': 'bg-teal-700',
-    'cultural-social': 'bg-purple-700',
-    'infrastructure-construction': 'bg-amber-700',
-    'diplomatic-institutional': 'bg-blue-700',
+    'conflict': 'bg-red-700',
+    'disasters': 'bg-gray-700',
+    'exploration': 'bg-teal-700',
+    'cultural': 'bg-purple-700',
+    'infrastructure': 'bg-amber-700',
+    'diplomatic': 'bg-blue-700',
   };
   return colors[category] || 'bg-gray-700';
 };

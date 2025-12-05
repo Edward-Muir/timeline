@@ -1,10 +1,10 @@
 export type Category =
-  | 'conflict-politics'
-  | 'disasters-crises'
-  | 'exploration-discovery'
-  | 'cultural-social'
-  | 'infrastructure-construction'
-  | 'diplomatic-institutional';
+  | 'conflict'
+  | 'disasters'
+  | 'exploration'
+  | 'cultural'
+  | 'infrastructure'
+  | 'diplomatic';
 
 export type Difficulty = 'easy' | 'medium' | 'hard';
 
@@ -45,6 +45,8 @@ export interface GameConfig {
   cardsPerPlayer: number;
   startingTimelineEvents: number;
   playerNames: string[];
+  selectedDifficulties: Difficulty[];
+  selectedCategories: Category[];
 }
 
 export interface PlacementResult {

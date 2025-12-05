@@ -172,12 +172,12 @@ export function shouldGameEnd(state: GameState): boolean {
 
 // Category color mapping
 const categoryColors: Record<Category, { bg: string; border: string }> = {
-  'conflict-politics': { bg: 'bg-red-600', border: 'border-red-700' },
-  'disasters-crises': { bg: 'bg-gray-700', border: 'border-gray-800' },
-  'exploration-discovery': { bg: 'bg-teal-600', border: 'border-teal-700' },
-  'cultural-social': { bg: 'bg-purple-600', border: 'border-purple-700' },
-  'infrastructure-construction': { bg: 'bg-amber-600', border: 'border-amber-700' },
-  'diplomatic-institutional': { bg: 'bg-blue-600', border: 'border-blue-700' },
+  'conflict': { bg: 'bg-red-600', border: 'border-red-700' },
+  'disasters': { bg: 'bg-gray-700', border: 'border-gray-800' },
+  'exploration': { bg: 'bg-teal-600', border: 'border-teal-700' },
+  'cultural': { bg: 'bg-purple-600', border: 'border-purple-700' },
+  'infrastructure': { bg: 'bg-amber-600', border: 'border-amber-700' },
+  'diplomatic': { bg: 'bg-blue-600', border: 'border-blue-700' },
 };
 
 // Get category color class
@@ -193,12 +193,12 @@ export function getCategoryBorderColorClass(category: Category): string {
 // Get category display name
 export function getCategoryDisplayName(category: Category): string {
   const names: Record<Category, string> = {
-    'conflict-politics': 'Conflict & Politics',
-    'disasters-crises': 'Disasters & Crises',
-    'exploration-discovery': 'Exploration & Discovery',
-    'cultural-social': 'Cultural & Social',
-    'infrastructure-construction': 'Infrastructure & Construction',
-    'diplomatic-institutional': 'Diplomatic & Institutional',
+    'conflict': 'Conflict',
+    'disasters': 'Disasters',
+    'exploration': 'Exploration',
+    'cultural': 'Cultural',
+    'infrastructure': 'Infrastructure',
+    'diplomatic': 'Diplomatic',
   };
   return names[category] || category;
 }

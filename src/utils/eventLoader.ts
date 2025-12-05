@@ -82,12 +82,12 @@ export function isValidEvent(event: unknown): event is HistoricalEvent {
     typeof e.difficulty === 'string' &&
     ['easy', 'medium', 'hard'].includes(e.difficulty as string) &&
     [
-      'conflict-politics',
-      'disasters-crises',
-      'exploration-discovery',
-      'cultural-social',
-      'infrastructure-construction',
-      'diplomatic-institutional',
+      'conflict',
+      'disasters',
+      'exploration',
+      'cultural',
+      'infrastructure',
+      'diplomatic',
     ].includes(e.category as string)
   );
 }

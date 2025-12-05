@@ -1,39 +1,39 @@
 {
   "categories": [
     {
-      "name": "conflict-politics",
+      "name": "conflict",
       "files": [
-        "conflict-politics.json"
+        "conflict.json"
       ]
     },
     {
-      "name": "cultural-social",
+      "name": "cultural",
       "files": [
-        "cultural-social.json"
+        "cultural.json"
       ]
     },
     {
-      "name": "diplomatic-institutional",
+      "name": "diplomatic",
       "files": [
-        "diplomatic-institutional.json"
+        "diplomatic.json"
       ]
     },
     {
-      "name": "disasters-crises",
+      "name": "disasters",
       "files": [
-        "disasters-crises.json"
+        "disasters.json"
       ]
     },
     {
-      "name": "exploration-discovery",
+      "name": "exploration",
       "files": [
-        "exploration-discovery.json"
+        "exploration.json"
       ]
     },
     {
-      "name": "infrastructure-construction",
+      "name": "infrastructure",
       "files": [
-        "infrastructure-construction.json"
+        "infrastructure.json"
       ]
     }
   ]

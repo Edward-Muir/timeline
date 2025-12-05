@@ -6,12 +6,12 @@ const manifestPath = path.join(eventsDir, 'manifest.json');
 
 // Category names that map to their JSON files
 const CATEGORY_FILES = [
-  'conflict-politics',
-  'cultural-social',
-  'diplomatic-institutional',
-  'disasters-crises',
-  'exploration-discovery',
-  'infrastructure-construction'
+  'conflict',
+  'cultural',
+  'diplomatic',
+  'disasters',
+  'exploration',
+  'infrastructure'
 ];
 
 function generateManifest() {

@@ -15,12 +15,12 @@ interface CardProps {
 // Get category color for the ribbon badge
 const getCategoryRibbonColor = (category: string): string => {
   const colors: Record<string, string> = {
-    'conflict-politics': 'bg-red-500',
-    'disasters-crises': 'bg-gray-600',
-    'exploration-discovery': 'bg-teal-500',
-    'cultural-social': 'bg-purple-500',
-    'infrastructure-construction': 'bg-amber-500',
-    'diplomatic-institutional': 'bg-blue-500',
+    'conflict': 'bg-red-500',
+    'disasters': 'bg-gray-600',
+    'exploration': 'bg-teal-500',
+    'cultural': 'bg-purple-500',
+    'infrastructure': 'bg-amber-500',
+    'diplomatic': 'bg-blue-500',
   };
   return colors[category] || 'bg-gray-500';
 };

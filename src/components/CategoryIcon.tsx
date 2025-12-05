@@ -10,7 +10,7 @@ const CategoryIcon: React.FC<CategoryIconProps> = ({ category, className = '' })
   const iconClass = `w-12 h-12 sm:w-16 sm:h-16 opacity-30 ${className}`;
 
   switch (category) {
-    case 'conflict-politics':
+    case 'conflict':
       // Crossed swords
       return (
         <svg className={iconClass} viewBox="0 0 64 64" fill="currentColor">
@@ -21,7 +21,7 @@ const CategoryIcon: React.FC<CategoryIconProps> = ({ category, className = '' })
         </svg>
       );
 
-    case 'disasters-crises':
+    case 'disasters':
       // Flame
       return (
         <svg className={iconClass} viewBox="0 0 64 64" fill="currentColor">
@@ -30,7 +30,7 @@ const CategoryIcon: React.FC<CategoryIconProps> = ({ category, className = '' })
         </svg>
       );
 
-    case 'exploration-discovery':
+    case 'exploration':
       // Compass
       return (
         <svg className={iconClass} viewBox="0 0 64 64" fill="currentColor">
@@ -43,7 +43,7 @@ const CategoryIcon: React.FC<CategoryIconProps> = ({ category, className = '' })
         </svg>
       );
 
-    case 'cultural-social':
+    case 'cultural':
       // Theater masks
       return (
         <svg className={iconClass} viewBox="0 0 64 64" fill="currentColor">
@@ -58,7 +58,7 @@ const CategoryIcon: React.FC<CategoryIconProps> = ({ category, className = '' })
         </svg>
       );
 
-    case 'infrastructure-construction':
+    case 'infrastructure':
       // Building/monument
       return (
         <svg className={iconClass} viewBox="0 0 64 64" fill="currentColor">
@@ -72,7 +72,7 @@ const CategoryIcon: React.FC<CategoryIconProps> = ({ category, className = '' })
         </svg>
       );
 
-    case 'diplomatic-institutional':
+    case 'diplomatic':
       // Scroll/document
       return (
         <svg className={iconClass} viewBox="0 0 64 64" fill="currentColor">

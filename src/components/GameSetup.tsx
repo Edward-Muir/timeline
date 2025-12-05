@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
-import { GameConfig } from '../types';
+import { GameConfig, Difficulty, Category } from '../types';
+
+const ALL_CATEGORIES: Category[] = ['conflict', 'disasters', 'exploration', 'cultural', 'infrastructure', 'diplomatic'];
 
 interface GameSetupProps {
   onStartGame: (config: GameConfig) => void;
@@ -41,6 +43,25 @@ const GameSetup: React.FC<GameSetupProps> = ({ onStartGame, eventCount }) => {
   const [cardsPerPlayer, setCardsPerPlayer] = useState(5);
   const [startingEvents, setStartingEvents] = useState(3);
   const [playerNames, setPlayerNames] = useState<string[]>(['', '', '', '', '', '']);
+  const [selectedDifficulties, setSelectedDifficulties] = useState<Difficulty[]>(['easy', 'medium', 'hard']);
+  const [selectedCategories, setSelectedCategories] = useState<Category[]>([...ALL_CATEGORIES]);
+  const [showAdvancedOptions, setShowAdvancedOptions] = useState(false);
+
+  const toggleDifficulty = (difficulty: Difficulty) => {
+    setSelectedDifficulties(prev =>
+      prev.includes(difficulty)
+        ? prev.filter(d => d !== difficulty)
+        : [...prev, difficulty]
+    );
+  };
+
+  const toggleCategory = (category: Category) => {
+    setSelectedCategories(prev =>
+      prev.includes(category)
+        ? prev.filter(c => c !== category)
+        : [...prev, category]
+    );
+  };
 
   const handlePlayerNameChange = (index: number, name: string) => {
     const newNames = [...playerNames];
@@ -58,8 +79,12 @@ const GameSetup: React.FC<GameSetupProps> = ({ onStartGame, eventCount }) => {
       cardsPerPlayer,
       startingTimelineEvents: startingEvents,
       playerNames: names,
+      selectedDifficulties,
+      selectedCategories,
     });
   };
+
+  const isValid = selectedDifficulties.length > 0 && selectedCategories.length > 0;
 
   return (
     <div className="min-h-screen flex items-center justify-center p-2 sm:p-4">
@@ -146,56 +171,137 @@ const GameSetup: React.FC<GameSetupProps> = ({ onStartGame, eventCount }) => {
           </div>
         </div>
 
-        {/* Cards per player */}
+        {/* Advanced Options Toggle */}
         <div className="mb-4 sm:mb-6">
-          <label className="block  text-lg sm:text-xl text-sketch mb-2">
-            Cards Per Player: {cardsPerPlayer}
-          </label>
-          <input
-            type="range"
-            min={3}
-            max={10}
-            value={cardsPerPlayer}
-            onChange={(e) => setCardsPerPlayer(Number(e.target.value))}
-            className="w-full accent-yellow-400"
-          />
-          <div className="flex justify-between text-sketch/40  text-sm">
-            <span>Fewer</span>
-            <span>More</span>
-          </div>
+          <button
+            onClick={() => setShowAdvancedOptions(!showAdvancedOptions)}
+            className="flex items-center gap-2 text-lg sm:text-xl text-sketch hover:text-sketch/80 transition-colors"
+          >
+            <svg
+              className={`w-5 h-5 transition-transform ${showAdvancedOptions ? 'rotate-90' : ''}`}
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+            Advanced Options
+          </button>
         </div>
 
-        {/* Starting events */}
-        <div className="mb-6 sm:mb-8">
-          <label className="block  text-lg sm:text-xl text-sketch mb-2">
-            Starting Timeline Events: {startingEvents}
-          </label>
-          <input
-            type="range"
-            min={1}
-            max={10}
-            value={startingEvents}
-            onChange={(e) => setStartingEvents(Number(e.target.value))}
-            className="w-full accent-yellow-400"
-          />
-          <div className="flex justify-between text-sketch/40  text-sm">
-            <span>Easier</span>
-            <span>Harder</span>
+        {/* Advanced Options Content */}
+        {showAdvancedOptions && (
+          <div className="mb-6 sm:mb-8 space-y-4 sm:space-y-6 pl-2 border-l-2 border-amber-200">
+            {/* Difficulty selection */}
+            <div>
+              <label className="block text-base sm:text-lg text-sketch mb-2">
+                Card Difficulty
+              </label>
+              <div className="flex gap-2 sm:gap-3">
+                {(['easy', 'medium', 'hard'] as Difficulty[]).map((difficulty) => (
+                  <button
+                    key={difficulty}
+                    onClick={() => toggleDifficulty(difficulty)}
+                    className={`
+                      flex-1 py-2 px-3 rounded-lg text-sm sm:text-base
+                      transition-all duration-fast capitalize
+                      ${selectedDifficulties.includes(difficulty)
+                        ? 'bg-yellow-400 text-sketch shadow-md'
+                        : 'bg-gray-200 text-sketch/60 hover:bg-gray-300'
+                      }
+                    `}
+                  >
+                    {difficulty}
+                  </button>
+                ))}
+              </div>
+              {selectedDifficulties.length === 0 && (
+                <p className="text-red-500 text-sm mt-1">Select at least one difficulty</p>
+              )}
+            </div>
+
+            {/* Category selection */}
+            <div>
+              <label className="block text-base sm:text-lg text-sketch mb-2">
+                Categories
+              </label>
+              <div className="grid grid-cols-3 gap-2">
+                {ALL_CATEGORIES.map((category) => (
+                  <button
+                    key={category}
+                    onClick={() => toggleCategory(category)}
+                    className={`
+                      py-2 px-2 rounded-lg text-sm sm:text-base
+                      transition-all duration-fast capitalize
+                      ${selectedCategories.includes(category)
+                        ? 'bg-yellow-400 text-sketch shadow-md'
+                        : 'bg-gray-200 text-sketch/60 hover:bg-gray-300'
+                      }
+                    `}
+                  >
+                    {category}
+                  </button>
+                ))}
+              </div>
+              {selectedCategories.length === 0 && (
+                <p className="text-red-500 text-sm mt-1">Select at least one category</p>
+              )}
+            </div>
+
+            {/* Cards per player */}
+            <div>
+              <label className="block text-base sm:text-lg text-sketch mb-2">
+                Cards Per Player: {cardsPerPlayer}
+              </label>
+              <input
+                type="range"
+                min={3}
+                max={10}
+                value={cardsPerPlayer}
+                onChange={(e) => setCardsPerPlayer(Number(e.target.value))}
+                className="w-full accent-yellow-400"
+              />
+              <div className="flex justify-between text-sketch/40 text-sm">
+                <span>Fewer</span>
+                <span>More</span>
+              </div>
+            </div>
+
+            {/* Starting events */}
+            <div>
+              <label className="block text-base sm:text-lg text-sketch mb-2">
+                Starting Timeline Events: {startingEvents}
+              </label>
+              <input
+                type="range"
+                min={1}
+                max={10}
+                value={startingEvents}
+                onChange={(e) => setStartingEvents(Number(e.target.value))}
+                className="w-full accent-yellow-400"
+              />
+              <div className="flex justify-between text-sketch/40 text-sm">
+                <span>Easier</span>
+                <span>Harder</span>
+              </div>
+            </div>
           </div>
-        </div>
+        )}
 
         {/* Start button */}
         <button
           onClick={handleStartGame}
-          className="
+          disabled={!isValid}
+          className={`
             w-full py-3 sm:py-4 rounded-xl
-            bg-gradient-to-r from-amber-400 via-yellow-400 to-amber-400
             text-xl sm:text-2xl text-white
             shadow-sketch
             transition-all duration-fast
-            hover:scale-105 hover:shadow-[0_0_30px_rgba(218,165,32,0.5)]
-            active:scale-95
-          "
+            ${!isValid
+              ? 'bg-gray-300 cursor-not-allowed'
+              : 'bg-gradient-to-r from-amber-400 via-yellow-400 to-amber-400 hover:scale-105 hover:shadow-[0_0_30px_rgba(218,165,32,0.5)] active:scale-95'
+            }
+          `}
           style={{ textShadow: '1px 1px 2px rgba(0,0,0,0.3)' }}
         >
           Start Game!
