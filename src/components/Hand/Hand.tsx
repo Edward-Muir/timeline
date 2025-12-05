@@ -48,7 +48,7 @@ const Hand: React.FC<HandProps> = ({
       {/* Cards in hand - tap mode uses SelectableHandCard with horizontal scroll, drag mode uses HandCard */}
       {useTapMode && onSelectCard ? (
         <div className="overflow-x-auto overflow-y-clip timeline-scroll py-4">
-          <div className="flex items-end gap-[-20px] min-w-max px-4">
+          <div className="flex items-end justify-center gap-[-20px] min-w-min px-4">
             {player.hand.map((event, index) => (
               <div
                 key={event.name}
