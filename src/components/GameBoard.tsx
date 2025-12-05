@@ -35,6 +35,7 @@ interface GameBoardProps {
   clearReveal: () => void;
   // Tap mode props
   useTapMode?: boolean;
+  isMobile?: boolean;
   selectedCard?: HistoricalEvent | null;
   onSelectCard?: (card: HistoricalEvent | null) => void;
   onPlaceSelectedCard?: (position: DropPosition) => void;
@@ -53,6 +54,7 @@ const GameBoard: React.FC<GameBoardProps> = ({
   revealingCard,
   clearReveal,
   useTapMode = false,
+  isMobile = false,
   selectedCard = null,
   onSelectCard,
   onPlaceSelectedCard,
@@ -337,7 +339,7 @@ const GameBoard: React.FC<GameBoardProps> = ({
             isCardSelected={!!selectedCard}
             onPlacementTap={handlePlacementTap}
             onCardClick={handleTimelineCardClick}
-            isVertical={useTapMode}
+            isVertical={useTapMode && isMobile}
           />
         </div>
 

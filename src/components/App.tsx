@@ -27,7 +27,7 @@ const App: React.FC = () => {
     placeSelectedCard,
   } = useGameState();
 
-  const { useTapMode } = useMobileDetection();
+  const { useTapMode, isMobile } = useMobileDetection();
 
   const handleStartGame = (config: GameConfig) => {
     startGame(config);
@@ -93,6 +93,7 @@ const App: React.FC = () => {
       revealingCard={revealingCard}
       clearReveal={clearReveal}
       useTapMode={useTapMode}
+      isMobile={isMobile}
       selectedCard={selectedCard}
       onSelectCard={selectCard}
       onPlaceSelectedCard={placeSelectedCard}

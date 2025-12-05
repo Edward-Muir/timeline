@@ -1,13 +1,28 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Hourglass, Compass, Crown, Feather, Globe, Scroll } from 'lucide-react';
 
 const icons = [Hourglass, Compass, Crown, Feather, Globe, Scroll];
 
 export const BackgroundPattern: React.FC = () => {
-  const rows = 12;
-  const cols = 16;
-  const cellSize = 100;
-  const offset = 50; // Half cell width for brick/honeycomb offset
+  const [windowWidth, setWindowWidth] = useState(
+    typeof window !== 'undefined' ? window.innerWidth : 1024
+  );
+
+  useEffect(() => {
+    const handleResize = () => setWindowWidth(window.innerWidth);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  // On mobile, use 25% of viewport width per cell (~4 icons across)
+  // On desktop, use 100px fixed (looks good at ~16 icons across on 1600px screen)
+  const isMobile = windowWidth < 768;
+  const cellSize = isMobile ? Math.floor(windowWidth / 4) : 100;
+  const iconSize = isMobile ? 24 : 32;
+
+  // Calculate cols/rows to fill viewport (+2 for offset/overflow coverage)
+  const cols = Math.ceil(windowWidth / cellSize) + 2;
+  const rows = Math.ceil(window.innerHeight / cellSize) + 2;
 
   return (
     <div
@@ -20,10 +35,10 @@ export const BackgroundPattern: React.FC = () => {
             key={rowIndex}
             className="flex"
             style={{
-              marginLeft: rowIndex % 2 === 1 ? `${offset}px` : '0',
+              marginLeft: rowIndex % 2 === 1 ? `${cellSize / 2}px` : '0',
             }}
           >
-            {Array.from({ length: cols + 1 }).map((_, colIndex) => {
+            {Array.from({ length: cols }).map((_, colIndex) => {
               const iconIndex = (rowIndex * cols + colIndex) % icons.length;
               const Icon = icons[iconIndex];
               return (
@@ -36,7 +51,7 @@ export const BackgroundPattern: React.FC = () => {
                   }}
                 >
                   <Icon
-                    size={32}
+                    size={iconSize}
                     strokeWidth={1.5}
                     style={{
                       color: '#C4A574',

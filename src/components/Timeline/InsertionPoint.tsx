@@ -12,10 +12,10 @@ const InsertionPoint: React.FC<InsertionPointProps> = ({ index, onTap, isVertica
       onClick={() => onTap(index)}
       className={`
         flex-shrink-0 rounded-lg
-        bg-blue-200/50 border-2 border-dashed border-blue-400
+        bg-sketch/10 border-2 border-dashed border-sketch/30
         flex items-center justify-center
-        active:bg-blue-300/70 active:scale-95
-        hover:bg-blue-300/60 hover:border-blue-500
+        active:bg-sketch/20 active:scale-95
+        hover:bg-sketch/15 hover:border-sketch/50
         transition-all duration-150
         touch-manipulation
         ${isVertical
@@ -25,7 +25,7 @@ const InsertionPoint: React.FC<InsertionPointProps> = ({ index, onTap, isVertica
       `}
       aria-label={`Place card at position ${index + 1}`}
     >
-      <span className="text-blue-500 text-2xl sm:text-3xl font-bold">+</span>
+      <span className="text-sketch/50 text-2xl sm:text-3xl font-bold">+</span>
     </button>
   );
 };
