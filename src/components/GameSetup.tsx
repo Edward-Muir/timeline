@@ -1,9 +1,18 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { GameConfig, Difficulty, Category, Era, HistoricalEvent } from '../types';
 import { ALL_ERAS, ERA_DEFINITIONS } from '../utils/eras';
 import { filterByDifficulty, filterByCategory, filterByEra } from '../utils/eventLoader';
 
 const ALL_CATEGORIES: Category[] = ['conflict', 'disasters', 'exploration', 'cultural', 'infrastructure', 'diplomatic'];
+
+const PLAYER_DEFAULTS: Record<number, { cardsPerPlayer: number; startingEvents: number }> = {
+  1: { cardsPerPlayer: 7, startingEvents: 5 },
+  2: { cardsPerPlayer: 6, startingEvents: 2 },
+  3: { cardsPerPlayer: 5, startingEvents: 1 },
+  4: { cardsPerPlayer: 5, startingEvents: 1 },
+  5: { cardsPerPlayer: 4, startingEvents: 1 },
+  6: { cardsPerPlayer: 4, startingEvents: 1 },
+};
 
 interface GameSetupProps {
   onStartGame: (config: GameConfig) => void;
@@ -42,13 +51,22 @@ const CornerFlourish: React.FC<{ className?: string }> = ({ className = '' }) =>
 
 const GameSetup: React.FC<GameSetupProps> = ({ onStartGame, allEvents }) => {
   const [playerCount, setPlayerCount] = useState(1);
-  const [cardsPerPlayer, setCardsPerPlayer] = useState(5);
+  const [cardsPerPlayer, setCardsPerPlayer] = useState(7);
   const [startingEvents, setStartingEvents] = useState(3);
   const [playerNames, setPlayerNames] = useState<string[]>(['', '', '', '', '', '']);
   const [selectedDifficulties, setSelectedDifficulties] = useState<Difficulty[]>(['easy', 'medium', 'hard']);
   const [selectedCategories, setSelectedCategories] = useState<Category[]>([...ALL_CATEGORIES]);
   const [selectedEras, setSelectedEras] = useState<Era[]>([...ALL_ERAS]);
   const [showAdvancedOptions, setShowAdvancedOptions] = useState(false);
+
+  // Update card defaults when player count changes
+  useEffect(() => {
+    const defaults = PLAYER_DEFAULTS[playerCount];
+    if (defaults) {
+      setCardsPerPlayer(defaults.cardsPerPlayer);
+      setStartingEvents(defaults.startingEvents);
+    }
+  }, [playerCount]);
 
   // Calculate filtered event count based on selected options
   const filteredEventCount = useMemo(() => {
