@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { GameConfig, Difficulty, Category } from '../types';
+import { GameConfig, Difficulty, Category, Era } from '../types';
+import { ALL_ERAS, ERA_DEFINITIONS } from '../utils/eras';
 
 const ALL_CATEGORIES: Category[] = ['conflict', 'disasters', 'exploration', 'cultural', 'infrastructure', 'diplomatic'];
 
@@ -45,6 +46,7 @@ const GameSetup: React.FC<GameSetupProps> = ({ onStartGame, eventCount }) => {
   const [playerNames, setPlayerNames] = useState<string[]>(['', '', '', '', '', '']);
   const [selectedDifficulties, setSelectedDifficulties] = useState<Difficulty[]>(['easy', 'medium', 'hard']);
   const [selectedCategories, setSelectedCategories] = useState<Category[]>([...ALL_CATEGORIES]);
+  const [selectedEras, setSelectedEras] = useState<Era[]>([...ALL_ERAS]);
   const [showAdvancedOptions, setShowAdvancedOptions] = useState(false);
 
   const toggleDifficulty = (difficulty: Difficulty) => {
@@ -60,6 +62,14 @@ const GameSetup: React.FC<GameSetupProps> = ({ onStartGame, eventCount }) => {
       prev.includes(category)
         ? prev.filter(c => c !== category)
         : [...prev, category]
+    );
+  };
+
+  const toggleEra = (era: Era) => {
+    setSelectedEras(prev =>
+      prev.includes(era)
+        ? prev.filter(e => e !== era)
+        : [...prev, era]
     );
   };
 
@@ -81,10 +91,11 @@ const GameSetup: React.FC<GameSetupProps> = ({ onStartGame, eventCount }) => {
       playerNames: names,
       selectedDifficulties,
       selectedCategories,
+      selectedEras,
     });
   };
 
-  const isValid = selectedDifficulties.length > 0 && selectedCategories.length > 0;
+  const isValid = selectedDifficulties.length > 0 && selectedCategories.length > 0 && selectedEras.length > 0;
 
   return (
     <div className="min-h-screen flex items-center justify-center p-2 sm:p-4">
@@ -245,6 +256,34 @@ const GameSetup: React.FC<GameSetupProps> = ({ onStartGame, eventCount }) => {
               </div>
               {selectedCategories.length === 0 && (
                 <p className="text-red-500 text-sm mt-1">Select at least one category</p>
+              )}
+            </div>
+
+            {/* Era selection */}
+            <div>
+              <label className="block text-base sm:text-lg text-sketch mb-2">
+                Eras
+              </label>
+              <div className="grid grid-cols-2 gap-2">
+                {ERA_DEFINITIONS.map((era) => (
+                  <button
+                    key={era.id}
+                    onClick={() => toggleEra(era.id)}
+                    className={`
+                      py-2 px-2 rounded-lg text-xs sm:text-sm
+                      transition-all duration-fast
+                      ${selectedEras.includes(era.id)
+                        ? 'bg-yellow-400 text-sketch shadow-md'
+                        : 'bg-gray-200 text-sketch/60 hover:bg-gray-300'
+                      }
+                    `}
+                  >
+                    {era.name}
+                  </button>
+                ))}
+              </div>
+              {selectedEras.length === 0 && (
+                <p className="text-red-500 text-sm mt-1">Select at least one era</p>
               )}
             </div>
 

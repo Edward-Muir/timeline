@@ -1758,7 +1758,7 @@
     "year": 2018,
     "category": "disasters",
     "description": "California's deadliest wildfire destroyed the town of Paradise.",
-    "difficulty": "easy",
+    "difficulty": "hard",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Campfire_Pinecone.png/330px-Campfire_Pinecone.png"
   },
   {
@@ -1767,7 +1767,7 @@
     "year": 2023,
     "category": "disasters",
     "description": "A devastating wildfire destroyed the historic Hawaiian town and killed 97 people.",
-    "difficulty": "easy",
+    "difficulty": "hard",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Coast_Guard_Station_Maui_-_7964748.jpg/330px-Coast_Guard_Station_Maui_-_7964748.jpg"
   }
 ]
