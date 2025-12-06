@@ -1,11 +1,12 @@
-import React, { useState } from 'react';
-import { GameConfig, Difficulty, Category } from '../types';
+import React, { useState, useMemo } from 'react';
+import { GameConfig, Difficulty, Category, HistoricalEvent } from '../types';
+import { filterByDifficulty, filterByCategory } from '../utils/eventLoader';
 
 const ALL_CATEGORIES: Category[] = ['conflict', 'disasters', 'exploration', 'cultural', 'infrastructure', 'diplomatic'];
 
 interface GameSetupProps {
   onStartGame: (config: GameConfig) => void;
-  eventCount?: number;
+  allEvents: HistoricalEvent[];
 }
 
 // Decorative corner flourish SVG component
@@ -38,7 +39,7 @@ const CornerFlourish: React.FC<{ className?: string }> = ({ className = '' }) =>
   </svg>
 );
 
-const GameSetup: React.FC<GameSetupProps> = ({ onStartGame, eventCount }) => {
+const GameSetup: React.FC<GameSetupProps> = ({ onStartGame, allEvents }) => {
   const [playerCount, setPlayerCount] = useState(1);
   const [cardsPerPlayer, setCardsPerPlayer] = useState(5);
   const [startingEvents, setStartingEvents] = useState(3);
@@ -46,6 +47,19 @@ const GameSetup: React.FC<GameSetupProps> = ({ onStartGame, eventCount }) => {
   const [selectedDifficulties, setSelectedDifficulties] = useState<Difficulty[]>(['easy', 'medium', 'hard']);
   const [selectedCategories, setSelectedCategories] = useState<Category[]>([...ALL_CATEGORIES]);
   const [showAdvancedOptions, setShowAdvancedOptions] = useState(false);
+
+  // Calculate filtered event count based on selected options
+  const filteredEventCount = useMemo(() => {
+    if (!allEvents || allEvents.length === 0) return 0;
+    return filterByCategory(
+      filterByDifficulty(allEvents, selectedDifficulties),
+      selectedCategories
+    ).length;
+  }, [allEvents, selectedDifficulties, selectedCategories]);
+
+  // Minimum cards needed: players * cards * 1.5 + starting events
+  const minRequiredCards = Math.ceil(playerCount * cardsPerPlayer * 1.5) + startingEvents;
+  const hasEnoughCards = filteredEventCount >= minRequiredCards;
 
   const toggleDifficulty = (difficulty: Difficulty) => {
     setSelectedDifficulties(prev =>
@@ -84,7 +98,7 @@ const GameSetup: React.FC<GameSetupProps> = ({ onStartGame, eventCount }) => {
     });
   };
 
-  const isValid = selectedDifficulties.length > 0 && selectedCategories.length > 0;
+  const isValid = selectedDifficulties.length > 0 && selectedCategories.length > 0 && hasEnoughCards;
 
   return (
     <div className="min-h-screen flex items-center justify-center p-2 sm:p-4">
@@ -285,6 +299,25 @@ const GameSetup: React.FC<GameSetupProps> = ({ onStartGame, eventCount }) => {
                 <span>Harder</span>
               </div>
             </div>
+
+            {/* Deck card counter */}
+            <div className="pt-2 border-t border-amber-200/50">
+              <div className="flex justify-between text-sm text-sketch/70">
+                <span>Cards in deck:</span>
+                <span className={!hasEnoughCards ? 'text-red-500 font-medium' : ''}>
+                  {filteredEventCount}
+                </span>
+              </div>
+              <div className="flex justify-between text-sm text-sketch/50">
+                <span>Minimum required:</span>
+                <span>{minRequiredCards}</span>
+              </div>
+              {!hasEnoughCards && (
+                <p className="text-red-500 text-sm mt-2">
+                  Not enough cards! Select more categories or difficulties.
+                </p>
+              )}
+            </div>
           </div>
         )}
 
@@ -311,9 +344,9 @@ const GameSetup: React.FC<GameSetupProps> = ({ onStartGame, eventCount }) => {
         <p className="text-center mt-3 sm:mt-4  text-sm text-sketch/50">
           Each player gets {cardsPerPlayer} cards. Place them correctly to win!
         </p>
-        {eventCount && (
+        {allEvents.length > 0 && (
           <p className="text-center mt-2  text-xs text-sketch/40">
-            {eventCount} historical events loaded
+            {allEvents.length} historical events loaded
           </p>
         )}
       </div>
