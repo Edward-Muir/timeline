@@ -75,7 +75,7 @@ const App: React.FC = () => {
 
   // Show setup screen
   if (!gameState || gameState.phase === 'setup') {
-    return <GameSetup onStartGame={handleStartGame} eventCount={allEvents.length} />;
+    return <GameSetup onStartGame={handleStartGame} allEvents={allEvents} />;
   }
 
   // Show game board (handles both playing and game over states)
