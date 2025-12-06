@@ -8,6 +8,15 @@ export type Category =
 
 export type Difficulty = 'easy' | 'medium' | 'hard';
 
+export type Era = 'prehistory' | 'ancient' | 'medieval' | 'earlyModern' | 'industrial' | 'worldWars' | 'coldWar' | 'modern';
+
+export interface EraDefinition {
+  id: Era;
+  name: string;       // Display name with year range
+  startYear: number;  // Inclusive (negative for BCE)
+  endYear: number;    // Inclusive
+}
+
 export interface HistoricalEvent {
   name: string;           // Internal ID (e.g., "wwi-end")
   friendly_name: string;  // Display name (e.g., "World War I Ends")
@@ -47,6 +56,7 @@ export interface GameConfig {
   playerNames: string[];
   selectedDifficulties: Difficulty[];
   selectedCategories: Category[];
+  selectedEras: Era[];
 }
 
 export interface PlacementResult {

@@ -11,7 +11,7 @@ import {
   getNextPlayerIndex,
   shouldGameEnd,
 } from '../utils/gameLogic';
-import { loadAllEvents, filterByDifficulty, filterByCategory } from '../utils/eventLoader';
+import { loadAllEvents, filterByDifficulty, filterByCategory, filterByEra } from '../utils/eventLoader';
 
 interface UseGameStateReturn {
   gameState: GameState | null;
@@ -74,9 +74,12 @@ export function useGameState(): UseGameStateReturn {
       return;
     }
     setLastConfig(config);
-    const filteredEvents = filterByCategory(
-      filterByDifficulty(allEvents, config.selectedDifficulties),
-      config.selectedCategories
+    const filteredEvents = filterByEra(
+      filterByCategory(
+        filterByDifficulty(allEvents, config.selectedDifficulties),
+        config.selectedCategories
+      ),
+      config.selectedEras
     );
     const newGameState = initializeGame(config, filteredEvents);
     setGameState(newGameState);
@@ -88,9 +91,12 @@ export function useGameState(): UseGameStateReturn {
       setDraggedCard(null);
       setRevealingCard(null);
       setSelectedCard(null);
-      const filteredEvents = filterByCategory(
-        filterByDifficulty(allEvents, lastConfig.selectedDifficulties),
-        lastConfig.selectedCategories
+      const filteredEvents = filterByEra(
+        filterByCategory(
+          filterByDifficulty(allEvents, lastConfig.selectedDifficulties),
+          lastConfig.selectedCategories
+        ),
+        lastConfig.selectedEras
       );
       const newGameState = initializeGame(lastConfig, filteredEvents);
       setGameState(newGameState);
