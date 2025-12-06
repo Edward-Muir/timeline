@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
-import { GameConfig, Difficulty, Category, Era } from '../types';
+import React, { useState, useMemo } from 'react';
+import { GameConfig, Difficulty, Category, Era, HistoricalEvent } from '../types';
 import { ALL_ERAS, ERA_DEFINITIONS } from '../utils/eras';
+import { filterByDifficulty, filterByCategory, filterByEra } from '../utils/eventLoader';
 
 const ALL_CATEGORIES: Category[] = ['conflict', 'disasters', 'exploration', 'cultural', 'infrastructure', 'diplomatic'];
 
@@ -52,11 +53,14 @@ const GameSetup: React.FC<GameSetupProps> = ({ onStartGame, allEvents }) => {
   // Calculate filtered event count based on selected options
   const filteredEventCount = useMemo(() => {
     if (!allEvents || allEvents.length === 0) return 0;
-    return filterByCategory(
-      filterByDifficulty(allEvents, selectedDifficulties),
-      selectedCategories
+    return filterByEra(
+      filterByCategory(
+        filterByDifficulty(allEvents, selectedDifficulties),
+        selectedCategories
+      ),
+      selectedEras
     ).length;
-  }, [allEvents, selectedDifficulties, selectedCategories]);
+  }, [allEvents, selectedDifficulties, selectedCategories, selectedEras]);
 
   // Minimum cards needed: players * cards * 1.5 + starting events
   const minRequiredCards = Math.ceil(playerCount * cardsPerPlayer * 1.5) + startingEvents;
