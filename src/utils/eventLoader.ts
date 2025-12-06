@@ -1,4 +1,5 @@
-import { HistoricalEvent, EventManifest } from '../types';
+import { HistoricalEvent, EventManifest, Era } from '../types';
+import { ERA_DEFINITIONS } from './eras';
 
 /**
  * Loads all historical events from JSON files in the public/events directory.
@@ -110,4 +111,19 @@ export function filterByCategory(
   categories: string[]
 ): HistoricalEvent[] {
   return events.filter((e) => categories.includes(e.category));
+}
+
+/**
+ * Filter events by era (time period)
+ */
+export function filterByEra(
+  events: HistoricalEvent[],
+  eras: Era[]
+): HistoricalEvent[] {
+  return events.filter((event) => {
+    return eras.some((era) => {
+      const def = ERA_DEFINITIONS.find((d) => d.id === era);
+      return def && event.year >= def.startYear && event.year <= def.endYear;
+    });
+  });
 }
