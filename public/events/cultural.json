@@ -275,7 +275,8 @@
     "year": 1517,
     "category": "cultural",
     "description": "Martin Luther posted his 95 Theses, challenging Catholic Church practices.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Lucas_Cranach_d.%C3%84._-_Martin_Luther%2C_1528_%28Veste_Coburg%29.jpg/330px-Lucas_Cranach_d.%C3%84._-_Martin_Luther%2C_1528_%28Veste_Coburg%29.jpg"
   },
   {
     "name": "luther-theses",
@@ -859,7 +860,8 @@
     "year": 2000,
     "category": "cultural",
     "description": "The world celebrated the turn of the millennium.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/%D0%9C%D0%BE%D1%80%D1%8F%D0%BA%D0%B0%D0%BC-%D0%BF%D0%BE%D0%B4%D0%B2%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B0%D0%BC_%D0%BF%D0%BE%D0%B3%D0%B8%D0%B1%D1%88%D0%B8%D0%BC_%D0%B2_%D0%BC%D0%B8%D1%80%D0%BD%D0%BE%D0%B5_%D0%B2%D1%80%D0%B5%D0%BC%D1%8F.JPG/330px-%D0%9C%D0%BE%D1%80%D1%8F%D0%BA%D0%B0%D0%BC-%D0%BF%D0%BE%D0%B4%D0%B2%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B0%D0%BC_%D0%BF%D0%BE%D0%B3%D0%B8%D0%B1%D1%88%D0%B8%D0%BC_%D0%B2_%D0%BC%D0%B8%D1%80%D0%BD%D0%BE%D0%B5_%D0%B2%D1%80%D0%B5%D0%BC%D1%8F.JPG"
   },
   {
     "name": "ipod-released",
@@ -1029,7 +1031,8 @@
     "year": -1500,
     "category": "cultural",
     "description": "The oldest known Vedic Sanskrit text was composed in ancient India.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Rigveda_MS2097.jpg/330px-Rigveda_MS2097.jpg"
   },
   {
     "name": "zoroaster-teaches",
@@ -1037,7 +1040,8 @@
     "year": -1000,
     "category": "cultural",
     "description": "The Persian prophet founded one of the world's oldest monotheistic religions.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Yazd%2C_Templo_del_Fuego_%282000%29_02_%28cropped%29.jpg/330px-Yazd%2C_Templo_del_Fuego_%282000%29_02_%28cropped%29.jpg"
   },
   {
     "name": "i-ching-compiled",
@@ -1054,7 +1058,8 @@
     "year": -800,
     "category": "cultural",
     "description": "Hindu philosophical texts exploring the nature of reality were written.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Guru_and_DiscipleI.jpg/330px-Guru_and_DiscipleI.jpg"
   },
   {
     "name": "aesops-fables",
@@ -1071,7 +1076,8 @@
     "year": -530,
     "category": "cultural",
     "description": "The mathematician founded a school combining philosophy, mathematics, and mysticism.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Pythagoras_in_the_Roman_Forum%2C_Colosseum.jpg/330px-Pythagoras_in_the_Roman_Forum%2C_Colosseum.jpg"
   },
   {
     "name": "plato-academy",
@@ -1079,7 +1085,8 @@
     "year": -387,
     "category": "cultural",
     "description": "Plato established the first institution of higher learning in the Western world.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Plato_Silanion_Musei_Capitolini_MC1377.png/330px-Plato_Silanion_Musei_Capitolini_MC1377.png"
   },
   {
     "name": "aristotle-lyceum",
@@ -1087,7 +1094,8 @@
     "year": -335,
     "category": "cultural",
     "description": "Aristotle established his own school after leaving Plato's Academy.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Sanzio_01_cropped.png/330px-Sanzio_01_cropped.png"
   },
   {
     "name": "euclid-elements",
@@ -1095,7 +1103,8 @@
     "year": -300,
     "category": "cultural",
     "description": "The Greek mathematician wrote the foundational textbook of geometry.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/P.Penn._Museum_inv._E02748_Euclid%27s_Elements_2.5.jpg/330px-P.Penn._Museum_inv._E02748_Euclid%27s_Elements_2.5.jpg"
   },
   {
     "name": "septuagint-translated",
@@ -1103,7 +1112,8 @@
     "year": -250,
     "category": "cultural",
     "description": "The Hebrew Bible was translated into Greek in Alexandria.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Codex_Vaticanus_%281_Esdras_1-55_to_2-5%29_%28The_S.S._Teacher%27s_Edition-The_Holy_Bible%29.jpg/330px-Codex_Vaticanus_%281_Esdras_1-55_to_2-5%29_%28The_S.S._Teacher%27s_Edition-The_Holy_Bible%29.jpg"
   },
   {
     "name": "virgil-aeneid",
@@ -1111,7 +1121,8 @@
     "year": -29,
     "category": "cultural",
     "description": "The Roman poet composed the epic tale of Aeneas founding Rome.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Aeneas%27_Flight_from_Troy_by_Federico_Barocci.jpg/330px-Aeneas%27_Flight_from_Troy_by_Federico_Barocci.jpg"
   },
   {
     "name": "council-chalcedon",
@@ -1137,7 +1148,8 @@
     "year": 650,
     "category": "cultural",
     "description": "The Islamic holy book was compiled into written form under Caliph Uthman.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Birmingham_Quran_manuscript_full.jpg/330px-Birmingham_Quran_manuscript_full.jpg"
   },
   {
     "name": "great-schism",
@@ -1163,7 +1175,8 @@
     "year": 1265,
     "category": "cultural",
     "description": "Thomas Aquinas began his masterwork synthesizing Christian theology and philosophy.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/SummaTheologiae.jpg/330px-SummaTheologiae.jpg"
   },
   {
     "name": "wycliffe-bible",
@@ -1171,7 +1184,8 @@
     "year": 1382,
     "category": "cultural",
     "description": "John Wycliffe produced the first complete English translation of the Bible.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wycliffe_John_Gospel.jpg/330px-Wycliffe_John_Gospel.jpg"
   },
   {
     "name": "gutenberg-bible",
@@ -1197,7 +1211,8 @@
     "year": 1305,
     "category": "cultural",
     "description": "Giotto's frescoes revolutionized Western art with naturalistic human emotion.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Padova_Cappella_degli_Scrovegni_Innen_Langhaus_West_5.jpg/330px-Padova_Cappella_degli_Scrovegni_Innen_Langhaus_West_5.jpg"
   },
   {
     "name": "petrarch-sonnets",
@@ -1205,7 +1220,8 @@
     "year": 1327,
     "category": "cultural",
     "description": "The Italian poet began his influential sonnet sequence to Laura.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Altichiero%2C_ritratto_di_Francesco_Petrarca.jpg/330px-Altichiero%2C_ritratto_di_Francesco_Petrarca.jpg"
   },
   {
     "name": "chaucer-canterbury",
@@ -1249,7 +1265,8 @@
     "year": 1504,
     "category": "cultural",
     "description": "Michelangelo completed his masterpiece sculpture of the biblical hero.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/%27David%27_by_Michelangelo_Fir_JBU004.jpg/330px-%27David%27_by_Michelangelo_Fir_JBU004.jpg"
   },
   {
     "name": "machiavelli-prince",
@@ -1311,7 +1328,8 @@
     "year": 1768,
     "category": "cultural",
     "description": "The first edition of the English-language encyclopedia was published in Scotland.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/William_Smellie00.jpg/330px-William_Smellie00.jpg"
   },
   {
     "name": "goethe-faust",
@@ -1319,7 +1337,8 @@
     "year": 1808,
     "category": "cultural",
     "description": "Goethe published the first part of his masterpiece about a scholar's bargain with the devil.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Auerbachs_Keller.JPG/330px-Auerbachs_Keller.JPG"
   },
   {
     "name": "pride-prejudice",
@@ -1354,7 +1373,8 @@
     "year": 1793,
     "category": "cultural",
     "description": "The former French royal palace opened as one of the world's first public museums.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Louvre_Museum_icon_1.svg/330px-Louvre_Museum_icon_1.svg.png"
   },
   {
     "name": "beethoven-fifth",
@@ -1389,7 +1409,8 @@
     "year": 1877,
     "category": "cultural",
     "description": "Tchaikovsky's ballet premiered in Moscow, though initially unsuccessful.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Tchaikovsky_by_Reutlinger_%28cropped%29.jpg/330px-Tchaikovsky_by_Reutlinger_%28cropped%29.jpg"
   },
   {
     "name": "dostoevsky-karamazov",
@@ -1424,7 +1445,8 @@
     "year": 1901,
     "category": "cultural",
     "description": "Picasso began painting in shades of blue following a friend's suicide.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bc/Old_guitarist_chicago.jpg/330px-Old_guitarist_chicago.jpg"
   },
   {
     "name": "rite-of-spring",
@@ -1468,7 +1490,8 @@
     "year": 1924,
     "category": "cultural",
     "description": "André Breton published the founding document of the Surrealist movement.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/MagrittePipe.jpg/330px-MagrittePipe.jpg"
   },
   {
     "name": "mickey-mouse-debut",
@@ -1485,7 +1508,8 @@
     "year": 1939,
     "category": "cultural",
     "description": "The epic Civil War film became the highest-grossing movie of its era.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Poster_-_Gone_With_the_Wind_01.jpg/330px-Poster_-_Gone_With_the_Wind_01.jpg"
   },
   {
     "name": "casablanca-released",
@@ -1502,7 +1526,8 @@
     "year": 1943,
     "category": "cultural",
     "description": "New York artists pioneered the first major American art movement.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Willem_de_Kooning_in_his_studio.jpg/330px-Willem_de_Kooning_in_his_studio.jpg"
   },
   {
     "name": "elvis-first-single",
@@ -1510,7 +1535,8 @@
     "year": 1954,
     "category": "cultural",
     "description": "Elvis Presley recorded That's All Right, launching rock and roll.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Elvis_Presley_promoting_Jailhouse_Rock.jpg/330px-Elvis_Presley_promoting_Jailhouse_Rock.jpg"
   },
   {
     "name": "west-side-story-opens",
@@ -1527,7 +1553,8 @@
     "year": 1960,
     "category": "cultural",
     "description": "John Lennon's band became the Beatles in Liverpool.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_4-3_crop.jpg/330px-The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_4-3_crop.jpg"
   },
   {
     "name": "dylan-goes-electric",
@@ -1571,7 +1598,8 @@
     "year": 1976,
     "category": "cultural",
     "description": "The Ramones, Sex Pistols, and others launched the punk movement.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Joey_Ramone.jpg/330px-Joey_Ramone.jpg"
   },
   {
     "name": "hip-hop-emerges",
@@ -1579,7 +1607,8 @@
     "year": 1979,
     "category": "cultural",
     "description": "Rapper's Delight became the first hip hop hit, launching a global genre.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Kool_Herc.jpg/330px-Kool_Herc.jpg"
   },
   {
     "name": "thriller-video",
@@ -1596,7 +1625,8 @@
     "year": 1991,
     "category": "cultural",
     "description": "Nirvana's album brought grunge and alternative rock to the mainstream.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/b/b7/NirvanaNevermindalbumcover.jpg"
   },
   {
     "name": "pulp-fiction-released",
@@ -1685,7 +1715,8 @@
     "year": 1910,
     "category": "cultural",
     "description": "Robert Baden-Powell founded the Boy Scouts in the United Kingdom.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/1996-Rover_Moot-Fahnengru%C3%9F.jpg/330px-1996-Rover_Moot-Fahnengru%C3%9F.jpg"
   },
   {
     "name": "girl-scouts-founded",
@@ -1738,7 +1769,8 @@
     "year": 1973,
     "category": "cultural",
     "description": "The Supreme Court legalized abortion nationwide in a landmark ruling.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Norma_McCorvey_%28Jane_Roe%29_onthe_steps_of_the_Supreme_Court%2C_1989_%28cropped%29.jpg/330px-Norma_McCorvey_%28Jane_Roe%29_onthe_steps_of_the_Supreme_Court%2C_1989_%28cropped%29.jpg"
   },
   {
     "name": "aids-quilt",
@@ -1791,7 +1823,8 @@
     "year": 1901,
     "category": "cultural",
     "description": "The first Nobel Prizes were awarded in Stockholm and Oslo.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/Nobel_Prize.png/330px-Nobel_Prize.png"
   },
   {
     "name": "alcoholics-anonymous",
@@ -1853,7 +1886,8 @@
     "year": 1937,
     "category": "cultural",
     "description": "Picasso painted his powerful anti-war response to the bombing of a Spanish town.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/7/74/PicassoGuernica.jpg/330px-PicassoGuernica.jpg"
   },
   {
     "name": "warhol-soup-cans",
@@ -1861,6 +1895,7 @@
     "year": 1962,
     "category": "cultural",
     "description": "Andy Warhol exhibited his iconic pop art series.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Campbell%27s_Soup_Cans_by_Andy_Warhol.jpg/330px-Campbell%27s_Soup_Cans_by_Andy_Warhol.jpg"
   }
 ]

@@ -20,6 +20,7 @@ import Hand from './Hand/Hand';
 import PlayerInfo from './PlayerInfo';
 import Card from './Card';
 import EventDescriptionModal from './EventDescriptionModal';
+import TurnBanner from './TurnBanner';
 
 interface GameBoardProps {
   gameState: GameState;
@@ -72,6 +73,9 @@ const GameBoard: React.FC<GameBoardProps> = ({
   // Visual feedback states
   const [isShaking, setIsShaking] = useState(false);
   const [showConfetti, setShowConfetti] = useState(false);
+
+  // Turn banner state
+  const [showTurnBanner, setShowTurnBanner] = useState(false);
 
   // Show feedback message
   const lastResult = gameState.lastPlacementResult;
@@ -255,6 +259,18 @@ const GameBoard: React.FC<GameBoardProps> = ({
       }
     }
   }, [lastResult]);
+
+  // Show placement result banner after each card placement
+  useEffect(() => {
+    // Show banner when there's a new placement result and game isn't over
+    if (lastResult && !isGameOver) {
+      setShowTurnBanner(true);
+    }
+  }, [lastResult, isGameOver]);
+
+  const handleDismissTurnBanner = useCallback(() => {
+    setShowTurnBanner(false);
+  }, []);
 
   // Tap mode: handle placement when user taps an insertion point
   const handlePlacementTap = useCallback((index: number) => {
@@ -442,6 +458,15 @@ const GameBoard: React.FC<GameBoardProps> = ({
           event={modalState.event}
           showYear={modalState.showYear}
           onClose={handleCloseModal}
+        />
+      )}
+
+      {/* Placement result banner */}
+      {showTurnBanner && lastResult && (
+        <TurnBanner
+          placementResult={lastResult}
+          nextPlayerName={gameState.players.length > 1 ? currentPlayer.name : null}
+          onDismiss={handleDismissTurnBanner}
         />
       )}
     </DndContext>

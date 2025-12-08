@@ -725,7 +725,8 @@
     "year": 1930,
     "category": "infrastructure",
     "description": "The Art Deco skyscraper briefly became the world's tallest building.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu_%28cropped%29.jpg/330px-View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu_%28cropped%29.jpg"
   },
   {
     "name": "empire-state",
@@ -877,7 +878,8 @@
     "year": 1976,
     "category": "infrastructure",
     "description": "The communications tower became Toronto's most recognizable landmark.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Toronto_Skyline_viewed_from_Algonquin_Island_%2816-9_crop%29.jpg/330px-Toronto_Skyline_viewed_from_Algonquin_Island_%2816-9_crop%29.jpg"
   },
   {
     "name": "apple-founded",
@@ -1074,7 +1076,8 @@
     "year": -1400,
     "category": "infrastructure",
     "description": "The Greeks built fortified palace complexes including Mycenae and Tiryns.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Path_upto_the_Lion_Gate%2C_Mycenae_%2828693130016%29.jpg/330px-Path_upto_the_Lion_Gate%2C_Mycenae_%2828693130016%29.jpg"
   },
   {
     "name": "ishtar-gate",
@@ -1163,7 +1166,8 @@
     "year": 1771,
     "category": "infrastructure",
     "description": "Richard Arkwright opened the first water-powered cotton mill in England.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Arkright%27s_Mill_-_Cromford_29-04-06.jpg/330px-Arkright%27s_Mill_-_Cromford_29-04-06.jpg"
   },
   {
     "name": "menai-suspension-bridge",
@@ -1180,7 +1184,8 @@
     "year": 1830,
     "category": "infrastructure",
     "description": "The world's first intercity passenger railway opened in England.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Opening_Liverpool_and_Manchester_Railway.jpg/330px-Opening_Liverpool_and_Manchester_Railway.jpg"
   },
   {
     "name": "crystal-palace",
@@ -1188,7 +1193,8 @@
     "year": 1851,
     "category": "infrastructure",
     "description": "The revolutionary glass and iron structure hosted the Great Exhibition.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Crystal_Palace_General_view_from_Water_Temple.jpg/330px-Crystal_Palace_General_view_from_Water_Temple.jpg"
   },
   {
     "name": "london-underground",
@@ -1313,7 +1319,8 @@
     "year": 1980,
     "category": "infrastructure",
     "description": "The world's longest road tunnel at the time opened in Switzerland.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Gotthard_Road_Tunnel_Switzerland.jpg/330px-Gotthard_Road_Tunnel_Switzerland.jpg"
   },
   {
     "name": "itaipu-dam",
@@ -1401,7 +1408,8 @@
     "year": 2013,
     "category": "infrastructure",
     "description": "Work began on what will be the world's first kilometer-tall building.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/330px-Flag_of_Saudi_Arabia.svg.png"
   },
   {
     "name": "new-suez-canal",
@@ -1409,7 +1417,8 @@
     "year": 2015,
     "category": "infrastructure",
     "description": "Egypt opened an expanded parallel channel to the Suez Canal.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Aerial_view_of_city_of_Suez_and_Suez_Canal.jpg/330px-Aerial_view_of_city_of_Suez_and_Suez_Canal.jpg"
   },
   {
     "name": "cern-lhc",
@@ -1552,7 +1561,8 @@
     "year": 1960,
     "category": "infrastructure",
     "description": "Brazil's modernist capital city was completed in just four years.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Planalto_Central_%28cropped%29.jpg/330px-Planalto_Central_%28cropped%29.jpg"
   },
   {
     "name": "twa-terminal",
@@ -1614,7 +1624,8 @@
     "year": 1984,
     "category": "infrastructure",
     "description": "Philip Johnson's postmodern skyscraper with its Chippendale top opened.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Sony_Building_by_David_Shankbone_crop.jpg/330px-Sony_Building_by_David_Shankbone_crop.jpg"
   },
   {
     "name": "lloyds-building",
@@ -1757,7 +1768,8 @@
     "year": 2009,
     "category": "infrastructure",
     "description": "Work began on London's massive east-west rail tunnel project.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Elizabeth_line_roundel.svg/330px-Elizabeth_line_roundel.svg.png"
   },
   {
     "name": "ferris-wheel-invented",
@@ -1765,7 +1777,8 @@
     "year": 1893,
     "category": "infrastructure",
     "description": "George Ferris built his wheel for the Chicago World's Fair.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Ain_Dubai_View.jpg/330px-Ain_Dubai_View.jpg"
   },
   {
     "name": "london-eye",
@@ -1791,7 +1804,8 @@
     "year": 2014,
     "category": "infrastructure",
     "description": "The world's tallest observation wheel opened in Las Vegas.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Downtown%2C_Las_Vegas%2C_NV%2C_USA_-_panoramio_%286%29.jpg/330px-Downtown%2C_Las_Vegas%2C_NV%2C_USA_-_panoramio_%286%29.jpg"
   },
   {
     "name": "sydney-harbour-bridge",

@@ -104,7 +104,8 @@
     "year": 1138,
     "category": "disasters",
     "description": "A devastating earthquake struck Syria, killing over 200,000 people.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Aleppo_Citadel_entrance_-_seen_from_southeast_9933.jpg/330px-Aleppo_Citadel_entrance_-_seen_from_southeast_9933.jpg"
   },
   {
     "name": "black-death-arrives",
@@ -481,7 +482,8 @@
     "year": 1959,
     "category": "disasters",
     "description": "Mao's Great Leap Forward policies caused a famine killing tens of millions.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Mao_Zedong_1950_Portait_%283x4_cropped%29.jpg/330px-Mao_Zedong_1950_Portait_%283x4_cropped%29.jpg"
   },
   {
     "name": "thalidomide-scandal",
@@ -642,7 +644,8 @@
     "year": 1988,
     "category": "disasters",
     "description": "A devastating earthquake killed over 25,000 people in Soviet Armenia.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Spitak_%D0%A1%D0%BF%D0%B8%D1%82%D0%B0%D0%BA%2C_%D0%90%D1%80%D0%BC%D0%B5%D0%BD%D0%B8%D1%8F.jpg/330px-Spitak_%D0%A1%D0%BF%D0%B8%D1%82%D0%B0%D0%BA%2C_%D0%90%D1%80%D0%BC%D0%B5%D0%BD%D0%B8%D1%8F.jpg"
   },
   {
     "name": "exxon-valdez",
@@ -722,7 +725,8 @@
     "year": 1995,
     "category": "disasters",
     "description": "Economic collapse and floods caused a famine killing hundreds of thousands.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Kim_Jong-il_on_24_August_2011_%28cropped%29.jpg/330px-Kim_Jong-il_on_24_August_2011_%28cropped%29.jpg"
   },
   {
     "name": "princess-diana-death",
@@ -1000,7 +1004,8 @@
     "year": 365,
     "category": "disasters",
     "description": "A massive earthquake and tsunami devastated the eastern Mediterranean.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Island_of_Crete%2C_Greece.JPG/330px-Island_of_Crete%2C_Greece.JPG"
   },
   {
     "name": "great-famine-1315",
@@ -1062,7 +1067,8 @@
     "year": 1866,
     "category": "disasters",
     "description": "The last major famine in Europe killed 15% of Finland's population.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Detaching_inner_bark_of_pine.jpg/330px-Detaching_inner_bark_of_pine.jpg"
   },
   {
     "name": "persian-famine-1917",
@@ -1070,7 +1076,8 @@
     "year": 1917,
     "category": "disasters",
     "description": "World War I and occupation caused a famine killing 2 million Persians.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Bijar_in_First_World_War_%281914-1918%29_10.JPG/330px-Bijar_in_First_World_War_%281914-1918%29_10.JPG"
   },
   {
     "name": "russian-famine-1921",
@@ -1087,7 +1094,8 @@
     "year": 1932,
     "category": "disasters",
     "description": "Soviet policies caused a famine that killed millions of Ukrainians.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/HolodomorKharkiv_1933_Wienerberger.jpg/330px-HolodomorKharkiv_1933_Wienerberger.jpg"
   },
   {
     "name": "dutch-hunger-winter",
@@ -1104,7 +1112,8 @@
     "year": 1974,
     "category": "disasters",
     "description": "Flooding and economic crisis killed up to 1.5 million in Bangladesh.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Rode_Kruis_hulp_in_Bangladesj_na_overstromingen%2C_Bestanddeelnr_927-4183.jpg/330px-Rode_Kruis_hulp_in_Bangladesj_na_overstromingen%2C_Bestanddeelnr_927-4183.jpg"
   },
   {
     "name": "ethiopian-famine-1983",
@@ -1121,7 +1130,8 @@
     "year": 526,
     "category": "disasters",
     "description": "A massive earthquake killed 250,000 in the Byzantine city of Antioch.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Antiochia_su_Oronte.PNG/330px-Antiochia_su_Oronte.PNG"
   },
   {
     "name": "syria-earthquake-1202",
@@ -1138,7 +1148,8 @@
     "year": 1783,
     "category": "disasters",
     "description": "A series of earthquakes killed 50,000 in southern Italy.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Calabria_in_Italy.svg/330px-Calabria_in_Italy.svg.png"
   },
   {
     "name": "new-madrid-earthquakes",
@@ -1155,7 +1166,8 @@
     "year": 1886,
     "category": "disasters",
     "description": "A major earthquake damaged the South Carolina city and killed 60 people.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Hillers%2C_J.K._13_-_Wrecked_brick_house_on_Tradd_Street%2C_1886.jpg/330px-Hillers%2C_J.K._13_-_Wrecked_brick_house_on_Tradd_Street%2C_1886.jpg"
   },
   {
     "name": "valparaiso-earthquake",
@@ -1163,7 +1175,8 @@
     "year": 1906,
     "category": "disasters",
     "description": "A devastating earthquake killed 3,000 and destroyed much of the Chilean city.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Terremoto_Valpara%C3%ADso_1906.jpg/330px-Terremoto_Valpara%C3%ADso_1906.jpg"
   },
   {
     "name": "haiyuan-earthquake",
@@ -1180,7 +1193,8 @@
     "year": 1935,
     "category": "disasters",
     "description": "An earthquake killed 30,000-60,000 in British India.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Quake_epicenters_1963-98.png/330px-Quake_epicenters_1963-98.png"
   },
   {
     "name": "ashgabat-earthquake",
@@ -1188,7 +1202,8 @@
     "year": 1948,
     "category": "disasters",
     "description": "A massive earthquake killed over 100,000 in Soviet Turkmenistan.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/View_of_Ashgabat_%2842376779291%29.jpg/330px-View_of_Ashgabat_%2842376779291%29.jpg"
   },
   {
     "name": "valdivia-earthquake",
@@ -1196,7 +1211,8 @@
     "year": 1960,
     "category": "disasters",
     "description": "The most powerful earthquake ever recorded struck Chile.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Valdivia_after_earthquake%2C_1960.jpg/330px-Valdivia_after_earthquake%2C_1960.jpg"
   },
   {
     "name": "peru-earthquake-1970",
@@ -1204,7 +1220,8 @@
     "year": 1970,
     "category": "disasters",
     "description": "An earthquake triggered landslides that killed 70,000 in Peru.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Statue_of_Christ_at_Cemetery_Hill_overlooking_old_Yungay.jpg/330px-Statue_of_Christ_at_Cemetery_Hill_overlooking_old_Yungay.jpg"
   },
   {
     "name": "guatemala-earthquake",
@@ -1212,7 +1229,8 @@
     "year": 1976,
     "category": "disasters",
     "description": "A devastating earthquake killed 23,000 in Central America.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/GuateQuake1976Patzicia.jpg/330px-GuateQuake1976Patzicia.jpg"
   },
   {
     "name": "iran-earthquake-1990",
@@ -1220,7 +1238,8 @@
     "year": 1990,
     "category": "disasters",
     "description": "A major earthquake killed 35,000-50,000 in northern Iran.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Collapse_of_Unreinforced_Masonry_Buildings%2C_Iran_%28Persia%29_-_1990_Manjil_Roudbar_Earthquake.jpg/330px-Collapse_of_Unreinforced_Masonry_Buildings%2C_Iran_%28Persia%29_-_1990_Manjil_Roudbar_Earthquake.jpg"
   },
   {
     "name": "christchurch-earthquake",
@@ -1246,7 +1265,8 @@
     "year": 1257,
     "category": "disasters",
     "description": "A massive Indonesian eruption caused global climate effects.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Rinjani_mount.jpg/330px-Rinjani_mount.jpg"
   },
   {
     "name": "huaynaputina-eruption",
@@ -1254,7 +1274,8 @@
     "year": 1600,
     "category": "disasters",
     "description": "The largest volcanic eruption in South American history caused global cooling.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Flag_of_Peru.svg/330px-Flag_of_Peru.svg.png"
   },
   {
     "name": "unzen-eruption",
@@ -1289,7 +1310,8 @@
     "year": 1628,
     "category": "disasters",
     "description": "The Swedish warship sank on its maiden voyage in Stockholm harbor.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/The_Vasa_from_the_Bow.jpg/330px-The_Vasa_from_the_Bow.jpg"
   },
   {
     "name": "princess-alice-disaster",
@@ -1369,7 +1391,8 @@
     "year": 2014,
     "category": "disasters",
     "description": "A ferry capsized off South Korea, killing 304, mostly students.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b2/Korean_Ferry_Sewol_Capsized%2C_2014.jpg/330px-Korean_Ferry_Sewol_Capsized%2C_2014.jpg"
   },
   {
     "name": "courrieres-mine",
@@ -1458,7 +1481,8 @@
     "year": 1889,
     "category": "disasters",
     "description": "A global influenza pandemic killed over one million people.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Everyone_has_Influenza_-_The_Round_of_Doctors_and_Druggists.jpg/330px-Everyone_has_Influenza_-_The_Round_of_Doctors_and_Druggists.jpg"
   },
   {
     "name": "asian-flu-1957",
@@ -1547,7 +1571,8 @@
     "year": 1970,
     "category": "disasters",
     "description": "A devastating cyclone killed up to 500,000 in East Pakistan.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/15B_1970-11-12_0956Z.png/330px-15B_1970-11-12_0956Z.png"
   },
   {
     "name": "super-outbreak-1974",
@@ -1573,7 +1598,8 @@
     "year": 2003,
     "category": "disasters",
     "description": "A prolonged heat wave killed over 70,000 people across Europe.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Canicule_Europe_2003.jpg/330px-Canicule_Europe_2003.jpg"
   },
   {
     "name": "hurricane-maria",
@@ -1590,7 +1616,8 @@
     "year": 2019,
     "category": "disasters",
     "description": "Catastrophic bushfires burned 46 million acres and killed one billion animals.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/2019-12-07_East_Australian_Fires_Aqua_MODIS-VIIRS-LABELS.png/330px-2019-12-07_East_Australian_Fires_Aqua_MODIS-VIIRS-LABELS.png"
   },
   {
     "name": "pakistan-floods-2022",
@@ -1607,7 +1634,8 @@
     "year": -640000,
     "category": "disasters",
     "description": "The most recent Yellowstone supereruption blanketed North America in ash.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Yellowstone_River_in_Hayden_Valley.jpg/330px-Yellowstone_River_in_Hayden_Valley.jpg"
   },
   {
     "name": "toba-supereruption",
@@ -1651,7 +1679,8 @@
     "year": 627,
     "category": "disasters",
     "description": "A major plague outbreak devastated the Sasanian Persian Empire.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Plaguet03.jpg/330px-Plaguet03.jpg"
   },
   {
     "name": "mongol-black-death-spread",

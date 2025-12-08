@@ -221,7 +221,8 @@
     "year": 1517,
     "category": "diplomatic",
     "description": "Martin Luther's 95 Theses challenged the Catholic Church's authority.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Lucas_Cranach_d.%C3%84._-_Martin_Luther%2C_1528_%28Veste_Coburg%29.jpg/330px-Lucas_Cranach_d.%C3%84._-_Martin_Luther%2C_1528_%28Veste_Coburg%29.jpg"
   },
   {
     "name": "church-of-england",
@@ -985,7 +986,8 @@
     "year": 286,
     "category": "diplomatic",
     "description": "Emperor Diocletian created the Tetrarchy to govern the vast Roman Empire.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Venice_%E2%80%93_The_Tetrarchs_03.jpg/330px-Venice_%E2%80%93_The_Tetrarchs_03.jpg"
   },
   {
     "name": "constantinople-capital",
@@ -1029,7 +1031,8 @@
     "year": 987,
     "category": "diplomatic",
     "description": "Hugh Capet founded the dynasty that would rule France for 800 years.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/65/SceauHuguesCapet_%28cropped%29.PNG"
   },
   {
     "name": "concordat-worms",
@@ -1208,7 +1211,8 @@
     "year": 1804,
     "category": "diplomatic",
     "description": "Haiti became the first nation founded by a successful slave revolt.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Revolucion_Haitiana.png/330px-Revolucion_Haitiana.png"
   },
   {
     "name": "concert-europe",
@@ -1279,7 +1283,8 @@
     "year": 1882,
     "category": "diplomatic",
     "description": "Germany, Austria-Hungary, and Italy formed a mutual defense pact.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Map_Europe_alliances_1914-en.svg/330px-Map_Europe_alliances_1914-en.svg.png"
   },
   {
     "name": "triple-entente",
@@ -1377,7 +1382,8 @@
     "year": 1947,
     "category": "diplomatic",
     "description": "Nations agreed to reduce tariffs and promote free trade.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/WTO_members_and_observers.svg/330px-WTO_members_and_observers.svg.png"
   },
   {
     "name": "berlin-airlift",
@@ -1394,7 +1400,8 @@
     "year": 1954,
     "category": "diplomatic",
     "description": "Southeast Asian nations formed a collective defense treaty with Western powers.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Flag_of_SEATO.svg/320px-Flag_of_SEATO.svg.png"
   },
   {
     "name": "bandung-conference",
@@ -1411,7 +1418,8 @@
     "year": 1960,
     "category": "diplomatic",
     "description": "Seven European nations formed a free trade alternative to the EEC.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/EFTA_logo.svg/320px-EFTA_logo.svg.png"
   },
   {
     "name": "non-aligned-movement",
@@ -1454,7 +1462,8 @@
     "year": 1979,
     "category": "diplomatic",
     "description": "The US and USSR agreed to further limits on nuclear weapons.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Jimmy_Carter_Official_Portrait2_%283x4_cropped%29.jpg/330px-Jimmy_Carter_Official_Portrait2_%283x4_cropped%29.jpg"
   },
   {
     "name": "start-i",
@@ -1597,7 +1606,8 @@
     "year": 1204,
     "category": "diplomatic",
     "description": "The Fourth Crusade diverted to sack the Byzantine capital.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/ConquestOfConstantinopleByTheCrusadersIn1204.jpg/330px-ConquestOfConstantinopleByTheCrusadersIn1204.jpg"
   },
   {
     "name": "mongol-empire",
@@ -1722,7 +1732,8 @@
     "year": 1971,
     "category": "diplomatic",
     "description": "The People's Republic of China replaced Taiwan on the UN Security Council.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Voting_res_2758.svg/330px-Voting_res_2758.svg.png"
   },
   {
     "name": "egypt-israel-peace",
@@ -1748,7 +1759,8 @@
     "year": 2004,
     "category": "diplomatic",
     "description": "Ten countries joined the European Union in its largest expansion.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/EU25-2004_European_Union_map_enlargement.svg/330px-EU25-2004_European_Union_map_enlargement.svg.png"
   },
   {
     "name": "lisbon-treaty",

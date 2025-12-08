@@ -23,7 +23,8 @@
     "year": -400000,
     "category": "exploration",
     "description": "Early humans learned to control and use fire for warmth, cooking, and protection.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Large_bonfire.jpg/330px-Large_bonfire.jpg"
   },
   {
     "name": "first-humans",
@@ -1057,7 +1058,8 @@
     "year": 1978,
     "category": "exploration",
     "description": "Louise Brown became the first baby conceived through IVF.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/InVitroFertilization.jpg/330px-InVitroFertilization.jpg"
   },
   {
     "name": "smallpox-eradicated",
@@ -1173,7 +1175,8 @@
     "year": 2019,
     "category": "exploration",
     "description": "The Event Horizon Telescope captured the first image of a black hole.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Black_hole_-_Messier_87_crop_max_res.jpg/330px-Black_hole_-_Messier_87_crop_max_res.jpg"
   },
   {
     "name": "james-webb-launched",
@@ -1235,7 +1238,8 @@
     "year": -3500,
     "category": "exploration",
     "description": "Ancient Egyptians invented sails, enabling long-distance sea travel.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Chesapeake.jpg/330px-Chesapeake.jpg"
   },
   {
     "name": "invention-glass",
@@ -1252,7 +1256,8 @@
     "year": -585,
     "category": "exploration",
     "description": "Thales of Miletus predicted a solar eclipse, marking a triumph of early science.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Illustrerad_Verldshistoria_band_I_Ill_107.jpg/330px-Illustrerad_Verldshistoria_band_I_Ill_107.jpg"
   },
   {
     "name": "anaximander-world-map",
@@ -1260,7 +1265,8 @@
     "year": -550,
     "category": "exploration",
     "description": "The Greek philosopher created one of the first maps of the known world.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Pietro_Bellotti_%28attr%29_Anaximander.jpg/330px-Pietro_Bellotti_%28attr%29_Anaximander.jpg"
   },
   {
     "name": "hippocrates-medicine",
@@ -1268,7 +1274,8 @@
     "year": -400,
     "category": "exploration",
     "description": "The Greek physician established medicine as a rational discipline.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Hippocrates.jpg/330px-Hippocrates.jpg"
   },
   {
     "name": "hero-steam-engine",
@@ -1285,7 +1292,8 @@
     "year": 150,
     "category": "exploration",
     "description": "Ptolemy compiled ancient astronomical knowledge in his influential treatise.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Claudius_Ptolemaeus%2C_Almagestum%2C_1515.djvu/page1-320px-Claudius_Ptolemaeus%2C_Almagestum%2C_1515.djvu.jpg"
   },
   {
     "name": "al-khwarizmi-algebra",
@@ -1293,7 +1301,8 @@
     "year": 820,
     "category": "exploration",
     "description": "The Persian mathematician wrote the foundational treatise on algebra.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Madrid_-_Ciudad_Universitaria%2C_Monumento_a_Muhammad_al-Juarismi_%28cropped%29.jpg/330px-Madrid_-_Ciudad_Universitaria%2C_Monumento_a_Muhammad_al-Juarismi_%28cropped%29.jpg"
   },
   {
     "name": "movable-type-china",
@@ -1310,7 +1319,8 @@
     "year": 1202,
     "category": "exploration",
     "description": "Leonardo Fibonacci introduced Arabic numerals to Europe in his book Liber Abaci.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Leonardo_Fibonacci.JPG/330px-Leonardo_Fibonacci.JPG"
   },
   {
     "name": "roger-bacon-scientific-method",
@@ -1336,7 +1346,8 @@
     "year": 1543,
     "category": "exploration",
     "description": "Andreas Vesalius published groundbreaking anatomical illustrations.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Man_dressed_in_Black_by_Calcar_%28Hermitage%29.jpg/330px-Man_dressed_in_Black_by_Calcar_%28Hermitage%29.jpg"
   },
   {
     "name": "tycho-brahe-observatory",
@@ -1344,7 +1355,8 @@
     "year": 1576,
     "category": "exploration",
     "description": "The Danish astronomer built Uraniborg, the most advanced observatory of his time.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Portr%C3%A4tt_av_Tycho_Brahe_-_Skoklosters_slott_-_90153.tif/lossy-page1-320px-Portr%C3%A4tt_av_Tycho_Brahe_-_Skoklosters_slott_-_90153.tif.jpg"
   },
   {
     "name": "kepler-laws",
@@ -1361,7 +1373,8 @@
     "year": 1643,
     "category": "exploration",
     "description": "Evangelista Torricelli invented the mercury barometer to measure air pressure.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Evangelista_Torricelli_by_Lorenzo_Lippi_%28circa_1647%2C_Galleria_Silvano_Lodi_%26_Due%29.jpg/330px-Evangelista_Torricelli_by_Lorenzo_Lippi_%28circa_1647%2C_Galleria_Silvano_Lodi_%26_Due%29.jpg"
   },
   {
     "name": "boyle-law",
@@ -1378,7 +1391,8 @@
     "year": 1665,
     "category": "exploration",
     "description": "Robert Hooke observed cells for the first time under a microscope.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Portrait_of_a_Mathematician_1680c.jpg/330px-Portrait_of_a_Mathematician_1680c.jpg"
   },
   {
     "name": "franklin-kite-experiment",
@@ -1386,7 +1400,8 @@
     "year": 1752,
     "category": "exploration",
     "description": "Benjamin Franklin proved lightning is electrical with his famous kite experiment.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Benjamin_West%2C_English_%28born_America%29_-_Benjamin_Franklin_Drawing_Electricity_from_the_Sky_-_Google_Art_Project.jpg/330px-Benjamin_West%2C_English_%28born_America%29_-_Benjamin_Franklin_Drawing_Electricity_from_the_Sky_-_Google_Art_Project.jpg"
   },
   {
     "name": "lavoisier-oxygen",
@@ -1394,7 +1409,8 @@
     "year": 1778,
     "category": "exploration",
     "description": "Antoine Lavoisier discovered oxygen's role in combustion and respiration.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/David_-_Portrait_of_Monsieur_Lavoisier_%28cropped%292.jpg/330px-David_-_Portrait_of_Monsieur_Lavoisier_%28cropped%292.jpg"
   },
   {
     "name": "volta-battery",
@@ -1402,7 +1418,8 @@
     "year": 1800,
     "category": "exploration",
     "description": "Alessandro Volta invented the first true battery, the voltaic pile.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Alessandro_Volta.jpeg/330px-Alessandro_Volta.jpeg"
   },
   {
     "name": "dalton-atomic-theory",
@@ -1419,7 +1436,8 @@
     "year": 1821,
     "category": "exploration",
     "description": "Michael Faraday built the first device to convert electricity to motion.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Michael_Faraday_sitting_crop.jpg/330px-Michael_Faraday_sitting_crop.jpg"
   },
   {
     "name": "ohm-law",
@@ -1445,7 +1463,8 @@
     "year": 1843,
     "category": "exploration",
     "description": "James Joule established the first law of thermodynamics.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Joule_James_sitting.jpg/330px-Joule_James_sitting.jpg"
   },
   {
     "name": "foucault-pendulum",
@@ -1471,7 +1490,8 @@
     "year": 1861,
     "category": "exploration",
     "description": "Louis Pasteur demonstrated that germs cause disease and fermentation.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Louis_Pasteur%2C_foto_av_Paul_Nadar%2C_Crisco_edit.jpg/330px-Louis_Pasteur%2C_foto_av_Paul_Nadar%2C_Crisco_edit.jpg"
   },
   {
     "name": "maxwell-equations",
@@ -1488,7 +1508,8 @@
     "year": 1876,
     "category": "exploration",
     "description": "Alexander Graham Bell patented the first practical telephone.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Alexander_Graham_Bell.jpg/330px-Alexander_Graham_Bell.jpg"
   },
   {
     "name": "edison-phonograph",
@@ -1496,7 +1517,8 @@
     "year": 1877,
     "category": "exploration",
     "description": "Thomas Edison invented the first device to record and play back sound.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Turntable.svg/330px-Turntable.svg.png"
   },
   {
     "name": "koch-tuberculosis",
@@ -1504,7 +1526,8 @@
     "year": 1882,
     "category": "exploration",
     "description": "Robert Koch identified the bacterium that causes tuberculosis.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/RobertKoch_cropped.jpg/330px-RobertKoch_cropped.jpg"
   },
   {
     "name": "hertz-radio-waves",
@@ -1512,7 +1535,8 @@
     "year": 1887,
     "category": "exploration",
     "description": "Heinrich Hertz proved the existence of electromagnetic radio waves.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/HEINRICH_HERTZ.JPG/330px-HEINRICH_HERTZ.JPG"
   },
   {
     "name": "blood-types-discovered",
@@ -1529,7 +1553,8 @@
     "year": 1911,
     "category": "exploration",
     "description": "Ernest Rutherford discovered that atoms have a dense central nucleus.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Sir_Ernest_Rutherford_LCCN2014716719_-_restoration1.jpg/330px-Sir_Ernest_Rutherford_LCCN2014716719_-_restoration1.jpg"
   },
   {
     "name": "bohr-atomic-model",
@@ -1546,7 +1571,8 @@
     "year": 1942,
     "category": "exploration",
     "description": "Scientists developed methods to mass produce the life-saving antibiotic.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Penicillin_core.svg/330px-Penicillin_core.svg.png"
   },
   {
     "name": "laser-invented",
@@ -1590,7 +1616,8 @@
     "year": 1978,
     "category": "exploration",
     "description": "Louise Brown was born as the first baby conceived through IVF.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Two_small_test_tubes_held_in_spring_clamps.jpg/330px-Two_small_test_tubes_held_in_spring_clamps.jpg"
   },
   {
     "name": "crispr-gene-editing",
@@ -1607,7 +1634,8 @@
     "year": -325,
     "category": "exploration",
     "description": "The Greek explorer sailed to Britain and possibly reached the Arctic Circle.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Parisinus_gr_1397_f.162_pytheas_of_massalia_from_Strabo_7.3.1.jpg/330px-Parisinus_gr_1397_f.162_pytheas_of_massalia_from_Strabo_7.3.1.jpg"
   },
   {
     "name": "hanno-africa",
@@ -1615,7 +1643,8 @@
     "year": -500,
     "category": "exploration",
     "description": "The Carthaginian navigator explored the west coast of Africa.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Carthage_323_BC.png/330px-Carthage_323_BC.png"
   },
   {
     "name": "buddhism-spreads-china",
@@ -1623,7 +1652,8 @@
     "year": 67,
     "category": "exploration",
     "description": "Buddhism was officially introduced to China along the Silk Road.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Leshan_Giant_Buddha_%281%29.jpg/330px-Leshan_Giant_Buddha_%281%29.jpg"
   },
   {
     "name": "chinese-discover-america-theory",
@@ -1631,7 +1661,8 @@
     "year": 1421,
     "category": "exploration",
     "description": "Some historians claim Chinese fleets explored the Americas before Columbus.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Viking_landing.jpg/330px-Viking_landing.jpg"
   },
   {
     "name": "ponce-de-leon-florida",
@@ -1648,7 +1679,8 @@
     "year": 1519,
     "category": "exploration",
     "description": "Hernán Cortés first encountered the Aztec Empire in Mexico.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Retrato_de_Hern%C3%A1n_Cort%C3%A9s.jpg/330px-Retrato_de_Hern%C3%A1n_Cort%C3%A9s.jpg"
   },
   {
     "name": "pizarro-meets-incas",
@@ -1656,7 +1688,8 @@
     "year": 1532,
     "category": "exploration",
     "description": "Francisco Pizarro first encountered the Inca Empire in Peru.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Portrait_of_Francisco_Pizarro.jpg/330px-Portrait_of_Francisco_Pizarro.jpg"
   },
   {
     "name": "de-soto-mississippi",
@@ -1664,7 +1697,8 @@
     "year": 1541,
     "category": "exploration",
     "description": "Hernando de Soto became the first European to cross the Mississippi River.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/De_Soto_by_Telfer_%26_Sartain.jpg/330px-De_Soto_by_Telfer_%26_Sartain.jpg"
   },
   {
     "name": "drake-circumnavigation",
@@ -1672,7 +1706,8 @@
     "year": 1580,
     "category": "exploration",
     "description": "Francis Drake completed the second circumnavigation of the world.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Gheeraerts_Francis_Drake_1591.jpg/330px-Gheeraerts_Francis_Drake_1591.jpg"
   },
   {
     "name": "barents-arctic",
@@ -1680,7 +1715,8 @@
     "year": 1596,
     "category": "exploration",
     "description": "Willem Barents explored the Arctic Ocean seeking a northeast passage.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Willem_Barents_%281883%29.png/330px-Willem_Barents_%281883%29.png"
   },
   {
     "name": "dutch-reach-australia",
@@ -1697,7 +1733,8 @@
     "year": 1682,
     "category": "exploration",
     "description": "René-Robert de La Salle explored the Mississippi to its mouth.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Cavelier_de_la_salle.jpg/330px-Cavelier_de_la_salle.jpg"
   },
   {
     "name": "dampier-circumnavigation",
@@ -1705,7 +1742,8 @@
     "year": 1691,
     "category": "exploration",
     "description": "William Dampier became the first person to circumnavigate the world three times.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Dampier-portrait.jpg/330px-Dampier-portrait.jpg"
   },
   {
     "name": "bounty-mutiny",
@@ -1722,7 +1760,8 @@
     "year": 1799,
     "category": "exploration",
     "description": "Alexander von Humboldt began his scientific exploration of the Americas.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Stieler%2C_Joseph_Karl_-_Alexander_von_Humboldt_-_1843.jpg/330px-Stieler%2C_Joseph_Karl_-_Alexander_von_Humboldt_-_1843.jpg"
   },
   {
     "name": "mungo-park-niger",
@@ -1730,7 +1769,8 @@
     "year": 1805,
     "category": "exploration",
     "description": "The Scottish explorer traced the course of the Niger River in Africa.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Mungo_Park_portrait_bw.jpg/330px-Mungo_Park_portrait_bw.jpg"
   },
   {
     "name": "burke-wills-australia",
@@ -1747,7 +1787,8 @@
     "year": 1871,
     "category": "exploration",
     "description": "Henry Morton Stanley found the missing explorer David Livingstone in Africa.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/David_Livingstone_by_Thomas_Annan.jpg/330px-David_Livingstone_by_Thomas_Annan.jpg"
   },
   {
     "name": "nansen-arctic",
@@ -1764,7 +1805,8 @@
     "year": 1914,
     "category": "exploration",
     "description": "Ernest Shackleton's Antarctic expedition became a legendary survival story.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Endurance_under_full_sail_Frank_Hurley_State_Library_NSW_a090012h.jpg/330px-Endurance_under_full_sail_Frank_Hurley_State_Library_NSW_a090012h.jpg"
   },
   {
     "name": "spirit-of-st-louis",
@@ -1772,7 +1814,8 @@
     "year": 1927,
     "category": "exploration",
     "description": "Charles Lindbergh made the first solo nonstop transatlantic flight.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Spirit_Of_St_Louis2.jpg/330px-Spirit_Of_St_Louis2.jpg"
   },
   {
     "name": "amelia-earhart-atlantic",
@@ -1780,7 +1823,8 @@
     "year": 1932,
     "category": "exploration",
     "description": "Amelia Earhart became the first woman to fly solo across the Atlantic.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra%2C_small_%28cropped%29.jpg/330px-Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra%2C_small_%28cropped%29.jpg"
   },
   {
     "name": "heyerdahl-kon-tiki",
@@ -1797,7 +1841,8 @@
     "year": 1960,
     "category": "exploration",
     "description": "The bathyscaphe Trieste descended to the bottom of the Mariana Trench.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Bathyscaphe_Trieste.jpg/330px-Bathyscaphe_Trieste.jpg"
   },
   {
     "name": "apollo-11-launch",
@@ -1832,7 +1877,8 @@
     "year": 2012,
     "category": "exploration",
     "description": "NASA's Curiosity rover landed on Mars to search for signs of life.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Curiosity_Self-Portrait_at_%27Big_Sky%27_Drilling_Site.jpg/330px-Curiosity_Self-Portrait_at_%27Big_Sky%27_Drilling_Site.jpg"
   },
   {
     "name": "new-horizons-pluto",
@@ -1849,7 +1895,8 @@
     "year": 2015,
     "category": "exploration",
     "description": "SpaceX successfully landed a rocket booster for reuse for the first time.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Starbase.jpg/330px-Starbase.jpg"
   },
   {
     "name": "perseverance-mars-landing",
@@ -1857,7 +1904,8 @@
     "year": 2021,
     "category": "exploration",
     "description": "NASA's Perseverance rover landed on Mars with the Ingenuity helicopter.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Perseverance-Selfie-at-Rochette-Horizontal-V2.gif/330px-Perseverance-Selfie-at-Rochette-Horizontal-V2.gif"
   },
   {
     "name": "ingenuity-mars-flight",
@@ -1865,7 +1913,8 @@
     "year": 2021,
     "category": "exploration",
     "description": "Ingenuity became the first aircraft to fly on another planet.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Mars_helicopter_on_sol_46.png/330px-Mars_helicopter_on_sol_46.png"
   },
   {
     "name": "parker-solar-probe",
@@ -1882,7 +1931,8 @@
     "year": 2022,
     "category": "exploration",
     "description": "NASA successfully deflected an asteroid for the first time in history.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Dart-poster3.jpg/330px-Dart-poster3.jpg"
   },
   {
     "name": "quantum-computing-supremacy",
@@ -1908,7 +1958,8 @@
     "year": 2020,
     "category": "exploration",
     "description": "AI solved the 50-year-old problem of predicting protein structures.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Protein_structure.png/330px-Protein_structure.png"
   },
   {
     "name": "nuclear-fusion-ignition",
@@ -1925,6 +1976,7 @@
     "year": 2023,
     "category": "exploration",
     "description": "Claims of a room-temperature superconductor sparked global scientific interest.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/LK-99_pellet.png/330px-LK-99_pellet.png"
   }
 ]

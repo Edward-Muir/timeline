@@ -1157,7 +1157,8 @@
     "year": 2022,
     "category": "conflict",
     "description": "Russia launched a full-scale invasion of Ukraine, starting a major European war.",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/2022_Russian_Invasion_of_Ukraine_Phase_1_animated.gif/330px-2022_Russian_Invasion_of_Ukraine_Phase_1_animated.gif"
   },
   {
     "name": "battle-megiddo",
@@ -1165,7 +1166,8 @@
     "year": -1457,
     "category": "conflict",
     "description": "The first battle recorded in detail, Pharaoh Thutmose III defeated a Canaanite coalition.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/%D7%AA%D7%9C_%D7%9E%D7%92%D7%99%D7%93%D7%95.JPG/330px-%D7%AA%D7%9C_%D7%9E%D7%92%D7%99%D7%93%D7%95.JPG"
   },
   {
     "name": "battle-kadesh",
@@ -1227,7 +1229,8 @@
     "year": -202,
     "category": "conflict",
     "description": "Scipio Africanus defeated Hannibal, ending the Second Punic War.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Bust_of_Sulla_%28Ny_Carlsberg_Glyptotek%2C_Copenhagen%29_2.jpg/330px-Bust_of_Sulla_%28Ny_Carlsberg_Glyptotek%2C_Copenhagen%29_2.jpg"
   },
   {
     "name": "spartacus-revolt",
@@ -1235,7 +1238,8 @@
     "year": -73,
     "category": "conflict",
     "description": "Gladiator Spartacus led the largest slave uprising in Roman history.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/%CE%A3%CF%80%CE%AC%CF%81%CF%84%CE%B1%CE%BA%CE%BF%CF%82_Spartacus%2CEspartaco_marble_statue_in_Louvre_%22%CE%9C%CE%B1%CE%B9%CE%B4%CE%BF%CE%B9_clan_-Meadow%22_slave_macedon-greek.jpg/330px-%CE%A3%CF%80%CE%AC%CF%81%CF%84%CE%B1%CE%BA%CE%BF%CF%82_Spartacus%2CEspartaco_marble_statue_in_Louvre_%22%CE%9C%CE%B1%CE%B9%CE%B4%CE%BF%CE%B9_clan_-Meadow%22_slave_macedon-greek.jpg"
   },
   {
     "name": "battle-teutoburg-forest",
@@ -1252,7 +1256,8 @@
     "year": 66,
     "category": "conflict",
     "description": "Jews in Judea rose against Roman rule in a rebellion lasting seven years.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Arch_of_Titus_Menorah.png/330px-Arch_of_Titus_Menorah.png"
   },
   {
     "name": "siege-masada",
@@ -1278,7 +1283,8 @@
     "year": 410,
     "category": "conflict",
     "description": "Alaric's Visigoths sacked Rome for the first time in 800 years.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Visigoths_sack_Rome.jpg/330px-Visigoths_sack_Rome.jpg"
   },
   {
     "name": "sack-rome-vandals",
@@ -1286,7 +1292,8 @@
     "year": 455,
     "category": "conflict",
     "description": "The Vandals plundered Rome for two weeks, giving rise to the term vandalism.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Genseric_sacking_rome_456.jpg/330px-Genseric_sacking_rome_456.jpg"
   },
   {
     "name": "battle-tours",
@@ -1393,7 +1400,8 @@
     "year": 1631,
     "category": "conflict",
     "description": "Gustavus Adolphus revolutionized warfare with combined arms tactics against the Empire.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/29a_Gustave_Adolphe_%C3%A0_la_bataille_de_Breitenfeld%2C_1632.jpg/330px-29a_Gustave_Adolphe_%C3%A0_la_bataille_de_Breitenfeld%2C_1632.jpg"
   },
   {
     "name": "battle-marston-moor",
@@ -1698,7 +1706,8 @@
     "year": 1916,
     "category": "conflict",
     "description": "Irish republicans seized Dublin buildings in an unsuccessful bid for independence.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/The_shell_of_the_G.P.O._on_Sackville_Street_after_the_Easter_Rising_%286937669789%29.jpg/330px-The_shell_of_the_G.P.O._on_Sackville_Street_after_the_Easter_Rising_%286937669789%29.jpg"
   },
   {
     "name": "red-army-formed",
@@ -1832,7 +1841,8 @@
     "year": 1956,
     "category": "conflict",
     "description": "Soviet tanks crushed a popular uprising against communist rule in Hungary.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Hungarian_Revolution_of_1956_collage.jpg/330px-Hungarian_Revolution_of_1956_collage.jpg"
   },
   {
     "name": "congo-crisis",
@@ -1975,7 +1985,8 @@
     "year": -218,
     "category": "conflict",
     "description": "Hannibal led his army and war elephants over the Alps to invade Italy.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Hannibal_Barca_bust_from_Capua_photo.jpg/330px-Hannibal_Barca_bust_from_Capua_photo.jpg"
   },
   {
     "name": "third-punic-war",
@@ -1992,7 +2003,8 @@
     "year": -49,
     "category": "conflict",
     "description": "Caesar's crossing sparked civil war and the end of the Roman Republic.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Foce_rubicone_1_by_Stefano_Bolognini.JPG/330px-Foce_rubicone_1_by_Stefano_Bolognini.JPG"
   },
   {
     "name": "battle-actium",
@@ -2018,7 +2030,8 @@
     "year": 451,
     "category": "conflict",
     "description": "The Hunnic king ravaged Gaul before being defeated at the Battle of the Catalaunian Plains.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Attila_%28K%C3%A9pes_kr%C3%B3nika%29_%28cropped%29.jpg/330px-Attila_%28K%C3%A9pes_kr%C3%B3nika%29_%28cropped%29.jpg"
   },
   {
     "name": "arab-conquest-persia",
@@ -2044,7 +2057,8 @@
     "year": 1258,
     "category": "conflict",
     "description": "The Mongols destroyed the Abbasid Caliphate and killed hundreds of thousands.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Bagdad1258.jpg/330px-Bagdad1258.jpg"
   },
   {
     "name": "joan-of-arc",
@@ -2061,7 +2075,8 @@
     "year": 1455,
     "category": "conflict",
     "description": "The Houses of York and Lancaster fought for the English throne.",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Beheading_duke_somerset.jpg/330px-Beheading_duke_somerset.jpg"
   },
   {
     "name": "dutch-revolt",
