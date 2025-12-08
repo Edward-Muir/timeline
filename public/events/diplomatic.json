@@ -1445,7 +1445,8 @@
     "year": 1972,
     "category": "diplomatic",
     "description": "The US and USSR agreed to limit strategic nuclear weapons.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Richard_Nixon_presidential_portrait_%281%29.jpg/330px-Richard_Nixon_presidential_portrait_%281%29.jpg"
   },
   {
     "name": "helsinki-accords",

@@ -1382,7 +1382,8 @@
     "year": 2019,
     "category": "infrastructure",
     "description": "The largest private real estate development in US history opened in NYC.",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Hudson_Yards_from_Hudson_Commons_%2895131p%29_%2830_Hudson_Yards%29.jpg/330px-Hudson_Yards_from_Hudson_Commons_%2895131p%29_%2830_Hudson_Yards%29.jpg"
   },
   {
     "name": "steinway-tower",
